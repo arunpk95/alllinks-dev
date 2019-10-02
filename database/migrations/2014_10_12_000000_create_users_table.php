@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->timestamp('created_on');
             $table->string('activation _code');//
             $table->string('status');//active, created
-            $table->integer('hastenants');//number of tennants
+            $table->integer('hastenants');//number of tenants
             $table->string('account_type');
             $table->rememberToken();
             $table->timestamps();
