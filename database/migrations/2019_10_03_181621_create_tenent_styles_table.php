@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateLinksTable extends Migration
+class CreateTenentStylesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,13 @@ class CreateLinksTable extends Migration
      */
     public function up()
     {
-        Schema::create('links', function (Blueprint $table) {
+        Schema::create('tenent_styles', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->string('background');
+            $table->string('text_color');
+            $table->string('link_background');
+            $table->string('link_border');
             $table->timestamps();
-            $table->string('title');
-            $table->string('url');
         });
     }
 
@@ -28,6 +30,6 @@ class CreateLinksTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('links');
+        Schema::dropIfExists('tenent_styles');
     }
 }
