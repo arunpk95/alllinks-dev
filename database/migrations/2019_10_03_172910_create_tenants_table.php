@@ -20,6 +20,7 @@ class CreateTenantsTable extends Migration
             $table->datetime('leap_link_time_from');
             $table->datetime('leap_link_time_to');
             $table->integer('leap_link_id');
+            $table->datetime('leap_link_timezone');
             $table->string('thumb_image_url');
             $table->string('status');
             $table->timestamps();

@@ -19,8 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();//account activated
             $table->string('password');
-            $table->timestamp('created_on');
-            $table->string('activation _code');//
+            $table->string('activation_code');//
             $table->string('status');//active, created
             $table->integer('hastenants');//number of tenants
             $table->string('account_type');

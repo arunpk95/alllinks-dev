@@ -22,6 +22,7 @@ class CreateLinksTable extends Migration
             $table->boolean('is_scheduled');
             $table->datetime('scheduled_from');
             $table->datetime('scheduled_to');
+            $table->datetime('scheduled_timezone');
             $table->datetime('style_id');
             $table->string('thumb_url');
             $table->timestamps();
