@@ -12,20 +12,43 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 
 Route::group([
-    'prefix' => 'auth'
+    'prefix' => 'auth/user'
 ], function () {
 
-    Route::post('user/login', 'API\UserController@login');
-    Route::post('user/register', 'API\UserController@register');
+    Route::post('login', 'API\UserController@login');
+    Route::post('register', 'API\UserController@register');
     Route::group([
         'middleware' => 'auth:api'
     ], function () {
-        Route::get('user/logout', 'API\UserController@logout');
-        Route::get('user/details', 'API\UserController@details');
+        Route::get('logout', 'API\UserController@logout');
+        Route::get('details', 'API\UserController@details');
     });
 });
 
 
+Route::group([
+    'prefix' => 'link',
+    'middleware' => 'auth:api'], function () {
+
+    Route::post('create', 'API\LinkController@store');
+    Route::post('update', 'API\LinkController@update');
+    Route::post('delete', 'API\LinkController@delete');
+    Route::post('changeorder', 'API\LinkController@changeorder');
+
+});
+
+Route::group([
+    'prefix' => 'tenant',
+    'middleware' => 'auth:api'], function () {
+
+    Route::post('create', 'API\TenantController@store');
+    Route::post('update/{id}', 'API\TenantController@update');
+    Route::delete('delete/{id}', 'API\TenantController@delete');
+    Route::get('details/{id}', 'API\TenantController@details');
+    Route::get('all', 'API\TenantController@all');
+    
+
+});
 
 
 Route::post('link', 'API\LinkController@store');

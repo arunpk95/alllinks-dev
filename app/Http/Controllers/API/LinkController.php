@@ -36,7 +36,7 @@ class LinkController extends Controller
      */
     public function store(Request $request)
     {
-        $input = $request->all(); 
+        $input = $request->all();
         $link = Link::create($input); 
         return response()->json($input); 
     }
@@ -85,4 +85,6 @@ class LinkController extends Controller
     {
         //
     }
+
+    
 }

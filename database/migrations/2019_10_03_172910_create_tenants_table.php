@@ -15,13 +15,14 @@ class CreateTenantsTable extends Migration
     {
         Schema::create('tenants', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('uname');
+            $table->integer('user_id');
+            $table->string('tenant_name')->unique();
             $table->boolean('is_leap_link_active');
-            $table->datetime('leap_link_time_from');
-            $table->datetime('leap_link_time_to');
-            $table->integer('leap_link_id');
-            $table->datetime('leap_link_timezone');
-            $table->string('thumb_image_url');
+            $table->datetime('leap_link_time_from')->nullable();
+            $table->datetime('leap_link_time_to')->nullable();
+            $table->string('leap_link_url')->nullable();
+            $table->datetime('leap_link_timezone')->nullable();
+            $table->string('thumb_image_url')->nullable();
             $table->string('status');
             $table->timestamps();
         });
