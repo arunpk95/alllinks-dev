@@ -15,10 +15,10 @@ class CreateLinksTable extends Migration
     {
         Schema::create('links', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('tenantid');
+            $table->integer('tenant_id');
             $table->string('title');
             $table->string('url');
-            $table->string('link_type');
+            $table->string('link_type');//simple,thumb,
             $table->boolean('is_scheduled');
             $table->datetime('scheduled_from')->nullable();
             $table->datetime('scheduled_to')->nullable();

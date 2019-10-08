@@ -120,10 +120,6 @@ class TenantController extends Controller
                 $validator->errors()->add('tenant_name', 'Only Alphanumeric, - and _ are allowed.');
             }
         });
-
-
-
-
         return $validator;
     }
 }
