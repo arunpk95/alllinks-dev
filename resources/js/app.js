@@ -12,7 +12,7 @@ class Main extends React.Component {
                     <section data-section-id="1" data-component-id="15a7_12_02_awz" data-category="sign-in" className="section">
                         <div className="container has-text-centered">
                             <div>
-                                <img src="{{ asset('/images/icon.png') }}"></img>
+                                <img src="http://127.0.0.1:8000/images/icon.png"></img>
                     </div>
                                 <div className="columns is-centered">
                                     <div className="column is-5 is-4-desktop">

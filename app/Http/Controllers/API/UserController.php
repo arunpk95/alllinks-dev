@@ -54,7 +54,9 @@ class UserController extends Controller
             'password' => 'required|min:6',
             'c_password' => 'required|same:password',
         ],
-        ['email.unique' => "Email already registered"]);
+        ['email.unique' => "Email already registered",
+        'c_password.required' => "Confirm password filed is required.",
+        'c_password.same:password' => "Confirm password and password must match."]);
 
 
         if ($validator->fails()) {
