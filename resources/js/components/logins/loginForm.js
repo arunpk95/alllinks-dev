@@ -1,8 +1,53 @@
 
 import React, {useState, useEffect} from "react"
+import axios from 'axios';
+import LoadingIcon from '../helpers/loadingicon';
+import {endpoints} from '../helpers/services/apiHelper'
+import AuthStore from '../helpers/stores/authStore'
 
 export default function loginForm() {
-        
+    const [userEmail, setUserEmail] = React.useState("");
+    const [userPassword, setUserPassword] = React.useState("");
+    const [loading, setLoading] = React.useState(false);
+    const [validationErrors, setValidationErros] = React.useState("{}");
+    const [loggedin, setLoggedin] = React.useState(false);
+
+    const authHandler = async () => {
+        try {
+            setLoading(true);
+            axios.post(endpoints.login,
+                { email: userEmail, password: userPassword})
+                .then(res => {
+                    
+                    setLoading(false);
+                    setValidationErros({});
+                    if (res.data.success.user.email == userEmail) {
+                        setLoggedin(true);
+                        AuthStore.setAuth('Bearer '+res.data.success.token, new Date().getDate()+1);
+                        AuthStore.setProfile(res.data.success.user); 
+                        window.location.href="/admin";
+                    }
+                    return res;
+                })
+                .catch(function (error) {
+                    setLoading(false);
+                    setLoggedin(false);
+                    //console.log(error)
+                    if (error.response.status == 401) {
+                        setValidationErros(error.response.data);
+                        setUserPassword("");
+                       
+                    }
+                });;
+        } catch (err) {
+            setLoading(false);
+            setLoggedin(false);
+        }
+    };
+
+    const redirectSignup = (event) => {
+        window.location.href = "http://127.0.0.1:8000/signup"
+    };
     
     return (
         <div className="container is-fluid" id="content">
@@ -19,17 +64,38 @@ export default function loginForm() {
                             <form>
                                 <div className="field">
                                     <div className="control">
-                                        <input className="input" type="email" placeholder="Email"/>
+                                        <input className="input" type="email" placeholder="Email"  disabled={loading} value={userEmail} onChange={e => setUserEmail(e.target.value)} />
+                                        <span className="help is-danger" >{validationErrors.email}</span>
                                     </div>
                                 </div>
                                 <div className="field">
                                     <div className="control">
-                                        <input className="input" type="password" placeholder="Password"/>
+                                        <input className="input" type="password" placeholder="Password" disabled={loading} value={userPassword} onChange={e => setUserPassword(e.target.value)}/>
+                                        <span className="help is-danger" >{validationErrors.password}</span>
+                                        <span className="help is-danger" >{validationErrors.error}</span>
                                     </div>
                                 </div>
-                                <div className="field">
-                                    <button className="button is-primary is-fullwidth" data-config-id="primary-action">Sign in!</button>
-                                </div><a href="#" data-config-id="secondary-action">or sign in with Facebook</a>
+                                <div className="field is-grouped">
+                                        <div className="control is-expanded">
+                                            <button className="button is-primary is-outlined is-fullwidth" data-config-id="secondary-action" type="button"
+                                                onClick={
+                                                    e => {
+                                                        redirectSignup();
+                                                    }
+                                                }>Sign UP!</button>
+                                        </div>
+                                        <div className="control is-expanded">
+                                            <button className="button is-primary is-fullwidth" data-config-id="primary-action" disabled={loading}
+                                            onClick={e => {
+                                                e.preventDefault();
+                                                authHandler();
+                                            }}
+                                            >Sign In!</button>
+                                        </div>
+                                    </div>
+                                    {loading ? (
+                                        <LoadingIcon />
+                                    ) : null}
                             </form>
                         </div>
                     </div>

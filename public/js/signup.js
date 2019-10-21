@@ -34915,6 +34915,26 @@ function loadingIcon() {
 
 /***/ }),
 
+/***/ "./resources/js/components/helpers/services/apiHelper.js":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/helpers/services/apiHelper.js ***!
+  \***************************************************************/
+/*! exports provided: endpoints */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "endpoints", function() { return endpoints; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var endpoints = {
+  "signup": "http://127.0.0.1:8000/api/auth/user/register",
+  "login": "http://127.0.0.1:8000/api/auth/user/login"
+};
+
+/***/ }),
+
 /***/ "./resources/js/components/logins/signupForm.js":
 /*!******************************************************!*\
   !*** ./resources/js/components/logins/signupForm.js ***!
@@ -34932,6 +34952,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
+/* harmony import */ var _helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/services/apiHelper */ "./resources/js/components/helpers/services/apiHelper.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -34998,7 +35019,7 @@ function signupForm() {
             case 0:
               try {
                 setLoading(true);
-                axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('http://127.0.0.1:8000/api/auth/user/register', {
+                axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(_helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_4__["endpoints"].signup, {
                   email: userEmail,
                   name: userName,
                   password: userPassword,

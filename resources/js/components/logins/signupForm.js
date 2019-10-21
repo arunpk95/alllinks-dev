@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from "react"
 import axios from 'axios';
-import LoadingIcon from '../helpers/loadingicon'
-import loadingIcon from "../helpers/loadingicon";
+import LoadingIcon from '../helpers/loadingicon';
+import {endpoints} from '../helpers/services/apiHelper'
 
 export default function signupForm() {
     const [userEmail, setUserEmail] = React.useState("");
@@ -18,7 +18,7 @@ export default function signupForm() {
     const authHandler = async () => {
         try {
             setLoading(true);
-            axios.post('http://127.0.0.1:8000/api/auth/user/register',
+            axios.post(endpoints.signup,
                 { email: userEmail, name: userName, password: userPassword, c_password: userConfirmPassword })
                 .then(res => {
                     setLoading(false);

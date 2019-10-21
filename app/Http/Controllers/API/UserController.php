@@ -68,7 +68,7 @@ class UserController extends Controller
         $input['activation_code'] = $this->getActCode();
         $input['hastenants'] = 0;
         $input['account_type'] = "free";
-        $input['status'] = "created";
+        $input['status'] = "activated";
         
         $user = User::create($input);
         //TODO: move this to login
