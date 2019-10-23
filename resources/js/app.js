@@ -10,7 +10,7 @@ function Main() {
     return (
         <div>
             <TopNav />
-            <div className="columns">
+            <div className="columns is-fullheight">
                 <LeftNav />
                 <Center />
             </div>
