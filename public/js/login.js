@@ -34989,7 +34989,8 @@ function () {
       if (flag) {
         window.localStorage.setItem(this.TOKEN_FLAG, false);
         return window.localStorage.getItem(this.STORAGE_KEY);
-      }
+      } //window.location.replace('/login');
+
     }
   }, {
     key: "setAuth",

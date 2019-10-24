@@ -17,6 +17,7 @@ class CreateTenantsTable extends Migration
             $table->bigIncrements('id');
             $table->integer('user_id');
             $table->string('tenant_name')->unique();
+            $table->string('tenant_text');
             $table->boolean('is_leap_link_active');
             $table->datetime('leap_link_time_from')->nullable();
             $table->datetime('leap_link_time_to')->nullable();

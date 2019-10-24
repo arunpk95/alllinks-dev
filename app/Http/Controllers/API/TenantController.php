@@ -24,10 +24,15 @@ class TenantController extends Controller
         //Get User
         $user = Auth::user();
 
-
+        if(strlen(trim($request['tenant_text']))==0)
+        {
+            $request['tenant_text']=$request['tenant_name'];
+        }
         $input = $request->all();
         $input['user_id'] = $user['id'];
         $input['status'] = 'created';
+
+        
 
         $tenant = Tenant::create($input);
         return response()->json(['success' => $tenant]);
@@ -48,6 +53,11 @@ class TenantController extends Controller
         }
         if ($validator->fails()) {
             return response()->json(['error' => $validator->errors()], 401);
+        }
+        
+        if(strlen(trim($request['tenant_text']))==0)
+        {
+            $request['tenant_text']=$request['tenant_name'];
         }
         DB::table('tenants')
             ->where('id', $id)

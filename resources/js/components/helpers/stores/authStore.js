@@ -27,6 +27,7 @@ export default class AuthStore {
             window.localStorage.setItem(this.TOKEN_FLAG, false);
             return window.localStorage.getItem(this.STORAGE_KEY);
         }
+        //window.location.replace('/login');
     }
     static setAuth(accessToken, expiresAt) {
         console.log(this.STORAGE_KEY);

@@ -34152,19 +34152,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_admin_home_topnav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/admin/home/topnav */ "./resources/js/components/admin/home/topnav.js");
-/* harmony import */ var _components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/admin/home/leftnav */ "./resources/js/components/admin/home/leftnav.js");
-/* harmony import */ var _components_admin_home_center__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/admin/home/center */ "./resources/js/components/admin/home/center.js");
-
+/* harmony import */ var _components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/admin/home/leftnav */ "./resources/js/components/admin/home/leftnav.js");
+/* harmony import */ var _components_admin_home_center__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/admin/home/center */ "./resources/js/components/admin/home/center.js");
 
 
 
 
 
 function Main() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_topnav__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns is-fullheight"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_center__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns is-fullheight is-gapless"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_center__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
 }
 
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Main, null), document.getElementById('app'));
@@ -34184,12 +34182,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../helpers/services/linkServices */ "./resources/js/components/helpers/services/linkServices.js");
+/* harmony import */ var _topnav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./topnav */ "./resources/js/components/admin/home/topnav.js");
+
 
 
 function center() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-main-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_topnav__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns is-fullheight"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-6"
@@ -34210,6 +34210,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return leftNav; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _selectTenant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./selectTenant */ "./resources/js/components/admin/home/selectTenant.js");
+
 
 function leftNav() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -34218,7 +34220,7 @@ function leftNav() {
     className: "menu"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "menu-list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Dashboard")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Customers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Payments")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Transfers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Balance")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_selectTenant__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Dashboard")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Customers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Payments")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Transfers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Balance")))));
 } //from https://codepen.io/wikiki/pen/OjdNKM
 
 /*<div className="column is-2 is-sidebar-menu is-hidden-mobile">
@@ -34285,7 +34287,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 function selectTenant() {
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState("{}"),
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]),
       _React$useState2 = _slicedToArray(_React$useState, 2),
       tenants = _React$useState2[0],
       setTenants = _React$useState2[1];
@@ -34294,15 +34296,58 @@ function selectTenant() {
       _React$useState4 = _slicedToArray(_React$useState3, 1),
       userServices = _React$useState4[0];
 
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      selectedTenant = _React$useState6[0],
+      setSelectedTenant = _React$useState6[1];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('Select the Tenant'),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      isSelectedOrSelectText = _React$useState8[0],
+      setIsSelectedOrSelectText = _React$useState8[1];
+
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
     userServices.getTenants().then(function (response) {
       // If request is good...
-      console.log(response.data);
+      //console.log(response.data);
+      if (response.data.success) {
+        console.log("fetched tenants");
+
+        if (response.data.success[0] == null) {
+          console.log("No Tenants");
+        } else {
+          setTenants(response.data.success);
+        }
+      }
     })["catch"](function (error) {
       console.log('error ' + error);
     });
   }, []);
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    if (selectedTenant.id) {
+      setIsSelectedOrSelectText(selectedTenant.tenant_text);
+    } else {
+      setIsSelectedOrSelectText('Select the Tenant');
+    }
+  }, [selectedTenant]);
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "dropdown"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "dropbtn"
+  }, isSelectedOrSelectText, "  \xA0\xA0 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-chevron-circle-down"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "dropdown-content"
+  }, tenants.map(function (tenant, index) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      key: tenant.id,
+      onClick: function onClick() {
+        return setSelectedTenant(tenant);
+      }
+    }, tenant.tenant_text);
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-plus"
+  }), " \xA0\xA0     New Tenant "))));
 }
 
 /***/ }),
@@ -34319,13 +34364,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return topNav; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _selectTenant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./selectTenant */ "./resources/js/components/admin/home/selectTenant.js");
-
 
 function topNav() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar is-primary"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_selectTenant__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+  });
 }
 
 /***/ }),
@@ -34593,7 +34636,8 @@ function () {
       if (flag) {
         window.localStorage.setItem(this.TOKEN_FLAG, false);
         return window.localStorage.getItem(this.STORAGE_KEY);
-      }
+      } //window.location.replace('/login');
+
     }
   }, {
     key: "setAuth",

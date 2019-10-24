@@ -1,13 +1,15 @@
 import React from 'react';
+import SelectTenant from './selectTenant'
 
 export default function leftNav() {
 
     return (
         <div className="column is-2 is-sidebar-menu">
-            <aside className="menu"> 
+            <aside className="menu">
                 <ul className="menu-list">
+                    <SelectTenant />
                     <li><a>Dashboard</a></li>
-                    <li><a>Customers</a></li> 
+                    <li><a>Customers</a></li>
                     <li><a>Payments</a></li>
                     <li><a>Transfers</a></li>
                     <li><a>Balance</a></li>
