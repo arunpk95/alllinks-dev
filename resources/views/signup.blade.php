@@ -10,11 +10,14 @@
     <link rel="icon" href="favicon.ico">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel="stylesheet" href="{{asset('/public/css/app.css')}}">
-
 </head>
 
 <body>
-   <div id="app"></div>
+    <div id="app">
+        
+    </div>
+    
+<script src="{{asset('/public/js/signup.js')}}"></script>
 </body>
 
 </html>
