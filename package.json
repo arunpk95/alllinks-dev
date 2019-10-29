@@ -23,6 +23,7 @@
         "sass-loader": "^7.1.0"
     },
     "dependencies": {
-        "bulma": "^0.7.5"
+        "bulma": "^0.7.5",
+        "react-datetime-picker": "^2.7.1"
     }
 }

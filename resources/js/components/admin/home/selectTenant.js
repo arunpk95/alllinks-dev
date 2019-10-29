@@ -1,16 +1,16 @@
 import React from 'react';
 import UserServices from '../../helpers/services/userServices'
+import NewTenantModel from './newTenantModel'
 
 export default function selectTenant() {
     const [tenants, setTenants] = React.useState([]);
     const [userServices] = React.useState(new UserServices());
     const [selectedTenant,setSelectedTenant] = React.useState({});
     const [isSelectedOrSelectText,setIsSelectedOrSelectText] = React.useState('Select the Tenant');
+    const [showCreateTenantModel,setShowCreateTenantModel] = React.useState(false);
     React.useEffect(() => {
         userServices.getTenants()
             .then(response => {
-                // If request is good...
-                //console.log(response.data);
                 if(response.data.success)
                 {
                     console.log("fetched tenants");
@@ -38,7 +38,8 @@ export default function selectTenant() {
             setIsSelectedOrSelectText('Select the Tenant');
         }
     }, [selectedTenant]);
-
+    React.useEffect(() => {
+    },[]);  
 
 
     return (
@@ -50,9 +51,10 @@ export default function selectTenant() {
                     {tenants.map(function(tenant,index){
                         return<a key={tenant.id} onClick={() => setSelectedTenant(tenant)}>{tenant.tenant_text}</a>
                     })}
-                    <a> <i className="fas fa-plus"></i> &nbsp;&nbsp;     New Tenant </a>
+                    <a  onClick={()=>setShowCreateTenantModel(true)}> <i className="fas fa-plus"></i> &nbsp;&nbsp;     New Tenant </a>
                 </div>
             </div>
+            <NewTenantModel parentCallback = {()=>setShowCreateTenantModel(false)} showState={showCreateTenantModel}/>
         </div>
     )
 }
