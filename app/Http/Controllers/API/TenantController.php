@@ -115,6 +115,11 @@ class TenantController extends Controller
                 ],
                 ['tenant_name.unique' => "Tenant already taken."]
             );
+            $validator->after(function ($validator) use ($request) {
+                if ($request->input('leap_link_time_from')>=$request->input('leap_link_time_to')) {
+                    $validator->errors()->add('leap_link_time_to', 'Leap Link Till must be in future compared to Leap Link From');
+                }
+            });
         } else {
             $validator = Validator::make(
                 $request->all(),

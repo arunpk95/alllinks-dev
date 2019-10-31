@@ -77,6 +77,24 @@ class UserController extends Controller
         $success['email'] =  $user->email;
         return response()->json(['success' => $success], $this->successStatus);
     }
+
+
+    public function uploadAvatar(Request $request)
+    {
+        $validator = Validator::make($request->all(),[
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:500',
+        ]);
+        if ($validator->fails()) {
+            return response()->json(['error' => $validator->errors()], 401);
+        }
+        $user = Auth::user();
+        $imageName = time().'.'.request()->image->getClientOriginalExtension();
+
+        request()->image->move(public_path('images/users/'.$user['id']), $imageName);
+
+        return response()->json(['success' => 'images/users/'.$user['id'].'/'.$imageName], $this->successStatus);
+    }
+
     /** 
      * details api 
      * 

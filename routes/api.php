@@ -22,6 +22,7 @@ Route::group([
     ], function () {
         Route::get('logout', 'API\UserController@logout');
         Route::get('details', 'API\UserController@details');
+        Route::post('uploadAvatar','API\UserController@uploadAvatar');
     });
 });
 

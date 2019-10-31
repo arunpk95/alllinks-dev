@@ -44464,8 +44464,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../helpers/services/tenantServices */ "./resources/js/components/helpers/services/tenantServices.js");
-/* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-datetime-picker */ "./node_modules/react-datetime-picker/dist/entry.js");
-/* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_datetime_picker__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../helpers/services/userServices */ "./resources/js/components/helpers/services/userServices.js");
+/* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-datetime-picker */ "./node_modules/react-datetime-picker/dist/entry.js");
+/* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3__);
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -44473,6 +44474,7 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
  //https://www.npmjs.com/package/react-datetime-picker
@@ -44494,27 +44496,32 @@ function selectTenant(props) {
       tenantServices = _React$useState6[0],
       setTenantServices = _React$useState6[1];
 
-  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__["default"]()),
       _React$useState8 = _slicedToArray(_React$useState7, 2),
-      tenant_name = _React$useState8[0],
-      setTenantName = _React$useState8[1];
+      userServices = _React$useState8[0],
+      setUserServices = _React$useState8[1];
 
   var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
       _React$useState10 = _slicedToArray(_React$useState9, 2),
-      tenant_text = _React$useState10[0],
-      setTenantText = _React$useState10[1];
+      tenant_name = _React$useState10[0],
+      setTenantName = _React$useState10[1];
 
-  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
       _React$useState12 = _slicedToArray(_React$useState11, 2),
-      is_leap_link_active = _React$useState12[0],
-      setIs_leap_link_active = _React$useState12[1];
+      tenant_text = _React$useState12[0],
+      setTenantText = _React$useState12[1];
+
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState14 = _slicedToArray(_React$useState13, 2),
+      is_leap_link_active = _React$useState14[0],
+      setIs_leap_link_active = _React$useState14[1];
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(new Date()),
       _useState2 = _slicedToArray(_useState, 2),
       leap_link_time_from = _useState2[0],
       setLeap_link_time_from = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(new Date() + 1),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(new Date()),
       _useState4 = _slicedToArray(_useState3, 2),
       leap_link_time_to = _useState4[0],
       setLeap_link_time_to = _useState4[1];
@@ -44524,20 +44531,27 @@ function selectTenant(props) {
       leap_link_url = _useState6[0],
       setLeap_link_url = _useState6[1];
 
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('GMT'),
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('Europe/London'),
       _useState8 = _slicedToArray(_useState7, 2),
       leap_link_timezone = _useState8[0],
       setLeap_link_timezone = _useState8[1];
 
-  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('https://cdn1.iconfinder.com/data/icons/technology-devices-2/100/Profile-512.png'),
       _useState10 = _slicedToArray(_useState9, 2),
       thumb_image_url = _useState10[0],
-      setThumb_image_url = _useState10[1];
+      setThumb_image_url = _useState10[1]; //Determine error in image upload
 
-  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('is-clipped'),
-      _React$useState14 = _slicedToArray(_React$useState13, 2),
-      showState = _React$useState14[0],
-      setShowState = _React$useState14[1];
+
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({}),
+      _useState12 = _slicedToArray(_useState11, 2),
+      thumb_upload_error = _useState12[0],
+      setThumbUploadError = _useState12[1]; //Determine state of model
+
+
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('is-clipped'),
+      _React$useState16 = _slicedToArray(_React$useState15, 2),
+      showState = _React$useState16[0],
+      setShowState = _React$useState16[1];
 
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
     if (props.showState) {
@@ -44546,19 +44560,14 @@ function selectTenant(props) {
     }
   }, [props]);
 
-  var redirectLogin = function redirectLogin(event) {
-    console.log("Sign in");
-    window.location.href = "http://127.0.0.1:8000/login";
-  };
-
   var saveHandler = function saveHandler() {
     setLoading(true);
     tenantServices.createTenant({
       tenant_name: tenant_name,
       tenant_text: tenant_text,
       is_leap_link_active: is_leap_link_active,
-      leap_link_time_from: leap_link_time_from,
-      leap_link_time_to: leap_link_time_to,
+      leap_link_time_from: leap_link_time_from.toISOString().replace('T', ' ').slice(0, 20),
+      leap_link_time_to: leap_link_time_to.toISOString().replace('T', ' ').slice(0, 20),
       leap_link_url: leap_link_url,
       leap_link_timezone: leap_link_timezone,
       thumb_image_url: thumb_image_url
@@ -44584,6 +44593,27 @@ function selectTenant(props) {
     });
   };
 
+  function handleAvatarSelectionChange(event) {
+    var formData = new FormData();
+    formData.append('image', event.target.files[0]);
+    setThumb_image_url('http://127.0.0.1:8000/images/flatloader.svg');
+    userServices.uploadAvatar(formData).then(function (response) {
+      if (response.data.success) {
+        // console.log(response.data);
+        setThumbUploadError({});
+        setThumb_image_url('http://127.0.0.1:8000/' + response.data.success);
+      }
+
+      return response;
+    })["catch"](function (error) {
+      setThumb_image_url('https://cdn1.iconfinder.com/data/icons/technology-devices-2/100/Profile-512.png'); //console.log(error);
+
+      if (error.response.status == 401) {
+        setThumbUploadError(error.response.data.error);
+      }
+    });
+  }
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "modal " + showState
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -44607,7 +44637,7 @@ function selectTenant(props) {
     className: "field"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: "label"
-  }, "Slug - appears in your URL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Slug - appears in your URL:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "control"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "input",
@@ -44626,7 +44656,7 @@ function selectTenant(props) {
     className: "field"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: "label"
-  }, "Name - Appears on title"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Name - Appears on title:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "control"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "input",
@@ -44641,7 +44671,35 @@ function selectTenant(props) {
     className: "help is-danger"
   }, validationErrors.tenant_text), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "help"
-  }, "If Blank will be same as Slug"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+  }, "If Blank will be same as Slug"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Change Avatar:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-upload"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-edit"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    type: "file",
+    id: "imageUpload",
+    accept: ".png, .jpg, .jpeg",
+    onChange: function onChange(e) {
+      return handleAvatarSelectionChange(e);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "imageUpload"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-pencil-alt avatar-edit-icon"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-preview"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "imagePreview",
+    style: {
+      "backgroundImage": "url(" + thumb_image_url + ")"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, thumb_upload_error.image)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
     className: "checkbox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     type: "checkbox",
@@ -44650,19 +44708,254 @@ function selectTenant(props) {
       return setIs_leap_link_active(!is_leap_link_active);
     }
   }), "Activate Leap Link  (Redirects Directly to the URL)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: is_leap_link_active ? {} : {
+    style: is_leap_link_active ? {
+      "paddingTop": "15 px"
+    } : {
       "display": "none"
     }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_datetime_picker__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Leap Link URL:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "input",
+    type: "text",
+    placeholder: "Leap Link URL",
+    disabled: false,
+    value: leap_link_url,
+    onChange: function onChange(e) {
+      return setLeap_link_url(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.leap_link_url))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Leap Link Active From(YYYY-MM-DD HH:MM:SS)(24 hrs):"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default.a, {
     onChange: function onChange(date) {
       return setLeap_link_time_from(date);
     },
     value: leap_link_time_from,
-    format: "dd-MM-y h:mm:ss a",
-    minDate: leap_link_time_from,
+    format: "yyyy-MM-dd HH:mm:ss",
     name: "leap_link_time_from",
-    renderSecondHand: "true"
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    renderSecondHand: true,
+    required: true
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Leap Link Active Till(YYYY-MM-DD HH:MM:SS)(24 hrs):"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    onChange: function onChange(date) {
+      return setLeap_link_time_to(date);
+    },
+    value: leap_link_time_to,
+    format: "yyyy-MM-dd HH:mm:ss",
+    name: "leap_link_time_to",
+    renderSecondHand: true,
+    required: true
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.leap_link_time_to)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Select Timezone:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "select"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    defaultValue: leap_link_timezone,
+    onChange: function onChange(e) {
+      return setLeap_link_timezone(e.target.value);
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Midway"
+  }, "(GMT-11:00) Midway Island, Samoa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Adak"
+  }, "(GMT-10:00) Hawaii-Aleutian"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT+10"
+  }, "(GMT-10:00) Hawaii"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Marquesas"
+  }, "(GMT-09:30) Marquesas Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Gambier"
+  }, "(GMT-09:00) Gambier Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Anchorage"
+  }, "(GMT-09:00) Alaska"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Ensenada"
+  }, "(GMT-08:00) Tijuana, Baja California"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT+8"
+  }, "(GMT-08:00) Pitcairn Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Los_Angeles"
+  }, "(GMT-08:00) Pacific Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Denver"
+  }, "(GMT-07:00) Mountain Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Chihuahua"
+  }, "(GMT-07:00) Chihuahua, La Paz, Mazatlan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Dawson_Creek"
+  }, "(GMT-07:00) Arizona"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Belize"
+  }, "(GMT-06:00) Saskatchewan, Central America"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Cancun"
+  }, "(GMT-06:00) Guadalajara, Mexico City, Monterrey"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Chile/EasterIsland"
+  }, "(GMT-06:00) Easter Island"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Chicago"
+  }, "(GMT-06:00) Central Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/New_York"
+  }, "(GMT-05:00) Eastern Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Havana"
+  }, "(GMT-05:00) Cuba"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Bogota"
+  }, "(GMT-05:00) Bogota, Lima, Quito, Rio Branco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Caracas"
+  }, "(GMT-04:30) Caracas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Santiago"
+  }, "(GMT-04:00) Santiago"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/La_Paz"
+  }, "(GMT-04:00) La Paz"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Atlantic/Stanley"
+  }, "(GMT-04:00) Faukland Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Campo_Grande"
+  }, "(GMT-04:00) Brazil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Goose_Bay"
+  }, "(GMT-04:00) Atlantic Time (Goose Bay)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Glace_Bay"
+  }, "(GMT-04:00) Atlantic Time (Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/St_Johns"
+  }, "(GMT-03:30) Newfoundland"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Araguaina"
+  }, "(GMT-03:00) UTC-3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Montevideo"
+  }, "(GMT-03:00) Montevideo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Miquelon"
+  }, "(GMT-03:00) Miquelon, St. Pierre"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Godthab"
+  }, "(GMT-03:00) Greenland"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Argentina/Buenos_Aires"
+  }, "(GMT-03:00) Buenos Aires"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Sao_Paulo"
+  }, "(GMT-03:00) Brasilia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Noronha"
+  }, "(GMT-02:00) Mid-Atlantic"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Atlantic/Cape_Verde"
+  }, "(GMT-01:00) Cape Verde Is."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Atlantic/Azores"
+  }, "(GMT-01:00) Azores"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Belfast"
+  }, "(GMT) Greenwich Mean Time : Belfast"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Dublin"
+  }, "(GMT) Greenwich Mean Time : Dublin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Lisbon"
+  }, "(GMT) Greenwich Mean Time : Lisbon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/London"
+  }, "(GMT) Greenwich Mean Time : London"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Abidjan"
+  }, "(GMT) Monrovia, Reykjavik"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Amsterdam"
+  }, "(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Belgrade"
+  }, "(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Brussels"
+  }, "(GMT+01:00) Brussels, Copenhagen, Madrid, Paris"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Algiers"
+  }, "(GMT+01:00) West Central Africa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Windhoek"
+  }, "(GMT+01:00) Windhoek"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Beirut"
+  }, "(GMT+02:00) Beirut"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Cairo"
+  }, "(GMT+02:00) Cairo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Gaza"
+  }, "(GMT+02:00) Gaza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Blantyre"
+  }, "(GMT+02:00) Harare, Pretoria"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Jerusalem"
+  }, "(GMT+02:00) Jerusalem"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Minsk"
+  }, "(GMT+02:00) Minsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Damascus"
+  }, "(GMT+02:00) Syria"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Moscow"
+  }, "(GMT+03:00) Moscow, St. Petersburg, Volgograd"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Addis_Ababa"
+  }, "(GMT+03:00) Nairobi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Tehran"
+  }, "(GMT+03:30) Tehran"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Dubai"
+  }, "(GMT+04:00) Abu Dhabi, Muscat"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Yerevan"
+  }, "(GMT+04:00) Yerevan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Kabul"
+  }, "(GMT+04:30) Kabul"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Yekaterinburg"
+  }, "(GMT+05:00) Ekaterinburg"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Tashkent"
+  }, "(GMT+05:00) Tashkent"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Kolkata"
+  }, "(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Katmandu"
+  }, "(GMT+05:45) Kathmandu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Dhaka"
+  }, "(GMT+06:00) Astana, Dhaka"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Novosibirsk"
+  }, "(GMT+06:00) Novosibirsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Rangoon"
+  }, "(GMT+06:30) Yangon (Rangoon)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Bangkok"
+  }, "(GMT+07:00) Bangkok, Hanoi, Jakarta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Krasnoyarsk"
+  }, "(GMT+07:00) Krasnoyarsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Hong_Kong"
+  }, "(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Irkutsk"
+  }, "(GMT+08:00) Irkutsk, Ulaan Bataar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Perth"
+  }, "(GMT+08:00) Perth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Eucla"
+  }, "(GMT+08:45) Eucla"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Tokyo"
+  }, "(GMT+09:00) Osaka, Sapporo, Tokyo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Seoul"
+  }, "(GMT+09:00) Seoul"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Yakutsk"
+  }, "(GMT+09:00) Yakutsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Adelaide"
+  }, "(GMT+09:30) Adelaide"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Darwin"
+  }, "(GMT+09:30) Darwin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Brisbane"
+  }, "(GMT+10:00) Brisbane"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Hobart"
+  }, "(GMT+10:00) Hobart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Vladivostok"
+  }, "(GMT+10:00) Vladivostok"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Lord_Howe"
+  }, "(GMT+10:30) Lord Howe Island"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT-11"
+  }, "(GMT+11:00) Solomon Is., New Caledonia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Magadan"
+  }, "(GMT+11:00) Magadan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Norfolk"
+  }, "(GMT+11:30) Norfolk Island"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Anadyr"
+  }, "(GMT+12:00) Anadyr, Kamchatka"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Auckland"
+  }, "(GMT+12:00) Auckland, Wellington"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT-12"
+  }, "(GMT+12:00) Fiji, Kamchatka, Marshall Is."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Chatham"
+  }, "(GMT+12:45) Chatham Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Tongatapu"
+  }, "(GMT+13:00) Nuku'alofa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Kiritimati"
+  }, "(GMT+14:00) Kiritimati")))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
     className: "modal-card-foot"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: "button is-success",
@@ -45051,6 +45344,12 @@ function () {
     value: function getTenants() {
       return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(this._settings.baseUrl + 'tenant/all/', this._config);
     }
+  }, {
+    key: "uploadAvatar",
+    value: function uploadAvatar(payload) {
+      console.log(payload);
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'auth/user/uploadAvatar', payload, this._config);
+    }
   }]);
 
   return UserServices;
@@ -45198,8 +45497,8 @@ _defineProperty(AuthStore, "TOKEN_FLAG", 'tokenFlag');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\arun.karthigaivel\Documents\GitHub\alllinks-dev\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\arun.karthigaivel\Documents\GitHub\alllinks-dev\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Lenovo\Documents\GitHub\alllinks-dev\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Lenovo\Documents\GitHub\alllinks-dev\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
