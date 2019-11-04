@@ -160,6 +160,25 @@
         }
     </style>
 
+    <style>
+        .navbar-brand {
+            position: absolute;
+            left: 45%;
+            margin-left: -63px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+
+    <style>
+        .nav-is-active
+        {
+            color: white;
+            background: lightcoral;
+        }
+    </style>
+
 </head>
 
 <body>

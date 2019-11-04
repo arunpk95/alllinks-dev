@@ -3,6 +3,7 @@ import TenantServices from '../../helpers/services/tenantServices'
 import UserServices from '../../helpers/services/userServices'
 //https://www.npmjs.com/package/react-datetime-picker
 import DateTimePicker from 'react-datetime-picker'
+import loadingIcon from "../../helpers/loadingicon";
 
 export default function selectTenant(props) {
 
@@ -27,11 +28,15 @@ export default function selectTenant(props) {
     //Determine state of model
     const [showState, setShowState] = React.useState('is-clipped');
 
+    //pass true to refresh on new tenant creation
+    const [newTenantCreated,setNewTenantCreated] = React.useState(false);
+            
     React.useEffect(() => {
         if (props.showState) {
-            console.log('in');
+            //console.log('in');
             setShowState('is-active');
         }
+        
     }, [props]);
 
 
@@ -53,18 +58,17 @@ export default function selectTenant(props) {
                 setLoading(false);
                 setValidationErros({});
                 if (response.data.success) {
-                    console.log("fetched tenants");
-                    if (response.data.success[0] == null) {
-                        console.log("No Tenants");
-                    }
-                    else {
-                        setTenants(response.data.success)
-                    }
+                    //console.log("created tenants");
+                    //console.log(response.data.success)
+                    setNewTenantCreated(true);
+                    setShowState('is-clipped');
+                    props.parentCallback(true);
                 }
                 return response;
             })
             .catch((error) => {
-                if (error.response.status == 401) {
+                setLoading(false);
+                if (error.response.status == 401 && error.response.data.error) {
                     setValidationErros(error.response.data.error);
                 }
             });
@@ -74,24 +78,25 @@ export default function selectTenant(props) {
     function handleAvatarSelectionChange(event) {
         const formData = new FormData();
         formData.append('image', event.target.files[0])
-        setThumb_image_url('http://127.0.0.1:8000/images/flatloader.svg');
+        setThumb_image_url('/images/flatloader.svg');
         userServices.uploadAvatar(formData)
             .then(response => {
                 if (response.data.success) {
                     // console.log(response.data);
                     setThumbUploadError({});
-                    setThumb_image_url('http://127.0.0.1:8000/' + response.data.success);
+                    setThumb_image_url('/' + response.data.success);
                 }
                 return response;
             })
             .catch((error) => {
                 setThumb_image_url('https://cdn1.iconfinder.com/data/icons/technology-devices-2/100/Profile-512.png');
                 //console.log(error);
-                if (error.response.status == 401) {
+                if (error.response.status == 401 && error.response.data.error) {
                     setThumbUploadError(error.response.data.error);
                 }
             });
     }
+
 
     return (
         <div className={"modal " + showState}>
@@ -101,17 +106,16 @@ export default function selectTenant(props) {
                     <p className="modal-card-title">Create New Tenant</p>
                     <button className="delete" aria-label="close" onClick={() => {
                         setShowState('is-clipped');
-                        props.parentCallback(false)
+                        props.parentCallback(newTenantCreated)
                     }}></button>
                 </header>
                 <section className="modal-card-body">
 
-
-                    <form >
+                    <form>
                         <div className="field">
                             <label className="label">Slug - appears in your URL:</label>
                             <div className="control">
-                                <input className="input" type="text" placeholder="Slug" disabled={false} value={tenant_name} onChange={e => setTenantName(e.target.value)} />
+                                <input  disabled={loading} className="input" type="text" placeholder="Slug" value={tenant_name} onChange={e => setTenantName(e.target.value)} />
                                 <span className="help is-danger" >{validationErrors.tenant_name}</span>
                                 <p className="help">Only Alphanumeric, - and _ are allowed.</p>
                             </div>
@@ -119,7 +123,7 @@ export default function selectTenant(props) {
                         <div className="field">
                             <label className="label">Name - Appears on title:</label>
                             <div className="control">
-                                <input className="input" type="text" placeholder="Slug" disabled={false} value={tenant_text} onChange={e => setTenantText(e.target.value)} />
+                                <input disabled={loading} className="input" type="text" placeholder="Slug" value={tenant_text} onChange={e => setTenantText(e.target.value)} />
                                 <span className="help is-danger" >{validationErrors.tenant_text}</span>
                                 <p className="help">If Blank will be same as Slug</p>
                             </div>
@@ -128,7 +132,7 @@ export default function selectTenant(props) {
                             <label className="label">Change Avatar:</label>
                             <div className="avatar-upload">
                                 <div className="avatar-edit">
-                                    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" onChange={e => handleAvatarSelectionChange(e)} />
+                                    <input disabled={loading} type='file' id="imageUpload" accept=".png, .jpg, .jpeg" onChange={e => handleAvatarSelectionChange(e)} />
                                     <label htmlFor="imageUpload"><i className="fas fa-pencil-alt avatar-edit-icon"></i></label>
                                 </div>
                                 <div className="avatar-preview">
@@ -140,7 +144,7 @@ export default function selectTenant(props) {
                             </div>
                         </div>
                         <label className="checkbox">
-                            <input type="checkbox" checked={is_leap_link_active} onChange={() => setIs_leap_link_active(!is_leap_link_active)}></input>
+                            <input disabled={loading} type="checkbox" checked={is_leap_link_active} onChange={() => setIs_leap_link_active(!is_leap_link_active)}></input>
                             Activate Leap Link  (Redirects Directly to the URL)
                         </label>
 
@@ -148,7 +152,7 @@ export default function selectTenant(props) {
                             <div className="field">
                                 <label className="label">Leap Link URL:</label>
                                 <div className="control">
-                                    <input className="input" type="text" placeholder="Leap Link URL" disabled={false} value={leap_link_url} onChange={e => setLeap_link_url(e.target.value)} />
+                                    <input disabled={loading} className="input" type="text" placeholder="Leap Link URL" value={leap_link_url} onChange={e => setLeap_link_url(e.target.value)} />
                                     <span className="help is-danger" >{validationErrors.leap_link_url}</span>
                                 </div>
                             </div>
@@ -161,7 +165,8 @@ export default function selectTenant(props) {
                                         format="yyyy-MM-dd HH:mm:ss"
                                         name="leap_link_time_from"
                                         renderSecondHand={true}
-                                        required={true} />
+                                        required={true}
+                                        disabled={loading} />
                                 </div>
                             </div>
                             <div className="field">
@@ -173,7 +178,8 @@ export default function selectTenant(props) {
                                         format="yyyy-MM-dd HH:mm:ss"
                                         name="leap_link_time_to"
                                         renderSecondHand={true}
-                                        required={true} />
+                                        required={true}
+                                        disabled={loading} />
                                 </div>
                                 <span className="help is-danger" >{validationErrors.leap_link_time_to}</span>
                             </div>
@@ -282,17 +288,17 @@ export default function selectTenant(props) {
 
 
                 </section>
-            <footer className="modal-card-foot">
-                <button className="button is-success"
-                    onClick={e => {
-                        saveHandler();
-                    }}>Save changes</button>
-                <button className="button" onClick={() => {
-                    setShowState('is-clipped');
-                    props.parentCallback(false)
-                }}>Cancel</button>
-            </footer>
-        </div>
+                <footer className="modal-card-foot">
+                    <button disabled={loading} className="button is-success"
+                        onClick={e => {
+                            saveHandler();
+                        }}>Save changes</button>
+                    <button disabled={loading} className="button" onClick={() => {
+                        setShowState('is-clipped');
+                        props.parentCallback(newTenantCreated)
+                    }}>Cancel</button>
+                </footer>
+            </div>
         </div >
 
     );
