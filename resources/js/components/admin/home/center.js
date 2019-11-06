@@ -9,16 +9,18 @@ export default function center(props) {
     const tenantActive = activeTenantContext.activeTenant ? activeTenantContext.activeTenant : false;
 
     return (
-        <div className="column is-main-content">
-            <TopNav />
-            <div className="columns is-fullheight">
-                <div className="column is-6">
+            <div className="column is-7 is-main-content">
+                {props.activeCenterItem}
 
-                    {props.activeCenterItem}
-
-                </div>
+                dsajkfnsad fjaksdnfakjsdnfkjasndfkjsankfd asfdnakjsfdkjnsadksankdSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION
+A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READING
             </div>
-        </div>
     )
 
 }

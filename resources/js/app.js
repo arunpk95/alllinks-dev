@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import LeftNav from './components/admin/home/leftnav'
 import Center from './components/admin/home/center'
 import ActiveTenantContext, { ActiveTenantContextProvider } from './components/admin/contexts/activeTenantContext'
+import TopNav from './components/admin/home/topnav'
 
 function Main() {
 
@@ -21,7 +22,9 @@ function Main() {
 
             <ActiveTenantContextProvider>
                 <div>
-                    <div className="columns is-fullheight is-gapless">
+                    
+            <TopNav />
+                    <div className="columns is-fullheight is-gapless is-multiline is-mobile">
                         <LeftNav 
                         changeCenterContent={changeCenterContent}
                         activeCenterItem = {activeCenterItem} />

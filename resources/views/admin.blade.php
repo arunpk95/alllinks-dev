@@ -31,7 +31,7 @@
 
         .columns.is-fullheight .column {
             overflow-y: auto;
-            overflow-x: hidden;
+            overflow-x: auto;
         }
 
         .is-main-content {
