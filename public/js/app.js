@@ -1829,6 +1829,271 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-calendar/dist/Calendar.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-calendar/dist/Calendar.css ***!
+  \***************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".react-calendar {\n  width: 350px;\n  max-width: 100%;\n  background: white;\n  border: 1px solid #a0a096;\n  font-family: Arial, Helvetica, sans-serif;\n  line-height: 1.125em;\n}\n.react-calendar,\n.react-calendar *,\n.react-calendar *:before,\n.react-calendar *:after {\n  box-sizing: border-box;\n}\n.react-calendar button {\n  margin: 0;\n  border: 0;\n  outline: none;\n}\n.react-calendar button:enabled:hover {\n  cursor: pointer;\n}\n.react-calendar__navigation {\n  height: 44px;\n  margin-bottom: 1em;\n}\n.react-calendar__navigation button {\n  min-width: 44px;\n  background: none;\n}\n.react-calendar__navigation button:enabled:hover,\n.react-calendar__navigation button:enabled:focus {\n  background-color: #e6e6e6;\n}\n.react-calendar__navigation button[disabled] {\n  background-color: #f0f0f0;\n}\n.react-calendar__month-view__weekdays {\n  text-align: center;\n  text-transform: uppercase;\n  font-weight: bold;\n  font-size: 0.75em;\n}\n.react-calendar__month-view__weekdays__weekday {\n  padding: 0.5em;\n}\n.react-calendar__month-view__weekNumbers {\n  font-weight: bold;\n}\n.react-calendar__month-view__weekNumbers .react-calendar__tile {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  font-size: 0.75em;\n  padding: calc(0.75em / 0.75) calc(0.5em / 0.75);\n}\n.react-calendar__month-view__days__day--weekend {\n  color: #d10000;\n}\n.react-calendar__month-view__days__day--neighboringMonth {\n  color: #757575;\n}\n.react-calendar__year-view .react-calendar__tile,\n.react-calendar__decade-view .react-calendar__tile,\n.react-calendar__century-view .react-calendar__tile {\n  padding: 2em 0.5em;\n}\n.react-calendar__tile {\n  max-width: 100%;\n  text-align: center;\n  padding: 0.75em 0.5em;\n  background: none;\n}\n.react-calendar__tile:disabled {\n  background-color: #f0f0f0;\n}\n.react-calendar__tile:enabled:hover,\n.react-calendar__tile:enabled:focus {\n  background-color: #e6e6e6;\n}\n.react-calendar__tile--hasActive {\n  background: #76baff;\n}\n.react-calendar__tile--hasActive:enabled:hover,\n.react-calendar__tile--hasActive:enabled:focus {\n  background: #a9d4ff;\n}\n.react-calendar__tile--active {\n  background: #006edc;\n  color: white;\n}\n.react-calendar__tile--active:enabled:hover,\n.react-calendar__tile--active:enabled:focus {\n  background: #1087ff;\n}\n.react-calendar--selectRange .react-calendar__tile--hover {\n  background-color: #e6e6e6;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-clock/dist/Clock.css":
+/*!*********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-clock/dist/Clock.css ***!
+  \*********************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".react-clock {\n  display: block;\n  position: relative;\n}\n.react-clock,\n.react-clock *,\n.react-clock *:before,\n.react-clock *:after {\n  box-sizing: border-box;\n}\n.react-clock__face {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  border: 1px solid black;\n  border-radius: 50%;\n}\n.react-clock__hand {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 50%;\n  right: 50%;\n}\n.react-clock__hand__body {\n  position: absolute;\n  background-color: black;\n  transform: translateX(-50%);\n}\n.react-clock__mark {\n  position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 50%;\n  right: 50%;\n}\n.react-clock__mark__body {\n  position: absolute;\n  background-color: black;\n  transform: translateX(-50%);\n}\n.react-clock__mark__number {\n  position: absolute;\n  left: -40px;\n  width: 80px;\n  text-align: center;\n}\n.react-clock__second-hand__body {\n  background-color: red;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-datetime-picker/dist/DateTimePicker.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/react-datetime-picker/dist/DateTimePicker.css ***!
+  \****************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".react-datetime-picker {\n  display: inline-flex;\n  position: relative;\n}\n.react-datetime-picker,\n.react-datetime-picker *,\n.react-datetime-picker *:before,\n.react-datetime-picker *:after {\n  box-sizing: border-box;\n}\n.react-datetime-picker--disabled {\n  background-color: #f0f0f0;\n  color: #6d6d6d;\n}\n.react-datetime-picker__wrapper {\n  display: flex;\n  border: thin solid gray;\n}\n.react-datetime-picker__inputGroup {\n  min-width: calc(4px + (4px * 3) +  0.54em * 6  +  0.217em * 2);\n  flex-grow: 1;\n  display: flex;\n  padding: 0 2px;\n  align-items: baseline;\n}\n.react-datetime-picker__inputGroup__divider {\n  padding: 1px 0;\n  white-space: pre;\n}\n.react-datetime-picker__inputGroup__input {\n  min-width: 0.54em;\n  height: calc(100% - 2px);\n  position: relative;\n  padding: 1px;\n  border: 0;\n  background: none;\n  font: inherit;\n  box-sizing: content-box;\n  -moz-appearance: textfield;\n}\n.react-datetime-picker__inputGroup__input::-webkit-outer-spin-button,\n.react-datetime-picker__inputGroup__input::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n.react-datetime-picker__inputGroup__input:invalid {\n  background: rgba(255, 0, 0, 0.1);\n}\n.react-datetime-picker__inputGroup__input--hasLeadingZero {\n  margin-left: -0.54em;\n  padding-left: calc(1px +  0.54em);\n}\n.react-datetime-picker__inputGroup__amPm {\n  font: inherit;\n  -moz-appearance: menulist;\n}\n.react-datetime-picker__button {\n  border: 0;\n  background: transparent;\n  padding: 4px 6px;\n}\n.react-datetime-picker__button:enabled {\n  cursor: pointer;\n}\n.react-datetime-picker__button:enabled:hover .react-datetime-picker__button__icon,\n.react-datetime-picker__button:enabled:focus .react-datetime-picker__button__icon {\n  stroke: #0078d7;\n}\n.react-datetime-picker__button:disabled .react-datetime-picker__button__icon {\n  stroke: #6d6d6d;\n}\n.react-datetime-picker__button svg {\n  display: inherit;\n}\n.react-datetime-picker__calendar,\n.react-datetime-picker__clock {\n  position: absolute;\n  top: 100%;\n  left: 0;\n  z-index: 1;\n}\n.react-datetime-picker__calendar--closed,\n.react-datetime-picker__clock--closed {\n  display: none;\n}\n.react-datetime-picker__calendar {\n  width: 350px;\n  max-width: 100vw;\n}\n.react-datetime-picker__calendar .react-calendar {\n  border-width: thin;\n}\n.react-datetime-picker__clock {\n  width: 200px;\n  height: 200px;\n  max-width: 100vw;\n  padding: 25px;\n  background-color: white;\n  border: thin solid #a0a096;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/css-base.js":
+/*!*************************************************!*\
+  !*** ./node_modules/css-loader/lib/css-base.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+module.exports = function(useSourceMap) {
+	var list = [];
+
+	// return the list of modules as css string
+	list.toString = function toString() {
+		return this.map(function (item) {
+			var content = cssWithMappingToString(item, useSourceMap);
+			if(item[2]) {
+				return "@media " + item[2] + "{" + content + "}";
+			} else {
+				return content;
+			}
+		}).join("");
+	};
+
+	// import a list of modules into the list
+	list.i = function(modules, mediaQuery) {
+		if(typeof modules === "string")
+			modules = [[null, modules, ""]];
+		var alreadyImportedModules = {};
+		for(var i = 0; i < this.length; i++) {
+			var id = this[i][0];
+			if(typeof id === "number")
+				alreadyImportedModules[id] = true;
+		}
+		for(i = 0; i < modules.length; i++) {
+			var item = modules[i];
+			// skip already imported module
+			// this implementation is not 100% perfect for weird media query combinations
+			//  when a module is imported multiple times with different media queries.
+			//  I hope this will never occur (Hey this way we have smaller bundles)
+			if(typeof item[0] !== "number" || !alreadyImportedModules[item[0]]) {
+				if(mediaQuery && !item[2]) {
+					item[2] = mediaQuery;
+				} else if(mediaQuery) {
+					item[2] = "(" + item[2] + ") and (" + mediaQuery + ")";
+				}
+				list.push(item);
+			}
+		}
+	};
+	return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+	var content = item[1] || '';
+	var cssMapping = item[3];
+	if (!cssMapping) {
+		return content;
+	}
+
+	if (useSourceMap && typeof btoa === 'function') {
+		var sourceMapping = toComment(cssMapping);
+		var sourceURLs = cssMapping.sources.map(function (source) {
+			return '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'
+		});
+
+		return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+	}
+
+	return [content].join('\n');
+}
+
+// Adapted from convert-source-map (MIT)
+function toComment(sourceMap) {
+	// eslint-disable-next-line no-undef
+	var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
+
+	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/detect-element-overflow/dist/entry.js":
+/*!************************************************************!*\
+  !*** ./node_modules/detect-element-overflow/dist/entry.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var detectElementOverflow = function detectElementOverflow(element, container) {
+  return {
+    get collidedTop() {
+      return element.getBoundingClientRect().top < container.getBoundingClientRect().top;
+    },
+    get collidedBottom() {
+      return element.getBoundingClientRect().bottom > container.getBoundingClientRect().bottom;
+    },
+    get collidedLeft() {
+      return element.getBoundingClientRect().left < container.getBoundingClientRect().left;
+    },
+    get collidedRight() {
+      return element.getBoundingClientRect().right > container.getBoundingClientRect().right;
+    },
+    get overflowTop() {
+      return container.getBoundingClientRect().top - element.getBoundingClientRect().top;
+    },
+    get overflowBottom() {
+      return element.getBoundingClientRect().bottom - container.getBoundingClientRect().bottom;
+    },
+    get overflowLeft() {
+      return container.getBoundingClientRect().left - element.getBoundingClientRect().left;
+    },
+    get overflowRight() {
+      return element.getBoundingClientRect().right - container.getBoundingClientRect().right;
+    }
+  };
+};
+
+exports.default = detectElementOverflow;
+
+/***/ }),
+
+/***/ "./node_modules/get-user-locale/dist/entry.js":
+/*!****************************************************!*\
+  !*** ./node_modules/get-user-locale/dist/entry.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = exports.getUserLocale = exports.getUserLocales = void 0;
+
+var _lodash = _interopRequireDefault(__webpack_require__(/*! lodash.once */ "./node_modules/lodash.once/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function filterDuplicates(arr) {
+  return arr.filter(function (el, index, self) {
+    return self.indexOf(el) === index;
+  });
+}
+
+function fixLowercaseProperties(arr) {
+  return arr.map(function (el) {
+    if (!el || el.indexOf('-') === -1 || el.toLowerCase() !== el) {
+      return el;
+    }
+
+    var splitEl = el.split('-');
+    return "".concat(splitEl[0], "-").concat(splitEl[1].toUpperCase());
+  });
+}
+
+var getUserLocales = (0, _lodash["default"])(function () {
+  var languageList = [];
+
+  if (typeof window !== 'undefined') {
+    if (window.navigator.languages) {
+      languageList = languageList.concat(window.navigator.languages);
+    }
+
+    if (window.navigator.language) {
+      languageList.push(window.navigator.language);
+    }
+
+    if (window.navigator.userLanguage) {
+      languageList.push(window.navigator.userLanguage);
+    }
+
+    if (window.navigator.browserLanguage) {
+      languageList.push(window.navigator.browserLanguage);
+    }
+
+    if (window.navigator.systemLanguage) {
+      languageList.push(window.navigator.systemLanguage);
+    }
+  }
+
+  languageList.push('en-US'); // Fallback
+
+  return fixLowercaseProperties(filterDuplicates(languageList));
+});
+exports.getUserLocales = getUserLocales;
+var getUserLocale = (0, _lodash["default"])(function () {
+  return getUserLocales()[0];
+});
+exports.getUserLocale = getUserLocale;
+var _default = getUserLocale;
+exports["default"] = _default;
+
+/***/ }),
+
 /***/ "./node_modules/is-buffer/index.js":
 /*!*****************************************!*\
   !*** ./node_modules/is-buffer/index.js ***!
@@ -1848,6 +2113,389 @@ module.exports = function isBuffer (obj) {
     typeof obj.constructor.isBuffer === 'function' && obj.constructor.isBuffer(obj)
 }
 
+
+/***/ }),
+
+/***/ "./node_modules/lodash.once/index.js":
+/*!*******************************************!*\
+  !*** ./node_modules/lodash.once/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used as references for various `Number` constants. */
+var INFINITY = 1 / 0,
+    MAX_INTEGER = 1.7976931348623157e+308,
+    NAN = 0 / 0;
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/**
+ * Creates a function that invokes `func`, with the `this` binding and arguments
+ * of the created function, while it's called less than `n` times. Subsequent
+ * calls to the created function return the result of the last `func` invocation.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Function
+ * @param {number} n The number of calls at which `func` is no longer invoked.
+ * @param {Function} func The function to restrict.
+ * @returns {Function} Returns the new restricted function.
+ * @example
+ *
+ * jQuery(element).on('click', _.before(5, addContactToList));
+ * // => Allows adding up to 4 contacts to the list.
+ */
+function before(n, func) {
+  var result;
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  n = toInteger(n);
+  return function() {
+    if (--n > 0) {
+      result = func.apply(this, arguments);
+    }
+    if (n <= 1) {
+      func = undefined;
+    }
+    return result;
+  };
+}
+
+/**
+ * Creates a function that is restricted to invoking `func` once. Repeat calls
+ * to the function return the value of the first invocation. The `func` is
+ * invoked with the `this` binding and arguments of the created function.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to restrict.
+ * @returns {Function} Returns the new restricted function.
+ * @example
+ *
+ * var initialize = _.once(createApplication);
+ * initialize();
+ * initialize();
+ * // => `createApplication` is invoked once
+ */
+function once(func) {
+  return before(2, func);
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Converts `value` to a finite number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.12.0
+ * @category Lang
+ * @param {*} value The value to convert.
+ * @returns {number} Returns the converted number.
+ * @example
+ *
+ * _.toFinite(3.2);
+ * // => 3.2
+ *
+ * _.toFinite(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toFinite(Infinity);
+ * // => 1.7976931348623157e+308
+ *
+ * _.toFinite('3.2');
+ * // => 3.2
+ */
+function toFinite(value) {
+  if (!value) {
+    return value === 0 ? value : 0;
+  }
+  value = toNumber(value);
+  if (value === INFINITY || value === -INFINITY) {
+    var sign = (value < 0 ? -1 : 1);
+    return sign * MAX_INTEGER;
+  }
+  return value === value ? value : 0;
+}
+
+/**
+ * Converts `value` to an integer.
+ *
+ * **Note:** This method is loosely based on
+ * [`ToInteger`](http://www.ecma-international.org/ecma-262/7.0/#sec-tointeger).
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to convert.
+ * @returns {number} Returns the converted integer.
+ * @example
+ *
+ * _.toInteger(3.2);
+ * // => 3
+ *
+ * _.toInteger(Number.MIN_VALUE);
+ * // => 0
+ *
+ * _.toInteger(Infinity);
+ * // => 1.7976931348623157e+308
+ *
+ * _.toInteger('3.2');
+ * // => 3
+ */
+function toInteger(value) {
+  var result = toFinite(value),
+      remainder = result % 1;
+
+  return result === result ? (remainder ? result - remainder : result) : 0;
+}
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = once;
+
+
+/***/ }),
+
+/***/ "./node_modules/make-event-props/dist/entry.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/make-event-props/dist/entry.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = exports.focusEvents = exports.keyboardEvents = exports.touchEvents = exports.mouseEvents = void 0;
+// As defined on the list of supported mouse events: https://reactjs.org/docs/events.html#mouse-events
+var mouseEvents = ['onClick', 'onContextMenu', 'onDoubleClick', 'onDrag', 'onDragEnd', 'onDragEnter', 'onDragExit', 'onDragLeave', 'onDragOver', 'onDragStart', 'onDrop', 'onMouseDown', 'onMouseEnter', 'onMouseLeave', 'onMouseMove', 'onMouseOut', 'onMouseOver', 'onMouseUp']; // As defined on the list of supported touch events: https://reactjs.org/docs/events.html#touch-events
+
+exports.mouseEvents = mouseEvents;
+var touchEvents = ['onTouchCancel', 'onTouchEnd', 'onTouchMove', 'onTouchStart']; // As defined on the list of supported keyboard events: https://reactjs.org/docs/events.html#keyboard-events
+
+exports.touchEvents = touchEvents;
+var keyboardEvents = ['onKeyDown', 'onKeyPress', 'onKeyUp']; // As defined on the list of supported keyboard events: https://reactjs.org/docs/events.html#focus-events
+
+exports.keyboardEvents = keyboardEvents;
+var focusEvents = ['onFocus', 'onBlur'];
+/**
+ * Returns an object with on-event callback props curried with provided args.
+ * @param {Object} props Props passed to a component.
+ * @param {Function=} getArgs A function that returns argument(s) on-event callbacks
+ *   shall be curried with.
+ */
+
+exports.focusEvents = focusEvents;
+
+var makeEventProps = function makeEventProps(props, getArgs) {
+  var eventProps = {};
+  [].concat(mouseEvents, touchEvents, keyboardEvents, focusEvents).forEach(function (eventName) {
+    if (props[eventName]) {
+      eventProps[eventName] = function (event) {
+        return getArgs ? props[eventName](event, getArgs(eventName)) : props[eventName](event);
+      };
+    }
+  });
+  return eventProps;
+};
+
+var _default = makeEventProps;
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/merge-class-names/dist/entry.js":
+/*!******************************************************!*\
+  !*** ./node_modules/merge-class-names/dist/entry.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = mergeClassNames;
+
+function mergeClassNames() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return args.reduce(function (classList, arg) {
+    return typeof arg === 'string' || arg instanceof Array ? classList.concat(arg) : classList;
+  }, []).filter(Boolean).join(' ');
+}
 
 /***/ }),
 
@@ -2262,6 +2910,635 @@ module.exports = checkPropTypes;
 
 /***/ }),
 
+/***/ "./node_modules/prop-types/factoryWithTypeCheckers.js":
+/*!************************************************************!*\
+  !*** ./node_modules/prop-types/factoryWithTypeCheckers.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+var assign = __webpack_require__(/*! object-assign */ "./node_modules/object-assign/index.js");
+
+var ReactPropTypesSecret = __webpack_require__(/*! ./lib/ReactPropTypesSecret */ "./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+var checkPropTypes = __webpack_require__(/*! ./checkPropTypes */ "./node_modules/prop-types/checkPropTypes.js");
+
+var has = Function.call.bind(Object.prototype.hasOwnProperty);
+var printWarning = function() {};
+
+if (true) {
+  printWarning = function(text) {
+    var message = 'Warning: ' + text;
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+}
+
+function emptyFunctionThatReturnsNull() {
+  return null;
+}
+
+module.exports = function(isValidElement, throwOnDirectAccess) {
+  /* global Symbol */
+  var ITERATOR_SYMBOL = typeof Symbol === 'function' && Symbol.iterator;
+  var FAUX_ITERATOR_SYMBOL = '@@iterator'; // Before Symbol spec.
+
+  /**
+   * Returns the iterator method function contained on the iterable object.
+   *
+   * Be sure to invoke the function with the iterable as context:
+   *
+   *     var iteratorFn = getIteratorFn(myIterable);
+   *     if (iteratorFn) {
+   *       var iterator = iteratorFn.call(myIterable);
+   *       ...
+   *     }
+   *
+   * @param {?object} maybeIterable
+   * @return {?function}
+   */
+  function getIteratorFn(maybeIterable) {
+    var iteratorFn = maybeIterable && (ITERATOR_SYMBOL && maybeIterable[ITERATOR_SYMBOL] || maybeIterable[FAUX_ITERATOR_SYMBOL]);
+    if (typeof iteratorFn === 'function') {
+      return iteratorFn;
+    }
+  }
+
+  /**
+   * Collection of methods that allow declaration and validation of props that are
+   * supplied to React components. Example usage:
+   *
+   *   var Props = require('ReactPropTypes');
+   *   var MyArticle = React.createClass({
+   *     propTypes: {
+   *       // An optional string prop named "description".
+   *       description: Props.string,
+   *
+   *       // A required enum prop named "category".
+   *       category: Props.oneOf(['News','Photos']).isRequired,
+   *
+   *       // A prop named "dialog" that requires an instance of Dialog.
+   *       dialog: Props.instanceOf(Dialog).isRequired
+   *     },
+   *     render: function() { ... }
+   *   });
+   *
+   * A more formal specification of how these methods are used:
+   *
+   *   type := array|bool|func|object|number|string|oneOf([...])|instanceOf(...)
+   *   decl := ReactPropTypes.{type}(.isRequired)?
+   *
+   * Each and every declaration produces a function with the same signature. This
+   * allows the creation of custom validation functions. For example:
+   *
+   *  var MyLink = React.createClass({
+   *    propTypes: {
+   *      // An optional string or URI prop named "href".
+   *      href: function(props, propName, componentName) {
+   *        var propValue = props[propName];
+   *        if (propValue != null && typeof propValue !== 'string' &&
+   *            !(propValue instanceof URI)) {
+   *          return new Error(
+   *            'Expected a string or an URI for ' + propName + ' in ' +
+   *            componentName
+   *          );
+   *        }
+   *      }
+   *    },
+   *    render: function() {...}
+   *  });
+   *
+   * @internal
+   */
+
+  var ANONYMOUS = '<<anonymous>>';
+
+  // Important!
+  // Keep this list in sync with production version in `./factoryWithThrowingShims.js`.
+  var ReactPropTypes = {
+    array: createPrimitiveTypeChecker('array'),
+    bool: createPrimitiveTypeChecker('boolean'),
+    func: createPrimitiveTypeChecker('function'),
+    number: createPrimitiveTypeChecker('number'),
+    object: createPrimitiveTypeChecker('object'),
+    string: createPrimitiveTypeChecker('string'),
+    symbol: createPrimitiveTypeChecker('symbol'),
+
+    any: createAnyTypeChecker(),
+    arrayOf: createArrayOfTypeChecker,
+    element: createElementTypeChecker(),
+    elementType: createElementTypeTypeChecker(),
+    instanceOf: createInstanceTypeChecker,
+    node: createNodeChecker(),
+    objectOf: createObjectOfTypeChecker,
+    oneOf: createEnumTypeChecker,
+    oneOfType: createUnionTypeChecker,
+    shape: createShapeTypeChecker,
+    exact: createStrictShapeTypeChecker,
+  };
+
+  /**
+   * inlined Object.is polyfill to avoid requiring consumers ship their own
+   * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+   */
+  /*eslint-disable no-self-compare*/
+  function is(x, y) {
+    // SameValue algorithm
+    if (x === y) {
+      // Steps 1-5, 7-10
+      // Steps 6.b-6.e: +0 != -0
+      return x !== 0 || 1 / x === 1 / y;
+    } else {
+      // Step 6.a: NaN == NaN
+      return x !== x && y !== y;
+    }
+  }
+  /*eslint-enable no-self-compare*/
+
+  /**
+   * We use an Error-like object for backward compatibility as people may call
+   * PropTypes directly and inspect their output. However, we don't use real
+   * Errors anymore. We don't inspect their stack anyway, and creating them
+   * is prohibitively expensive if they are created too often, such as what
+   * happens in oneOfType() for any type before the one that matched.
+   */
+  function PropTypeError(message) {
+    this.message = message;
+    this.stack = '';
+  }
+  // Make `instanceof Error` still work for returned errors.
+  PropTypeError.prototype = Error.prototype;
+
+  function createChainableTypeChecker(validate) {
+    if (true) {
+      var manualPropTypeCallCache = {};
+      var manualPropTypeWarningCount = 0;
+    }
+    function checkType(isRequired, props, propName, componentName, location, propFullName, secret) {
+      componentName = componentName || ANONYMOUS;
+      propFullName = propFullName || propName;
+
+      if (secret !== ReactPropTypesSecret) {
+        if (throwOnDirectAccess) {
+          // New behavior only for users of `prop-types` package
+          var err = new Error(
+            'Calling PropTypes validators directly is not supported by the `prop-types` package. ' +
+            'Use `PropTypes.checkPropTypes()` to call them. ' +
+            'Read more at http://fb.me/use-check-prop-types'
+          );
+          err.name = 'Invariant Violation';
+          throw err;
+        } else if ( true && typeof console !== 'undefined') {
+          // Old behavior for people using React.PropTypes
+          var cacheKey = componentName + ':' + propName;
+          if (
+            !manualPropTypeCallCache[cacheKey] &&
+            // Avoid spamming the console because they are often not actionable except for lib authors
+            manualPropTypeWarningCount < 3
+          ) {
+            printWarning(
+              'You are manually calling a React.PropTypes validation ' +
+              'function for the `' + propFullName + '` prop on `' + componentName  + '`. This is deprecated ' +
+              'and will throw in the standalone `prop-types` package. ' +
+              'You may be seeing this warning due to a third-party PropTypes ' +
+              'library. See https://fb.me/react-warning-dont-call-proptypes ' + 'for details.'
+            );
+            manualPropTypeCallCache[cacheKey] = true;
+            manualPropTypeWarningCount++;
+          }
+        }
+      }
+      if (props[propName] == null) {
+        if (isRequired) {
+          if (props[propName] === null) {
+            return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required ' + ('in `' + componentName + '`, but its value is `null`.'));
+          }
+          return new PropTypeError('The ' + location + ' `' + propFullName + '` is marked as required in ' + ('`' + componentName + '`, but its value is `undefined`.'));
+        }
+        return null;
+      } else {
+        return validate(props, propName, componentName, location, propFullName);
+      }
+    }
+
+    var chainedCheckType = checkType.bind(null, false);
+    chainedCheckType.isRequired = checkType.bind(null, true);
+
+    return chainedCheckType;
+  }
+
+  function createPrimitiveTypeChecker(expectedType) {
+    function validate(props, propName, componentName, location, propFullName, secret) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== expectedType) {
+        // `propValue` being instance of, say, date/regexp, pass the 'object'
+        // check, but we can offer a more precise error message here rather than
+        // 'of type `object`'.
+        var preciseType = getPreciseType(propValue);
+
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + preciseType + '` supplied to `' + componentName + '`, expected ') + ('`' + expectedType + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createAnyTypeChecker() {
+    return createChainableTypeChecker(emptyFunctionThatReturnsNull);
+  }
+
+  function createArrayOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside arrayOf.');
+      }
+      var propValue = props[propName];
+      if (!Array.isArray(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an array.'));
+      }
+      for (var i = 0; i < propValue.length; i++) {
+        var error = typeChecker(propValue, i, componentName, location, propFullName + '[' + i + ']', ReactPropTypesSecret);
+        if (error instanceof Error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!isValidElement(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createElementTypeTypeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      if (!ReactIs.isValidElementType(propValue)) {
+        var propType = getPropType(propValue);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected a single ReactElement type.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createInstanceTypeChecker(expectedClass) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!(props[propName] instanceof expectedClass)) {
+        var expectedClassName = expectedClass.name || ANONYMOUS;
+        var actualClassName = getClassName(props[propName]);
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + actualClassName + '` supplied to `' + componentName + '`, expected ') + ('instance of `' + expectedClassName + '`.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createEnumTypeChecker(expectedValues) {
+    if (!Array.isArray(expectedValues)) {
+      if (true) {
+        if (arguments.length > 1) {
+          printWarning(
+            'Invalid arguments supplied to oneOf, expected an array, got ' + arguments.length + ' arguments. ' +
+            'A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z]).'
+          );
+        } else {
+          printWarning('Invalid argument supplied to oneOf, expected an array.');
+        }
+      }
+      return emptyFunctionThatReturnsNull;
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      for (var i = 0; i < expectedValues.length; i++) {
+        if (is(propValue, expectedValues[i])) {
+          return null;
+        }
+      }
+
+      var valuesString = JSON.stringify(expectedValues, function replacer(key, value) {
+        var type = getPreciseType(value);
+        if (type === 'symbol') {
+          return String(value);
+        }
+        return value;
+      });
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of value `' + String(propValue) + '` ' + ('supplied to `' + componentName + '`, expected one of ' + valuesString + '.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createObjectOfTypeChecker(typeChecker) {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (typeof typeChecker !== 'function') {
+        return new PropTypeError('Property `' + propFullName + '` of component `' + componentName + '` has invalid PropType notation inside objectOf.');
+      }
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type ' + ('`' + propType + '` supplied to `' + componentName + '`, expected an object.'));
+      }
+      for (var key in propValue) {
+        if (has(propValue, key)) {
+          var error = typeChecker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+          if (error instanceof Error) {
+            return error;
+          }
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createUnionTypeChecker(arrayOfTypeCheckers) {
+    if (!Array.isArray(arrayOfTypeCheckers)) {
+       true ? printWarning('Invalid argument supplied to oneOfType, expected an instance of array.') : undefined;
+      return emptyFunctionThatReturnsNull;
+    }
+
+    for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+      var checker = arrayOfTypeCheckers[i];
+      if (typeof checker !== 'function') {
+        printWarning(
+          'Invalid argument supplied to oneOfType. Expected an array of check functions, but ' +
+          'received ' + getPostfixForTypeWarning(checker) + ' at index ' + i + '.'
+        );
+        return emptyFunctionThatReturnsNull;
+      }
+    }
+
+    function validate(props, propName, componentName, location, propFullName) {
+      for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+        var checker = arrayOfTypeCheckers[i];
+        if (checker(props, propName, componentName, location, propFullName, ReactPropTypesSecret) == null) {
+          return null;
+        }
+      }
+
+      return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`.'));
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createNodeChecker() {
+    function validate(props, propName, componentName, location, propFullName) {
+      if (!isNode(props[propName])) {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` supplied to ' + ('`' + componentName + '`, expected a ReactNode.'));
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      for (var key in shapeTypes) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          continue;
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+    return createChainableTypeChecker(validate);
+  }
+
+  function createStrictShapeTypeChecker(shapeTypes) {
+    function validate(props, propName, componentName, location, propFullName) {
+      var propValue = props[propName];
+      var propType = getPropType(propValue);
+      if (propType !== 'object') {
+        return new PropTypeError('Invalid ' + location + ' `' + propFullName + '` of type `' + propType + '` ' + ('supplied to `' + componentName + '`, expected `object`.'));
+      }
+      // We need to check all keys in case some are required but missing from
+      // props.
+      var allKeys = assign({}, props[propName], shapeTypes);
+      for (var key in allKeys) {
+        var checker = shapeTypes[key];
+        if (!checker) {
+          return new PropTypeError(
+            'Invalid ' + location + ' `' + propFullName + '` key `' + key + '` supplied to `' + componentName + '`.' +
+            '\nBad object: ' + JSON.stringify(props[propName], null, '  ') +
+            '\nValid keys: ' +  JSON.stringify(Object.keys(shapeTypes), null, '  ')
+          );
+        }
+        var error = checker(propValue, key, componentName, location, propFullName + '.' + key, ReactPropTypesSecret);
+        if (error) {
+          return error;
+        }
+      }
+      return null;
+    }
+
+    return createChainableTypeChecker(validate);
+  }
+
+  function isNode(propValue) {
+    switch (typeof propValue) {
+      case 'number':
+      case 'string':
+      case 'undefined':
+        return true;
+      case 'boolean':
+        return !propValue;
+      case 'object':
+        if (Array.isArray(propValue)) {
+          return propValue.every(isNode);
+        }
+        if (propValue === null || isValidElement(propValue)) {
+          return true;
+        }
+
+        var iteratorFn = getIteratorFn(propValue);
+        if (iteratorFn) {
+          var iterator = iteratorFn.call(propValue);
+          var step;
+          if (iteratorFn !== propValue.entries) {
+            while (!(step = iterator.next()).done) {
+              if (!isNode(step.value)) {
+                return false;
+              }
+            }
+          } else {
+            // Iterator will provide entry [k,v] tuples rather than values.
+            while (!(step = iterator.next()).done) {
+              var entry = step.value;
+              if (entry) {
+                if (!isNode(entry[1])) {
+                  return false;
+                }
+              }
+            }
+          }
+        } else {
+          return false;
+        }
+
+        return true;
+      default:
+        return false;
+    }
+  }
+
+  function isSymbol(propType, propValue) {
+    // Native Symbol.
+    if (propType === 'symbol') {
+      return true;
+    }
+
+    // falsy value can't be a Symbol
+    if (!propValue) {
+      return false;
+    }
+
+    // 19.4.3.5 Symbol.prototype[@@toStringTag] === 'Symbol'
+    if (propValue['@@toStringTag'] === 'Symbol') {
+      return true;
+    }
+
+    // Fallback for non-spec compliant Symbols which are polyfilled.
+    if (typeof Symbol === 'function' && propValue instanceof Symbol) {
+      return true;
+    }
+
+    return false;
+  }
+
+  // Equivalent of `typeof` but with special handling for array and regexp.
+  function getPropType(propValue) {
+    var propType = typeof propValue;
+    if (Array.isArray(propValue)) {
+      return 'array';
+    }
+    if (propValue instanceof RegExp) {
+      // Old webkits (at least until Android 4.0) return 'function' rather than
+      // 'object' for typeof a RegExp. We'll normalize this here so that /bla/
+      // passes PropTypes.object.
+      return 'object';
+    }
+    if (isSymbol(propType, propValue)) {
+      return 'symbol';
+    }
+    return propType;
+  }
+
+  // This handles more types than `getPropType`. Only used for error messages.
+  // See `createPrimitiveTypeChecker`.
+  function getPreciseType(propValue) {
+    if (typeof propValue === 'undefined' || propValue === null) {
+      return '' + propValue;
+    }
+    var propType = getPropType(propValue);
+    if (propType === 'object') {
+      if (propValue instanceof Date) {
+        return 'date';
+      } else if (propValue instanceof RegExp) {
+        return 'regexp';
+      }
+    }
+    return propType;
+  }
+
+  // Returns a string that is postfixed to a warning about an invalid type.
+  // For example, "undefined" or "of type array"
+  function getPostfixForTypeWarning(value) {
+    var type = getPreciseType(value);
+    switch (type) {
+      case 'array':
+      case 'object':
+        return 'an ' + type;
+      case 'boolean':
+      case 'date':
+      case 'regexp':
+        return 'a ' + type;
+      default:
+        return type;
+    }
+  }
+
+  // Returns class name of the object, if any.
+  function getClassName(propValue) {
+    if (!propValue.constructor || !propValue.constructor.name) {
+      return ANONYMOUS;
+    }
+    return propValue.constructor.name;
+  }
+
+  ReactPropTypes.checkPropTypes = checkPropTypes;
+  ReactPropTypes.resetWarningCache = checkPropTypes.resetWarningCache;
+  ReactPropTypes.PropTypes = ReactPropTypes;
+
+  return ReactPropTypes;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/prop-types/index.js":
+/*!******************************************!*\
+  !*** ./node_modules/prop-types/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+if (true) {
+  var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
+
+  // By explicitly using `prop-types` you are opting into new development behavior.
+  // http://fb.me/prop-types-in-prod
+  var throwOnDirectAccess = true;
+  module.exports = __webpack_require__(/*! ./factoryWithTypeCheckers */ "./node_modules/prop-types/factoryWithTypeCheckers.js")(ReactIs.isElement, throwOnDirectAccess);
+} else {}
+
+
+/***/ }),
+
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*************************************************************!*\
   !*** ./node_modules/prop-types/lib/ReactPropTypesSecret.js ***!
@@ -2283,6 +3560,6646 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/Calendar.css":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-calendar/dist/Calendar.css ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./Calendar.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-calendar/dist/Calendar.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/Calendar.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-calendar/dist/Calendar.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _Navigation = _interopRequireDefault(__webpack_require__(/*! ./Calendar/Navigation */ "./node_modules/react-calendar/dist/Calendar/Navigation.js"));
+
+var _CenturyView = _interopRequireDefault(__webpack_require__(/*! ./CenturyView */ "./node_modules/react-calendar/dist/CenturyView.js"));
+
+var _DecadeView = _interopRequireDefault(__webpack_require__(/*! ./DecadeView */ "./node_modules/react-calendar/dist/DecadeView.js"));
+
+var _YearView = _interopRequireDefault(__webpack_require__(/*! ./YearView */ "./node_modules/react-calendar/dist/YearView.js"));
+
+var _MonthView = _interopRequireDefault(__webpack_require__(/*! ./MonthView */ "./node_modules/react-calendar/dist/MonthView.js"));
+
+var _dates = __webpack_require__(/*! ./shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ./shared/utils */ "./node_modules/react-calendar/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+var baseClassName = 'react-calendar';
+var allViews = ['century', 'decade', 'year', 'month'];
+var allValueTypes = [].concat(_toConsumableArray(allViews.slice(1)), ['day']);
+
+var datesAreDifferent = function datesAreDifferent(date1, date2) {
+  return date1 && !date2 || !date1 && date2 || date1 && date2 && date1.getTime() !== date2.getTime();
+};
+/**
+ * Returns views array with disallowed values cut off.
+ */
+
+
+var getLimitedViews = function getLimitedViews(minDetail, maxDetail) {
+  return allViews.slice(allViews.indexOf(minDetail), allViews.indexOf(maxDetail) + 1);
+};
+/**
+ * Determines whether a given view is allowed with currently applied settings.
+ */
+
+
+var isViewAllowed = function isViewAllowed(view, minDetail, maxDetail) {
+  var views = getLimitedViews(minDetail, maxDetail);
+  return views.indexOf(view) !== -1;
+};
+/**
+ * Gets either provided view if allowed by minDetail and maxDetail, or gets
+ * the default view if not allowed.
+ */
+
+
+var getView = function getView(view, minDetail, maxDetail) {
+  if (isViewAllowed(view, minDetail, maxDetail)) {
+    return view;
+  }
+
+  return getLimitedViews(minDetail, maxDetail).pop();
+};
+/**
+ * Returns value type that can be returned with currently applied settings.
+ */
+
+
+var getValueType = function getValueType(maxDetail) {
+  return allValueTypes[allViews.indexOf(maxDetail)];
+};
+
+var getValueFrom = function getValueFrom(value) {
+  if (!value) {
+    return null;
+  }
+
+  var rawValueFrom = value instanceof Array && value.length === 2 ? value[0] : value;
+
+  if (!rawValueFrom) {
+    return null;
+  }
+
+  var valueFromDate = new Date(rawValueFrom);
+
+  if (isNaN(valueFromDate.getTime())) {
+    throw new Error("Invalid date: ".concat(value));
+  }
+
+  return valueFromDate;
+};
+
+var getDetailValueFrom = function getDetailValueFrom(value, minDate, maxDate, maxDetail) {
+  var valueFrom = getValueFrom(value);
+
+  if (!valueFrom) {
+    return null;
+  }
+
+  var detailValueFrom = (0, _dates.getBegin)(getValueType(maxDetail), valueFrom);
+  return (0, _utils.between)(detailValueFrom, minDate, maxDate);
+};
+
+var getValueTo = function getValueTo(value) {
+  if (!value) {
+    return null;
+  }
+
+  var rawValueTo = value instanceof Array && value.length === 2 ? value[1] : value;
+
+  if (!rawValueTo) {
+    return null;
+  }
+
+  var valueToDate = new Date(rawValueTo);
+
+  if (isNaN(valueToDate.getTime())) {
+    throw new Error("Invalid date: ".concat(value));
+  }
+
+  return valueToDate;
+};
+
+var getDetailValueTo = function getDetailValueTo(value, minDate, maxDate, maxDetail) {
+  var valueTo = getValueTo(value);
+
+  if (!valueTo) {
+    return null;
+  }
+
+  var detailValueTo = (0, _dates.getEnd)(getValueType(maxDetail), valueTo);
+  return (0, _utils.between)(detailValueTo, minDate, maxDate);
+};
+
+var getDetailValueArray = function getDetailValueArray(value, minDate, maxDate, maxDetail) {
+  if (value instanceof Array) {
+    return value;
+  }
+
+  return [getDetailValueFrom(value, minDate, maxDate, maxDetail), getDetailValueTo(value, minDate, maxDate, maxDetail)];
+};
+
+var getActiveStartDate = function getActiveStartDate(props) {
+  var activeStartDate = props.activeStartDate,
+      maxDate = props.maxDate,
+      maxDetail = props.maxDetail,
+      minDate = props.minDate,
+      minDetail = props.minDetail,
+      value = props.value,
+      view = props.view;
+  var rangeType = getView(view, minDetail, maxDetail);
+  var valueFrom = getDetailValueFrom(value, minDate, maxDate, maxDetail) || activeStartDate || new Date();
+  return (0, _dates.getBegin)(rangeType, valueFrom);
+};
+
+var Calendar =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Calendar, _Component);
+
+  function Calendar() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, Calendar);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Calendar)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {});
+
+    _defineProperty(_assertThisInitialized(_this), "setActiveStartDate", function (activeStartDate) {
+      var onActiveDateChange = _this.props.onActiveDateChange;
+
+      _this.setState({
+        activeStartDate: activeStartDate
+      }, function () {
+        var view = _this.state.view;
+        (0, _utils.callIfDefined)(onActiveDateChange, {
+          activeStartDate: activeStartDate,
+          view: view
+        });
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "drillDown", function (activeStartDate) {
+      if (!_this.drillDownAvailable) {
+        return;
+      }
+
+      var _this$props = _this.props,
+          maxDetail = _this$props.maxDetail,
+          minDetail = _this$props.minDetail,
+          onDrillDown = _this$props.onDrillDown;
+      var views = getLimitedViews(minDetail, maxDetail);
+
+      _this.setState(function (prevState) {
+        var nextView = views[views.indexOf(prevState.view) + 1];
+        return {
+          activeStartDate: activeStartDate,
+          view: nextView
+        };
+      }, function () {
+        var view = _this.state.view;
+        (0, _utils.callIfDefined)(onDrillDown, {
+          activeStartDate: activeStartDate,
+          view: view
+        });
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "drillUp", function () {
+      if (!_this.drillUpAvailable) {
+        return;
+      }
+
+      var _this$props2 = _this.props,
+          maxDetail = _this$props2.maxDetail,
+          minDetail = _this$props2.minDetail,
+          onDrillUp = _this$props2.onDrillUp;
+      var views = getLimitedViews(minDetail, maxDetail);
+
+      _this.setState(function (prevState) {
+        var nextView = views[views.indexOf(prevState.view) - 1];
+        var activeStartDate = (0, _dates.getBegin)(nextView, prevState.activeStartDate);
+        return {
+          activeStartDate: activeStartDate,
+          view: nextView
+        };
+      }, function () {
+        var _this$state = _this.state,
+            activeStartDate = _this$state.activeStartDate,
+            view = _this$state.view;
+        (0, _utils.callIfDefined)(onDrillUp, {
+          activeStartDate: activeStartDate,
+          view: view
+        });
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onChange", function (value) {
+      var _this$props3 = _this.props,
+          onChange = _this$props3.onChange,
+          selectRange = _this$props3.selectRange;
+      var nextValue;
+      var callback;
+
+      if (selectRange) {
+        var previousValue = _this.state.value; // Range selection turned on
+
+        if (!previousValue || [].concat(previousValue).length !== 1 // 0 or 2 - either way we're starting a new array
+        ) {
+            // First value
+            nextValue = (0, _dates.getBegin)(_this.valueType, value);
+          } else {
+          // Second value
+          nextValue = (0, _dates.getValueRange)(_this.valueType, previousValue, value);
+
+          callback = function callback() {
+            return (0, _utils.callIfDefined)(onChange, nextValue);
+          };
+        }
+      } else {
+        // Range selection turned off
+        nextValue = _this.getProcessedValue(value);
+
+        callback = function callback() {
+          return (0, _utils.callIfDefined)(onChange, nextValue);
+        };
+      }
+
+      _this.setState({
+        value: nextValue
+      }, callback);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onMouseOver", function (value) {
+      _this.setState(function (prevState) {
+        if (prevState.hover && prevState.hover.getTime() === value.getTime()) {
+          return null;
+        }
+
+        return {
+          hover: value
+        };
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onMouseLeave", function () {
+      _this.setState({
+        hover: null
+      });
+    });
+
+    return _this;
+  }
+
+  _createClass(Calendar, [{
+    key: "getProcessedValue",
+
+    /**
+     * Gets current value in a desired format.
+     */
+    value: function getProcessedValue(value) {
+      var _this$props4 = this.props,
+          minDate = _this$props4.minDate,
+          maxDate = _this$props4.maxDate,
+          maxDetail = _this$props4.maxDetail,
+          returnValue = _this$props4.returnValue;
+
+      var processFunction = function () {
+        switch (returnValue) {
+          case 'start':
+            return getDetailValueFrom;
+
+          case 'end':
+            return getDetailValueTo;
+
+          case 'range':
+            return getDetailValueArray;
+
+          default:
+            throw new Error('Invalid returnValue.');
+        }
+      }();
+
+      return processFunction(value, minDate, maxDate, maxDetail);
+    }
+    /**
+     * Called when the user uses navigation buttons.
+     */
+
+  }, {
+    key: "renderContent",
+    value: function renderContent() {
+      var _this$props5 = this.props,
+          calendarType = _this$props5.calendarType,
+          locale = _this$props5.locale,
+          maxDate = _this$props5.maxDate,
+          minDate = _this$props5.minDate,
+          renderChildren = _this$props5.renderChildren,
+          selectRange = _this$props5.selectRange,
+          tileClassName = _this$props5.tileClassName,
+          tileContent = _this$props5.tileContent,
+          tileDisabled = _this$props5.tileDisabled;
+      var _this$state2 = this.state,
+          activeStartDate = _this$state2.activeStartDate,
+          hover = _this$state2.hover,
+          value = _this$state2.value,
+          view = _this$state2.view;
+      var onMouseOver = this.onMouseOver,
+          valueType = this.valueType;
+      var commonProps = {
+        activeStartDate: activeStartDate,
+        hover: hover,
+        locale: locale,
+        maxDate: maxDate,
+        minDate: minDate,
+        onMouseOver: selectRange ? onMouseOver : null,
+        tileClassName: tileClassName,
+        tileContent: tileContent || renderChildren,
+        // For backwards compatibility
+        tileDisabled: tileDisabled,
+        value: value,
+        valueType: valueType
+      };
+      var clickAction = this.drillDownAvailable ? this.drillDown : this.onChange;
+
+      switch (view) {
+        case 'century':
+          {
+            var onClickDecade = this.props.onClickDecade;
+            return _react["default"].createElement(_CenturyView["default"], _extends({
+              onClick: (0, _utils.mergeFunctions)(clickAction, onClickDecade)
+            }, commonProps));
+          }
+
+        case 'decade':
+          {
+            var onClickYear = this.props.onClickYear;
+            return _react["default"].createElement(_DecadeView["default"], _extends({
+              onClick: (0, _utils.mergeFunctions)(clickAction, onClickYear)
+            }, commonProps));
+          }
+
+        case 'year':
+          {
+            var _this$props6 = this.props,
+                formatMonth = _this$props6.formatMonth,
+                onClickMonth = _this$props6.onClickMonth;
+            return _react["default"].createElement(_YearView["default"], _extends({
+              formatMonth: formatMonth,
+              onClick: (0, _utils.mergeFunctions)(clickAction, onClickMonth)
+            }, commonProps));
+          }
+
+        case 'month':
+          {
+            var _this$props7 = this.props,
+                formatShortWeekday = _this$props7.formatShortWeekday,
+                onClickDay = _this$props7.onClickDay,
+                onClickWeekNumber = _this$props7.onClickWeekNumber,
+                showFixedNumberOfWeeks = _this$props7.showFixedNumberOfWeeks,
+                showNeighboringMonth = _this$props7.showNeighboringMonth,
+                showWeekNumbers = _this$props7.showWeekNumbers;
+            var onMouseLeave = this.onMouseLeave;
+            return _react["default"].createElement(_MonthView["default"], _extends({
+              calendarType: calendarType,
+              formatShortWeekday: formatShortWeekday,
+              onClick: (0, _utils.mergeFunctions)(clickAction, onClickDay),
+              onClickWeekNumber: onClickWeekNumber,
+              onMouseLeave: onMouseLeave,
+              showFixedNumberOfWeeks: showFixedNumberOfWeeks,
+              showNeighboringMonth: showNeighboringMonth,
+              showWeekNumbers: showWeekNumbers
+            }, commonProps));
+          }
+
+        default:
+          throw new Error("Invalid view: ".concat(view, "."));
+      }
+    }
+  }, {
+    key: "renderNavigation",
+    value: function renderNavigation() {
+      var showNavigation = this.props.showNavigation;
+
+      if (!showNavigation) {
+        return null;
+      }
+
+      var _this$props8 = this.props,
+          formatMonthYear = _this$props8.formatMonthYear,
+          locale = _this$props8.locale,
+          maxDate = _this$props8.maxDate,
+          maxDetail = _this$props8.maxDetail,
+          minDate = _this$props8.minDate,
+          minDetail = _this$props8.minDetail,
+          navigationAriaLabel = _this$props8.navigationAriaLabel,
+          navigationLabel = _this$props8.navigationLabel,
+          next2AriaLabel = _this$props8.next2AriaLabel,
+          next2Label = _this$props8.next2Label,
+          nextAriaLabel = _this$props8.nextAriaLabel,
+          nextLabel = _this$props8.nextLabel,
+          prev2AriaLabel = _this$props8.prev2AriaLabel,
+          prev2Label = _this$props8.prev2Label,
+          prevAriaLabel = _this$props8.prevAriaLabel,
+          prevLabel = _this$props8.prevLabel;
+      var _this$state3 = this.state,
+          activeStartDate = _this$state3.activeStartDate,
+          view = _this$state3.view;
+      return _react["default"].createElement(_Navigation["default"], {
+        activeStartDate: activeStartDate,
+        drillUp: this.drillUp,
+        formatMonthYear: formatMonthYear,
+        locale: locale,
+        maxDate: maxDate,
+        minDate: minDate,
+        navigationAriaLabel: navigationAriaLabel,
+        navigationLabel: navigationLabel,
+        next2AriaLabel: next2AriaLabel,
+        next2Label: next2Label,
+        nextAriaLabel: nextAriaLabel,
+        nextLabel: nextLabel,
+        prev2AriaLabel: prev2AriaLabel,
+        prev2Label: prev2Label,
+        prevAriaLabel: prevAriaLabel,
+        prevLabel: prevLabel,
+        setActiveStartDate: this.setActiveStartDate,
+        view: view,
+        views: getLimitedViews(minDetail, maxDetail)
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props9 = this.props,
+          className = _this$props9.className,
+          selectRange = _this$props9.selectRange;
+      var value = this.state.value;
+      var onMouseLeave = this.onMouseLeave;
+      var valueArray = [].concat(value);
+      return _react["default"].createElement("div", {
+        className: (0, _mergeClassNames["default"])(baseClassName, selectRange && valueArray.length === 1 && "".concat(baseClassName, "--selectRange"), className)
+      }, this.renderNavigation(), _react["default"].createElement("div", {
+        className: "".concat(baseClassName, "__viewContainer"),
+        onBlur: selectRange ? onMouseLeave : null,
+        onMouseLeave: selectRange ? onMouseLeave : null
+      }, this.renderContent()));
+    }
+  }, {
+    key: "drillDownAvailable",
+    get: function get() {
+      var _this$props10 = this.props,
+          maxDetail = _this$props10.maxDetail,
+          minDetail = _this$props10.minDetail;
+      var view = this.state.view;
+      var views = getLimitedViews(minDetail, maxDetail);
+      return views.indexOf(view) < views.length - 1;
+    }
+  }, {
+    key: "drillUpAvailable",
+    get: function get() {
+      var _this$props11 = this.props,
+          maxDetail = _this$props11.maxDetail,
+          minDetail = _this$props11.minDetail;
+      var view = this.state.view;
+      var views = getLimitedViews(minDetail, maxDetail);
+      return views.indexOf(view) > 0;
+    }
+  }, {
+    key: "valueType",
+    get: function get() {
+      var maxDetail = this.props.maxDetail;
+      return getValueType(maxDetail);
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps, prevState) {
+      var minDate = nextProps.minDate,
+          maxDate = nextProps.maxDate,
+          minDetail = nextProps.minDetail,
+          maxDetail = nextProps.maxDetail;
+      var nextState = {};
+      /**
+       * If the next activeStartDate is different from the current one, update
+       * activeStartDate (for display) and activeStartDateProps (for future comparisons)
+       */
+
+      var nextActiveStartDate = getActiveStartDate(nextProps);
+
+      if (datesAreDifferent(nextActiveStartDate, prevState.activeStartDateProps)) {
+        nextState.activeStartDate = nextActiveStartDate;
+        nextState.activeStartDateProps = nextActiveStartDate;
+      }
+      /**
+       * If the next view is different from the current one, and the previously set view is not
+       * valid based on minDetail and maxDetail, get a new one.
+       */
+
+
+      var nextView = getView(nextProps.view, minDetail, maxDetail);
+
+      if (nextView !== prevState.viewProps && !isViewAllowed(prevState.view, minDetail, maxDetail)) {
+        nextState.view = nextView;
+        nextState.viewProps = nextView;
+      }
+      /**
+       * If the next value is different from the current one (with an exception of situation in
+       * which values provided are limited by minDate and maxDate so that the dates are the same),
+       * get a new one.
+       */
+
+
+      var values = [nextProps.value, prevState.valueProps];
+
+      if (nextState.view // Allowed view changed
+      || datesAreDifferent.apply(void 0, _toConsumableArray(values.map(function (value) {
+        return getValueFrom(value, minDate, maxDate, maxDetail);
+      }))) || datesAreDifferent.apply(void 0, _toConsumableArray(values.map(function (value) {
+        return getValueTo(value, minDate, maxDate, maxDetail);
+      })))) {
+        nextState.value = nextProps.value;
+        nextState.valueProps = nextProps.value;
+      }
+
+      if (!nextProps.selectRange && prevState.hover) {
+        nextState.hover = null;
+      }
+
+      return nextState;
+    }
+  }]);
+
+  return Calendar;
+}(_react.Component);
+
+exports["default"] = Calendar;
+Calendar.defaultProps = {
+  maxDetail: 'month',
+  minDetail: 'century',
+  returnValue: 'start',
+  showNavigation: true,
+  showNeighboringMonth: true,
+  view: 'month'
+};
+Calendar.propTypes = {
+  activeStartDate: _propTypes["default"].instanceOf(Date),
+  calendarType: _propTypes2.isCalendarType,
+  className: _propTypes2.isClassName,
+  formatMonth: _propTypes["default"].func,
+  formatMonthYear: _propTypes["default"].func,
+  formatShortWeekday: _propTypes["default"].func,
+  locale: _propTypes["default"].string,
+  maxDate: _propTypes2.isMaxDate,
+  maxDetail: _propTypes["default"].oneOf(allViews),
+  minDate: _propTypes2.isMinDate,
+  minDetail: _propTypes["default"].oneOf(allViews),
+  navigationAriaLabel: _propTypes["default"].string,
+  navigationLabel: _propTypes["default"].func,
+  next2AriaLabel: _propTypes["default"].string,
+  next2Label: _propTypes["default"].node,
+  nextAriaLabel: _propTypes["default"].string,
+  nextLabel: _propTypes["default"].node,
+  onActiveDateChange: _propTypes["default"].func,
+  onChange: _propTypes["default"].func,
+  onClickDay: _propTypes["default"].func,
+  onClickDecade: _propTypes["default"].func,
+  onClickMonth: _propTypes["default"].func,
+  onClickWeekNumber: _propTypes["default"].func,
+  onClickYear: _propTypes["default"].func,
+  onDrillDown: _propTypes["default"].func,
+  onDrillUp: _propTypes["default"].func,
+  prev2AriaLabel: _propTypes["default"].string,
+  prev2Label: _propTypes["default"].node,
+  prevAriaLabel: _propTypes["default"].string,
+  prevLabel: _propTypes["default"].node,
+  renderChildren: _propTypes["default"].func,
+  // For backwards compatibility
+  returnValue: _propTypes["default"].oneOf(['start', 'end', 'range']),
+  selectRange: _propTypes["default"].bool,
+  showFixedNumberOfWeeks: _propTypes["default"].bool,
+  showNavigation: _propTypes["default"].bool,
+  showNeighboringMonth: _propTypes["default"].bool,
+  showWeekNumbers: _propTypes["default"].bool,
+  tileClassName: _propTypes["default"].oneOfType([_propTypes["default"].func, _propTypes2.isClassName]),
+  tileContent: _propTypes["default"].oneOfType([_propTypes["default"].func, _propTypes["default"].node]),
+  tileDisabled: _propTypes["default"].func,
+  value: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes2.isValue]),
+  view: _propTypes["default"].oneOf(allViews)
+};
+(0, _reactLifecyclesCompat.polyfill)(Calendar);
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/Calendar/Navigation.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/Calendar/Navigation.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Navigation;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _dateFormatter = __webpack_require__(/*! ../shared/dateFormatter */ "./node_modules/react-calendar/dist/shared/dateFormatter.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var className = 'react-calendar__navigation';
+
+function Navigation(_ref) {
+  var date = _ref.activeStartDate,
+      drillUp = _ref.drillUp,
+      formatMonthYear = _ref.formatMonthYear,
+      locale = _ref.locale,
+      maxDate = _ref.maxDate,
+      minDate = _ref.minDate,
+      navigationAriaLabel = _ref.navigationAriaLabel,
+      navigationLabel = _ref.navigationLabel,
+      next2AriaLabel = _ref.next2AriaLabel,
+      next2Label = _ref.next2Label,
+      nextAriaLabel = _ref.nextAriaLabel,
+      nextLabel = _ref.nextLabel,
+      prev2AriaLabel = _ref.prev2AriaLabel,
+      prev2Label = _ref.prev2Label,
+      prevAriaLabel = _ref.prevAriaLabel,
+      prevLabel = _ref.prevLabel,
+      setActiveStartDate = _ref.setActiveStartDate,
+      view = _ref.view,
+      views = _ref.views;
+  var drillUpAvailable = views.indexOf(view) > 0;
+  var shouldShowPrevNext2Buttons = view !== 'century';
+  var previousActiveStartDate = (0, _dates.getBeginPrevious)(view, date);
+  var previousActiveStartDate2 = shouldShowPrevNext2Buttons && (0, _dates.getBeginPrevious2)(view, date);
+  var nextActiveStartDate = (0, _dates.getBeginNext)(view, date);
+  var nextActiveStartDate2 = shouldShowPrevNext2Buttons && (0, _dates.getBeginNext2)(view, date);
+
+  var prevButtonDisabled = function () {
+    if (previousActiveStartDate.getFullYear() < 1000) {
+      return true;
+    }
+
+    var previousActiveEndDate = (0, _dates.getEndPrevious)(view, date);
+    return minDate && minDate >= previousActiveEndDate;
+  }();
+
+  var prev2ButtonDisabled = shouldShowPrevNext2Buttons && function () {
+    if (previousActiveStartDate2.getFullYear() < 1000) {
+      return true;
+    }
+
+    var previousActiveEndDate = (0, _dates.getEndPrevious2)(view, date);
+    return minDate && minDate >= previousActiveEndDate;
+  }();
+
+  var nextButtonDisabled = maxDate && maxDate <= nextActiveStartDate;
+  var next2ButtonDisabled = shouldShowPrevNext2Buttons && maxDate && maxDate <= nextActiveStartDate2;
+
+  function onClickPrevious() {
+    setActiveStartDate(previousActiveStartDate);
+  }
+
+  function onClickPrevious2() {
+    setActiveStartDate(previousActiveStartDate2);
+  }
+
+  function onClickNext() {
+    setActiveStartDate(nextActiveStartDate);
+  }
+
+  function onClickNext2() {
+    setActiveStartDate(nextActiveStartDate2);
+  }
+
+  var label = function () {
+    switch (view) {
+      case 'century':
+        return (0, _dates.getCenturyLabel)(date);
+
+      case 'decade':
+        return (0, _dates.getDecadeLabel)(date);
+
+      case 'year':
+        return (0, _dates.getYear)(date);
+
+      case 'month':
+        return formatMonthYear(locale, date);
+
+      default:
+        throw new Error("Invalid view: ".concat(view, "."));
+    }
+  }();
+
+  return _react["default"].createElement("div", {
+    className: className,
+    style: {
+      display: 'flex'
+    }
+  }, prev2Label !== null && shouldShowPrevNext2Buttons && _react["default"].createElement("button", {
+    "aria-label": prev2AriaLabel,
+    className: "".concat(className, "__arrow ").concat(className, "__prev2-button"),
+    disabled: prev2ButtonDisabled,
+    onClick: onClickPrevious2,
+    type: "button"
+  }, prev2Label), _react["default"].createElement("button", {
+    "aria-label": prevAriaLabel,
+    className: "".concat(className, "__arrow ").concat(className, "__prev-button"),
+    disabled: prevButtonDisabled,
+    onClick: onClickPrevious,
+    type: "button"
+  }, prevLabel), _react["default"].createElement("button", {
+    "aria-label": navigationAriaLabel,
+    className: "react-calendar__navigation__label",
+    disabled: !drillUpAvailable,
+    onClick: drillUp,
+    style: {
+      flexGrow: 1
+    },
+    type: "button"
+  }, navigationLabel ? navigationLabel({
+    date: date,
+    view: view,
+    label: label
+  }) : label), _react["default"].createElement("button", {
+    "aria-label": nextAriaLabel,
+    className: "".concat(className, "__arrow ").concat(className, "__next-button"),
+    disabled: nextButtonDisabled,
+    onClick: onClickNext,
+    type: "button"
+  }, nextLabel), next2Label !== null && shouldShowPrevNext2Buttons && _react["default"].createElement("button", {
+    "aria-label": next2AriaLabel,
+    className: "".concat(className, "__arrow ").concat(className, "__next2-button"),
+    disabled: next2ButtonDisabled,
+    onClick: onClickNext2,
+    type: "button"
+  }, next2Label));
+}
+
+Navigation.defaultProps = {
+  formatMonthYear: _dateFormatter.formatMonthYear,
+  navigationAriaLabel: '',
+  next2AriaLabel: '',
+  next2Label: '»',
+  nextAriaLabel: '',
+  nextLabel: '›',
+  prev2AriaLabel: '',
+  prev2Label: '«',
+  prevAriaLabel: '',
+  prevLabel: '‹'
+};
+Navigation.propTypes = {
+  activeStartDate: _propTypes["default"].instanceOf(Date).isRequired,
+  drillUp: _propTypes["default"].func.isRequired,
+  formatMonthYear: _propTypes["default"].func,
+  locale: _propTypes["default"].string,
+  maxDate: _propTypes["default"].instanceOf(Date),
+  minDate: _propTypes["default"].instanceOf(Date),
+  navigationAriaLabel: _propTypes["default"].string,
+  navigationLabel: _propTypes["default"].func,
+  next2AriaLabel: _propTypes["default"].string,
+  next2Label: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].node]),
+  nextAriaLabel: _propTypes["default"].string,
+  nextLabel: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].node]),
+  prev2AriaLabel: _propTypes["default"].string,
+  prev2Label: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].node]),
+  prevAriaLabel: _propTypes["default"].string,
+  prevLabel: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].node]),
+  setActiveStartDate: _propTypes["default"].func.isRequired,
+  view: _propTypes2.isView.isRequired,
+  views: _propTypes2.isViews.isRequired
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/CenturyView.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/react-calendar/dist/CenturyView.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = CenturyView;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _Decades = _interopRequireDefault(__webpack_require__(/*! ./CenturyView/Decades */ "./node_modules/react-calendar/dist/CenturyView/Decades.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function CenturyView(props) {
+  function renderDecades() {
+    return _react["default"].createElement(_Decades["default"], props);
+  }
+
+  return _react["default"].createElement("div", {
+    className: "react-calendar__century-view"
+  }, renderDecades());
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/CenturyView/Decade.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/CenturyView/Decade.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Decade;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Tile = _interopRequireDefault(__webpack_require__(/*! ../Tile */ "./node_modules/react-calendar/dist/Tile.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var className = 'react-calendar__century-view__decades__decade';
+
+function Decade(_ref) {
+  var classes = _ref.classes,
+      point = _ref.point,
+      otherProps = _objectWithoutProperties(_ref, ["classes", "point"]);
+
+  return _react["default"].createElement(_Tile["default"], _extends({}, otherProps, {
+    classes: [].concat(classes, className),
+    maxDateTransform: _dates.getEndOfDecade,
+    minDateTransform: _dates.getBeginOfDecade,
+    view: "century"
+  }), (0, _dates.getDecadeLabel)(point));
+}
+
+Decade.propTypes = _objectSpread({}, _propTypes2.tileProps, {
+  point: _propTypes["default"].number.isRequired
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/CenturyView/Decades.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/CenturyView/Decades.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Decades;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _TileGroup = _interopRequireDefault(__webpack_require__(/*! ../TileGroup */ "./node_modules/react-calendar/dist/TileGroup.js"));
+
+var _Decade = _interopRequireDefault(__webpack_require__(/*! ./Decade */ "./node_modules/react-calendar/dist/CenturyView/Decade.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function Decades(props) {
+  var activeStartDate = props.activeStartDate;
+  var start = (0, _dates.getBeginOfCenturyYear)(activeStartDate);
+  var end = start + 99;
+  return _react["default"].createElement(_TileGroup["default"], _extends({}, props, {
+    className: "react-calendar__century-view__decades",
+    dateTransform: _dates.getBeginOfDecade,
+    dateType: "decade",
+    end: end,
+    start: start,
+    step: 10,
+    tile: _Decade["default"]
+  }));
+}
+
+Decades.propTypes = _objectSpread({}, _propTypes.tileGroupProps);
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/DecadeView.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-calendar/dist/DecadeView.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = DecadeView;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _Years = _interopRequireDefault(__webpack_require__(/*! ./DecadeView/Years */ "./node_modules/react-calendar/dist/DecadeView/Years.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function DecadeView(props) {
+  function renderYears() {
+    return _react["default"].createElement(_Years["default"], props);
+  }
+
+  return _react["default"].createElement("div", {
+    className: "react-calendar__decade-view"
+  }, renderYears());
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/DecadeView/Year.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/DecadeView/Year.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Year;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Tile = _interopRequireDefault(__webpack_require__(/*! ../Tile */ "./node_modules/react-calendar/dist/Tile.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var className = 'react-calendar__decade-view__years__year';
+
+function Year(_ref) {
+  var classes = _ref.classes,
+      point = _ref.point,
+      otherProps = _objectWithoutProperties(_ref, ["classes", "point"]);
+
+  return _react["default"].createElement(_Tile["default"], _extends({}, otherProps, {
+    classes: [].concat(classes, className),
+    maxDateTransform: _dates.getEndOfYear,
+    minDateTransform: _dates.getBeginOfYear,
+    view: "decade"
+  }), point);
+}
+
+Year.propTypes = _objectSpread({}, _propTypes2.tileProps, {
+  point: _propTypes["default"].number.isRequired
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/DecadeView/Years.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/DecadeView/Years.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Years;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _TileGroup = _interopRequireDefault(__webpack_require__(/*! ../TileGroup */ "./node_modules/react-calendar/dist/TileGroup.js"));
+
+var _Year = _interopRequireDefault(__webpack_require__(/*! ./Year */ "./node_modules/react-calendar/dist/DecadeView/Year.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function Years(props) {
+  var activeStartDate = props.activeStartDate;
+  var start = (0, _dates.getBeginOfDecadeYear)(activeStartDate);
+  var end = start + 9;
+  return _react["default"].createElement(_TileGroup["default"], _extends({}, props, {
+    className: "react-calendar__decade-view__years",
+    dateTransform: function dateTransform(year) {
+      return new Date(year, 0, 1);
+    },
+    dateType: "year",
+    end: end,
+    start: start,
+    tile: _Year["default"]
+  }));
+}
+
+Years.propTypes = _objectSpread({}, _propTypes.tileGroupProps);
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/Flex.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-calendar/dist/Flex.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Flex;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function toPercent(num) {
+  return "".concat(num, "%");
+}
+
+function Flex(_ref) {
+  var children = _ref.children,
+      className = _ref.className,
+      direction = _ref.direction,
+      count = _ref.count,
+      offset = _ref.offset,
+      style = _ref.style,
+      wrap = _ref.wrap,
+      otherProps = _objectWithoutProperties(_ref, ["children", "className", "direction", "count", "offset", "style", "wrap"]);
+
+  return _react["default"].createElement("div", _extends({
+    className: className,
+    style: _objectSpread({
+      display: 'flex',
+      flexDirection: direction,
+      flexWrap: wrap ? 'wrap' : 'no-wrap'
+    }, style)
+  }, otherProps), _react["default"].Children.map(children, function (child, index) {
+    return _react["default"].cloneElement(child, _objectSpread({}, child.props, {
+      style: {
+        flexBasis: toPercent(100 / count),
+        maxWidth: toPercent(100 / count),
+        overflow: 'hidden',
+        marginLeft: offset && index === 0 ? toPercent(100 * offset / count) : null
+      }
+    }));
+  }));
+}
+
+Flex.propTypes = {
+  children: _propTypes["default"].node,
+  className: _propTypes["default"].string,
+  count: _propTypes["default"].number.isRequired,
+  direction: _propTypes["default"].string,
+  offset: _propTypes["default"].number,
+  style: _propTypes["default"].objectOf(_propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].number])),
+  wrap: _propTypes["default"].bool
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/MonthView.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-calendar/dist/MonthView.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = MonthView;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Days = _interopRequireDefault(__webpack_require__(/*! ./MonthView/Days */ "./node_modules/react-calendar/dist/MonthView/Days.js"));
+
+var _Weekdays = _interopRequireDefault(__webpack_require__(/*! ./MonthView/Weekdays */ "./node_modules/react-calendar/dist/MonthView/Weekdays.js"));
+
+var _WeekNumbers = _interopRequireDefault(__webpack_require__(/*! ./MonthView/WeekNumbers */ "./node_modules/react-calendar/dist/MonthView/WeekNumbers.js"));
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function MonthView(props) {
+  var activeStartDate = props.activeStartDate,
+      locale = props.locale,
+      onMouseLeave = props.onMouseLeave,
+      showFixedNumberOfWeeks = props.showFixedNumberOfWeeks;
+
+  var calendarTypeProps = props.calendarType,
+      formatShortWeekday = props.formatShortWeekday,
+      onClickWeekNumber = props.onClickWeekNumber,
+      showWeekNumbers = props.showWeekNumbers,
+      childProps = _objectWithoutProperties(props, ["calendarType", "formatShortWeekday", "onClickWeekNumber", "showWeekNumbers"]);
+
+  var calendarType = function () {
+    if (calendarTypeProps) {
+      return calendarTypeProps;
+    }
+
+    switch (locale) {
+      case 'en-CA':
+      case 'en-US':
+      case 'es-AR':
+      case 'es-BO':
+      case 'es-CL':
+      case 'es-CO':
+      case 'es-CR':
+      case 'es-DO':
+      case 'es-EC':
+      case 'es-GT':
+      case 'es-HN':
+      case 'es-MX':
+      case 'es-NI':
+      case 'es-PA':
+      case 'es-PE':
+      case 'es-PR':
+      case 'es-SV':
+      case 'es-VE':
+      case 'pt-BR':
+        return 'US';
+      // ar-LB, ar-MA intentionally missing
+
+      case 'ar':
+      case 'ar-AE':
+      case 'ar-BH':
+      case 'ar-DZ':
+      case 'ar-EG':
+      case 'ar-IQ':
+      case 'ar-JO':
+      case 'ar-KW':
+      case 'ar-LY':
+      case 'ar-OM':
+      case 'ar-QA':
+      case 'ar-SA':
+      case 'ar-SD':
+      case 'ar-SY':
+      case 'ar-YE':
+      case 'dv':
+      case 'dv-MV':
+      case 'ps':
+      case 'ps-AR':
+        return 'Arabic';
+
+      case 'he':
+      case 'he-IL':
+        return 'Hebrew';
+
+      default:
+        return 'ISO 8601';
+    }
+  }();
+
+  function renderWeekdays() {
+    return _react["default"].createElement(_Weekdays["default"], {
+      calendarType: calendarType,
+      formatShortWeekday: formatShortWeekday,
+      locale: locale,
+      onMouseLeave: onMouseLeave
+    });
+  }
+
+  function renderWeekNumbers() {
+    if (!showWeekNumbers) {
+      return null;
+    }
+
+    return _react["default"].createElement(_WeekNumbers["default"], {
+      activeStartDate: activeStartDate,
+      calendarType: calendarType,
+      onClickWeekNumber: onClickWeekNumber,
+      onMouseLeave: onMouseLeave,
+      showFixedNumberOfWeeks: showFixedNumberOfWeeks
+    });
+  }
+
+  function renderDays() {
+    return _react["default"].createElement(_Days["default"], _extends({
+      calendarType: calendarType
+    }, childProps));
+  }
+
+  var className = 'react-calendar__month-view';
+  return _react["default"].createElement("div", {
+    className: [className, showWeekNumbers ? "".concat(className, "--weekNumbers") : ''].join(' ')
+  }, _react["default"].createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'flex-end'
+    }
+  }, renderWeekNumbers(), _react["default"].createElement("div", {
+    style: {
+      flexGrow: 1,
+      width: '100%'
+    }
+  }, renderWeekdays(), renderDays())));
+}
+
+MonthView.propTypes = {
+  activeStartDate: _propTypes["default"].instanceOf(Date).isRequired,
+  calendarType: _propTypes2.isCalendarType,
+  formatShortWeekday: _propTypes["default"].func,
+  locale: _propTypes["default"].string,
+  maxDate: _propTypes2.isMaxDate,
+  minDate: _propTypes2.isMinDate,
+  onChange: _propTypes["default"].func,
+  onClickWeekNumber: _propTypes["default"].func,
+  onMouseLeave: _propTypes["default"].func,
+  setActiveRange: _propTypes["default"].func,
+  showFixedNumberOfWeeks: _propTypes["default"].bool,
+  showNeighboringMonth: _propTypes["default"].bool,
+  showWeekNumbers: _propTypes["default"].bool,
+  value: _propTypes2.isValue,
+  valueType: _propTypes["default"].string
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/MonthView/Day.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-calendar/dist/MonthView/Day.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Day;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Tile = _interopRequireDefault(__webpack_require__(/*! ../Tile */ "./node_modules/react-calendar/dist/Tile.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _dateFormatter = __webpack_require__(/*! ../shared/dateFormatter */ "./node_modules/react-calendar/dist/shared/dateFormatter.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var className = 'react-calendar__month-view__days__day';
+
+function Day(_ref) {
+  var calendarType = _ref.calendarType,
+      classes = _ref.classes,
+      currentMonthIndex = _ref.currentMonthIndex,
+      date = _ref.date,
+      otherProps = _objectWithoutProperties(_ref, ["calendarType", "classes", "currentMonthIndex", "date"]);
+
+  return _react["default"].createElement(_Tile["default"], _extends({}, otherProps, {
+    classes: [].concat(classes, className, (0, _dates.isWeekend)(date, calendarType) ? "".concat(className, "--weekend") : null, date.getMonth() !== currentMonthIndex ? "".concat(className, "--neighboringMonth") : null),
+    date: date,
+    formatAbbr: _dateFormatter.formatLongDate,
+    maxDateTransform: _dates.getEndOfDay,
+    minDateTransform: _dates.getBeginOfDay,
+    view: "month"
+  }), (0, _dates.getDay)(date));
+}
+
+Day.propTypes = _objectSpread({}, _propTypes2.tileProps, {
+  currentMonthIndex: _propTypes["default"].number.isRequired
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/MonthView/Days.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/MonthView/Days.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Days;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _TileGroup = _interopRequireDefault(__webpack_require__(/*! ../TileGroup */ "./node_modules/react-calendar/dist/TileGroup.js"));
+
+var _Day = _interopRequireDefault(__webpack_require__(/*! ./Day */ "./node_modules/react-calendar/dist/MonthView/Day.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Days(props) {
+  var activeStartDate = props.activeStartDate,
+      calendarType = props.calendarType;
+
+  var showFixedNumberOfWeeks = props.showFixedNumberOfWeeks,
+      showNeighboringMonth = props.showNeighboringMonth,
+      otherProps = _objectWithoutProperties(props, ["showFixedNumberOfWeeks", "showNeighboringMonth"]);
+
+  var year = (0, _dates.getYear)(activeStartDate);
+  var monthIndex = (0, _dates.getMonthIndex)(activeStartDate);
+  var hasFixedNumberOfWeeks = showFixedNumberOfWeeks || showNeighboringMonth;
+  var dayOfWeek = (0, _dates.getDayOfWeek)(activeStartDate, calendarType);
+  var offset = hasFixedNumberOfWeeks ? 0 : dayOfWeek;
+  /**
+   * Defines on which day of the month the grid shall start. If we simply show current
+   * month, we obviously start on day one, but if showNeighboringMonth is set to
+   * true, we need to find the beginning of the week the first day of the month is in.
+   */
+
+  var start = (hasFixedNumberOfWeeks ? -dayOfWeek : 0) + 1;
+  /**
+   * Defines on which day of the month the grid shall end. If we simply show current
+   * month, we need to stop on the last day of the month, but if showNeighboringMonth
+   * is set to true, we need to find the end of the week the last day of the month is in.
+   */
+
+  var end = function () {
+    if (showFixedNumberOfWeeks) {
+      // Always show 6 weeks
+      return start + 6 * 7 - 1;
+    }
+
+    var daysInMonth = (0, _dates.getDaysInMonth)(activeStartDate);
+
+    if (showNeighboringMonth) {
+      var activeEndDate = new Date(year, monthIndex, daysInMonth);
+      return daysInMonth + (7 - (0, _dates.getDayOfWeek)(activeEndDate, calendarType) - 1);
+    }
+
+    return daysInMonth;
+  }();
+
+  return _react["default"].createElement(_TileGroup["default"], _extends({}, otherProps, {
+    className: "react-calendar__month-view__days",
+    count: 7,
+    currentMonthIndex: monthIndex,
+    dateTransform: function dateTransform(day) {
+      return new Date(year, monthIndex, day);
+    },
+    dateType: "day",
+    end: end,
+    offset: offset,
+    start: start,
+    tile: _Day["default"]
+  }));
+}
+
+Days.propTypes = _objectSpread({
+  calendarType: _propTypes2.isCalendarType.isRequired,
+  showFixedNumberOfWeeks: _propTypes["default"].bool,
+  showNeighboringMonth: _propTypes["default"].bool
+}, _propTypes2.tileGroupProps);
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/MonthView/WeekNumber.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/MonthView/WeekNumber.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = WeekNumber;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function WeekNumber(_ref) {
+  var date = _ref.date,
+      onClickWeekNumber = _ref.onClickWeekNumber,
+      weekNumber = _ref.weekNumber;
+  return onClickWeekNumber ? _react["default"].createElement("button", {
+    className: "react-calendar__tile",
+    onClick: function onClick() {
+      return onClickWeekNumber(weekNumber, date);
+    },
+    style: {
+      flexGrow: 1
+    },
+    type: "button"
+  }, _react["default"].createElement("span", null, weekNumber)) : _react["default"].createElement("div", {
+    className: "react-calendar__tile",
+    style: {
+      flexGrow: 1
+    }
+  }, _react["default"].createElement("span", null, weekNumber));
+}
+
+WeekNumber.propTypes = {
+  date: _propTypes["default"].instanceOf(Date).isRequired,
+  onClickWeekNumber: _propTypes["default"].func,
+  weekNumber: _propTypes["default"].number.isRequired
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/MonthView/WeekNumbers.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/MonthView/WeekNumbers.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = WeekNumbers;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _WeekNumber = _interopRequireDefault(__webpack_require__(/*! ./WeekNumber */ "./node_modules/react-calendar/dist/MonthView/WeekNumber.js"));
+
+var _Flex = _interopRequireDefault(__webpack_require__(/*! ../Flex */ "./node_modules/react-calendar/dist/Flex.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function WeekNumbers(props) {
+  var activeStartDate = props.activeStartDate,
+      calendarType = props.calendarType,
+      onClickWeekNumber = props.onClickWeekNumber,
+      onMouseLeave = props.onMouseLeave,
+      showFixedNumberOfWeeks = props.showFixedNumberOfWeeks;
+
+  var numberOfWeeks = function () {
+    if (showFixedNumberOfWeeks) {
+      return 6;
+    }
+
+    var numberOfDays = (0, _dates.getDaysInMonth)(activeStartDate);
+    var startWeekday = (0, _dates.getDayOfWeek)(activeStartDate, calendarType);
+    var days = numberOfDays - (7 - startWeekday);
+    return 1 + Math.ceil(days / 7);
+  }();
+
+  var dates = function () {
+    var year = (0, _dates.getYear)(activeStartDate);
+    var monthIndex = (0, _dates.getMonthIndex)(activeStartDate);
+    var day = (0, _dates.getDay)(activeStartDate);
+    var result = [];
+
+    for (var index = 0; index < numberOfWeeks; index += 1) {
+      result.push((0, _dates.getBeginOfWeek)(new Date(year, monthIndex, day + index * 7), calendarType));
+    }
+
+    return result;
+  }();
+
+  var weekNumbers = dates.map(function (date) {
+    return (0, _dates.getWeekNumber)(date, calendarType);
+  });
+  return _react["default"].createElement(_Flex["default"], {
+    className: "react-calendar__month-view__weekNumbers",
+    count: numberOfWeeks,
+    direction: "column",
+    onFocus: onMouseLeave,
+    onMouseOver: onMouseLeave,
+    style: {
+      flexBasis: 'calc(100% * (1 / 8)',
+      flexShrink: 0
+    }
+  }, weekNumbers.map(function (weekNumber, weekIndex) {
+    return _react["default"].createElement(_WeekNumber["default"], {
+      key: weekNumber,
+      date: dates[weekIndex],
+      onClickWeekNumber: onClickWeekNumber,
+      weekNumber: weekNumber
+    });
+  }));
+}
+
+WeekNumbers.propTypes = {
+  activeStartDate: _propTypes["default"].instanceOf(Date).isRequired,
+  calendarType: _propTypes2.isCalendarType.isRequired,
+  onClickWeekNumber: _propTypes["default"].func,
+  onMouseLeave: _propTypes["default"].func,
+  showFixedNumberOfWeeks: _propTypes["default"].bool
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/MonthView/Weekdays.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/MonthView/Weekdays.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Weekdays;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Flex = _interopRequireDefault(__webpack_require__(/*! ../Flex */ "./node_modules/react-calendar/dist/Flex.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _dateFormatter = __webpack_require__(/*! ../shared/dateFormatter */ "./node_modules/react-calendar/dist/shared/dateFormatter.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function Weekdays(props) {
+  var calendarType = props.calendarType,
+      formatShortWeekday = props.formatShortWeekday,
+      locale = props.locale,
+      onMouseLeave = props.onMouseLeave;
+  var anyDate = new Date();
+  var beginOfMonth = (0, _dates.getBeginOfMonth)(anyDate);
+  var year = (0, _dates.getYear)(beginOfMonth);
+  var monthIndex = (0, _dates.getMonthIndex)(beginOfMonth);
+  var weekdays = [];
+
+  for (var weekday = 1; weekday <= 7; weekday += 1) {
+    var weekdayDate = new Date(year, monthIndex, weekday - (0, _dates.getDayOfWeek)(beginOfMonth, calendarType));
+    var abbr = (0, _dateFormatter.formatWeekday)(locale, weekdayDate);
+    weekdays.push(_react["default"].createElement("div", {
+      key: weekday,
+      className: "react-calendar__month-view__weekdays__weekday"
+    }, _react["default"].createElement("abbr", {
+      "aria-label": abbr,
+      title: abbr
+    }, formatShortWeekday(locale, weekdayDate).replace('.', ''))));
+  }
+
+  return _react["default"].createElement(_Flex["default"], {
+    className: "react-calendar__month-view__weekdays",
+    count: 7,
+    onFocus: onMouseLeave,
+    onMouseOver: onMouseLeave
+  }, weekdays);
+}
+
+Weekdays.defaultProps = {
+  formatShortWeekday: _dateFormatter.formatShortWeekday
+};
+Weekdays.propTypes = {
+  calendarType: _propTypes2.isCalendarType.isRequired,
+  formatShortWeekday: _propTypes["default"].func,
+  locale: _propTypes["default"].string,
+  onMouseLeave: _propTypes["default"].func
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/Tile.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-calendar/dist/Tile.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var Tile =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Tile, _Component);
+
+  function Tile() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, Tile);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Tile)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {});
+
+    return _this;
+  }
+
+  _createClass(Tile, [{
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          activeStartDate = _this$props.activeStartDate,
+          children = _this$props.children,
+          classes = _this$props.classes,
+          date = _this$props.date,
+          formatAbbr = _this$props.formatAbbr,
+          locale = _this$props.locale,
+          maxDate = _this$props.maxDate,
+          maxDateTransform = _this$props.maxDateTransform,
+          minDate = _this$props.minDate,
+          minDateTransform = _this$props.minDateTransform,
+          onClick = _this$props.onClick,
+          onMouseOver = _this$props.onMouseOver,
+          style = _this$props.style,
+          tileDisabled = _this$props.tileDisabled,
+          view = _this$props.view;
+      var _this$state = this.state,
+          tileClassName = _this$state.tileClassName,
+          tileContent = _this$state.tileContent;
+      return _react["default"].createElement("button", {
+        className: (0, _mergeClassNames["default"])(classes, tileClassName),
+        disabled: minDate && minDateTransform(minDate) > date || maxDate && maxDateTransform(maxDate) < date || tileDisabled && tileDisabled({
+          activeStartDate: activeStartDate,
+          date: date,
+          view: view
+        }),
+        onClick: onClick && function () {
+          return onClick(date);
+        },
+        onFocus: onMouseOver && function () {
+          return onMouseOver(date);
+        },
+        onMouseOver: onMouseOver && function () {
+          return onMouseOver(date);
+        },
+        style: style,
+        type: "button"
+      }, formatAbbr ? _react["default"].createElement("abbr", {
+        "aria-label": formatAbbr(locale, date)
+      }, children) : children, tileContent);
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps, prevState) {
+      var date = nextProps.date,
+          tileClassName = nextProps.tileClassName,
+          tileContent = nextProps.tileContent,
+          view = nextProps.view;
+      var nextState = {};
+
+      if (tileClassName !== prevState.tileClassNameProps) {
+        nextState.tileClassName = typeof tileClassName === 'function' ? tileClassName({
+          date: date,
+          view: view
+        }) : tileClassName;
+        nextState.tileClassNameProps = tileClassName;
+      }
+
+      if (tileContent !== prevState.tileContentProps) {
+        nextState.tileContent = typeof tileContent === 'function' ? tileContent({
+          date: date,
+          view: view
+        }) : tileContent;
+        nextState.tileContentProps = tileContent;
+      }
+
+      return nextState;
+    }
+  }]);
+
+  return Tile;
+}(_react.Component);
+
+exports["default"] = Tile;
+Tile.propTypes = _objectSpread({}, _propTypes2.tileProps, {
+  children: _propTypes["default"].node.isRequired,
+  formatAbbr: _propTypes["default"].func,
+  maxDateTransform: _propTypes["default"].func.isRequired,
+  minDateTransform: _propTypes["default"].func.isRequired
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/TileGroup.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-calendar/dist/TileGroup.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = TileGroup;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Flex = _interopRequireDefault(__webpack_require__(/*! ./Flex */ "./node_modules/react-calendar/dist/Flex.js"));
+
+var _utils = __webpack_require__(/*! ./shared/utils */ "./node_modules/react-calendar/dist/shared/utils.js");
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function TileGroup(_ref) {
+  var className = _ref.className,
+      count = _ref.count,
+      dateTransform = _ref.dateTransform,
+      dateType = _ref.dateType,
+      end = _ref.end,
+      hover = _ref.hover,
+      offset = _ref.offset,
+      start = _ref.start,
+      step = _ref.step,
+      Tile = _ref.tile,
+      value = _ref.value,
+      valueType = _ref.valueType,
+      tileProps = _objectWithoutProperties(_ref, ["className", "count", "dateTransform", "dateType", "end", "hover", "offset", "start", "step", "tile", "value", "valueType"]);
+
+  var tiles = [];
+
+  for (var point = start; point <= end; point += step) {
+    var date = dateTransform(point);
+    tiles.push(_react["default"].createElement(Tile, _extends({
+      key: date.getTime(),
+      classes: (0, _utils.getTileClasses)({
+        value: value,
+        valueType: valueType,
+        date: date,
+        dateType: dateType,
+        hover: hover
+      }),
+      date: date,
+      point: point
+    }, tileProps)));
+  }
+
+  return _react["default"].createElement(_Flex["default"], {
+    className: className,
+    count: count,
+    offset: offset,
+    wrap: true
+  }, tiles);
+}
+
+TileGroup.propTypes = _objectSpread({}, _propTypes2.tileGroupProps, {
+  activeStartDate: _propTypes["default"].instanceOf(Date),
+  count: _propTypes["default"].number,
+  dateTransform: _propTypes["default"].func.isRequired,
+  offset: _propTypes["default"].number,
+  step: _propTypes["default"].number,
+  tile: _propTypes["default"].func.isRequired
+});
+TileGroup.defaultProps = {
+  count: 3,
+  step: 1
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/YearView.js":
+/*!******************************************************!*\
+  !*** ./node_modules/react-calendar/dist/YearView.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = YearView;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _Months = _interopRequireDefault(__webpack_require__(/*! ./YearView/Months */ "./node_modules/react-calendar/dist/YearView/Months.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function YearView(props) {
+  function renderMonths() {
+    return _react["default"].createElement(_Months["default"], props);
+  }
+
+  return _react["default"].createElement("div", {
+    className: "react-calendar__year-view"
+  }, renderMonths());
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/YearView/Month.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/YearView/Month.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Month;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Tile = _interopRequireDefault(__webpack_require__(/*! ../Tile */ "./node_modules/react-calendar/dist/Tile.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _dateFormatter = __webpack_require__(/*! ../shared/dateFormatter */ "./node_modules/react-calendar/dist/shared/dateFormatter.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+var className = 'react-calendar__year-view__months__month';
+
+function Month(_ref) {
+  var classes = _ref.classes,
+      date = _ref.date,
+      formatMonth = _ref.formatMonth,
+      locale = _ref.locale,
+      otherProps = _objectWithoutProperties(_ref, ["classes", "date", "formatMonth", "locale"]);
+
+  return _react["default"].createElement(_Tile["default"], _extends({}, otherProps, {
+    classes: [].concat(classes, className),
+    date: date,
+    formatAbbr: _dateFormatter.formatMonthYear,
+    locale: locale,
+    maxDateTransform: _dates.getEndOfMonth,
+    minDateTransform: _dates.getBeginOfMonth,
+    view: "year"
+  }), formatMonth(locale, date));
+}
+
+Month.defaultProps = {
+  formatMonth: _dateFormatter.formatMonth
+};
+Month.propTypes = _objectSpread({}, _propTypes2.tileProps, {
+  formatMonth: _propTypes["default"].func
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/YearView/Months.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/YearView/Months.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Months;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _TileGroup = _interopRequireDefault(__webpack_require__(/*! ../TileGroup */ "./node_modules/react-calendar/dist/TileGroup.js"));
+
+var _Month = _interopRequireDefault(__webpack_require__(/*! ./Month */ "./node_modules/react-calendar/dist/YearView/Month.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function Months(props) {
+  var activeStartDate = props.activeStartDate;
+  var start = 0;
+  var end = 11;
+  var year = (0, _dates.getYear)(activeStartDate);
+  return _react["default"].createElement(_TileGroup["default"], _extends({}, props, {
+    className: "react-calendar__year-view__months",
+    dateTransform: function dateTransform(monthIndex) {
+      return new Date(year, monthIndex, 1);
+    },
+    dateType: "month",
+    end: end,
+    start: start,
+    tile: _Month["default"]
+  }));
+}
+
+Months.propTypes = _objectSpread({}, _propTypes2.tileGroupProps, {
+  locale: _propTypes["default"].string
+});
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/entry.nostyle.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-calendar/dist/entry.nostyle.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "Calendar", {
+  enumerable: true,
+  get: function get() {
+    return _Calendar["default"];
+  }
+});
+Object.defineProperty(exports, "CenturyView", {
+  enumerable: true,
+  get: function get() {
+    return _CenturyView["default"];
+  }
+});
+Object.defineProperty(exports, "DecadeView", {
+  enumerable: true,
+  get: function get() {
+    return _DecadeView["default"];
+  }
+});
+Object.defineProperty(exports, "YearView", {
+  enumerable: true,
+  get: function get() {
+    return _YearView["default"];
+  }
+});
+Object.defineProperty(exports, "MonthView", {
+  enumerable: true,
+  get: function get() {
+    return _MonthView["default"];
+  }
+});
+exports["default"] = void 0;
+
+var _Calendar = _interopRequireDefault(__webpack_require__(/*! ./Calendar */ "./node_modules/react-calendar/dist/Calendar.js"));
+
+var _CenturyView = _interopRequireDefault(__webpack_require__(/*! ./CenturyView */ "./node_modules/react-calendar/dist/CenturyView.js"));
+
+var _DecadeView = _interopRequireDefault(__webpack_require__(/*! ./DecadeView */ "./node_modules/react-calendar/dist/DecadeView.js"));
+
+var _YearView = _interopRequireDefault(__webpack_require__(/*! ./YearView */ "./node_modules/react-calendar/dist/YearView.js"));
+
+var _MonthView = _interopRequireDefault(__webpack_require__(/*! ./MonthView */ "./node_modules/react-calendar/dist/MonthView.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default = _Calendar["default"];
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/shared/dateFormatter.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/shared/dateFormatter.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.formatShortWeekday = exports.formatWeekday = exports.formatMonth = exports.formatMonthYear = exports.formatLongDate = exports.formatDate = void 0;
+
+var _getUserLocale = _interopRequireDefault(__webpack_require__(/*! get-user-locale */ "./node_modules/get-user-locale/dist/entry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function getFormatter(options) {
+  return function (locale, date) {
+    return date.toLocaleString(locale || (0, _getUserLocale["default"])(), options);
+  };
+}
+/**
+ * Changes the hour in a Date to ensure right date formatting even if DST is messed up.
+ * Workaround for bug in WebKit and Firefox with historical dates.
+ * For more details, see:
+ * https://bugs.chromium.org/p/chromium/issues/detail?id=750465
+ * https://bugzilla.mozilla.org/show_bug.cgi?id=1385643
+ *
+ * @param {Date} date Date.
+ */
+
+
+function toSafeHour(date) {
+  var safeDate = new Date(date);
+  return new Date(safeDate.setHours(12));
+}
+
+function getSafeFormatter(options) {
+  return function (locale, date) {
+    return getFormatter(options)(locale, toSafeHour(date));
+  };
+}
+
+var formatDateOptions = {
+  day: 'numeric',
+  month: 'numeric',
+  year: 'numeric'
+};
+var formatLongDateOptions = {
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric'
+};
+var formatMonthYearOptions = {
+  month: 'long',
+  year: 'numeric'
+};
+var formatMonthOptions = {
+  month: 'long'
+};
+var formatWeekdayOptions = {
+  weekday: 'long'
+};
+var formatShortWeekdayOptions = {
+  weekday: 'short'
+};
+var formatDate = getSafeFormatter(formatDateOptions);
+exports.formatDate = formatDate;
+var formatLongDate = getSafeFormatter(formatLongDateOptions);
+exports.formatLongDate = formatLongDate;
+var formatMonthYear = getSafeFormatter(formatMonthYearOptions);
+exports.formatMonthYear = formatMonthYear;
+var formatMonth = getSafeFormatter(formatMonthOptions);
+exports.formatMonth = formatMonth;
+var formatWeekday = getSafeFormatter(formatWeekdayOptions);
+exports.formatWeekday = formatWeekday;
+var formatShortWeekday = getSafeFormatter(formatShortWeekdayOptions);
+exports.formatShortWeekday = formatShortWeekday;
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/shared/dates.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-calendar/dist/shared/dates.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getYear = getYear;
+exports.getMonth = getMonth;
+exports.getMonthIndex = getMonthIndex;
+exports.getDay = getDay;
+exports.getDayOfWeek = getDayOfWeek;
+exports.getBeginOfCenturyYear = getBeginOfCenturyYear;
+exports.getBeginOfCentury = getBeginOfCentury;
+exports.getEndOfCentury = getEndOfCentury;
+exports.getCenturyRange = getCenturyRange;
+exports.getBeginOfPreviousCentury = getBeginOfPreviousCentury;
+exports.getEndOfPreviousCentury = getEndOfPreviousCentury;
+exports.getBeginOfNextCentury = getBeginOfNextCentury;
+exports.getBeginOfDecadeYear = getBeginOfDecadeYear;
+exports.getBeginOfDecade = getBeginOfDecade;
+exports.getEndOfDecade = getEndOfDecade;
+exports.getDecadeRange = getDecadeRange;
+exports.getBeginOfPreviousDecade = getBeginOfPreviousDecade;
+exports.getEndOfPreviousDecade = getEndOfPreviousDecade;
+exports.getBeginOfNextDecade = getBeginOfNextDecade;
+exports.getBeginOfYear = getBeginOfYear;
+exports.getEndOfYear = getEndOfYear;
+exports.getYearRange = getYearRange;
+exports.getBeginOfPreviousYear = getBeginOfPreviousYear;
+exports.getEndOfPreviousYear = getEndOfPreviousYear;
+exports.getBeginOfNextYear = getBeginOfNextYear;
+exports.getBeginOfMonth = getBeginOfMonth;
+exports.getEndOfMonth = getEndOfMonth;
+exports.getBeginOfWeek = getBeginOfWeek;
+exports.getMonthRange = getMonthRange;
+exports.getBeginOfPreviousMonth = getBeginOfPreviousMonth;
+exports.getEndOfPreviousMonth = getEndOfPreviousMonth;
+exports.getBeginOfNextMonth = getBeginOfNextMonth;
+exports.getBeginOfDay = getBeginOfDay;
+exports.getEndOfDay = getEndOfDay;
+exports.getDayRange = getDayRange;
+exports.getWeekNumber = getWeekNumber;
+exports.getBegin = getBegin;
+exports.getBeginPrevious = getBeginPrevious;
+exports.getBeginNext = getBeginNext;
+exports.getEnd = getEnd;
+exports.getEndPrevious = getEndPrevious;
+exports.getRange = getRange;
+exports.getValueRange = getValueRange;
+exports.getDaysInMonth = getDaysInMonth;
+exports.getCenturyLabel = getCenturyLabel;
+exports.getDecadeLabel = getDecadeLabel;
+exports.isWeekend = isWeekend;
+exports.getISOLocalMonth = getISOLocalMonth;
+exports.getISOLocalDate = getISOLocalDate;
+exports.getEndPrevious2 = exports.getBeginNext2 = exports.getBeginPrevious2 = void 0;
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+var _map = _toConsumableArray(Array(7)).map(function (el, index) {
+  return index;
+}),
+    _map2 = _slicedToArray(_map, 7),
+    // eslint-disable-next-line no-unused-vars
+SUNDAY = _map2[0],
+    MONDAY = _map2[1],
+    TUESDAY = _map2[2],
+    WEDNESDAY = _map2[3],
+    THURSDAY = _map2[4],
+    FRIDAY = _map2[5],
+    SATURDAY = _map2[6];
+/* Simple getters - getting a property of a given point in time */
+
+
+function getYear(date) {
+  if (date instanceof Date) {
+    return date.getFullYear();
+  }
+
+  if (typeof date === 'number') {
+    return date;
+  }
+
+  var year = parseInt(date, 10);
+
+  if (typeof date === 'string' && !isNaN(year)) {
+    return year;
+  }
+
+  throw new Error("Failed to get year from date: ".concat(date, "."));
+}
+
+function getMonth(date) {
+  return date.getMonth() + 1;
+}
+
+function getMonthIndex(date) {
+  return date.getMonth();
+}
+
+function getDay(date) {
+  return date.getDate();
+}
+
+function getDayOfWeek(date) {
+  var calendarType = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'ISO 8601';
+  var weekday = date.getDay();
+
+  switch (calendarType) {
+    case 'ISO 8601':
+      // Shifts days of the week so that Monday is 0, Sunday is 6
+      return (weekday + 6) % 7;
+
+    case 'Arabic':
+      return (weekday + 1) % 7;
+
+    case 'Hebrew':
+    case 'US':
+      return weekday;
+
+    default:
+      throw new Error('Unsupported calendar type.');
+  }
+}
+/* Complex getters - getting a property somehow related to a given point in time */
+
+
+function getBeginOfCenturyYear(date) {
+  var year = getYear(date) - 1;
+  return year + -year % 100 + 1;
+}
+
+function getBeginOfCentury(date) {
+  var beginOfCenturyYear = getBeginOfCenturyYear(date);
+  return new Date(beginOfCenturyYear, 0, 1);
+}
+
+function getEndOfCentury(date) {
+  var beginOfCenturyYear = getBeginOfCenturyYear(date);
+  return new Date(beginOfCenturyYear + 100, 0, 1, 0, 0, 0, -1);
+}
+
+function getCenturyRange(date) {
+  return [getBeginOfCentury(date), getEndOfCentury(date)];
+}
+
+function getBeginOfPreviousCentury(date) {
+  var previousCenturyYear = getYear(date) - 100;
+  return getBeginOfCentury(previousCenturyYear);
+}
+
+function getEndOfPreviousCentury(date) {
+  var previousCenturyYear = getYear(date) - 100;
+  return getEndOfCentury(previousCenturyYear);
+}
+
+function getBeginOfNextCentury(date) {
+  var nextCenturyYear = getYear(date) + 100;
+  return getBeginOfCentury(nextCenturyYear);
+}
+
+function getBeginOfDecadeYear(date) {
+  var year = getYear(date) - 1;
+  return year + -year % 10 + 1;
+}
+
+function getBeginOfDecade(date) {
+  var beginOfDecadeYear = getBeginOfDecadeYear(date);
+  return new Date(beginOfDecadeYear, 0, 1);
+}
+
+function getEndOfDecade(date) {
+  var beginOfDecadeYear = getBeginOfDecadeYear(date);
+  return new Date(beginOfDecadeYear + 10, 0, 1, 0, 0, 0, -1);
+}
+
+function getDecadeRange(date) {
+  return [getBeginOfDecade(date), getEndOfDecade(date)];
+}
+
+function getBeginOfPreviousDecade(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 10;
+  var previousDecadeYear = getBeginOfDecadeYear(date) - offset;
+  return getBeginOfDecade(previousDecadeYear);
+}
+
+function getEndOfPreviousDecade(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 10;
+  var previousDecadeYear = getBeginOfDecadeYear(date) - offset;
+  return getEndOfDecade(previousDecadeYear);
+}
+
+function getBeginOfNextDecade(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 10;
+  var nextDecadeYear = getBeginOfDecadeYear(date) + offset;
+  return getBeginOfDecade(nextDecadeYear);
+}
+/**
+ * Returns the beginning of a given year.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getBeginOfYear(date) {
+  var year = getYear(date);
+  return new Date(year, 0, 1);
+}
+/**
+ * Returns the end of a given year.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getEndOfYear(date) {
+  var year = getYear(date);
+  return new Date(year + 1, 0, 1, 0, 0, 0, -1);
+}
+/**
+ * Returns an array with the beginning and the end of a given year.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getYearRange(date) {
+  return [getBeginOfYear(date), getEndOfYear(date)];
+}
+
+function getBeginOfPreviousYear(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var previousYear = getYear(date) - offset;
+  return getBeginOfYear(previousYear);
+}
+
+function getEndOfPreviousYear(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var previousYear = getYear(date) - offset;
+  return getEndOfYear(previousYear);
+}
+
+function getBeginOfNextYear(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var nextYear = getYear(date) + offset;
+  return getBeginOfYear(nextYear);
+}
+/**
+ * Returns the beginning of a given month.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getBeginOfMonth(date) {
+  var year = getYear(date);
+  var monthIndex = getMonthIndex(date);
+  return new Date(year, monthIndex, 1);
+}
+/**
+ * Returns the end of a given month.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getEndOfMonth(date) {
+  var year = getYear(date);
+  var monthIndex = getMonthIndex(date);
+  return new Date(year, monthIndex + 1, 1, 0, 0, 0, -1);
+}
+/**
+ * Returns the beginning of a given week.
+ *
+ * @param {Date} date Date.
+ * @param {String} calendarType Calendar type. Can be ISO 8601 or US.
+ */
+
+
+function getBeginOfWeek(date) {
+  var calendarType = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'ISO 8601';
+  var year = getYear(date);
+  var monthIndex = getMonthIndex(date);
+  var day = date.getDate() - getDayOfWeek(date, calendarType);
+  return new Date(year, monthIndex, day);
+}
+/**
+ * Returns an array with the beginning and the end of a given month.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getMonthRange(date) {
+  return [getBeginOfMonth(date), getEndOfMonth(date)];
+}
+
+function getDifferentMonth(date, offset) {
+  var year = getYear(date);
+  var previousMonthIndex = getMonthIndex(date) + offset;
+  return new Date(year, previousMonthIndex, 1);
+}
+
+function getBeginOfPreviousMonth(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var previousMonth = getDifferentMonth(date, -offset);
+  return getBeginOfMonth(previousMonth);
+}
+
+function getEndOfPreviousMonth(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var previousMonth = getDifferentMonth(date, -offset);
+  return getEndOfMonth(previousMonth);
+}
+
+function getBeginOfNextMonth(date) {
+  var offset = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
+  var nextMonth = getDifferentMonth(date, offset);
+  return getBeginOfMonth(nextMonth);
+}
+
+function getBeginOfDay(date) {
+  var year = getYear(date);
+  var monthIndex = getMonthIndex(date);
+  var day = getDay(date);
+  return new Date(year, monthIndex, day);
+}
+
+function getEndOfDay(date) {
+  var year = getYear(date);
+  var monthIndex = getMonthIndex(date);
+  var day = getDay(date);
+  return new Date(year, monthIndex, day + 1, 0, 0, 0, -1);
+}
+/**
+ * Returns an array with the beginning and the end of a given day.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getDayRange(date) {
+  return [getBeginOfDay(date), getEndOfDay(date)];
+}
+/**
+ * Gets week number according to ISO 8601 or US standard.
+ * In ISO 8601, Arabic and Hebrew week 1 is the one with January 4.
+ * In US calendar week 1 is the one with January 1.
+ *
+ * @param {Date} date Date.
+ * @param {String} calendarType Calendar type. Can be ISO 8601 or US.
+ */
+
+
+function getWeekNumber(date) {
+  var calendarType = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'ISO 8601';
+  var calendarTypeForWeekNumber = calendarType === 'US' ? 'US' : 'ISO 8601';
+  var beginOfWeek = getBeginOfWeek(date, calendarTypeForWeekNumber);
+  var year = getYear(date) + 1;
+  var dayInWeekOne;
+  var beginOfFirstWeek; // Look for the first week one that does not come after a given date
+
+  do {
+    dayInWeekOne = new Date(year, 0, calendarTypeForWeekNumber === 'ISO 8601' ? 4 : 1);
+    beginOfFirstWeek = getBeginOfWeek(dayInWeekOne, calendarTypeForWeekNumber);
+    year -= 1;
+  } while (date - beginOfFirstWeek < 0);
+
+  return Math.round((beginOfWeek - beginOfFirstWeek) / (8.64e7 * 7)) + 1;
+}
+/**
+ * Returns the beginning of a given range.
+ *
+ * @param {String} rangeType Range type (e.g. 'day')
+ * @param {Date} date Date.
+ */
+
+
+function getBegin(rangeType, date) {
+  switch (rangeType) {
+    case 'century':
+      return getBeginOfCentury(date);
+
+    case 'decade':
+      return getBeginOfDecade(date);
+
+    case 'year':
+      return getBeginOfYear(date);
+
+    case 'month':
+      return getBeginOfMonth(date);
+
+    case 'day':
+      return getBeginOfDay(date);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+}
+
+function getBeginPrevious(rangeType, date) {
+  switch (rangeType) {
+    case 'century':
+      return getBeginOfPreviousCentury(date);
+
+    case 'decade':
+      return getBeginOfPreviousDecade(date);
+
+    case 'year':
+      return getBeginOfPreviousYear(date);
+
+    case 'month':
+      return getBeginOfPreviousMonth(date);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+}
+
+function getBeginNext(rangeType, date) {
+  switch (rangeType) {
+    case 'century':
+      return getBeginOfNextCentury(date);
+
+    case 'decade':
+      return getBeginOfNextDecade(date);
+
+    case 'year':
+      return getBeginOfNextYear(date);
+
+    case 'month':
+      return getBeginOfNextMonth(date);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+}
+
+var getBeginPrevious2 = function getBeginPrevious2(rangeType, date) {
+  switch (rangeType) {
+    case 'decade':
+      return getBeginOfPreviousDecade(date, 100);
+
+    case 'year':
+      return getBeginOfPreviousYear(date, 10);
+
+    case 'month':
+      return getBeginOfPreviousMonth(date, 12);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+};
+
+exports.getBeginPrevious2 = getBeginPrevious2;
+
+var getBeginNext2 = function getBeginNext2(rangeType, date) {
+  switch (rangeType) {
+    case 'decade':
+      return getBeginOfNextDecade(date, 100);
+
+    case 'year':
+      return getBeginOfNextYear(date, 10);
+
+    case 'month':
+      return getBeginOfNextMonth(date, 12);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+};
+/**
+ * Returns the end of a given range.
+ *
+ * @param {String} rangeType Range type (e.g. 'day')
+ * @param {Date} date Date.
+ */
+
+
+exports.getBeginNext2 = getBeginNext2;
+
+function getEnd(rangeType, date) {
+  switch (rangeType) {
+    case 'century':
+      return getEndOfCentury(date);
+
+    case 'decade':
+      return getEndOfDecade(date);
+
+    case 'year':
+      return getEndOfYear(date);
+
+    case 'month':
+      return getEndOfMonth(date);
+
+    case 'day':
+      return getEndOfDay(date);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+}
+
+function getEndPrevious(rangeType, date) {
+  switch (rangeType) {
+    case 'century':
+      return getEndOfPreviousCentury(date);
+
+    case 'decade':
+      return getEndOfPreviousDecade(date);
+
+    case 'year':
+      return getEndOfPreviousYear(date);
+
+    case 'month':
+      return getEndOfPreviousMonth(date);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+}
+
+var getEndPrevious2 = function getEndPrevious2(rangeType, date) {
+  switch (rangeType) {
+    case 'decade':
+      return getEndOfPreviousDecade(date, 100);
+
+    case 'year':
+      return getEndOfPreviousYear(date, 10);
+
+    case 'month':
+      return getEndOfPreviousMonth(date, 12);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+};
+/**
+ * Returns an array with the beginning and the end of a given range.
+ *
+ * @param {String} rangeType Range type (e.g. 'day')
+ * @param {Date} date Date.
+ */
+
+
+exports.getEndPrevious2 = getEndPrevious2;
+
+function getRange(rangeType, date) {
+  switch (rangeType) {
+    case 'century':
+      return getCenturyRange(date);
+
+    case 'decade':
+      return getDecadeRange(date);
+
+    case 'year':
+      return getYearRange(date);
+
+    case 'month':
+      return getMonthRange(date);
+
+    case 'day':
+      return getDayRange(date);
+
+    default:
+      throw new Error("Invalid rangeType: ".concat(rangeType));
+  }
+}
+/**
+ * Creates a range out of two values, ensuring they are in order and covering entire period ranges.
+ *
+ * @param {String} rangeType Range type (e.g. 'day')
+ * @param {Date} date1 First date.
+ * @param {Date} date2 Second date.
+ */
+
+
+function getValueRange(rangeType, date1, date2) {
+  var rawNextValue = [date1, date2].sort(function (a, b) {
+    return a - b;
+  });
+  return [getBegin(rangeType, rawNextValue[0]), getEnd(rangeType, rawNextValue[1])];
+}
+/**
+ * Returns a number of days in a month of a given date.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function getDaysInMonth(date) {
+  var year = getYear(date);
+  var monthIndex = getMonthIndex(date);
+  return new Date(year, monthIndex + 1, 0).getDate();
+}
+
+function toYearLabel(_ref) {
+  var _ref2 = _slicedToArray(_ref, 2),
+      start = _ref2[0],
+      end = _ref2[1];
+
+  return "".concat(getYear(start), " \u2013 ").concat(getYear(end));
+}
+/**
+ * Returns a string labelling a century of a given date.
+ * For example, for 2017 it will return 2001-2100.
+ *
+ * @param {Date|String|Number} date Date or a year as a string or as a number.
+ */
+
+
+function getCenturyLabel(date) {
+  return toYearLabel(getCenturyRange(date));
+}
+/**
+ * Returns a string labelling a century of a given date.
+ * For example, for 2017 it will return 2011-2020.
+ *
+ * @param {Date|String|Number} date Date or a year as a string or as a number.
+ */
+
+
+function getDecadeLabel(date) {
+  return toYearLabel(getDecadeRange(date));
+}
+/**
+ * Returns a boolean determining whether a given date is on Saturday or Sunday.
+ *
+ * @param {Date} date Date.
+ */
+
+
+function isWeekend(date) {
+  var calendarType = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'ISO 8601';
+  var weekday = date.getDay();
+
+  switch (calendarType) {
+    case 'Arabic':
+    case 'Hebrew':
+      return weekday === FRIDAY || weekday === SATURDAY;
+
+    case 'ISO 8601':
+    case 'US':
+      return weekday === SATURDAY || weekday === SUNDAY;
+
+    default:
+      throw new Error('Unsupported calendar type.');
+  }
+}
+/**
+ * Returns local month in ISO-like format (YYYY-MM).
+ */
+
+
+function getISOLocalMonth(value) {
+  if (!value) {
+    return value;
+  }
+
+  var date = new Date(value);
+
+  if (isNaN(date.getTime())) {
+    throw new Error("Invalid date: ".concat(value));
+  }
+
+  var year = getYear(date);
+  var month = "0".concat(getMonth(date)).slice(-2);
+  return "".concat(year, "-").concat(month);
+}
+/**
+ * Returns local date in ISO-like format (YYYY-MM-DD).
+ */
+
+
+function getISOLocalDate(value) {
+  if (!value) {
+    return value;
+  }
+
+  var date = new Date(value);
+
+  if (isNaN(date.getTime())) {
+    throw new Error("Invalid date: ".concat(value));
+  }
+
+  var year = getYear(date);
+  var month = "0".concat(getMonth(date)).slice(-2);
+  var day = "0".concat(getDay(date)).slice(-2);
+  return "".concat(year, "-").concat(month, "-").concat(day);
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/shared/propTypes.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/react-calendar/dist/shared/propTypes.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.tileProps = exports.tileGroupProps = exports.isView = exports.isClassName = exports.isViews = exports.isValue = exports.isMaxDate = exports.isMinDate = exports.isCalendarType = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+var calendarTypes = ['ISO 8601', 'US', 'Arabic', 'Hebrew'];
+var allViews = ['century', 'decade', 'year', 'month'];
+
+var isCalendarType = _propTypes["default"].oneOf(calendarTypes);
+
+exports.isCalendarType = isCalendarType;
+
+var isMinDate = function isMinDate(props, propName, componentName) {
+  var minDate = props[propName];
+
+  if (minDate) {
+    if (!(minDate instanceof Date)) {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(minDate), "` supplied to `").concat(componentName, "`, expected instance of `Date`."));
+    }
+
+    var maxDate = props.maxDate;
+
+    if (maxDate && minDate > maxDate) {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(minDate), "` supplied to `").concat(componentName, "`, minDate cannot be larger than maxDate."));
+    }
+  } // Everything is fine
+
+
+  return null;
+};
+
+exports.isMinDate = isMinDate;
+
+var isMaxDate = function isMaxDate(props, propName, componentName) {
+  var maxDate = props[propName];
+
+  if (maxDate) {
+    if (!(maxDate instanceof Date)) {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(maxDate), "` supplied to `").concat(componentName, "`, expected instance of `Date`."));
+    }
+
+    var minDate = props.minDate;
+
+    if (minDate && maxDate < minDate) {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(maxDate), "` supplied to `").concat(componentName, "`, maxDate cannot be smaller than minDate."));
+    }
+  } // Everything is fine
+
+
+  return null;
+};
+
+exports.isMaxDate = isMaxDate;
+
+var isValue = _propTypes["default"].oneOfType([_propTypes["default"].instanceOf(Date), _propTypes["default"].arrayOf(_propTypes["default"].instanceOf(Date))]);
+
+exports.isValue = isValue;
+
+var isViews = _propTypes["default"].arrayOf(_propTypes["default"].oneOf(allViews));
+
+exports.isViews = isViews;
+
+var isClassName = _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].arrayOf(_propTypes["default"].string)]);
+
+exports.isClassName = isClassName;
+
+var isView = function isView(props, propName, componentName) {
+  var view = props[propName];
+  var views = props.views;
+  var allowedViews = views || allViews;
+
+  if (view !== undefined && allowedViews.indexOf(view) === -1) {
+    return new Error("Invalid prop `".concat(propName, "` of value `").concat(view, "` supplied to `").concat(componentName, "`, expected one of [").concat(allowedViews.map(function (a) {
+      return "\"".concat(a, "\"");
+    }).join(', '), "]."));
+  } // Everything is fine
+
+
+  return null;
+};
+
+exports.isView = isView;
+
+isView.isRequired = function (props, propName, componentName) {
+  var view = props[propName];
+
+  if (!view) {
+    return new Error("The prop `".concat(propName, "` is marked as required in `").concat(componentName, "`, but its value is `").concat(view, "`."));
+  }
+
+  return isView(props, propName, componentName);
+};
+
+var tileGroupProps = {
+  activeStartDate: _propTypes["default"].instanceOf(Date).isRequired,
+  hover: _propTypes["default"].instanceOf(Date),
+  locale: _propTypes["default"].string,
+  maxDate: isMaxDate,
+  minDate: isMinDate,
+  onClick: _propTypes["default"].func,
+  onMouseOver: _propTypes["default"].func,
+  tileClassName: _propTypes["default"].oneOfType([_propTypes["default"].func, isClassName]),
+  tileContent: _propTypes["default"].oneOfType([_propTypes["default"].func, _propTypes["default"].node]),
+  value: isValue,
+  valueType: _propTypes["default"].string
+};
+exports.tileGroupProps = tileGroupProps;
+var tileProps = {
+  activeStartDate: _propTypes["default"].instanceOf(Date).isRequired,
+  classes: _propTypes["default"].arrayOf(_propTypes["default"].string).isRequired,
+  date: _propTypes["default"].instanceOf(Date).isRequired,
+  locale: _propTypes["default"].string,
+  maxDate: isMaxDate,
+  minDate: isMinDate,
+  onClick: _propTypes["default"].func,
+  onMouseOver: _propTypes["default"].func,
+  style: _propTypes["default"].objectOf(_propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].number])),
+  tileClassName: _propTypes["default"].oneOfType([_propTypes["default"].func, isClassName]),
+  tileContent: _propTypes["default"].oneOfType([_propTypes["default"].func, _propTypes["default"].node]),
+  tileDisabled: _propTypes["default"].func
+};
+exports.tileProps = tileProps;
+
+/***/ }),
+
+/***/ "./node_modules/react-calendar/dist/shared/utils.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-calendar/dist/shared/utils.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getTileClasses = exports.between = exports.doRangesOverlap = exports.isRangeWithinRange = exports.isValueWithinRange = exports.callIfDefined = exports.mergeFunctions = void 0;
+
+var _dates = __webpack_require__(/*! ./dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+/**
+ * Returns a function that, when called, calls all the functions
+ * passed to it, applying its arguments to them.
+ *
+ * @param {Function[]} functions
+ */
+var mergeFunctions = function mergeFunctions() {
+  for (var _len = arguments.length, functions = new Array(_len), _key = 0; _key < _len; _key++) {
+    functions[_key] = arguments[_key];
+  }
+
+  return function () {
+    for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+      args[_key2] = arguments[_key2];
+    }
+
+    return functions.filter(Boolean).forEach(function (f) {
+      return f.apply(void 0, args);
+    });
+  };
+};
+/**
+ * Calls a function, if it's defined, with specified arguments
+ * @param {Function} fn
+ * @param {Object} args
+ */
+
+
+exports.mergeFunctions = mergeFunctions;
+
+var callIfDefined = function callIfDefined(fn) {
+  if (fn && typeof fn === 'function') {
+    for (var _len3 = arguments.length, args = new Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
+      args[_key3 - 1] = arguments[_key3];
+    }
+
+    fn.apply(void 0, args);
+  }
+};
+
+exports.callIfDefined = callIfDefined;
+
+var isValueWithinRange = function isValueWithinRange(value, range) {
+  return range[0] <= value && range[1] >= value;
+};
+
+exports.isValueWithinRange = isValueWithinRange;
+
+var isRangeWithinRange = function isRangeWithinRange(greaterRange, smallerRange) {
+  return greaterRange[0] <= smallerRange[0] && greaterRange[1] >= smallerRange[1];
+};
+
+exports.isRangeWithinRange = isRangeWithinRange;
+
+var doRangesOverlap = function doRangesOverlap(range1, range2) {
+  return isValueWithinRange(range1[0], range2) || isValueWithinRange(range1[1], range2);
+};
+/**
+ * Returns a value no smaller than min and no larger than max.
+ *
+ * @param {*} value Value to return.
+ * @param {*} min Minimum return value.
+ * @param {*} max Maximum return value.
+ */
+
+
+exports.doRangesOverlap = doRangesOverlap;
+
+var between = function between(value, min, max) {
+  if (min && min > value) {
+    return min;
+  }
+
+  if (max && max < value) {
+    return max;
+  }
+
+  return value;
+};
+
+exports.between = between;
+
+var getTileClasses = function getTileClasses() {
+  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      value = _ref.value,
+      valueType = _ref.valueType,
+      date = _ref.date,
+      dateType = _ref.dateType,
+      hover = _ref.hover;
+
+  var className = 'react-calendar__tile';
+  var classes = [className];
+
+  if (!date) {
+    return classes;
+  }
+
+  if (!(date instanceof Array) && !dateType) {
+    throw new Error('getTileClasses(): Unable to get tile activity classes because one or more required arguments were not passed.');
+  }
+
+  var now = new Date();
+  var dateRange = date instanceof Array ? date : (0, _dates.getRange)(dateType, date);
+
+  if (isValueWithinRange(now, dateRange)) {
+    classes.push("".concat(className, "--now"));
+  }
+
+  if (!value) {
+    return classes;
+  }
+
+  if (!(value instanceof Array) && !valueType) {
+    throw new Error('getTileClasses(): Unable to get tile activity classes because one or more required arguments were not passed.');
+  }
+
+  var valueRange = value instanceof Array ? value : (0, _dates.getRange)(valueType, value);
+
+  if (isRangeWithinRange(valueRange, dateRange)) {
+    classes.push("".concat(className, "--active"));
+  } else if (doRangesOverlap(valueRange, dateRange)) {
+    classes.push("".concat(className, "--hasActive"));
+  } else if (hover && ( // Date before value
+  dateRange[1] < valueRange[0] && doRangesOverlap(dateRange, [hover, valueRange[0]]) || // Date after value
+  dateRange[0] > valueRange[1] && doRangesOverlap(dateRange, [valueRange[1], hover]))) {
+    classes.push("".concat(className, "--hover"));
+  }
+
+  var isRangeStart = isValueWithinRange(valueRange[0], dateRange);
+  var isRangeEnd = isValueWithinRange(valueRange[1], dateRange);
+
+  if (isRangeStart) {
+    classes.push("".concat(className, "--rangeStart"));
+  }
+
+  if (isRangeEnd) {
+    classes.push("".concat(className, "--rangeEnd"));
+  }
+
+  if (isRangeStart && isRangeEnd) {
+    classes.push("".concat(className, "--rangeBothEnds"));
+  }
+
+  return classes;
+};
+
+exports.getTileClasses = getTileClasses;
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/Clock.css":
+/*!*************************************************!*\
+  !*** ./node_modules/react-clock/dist/Clock.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./Clock.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-clock/dist/Clock.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/Clock.js":
+/*!************************************************!*\
+  !*** ./node_modules/react-clock/dist/Clock.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Clock;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _Hand = _interopRequireDefault(__webpack_require__(/*! ./Hand */ "./node_modules/react-clock/dist/Hand.js"));
+
+var _Mark = _interopRequireDefault(__webpack_require__(/*! ./Mark */ "./node_modules/react-clock/dist/Mark.js"));
+
+var _dates = __webpack_require__(/*! ./shared/dates */ "./node_modules/react-clock/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-clock/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function Clock(_ref) {
+  var className = _ref.className,
+      hourHandLength = _ref.hourHandLength,
+      hourHandOppositeLength = _ref.hourHandOppositeLength,
+      hourHandWidth = _ref.hourHandWidth,
+      hourMarksLength = _ref.hourMarksLength,
+      hourMarksWidth = _ref.hourMarksWidth,
+      minuteHandLength = _ref.minuteHandLength,
+      minuteHandOppositeLength = _ref.minuteHandOppositeLength,
+      minuteHandWidth = _ref.minuteHandWidth,
+      minuteMarksLength = _ref.minuteMarksLength,
+      minuteMarksWidth = _ref.minuteMarksWidth,
+      renderHourMarks = _ref.renderHourMarks,
+      renderMinuteHand = _ref.renderMinuteHand,
+      renderMinuteMarks = _ref.renderMinuteMarks,
+      renderNumbers = _ref.renderNumbers,
+      renderSecondHand = _ref.renderSecondHand,
+      secondHandLength = _ref.secondHandLength,
+      secondHandOppositeLength = _ref.secondHandOppositeLength,
+      secondHandWidth = _ref.secondHandWidth,
+      size = _ref.size,
+      value = _ref.value;
+
+  function renderMinuteMarksFn() {
+    if (!renderMinuteMarks) {
+      return null;
+    }
+
+    var minuteMarks = [];
+
+    for (var i = 1; i <= 60; i += 1) {
+      var isHourMark = renderHourMarks && !(i % 5);
+
+      if (!isHourMark) {
+        minuteMarks.push(_react["default"].createElement(_Mark["default"], {
+          key: "minute_".concat(i),
+          angle: i * 6,
+          length: minuteMarksLength,
+          name: "minute",
+          width: minuteMarksWidth
+        }));
+      }
+    }
+
+    return minuteMarks;
+  }
+
+  function renderHourMarksFn() {
+    if (!renderHourMarks) {
+      return null;
+    }
+
+    var hourMarks = [];
+
+    for (var i = 1; i <= 12; i += 1) {
+      hourMarks.push(_react["default"].createElement(_Mark["default"], {
+        key: "hour_".concat(i),
+        angle: i * 30,
+        length: hourMarksLength,
+        name: "hour",
+        number: renderNumbers ? i : null,
+        width: hourMarksWidth
+      }));
+    }
+
+    return hourMarks;
+  }
+
+  function renderFace() {
+    return _react["default"].createElement("div", {
+      className: "react-clock__face"
+    }, renderMinuteMarksFn(), renderHourMarksFn());
+  }
+
+  function renderHourHandFn() {
+    var angle = value ? (0, _dates.getHours)(value) * 30 + (0, _dates.getMinutes)(value) / 2 + (0, _dates.getSeconds)(value) / 600 : 0;
+    return _react["default"].createElement(_Hand["default"], {
+      angle: angle,
+      length: hourHandLength,
+      name: "hour",
+      oppositeLength: hourHandOppositeLength,
+      width: hourHandWidth
+    });
+  }
+
+  function renderMinuteHandFn() {
+    if (!renderMinuteHand) {
+      return null;
+    }
+
+    var angle = value ? (0, _dates.getHours)(value) * 360 + (0, _dates.getMinutes)(value) * 6 + (0, _dates.getSeconds)(value) / 10 : 0;
+    return _react["default"].createElement(_Hand["default"], {
+      angle: angle,
+      length: minuteHandLength,
+      name: "minute",
+      oppositeLength: minuteHandOppositeLength,
+      width: minuteHandWidth
+    });
+  }
+
+  function renderSecondHandFn() {
+    if (!renderSecondHand) {
+      return null;
+    }
+
+    var angle = value ? (0, _dates.getMinutes)(value) * 360 + (0, _dates.getSeconds)(value) * 6 : 0;
+    return _react["default"].createElement(_Hand["default"], {
+      angle: angle,
+      length: secondHandLength,
+      name: "second",
+      oppositeLength: secondHandOppositeLength,
+      width: secondHandWidth
+    });
+  }
+
+  return _react["default"].createElement("time", {
+    className: (0, _mergeClassNames["default"])('react-clock', className),
+    dateTime: value instanceof Date ? value.toISOString() : value,
+    style: {
+      width: "".concat(size, "px"),
+      height: "".concat(size, "px")
+    }
+  }, renderFace(), renderHourHandFn(), renderMinuteHandFn(), renderSecondHandFn());
+}
+
+Clock.defaultProps = {
+  hourHandLength: 50,
+  hourHandWidth: 4,
+  hourMarksLength: 10,
+  hourMarksWidth: 3,
+  minuteHandLength: 70,
+  minuteHandWidth: 2,
+  minuteMarksLength: 6,
+  minuteMarksWidth: 1,
+  renderHourMarks: true,
+  renderMinuteHand: true,
+  renderMinuteMarks: true,
+  renderSecondHand: true,
+  secondHandLength: 90,
+  secondHandWidth: 1,
+  size: 150
+};
+Clock.propTypes = {
+  className: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].arrayOf(_propTypes["default"].string)]),
+  hourHandLength: _propTypes2.isHandLength,
+  hourHandOppositeLength: _propTypes2.isOppositeHandLength,
+  hourHandWidth: _propTypes2.isHandWidth,
+  hourMarksLength: _propTypes2.isMarkLength,
+  hourMarksWidth: _propTypes2.isMarkWidth,
+  minuteHandLength: _propTypes2.isHandLength,
+  minuteHandOppositeLength: _propTypes2.isOppositeHandLength,
+  minuteHandWidth: _propTypes2.isHandWidth,
+  minuteMarksLength: _propTypes2.isMarkLength,
+  minuteMarksWidth: _propTypes2.isMarkWidth,
+  renderHourMarks: _propTypes["default"].bool,
+  renderMinuteHand: _propTypes["default"].bool,
+  renderMinuteMarks: _propTypes["default"].bool,
+  renderNumbers: _propTypes["default"].bool,
+  renderSecondHand: _propTypes["default"].bool,
+  secondHandLength: _propTypes2.isHandLength,
+  secondHandOppositeLength: _propTypes2.isOppositeHandLength,
+  secondHandWidth: _propTypes2.isHandWidth,
+  size: _propTypes["default"].number,
+  value: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].instanceOf(Date)])
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/Hand.js":
+/*!***********************************************!*\
+  !*** ./node_modules/react-clock/dist/Hand.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Hand;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-clock/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function Hand(_ref) {
+  var angle = _ref.angle,
+      name = _ref.name,
+      length = _ref.length,
+      oppositeLength = _ref.oppositeLength,
+      width = _ref.width;
+  return _react["default"].createElement("div", {
+    className: "react-clock__hand react-clock__".concat(name, "-hand"),
+    style: {
+      transform: "rotate(".concat(angle, "deg)")
+    }
+  }, _react["default"].createElement("div", {
+    className: "react-clock__hand__body react-clock__".concat(name, "-hand__body"),
+    style: {
+      width: "".concat(width, "px"),
+      top: "".concat(50 - length / 2, "%"),
+      bottom: "".concat(50 - oppositeLength / 2, "%")
+    }
+  }));
+}
+
+Hand.defaultProps = {
+  angle: 0,
+  length: 100,
+  oppositeLength: 10,
+  width: 1
+};
+Hand.propTypes = {
+  angle: _propTypes["default"].number,
+  length: _propTypes2.isHandLength,
+  name: _propTypes["default"].string.isRequired,
+  oppositeLength: _propTypes2.isHandLength,
+  width: _propTypes["default"].number
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/Mark.js":
+/*!***********************************************!*\
+  !*** ./node_modules/react-clock/dist/Mark.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Mark;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-clock/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function Mark(_ref) {
+  var angle = _ref.angle,
+      length = _ref.length,
+      name = _ref.name,
+      width = _ref.width,
+      number = _ref.number;
+  return _react["default"].createElement("div", {
+    className: "react-clock__mark react-clock__".concat(name, "-mark"),
+    style: {
+      transform: "rotate(".concat(angle, "deg)")
+    }
+  }, _react["default"].createElement("div", {
+    className: "react-clock__mark__body react-clock__".concat(name, "-mark__body"),
+    style: {
+      width: "".concat(width, "px"),
+      top: 0,
+      bottom: "".concat(100 - length / 2, "%")
+    }
+  }), number && _react["default"].createElement("div", {
+    className: "react-clock__mark__number",
+    style: {
+      transform: "rotate(-".concat(angle, "deg)"),
+      top: "".concat(length / 2, "%")
+    }
+  }, number));
+}
+
+Mark.defaultProps = {
+  angle: 0,
+  length: 10,
+  width: 1
+};
+Mark.propTypes = {
+  angle: _propTypes["default"].number,
+  length: _propTypes2.isMarkLength,
+  name: _propTypes["default"].string.isRequired,
+  number: _propTypes["default"].number,
+  width: _propTypes2.isMarkWidth
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/entry.nostyle.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-clock/dist/entry.nostyle.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "Clock", {
+  enumerable: true,
+  get: function get() {
+    return _Clock["default"];
+  }
+});
+exports["default"] = void 0;
+
+var _Clock = _interopRequireDefault(__webpack_require__(/*! ./Clock */ "./node_modules/react-clock/dist/Clock.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default = _Clock["default"];
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/shared/dates.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-clock/dist/shared/dates.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getHours = getHours;
+exports.getMinutes = getMinutes;
+exports.getSeconds = getSeconds;
+var hourOptionalSecondsRegExp = /^(([0-1])?[0-9]|2[0-3]):[0-5][0-9](:([0-5][0-9]))?$/;
+var hourRegExp = /^(([0-1])?[0-9]|2[0-3]):[0-5][0-9]:([0-5][0-9])$/;
+
+function getHours(date) {
+  if (date instanceof Date) {
+    return date.getHours();
+  }
+
+  if (typeof date === 'string' && hourOptionalSecondsRegExp.test(date)) {
+    var hourString = date.split(':')[0];
+    return parseInt(hourString, 10);
+  }
+
+  throw new Error("Failed to get hours from date: ".concat(date, "."));
+}
+
+function getMinutes(date) {
+  if (date instanceof Date) {
+    return date.getMinutes();
+  }
+
+  if (typeof date === 'string' && hourOptionalSecondsRegExp.test(date)) {
+    var minuteString = date.split(':')[1];
+    return parseInt(minuteString, 10);
+  }
+
+  throw new Error("Failed to get minutes from date: ".concat(date, "."));
+}
+
+function getSeconds(date) {
+  if (date instanceof Date) {
+    return date.getSeconds();
+  }
+
+  if (typeof date === 'string') {
+    if (hourRegExp.test(date)) {
+      var secondString = date.split(':')[2];
+      return parseInt(secondString, 10);
+    }
+
+    if (hourOptionalSecondsRegExp.test(date)) {
+      return 0;
+    }
+  }
+
+  throw new Error("Failed to get seconds from date: ".concat(date, "."));
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/shared/propTypes.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-clock/dist/shared/propTypes.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isMarkWidth = exports.isMarkLength = exports.isHandWidth = exports.isOppositeHandLength = exports.isHandLength = void 0;
+
+var _utils = __webpack_require__(/*! ./utils */ "./node_modules/react-clock/dist/shared/utils.js");
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+var isNumberBetween = function isNumberBetween(min, max) {
+  return function (props, propName, componentName) {
+    var value = props[propName];
+
+    if ((0, _utils.isDefined)(value)) {
+      if (typeof value !== 'number') {
+        return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(value), "` supplied to `").concat(componentName, "`, expected `number`."));
+      }
+
+      if (value < min || value > max) {
+        return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(value), "` supplied to `").concat(componentName, "`, length must be between ").concat(min, " and ").concat(max, "."));
+      }
+    } // Everything is fine
+
+
+    return null;
+  };
+};
+
+var isHandLength = isNumberBetween(0, 100);
+exports.isHandLength = isHandLength;
+var isOppositeHandLength = isNumberBetween(-100, 100);
+exports.isOppositeHandLength = isOppositeHandLength;
+
+var isHandWidth = function isHandWidth(props, propName, componentName) {
+  var width = props[propName];
+
+  if ((0, _utils.isDefined)(width)) {
+    if (typeof width !== 'number') {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(width), "` supplied to `").concat(componentName, "`, expected `number`."));
+    }
+
+    if (width < 0) {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(_typeof(width), "` supplied to `").concat(componentName, "`, width must be greater or equal to 0."));
+    }
+  } // Everything is fine
+
+
+  return null;
+};
+
+exports.isHandWidth = isHandWidth;
+var isMarkLength = isHandLength;
+exports.isMarkLength = isMarkLength;
+var isMarkWidth = isHandWidth;
+exports.isMarkWidth = isMarkWidth;
+
+/***/ }),
+
+/***/ "./node_modules/react-clock/dist/shared/utils.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/react-clock/dist/shared/utils.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isDefined = void 0;
+
+/* eslint-disable import/prefer-default-export */
+
+/**
+ * Checks whether a variable is defined.
+ *
+ * @param {*} variable Variable to check
+ */
+var isDefined = function isDefined(variable) {
+  return typeof variable !== 'undefined';
+};
+
+exports.isDefined = isDefined;
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/DateInput/DayInput.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/DateInput/DayInput.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = DayInput;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-date-picker/dist/DateInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-date-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-date-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-date-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function DayInput(_ref) {
+  var maxDate = _ref.maxDate,
+      minDate = _ref.minDate,
+      month = _ref.month,
+      year = _ref.year,
+      otherProps = _objectWithoutProperties(_ref, ["maxDate", "minDate", "month", "year"]);
+
+  var currentMonthMaxDays = function () {
+    if (!month) {
+      return 31;
+    }
+
+    return (0, _dates.getDaysInMonth)(new Date(year, month - 1, 1));
+  }();
+
+  var maxDay = (0, _utils.min)(currentMonthMaxDays, maxDate && year === (0, _dates.getYear)(maxDate) && month === (0, _dates.getMonth)(maxDate) && (0, _dates.getDay)(maxDate));
+  var minDay = (0, _utils.max)(1, minDate && year === (0, _dates.getYear)(minDate) && month === (0, _dates.getMonth)(minDate) && (0, _dates.getDay)(minDate));
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxDay,
+    min: minDay,
+    name: "day"
+  }, otherProps));
+}
+
+DayInput.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  maxDate: _propTypes2.isMaxDate,
+  minDate: _propTypes2.isMinDate,
+  month: _propTypes["default"].number,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].number,
+  year: _propTypes["default"].number
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/DateInput/Input.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/DateInput/Input.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Input;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _updateInputWidth = _interopRequireWildcard(__webpack_require__(/*! update-input-width */ "./node_modules/update-input-width/dist/index.js"));
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function select(element) {
+  if (!element) {
+    return;
+  }
+
+  requestAnimationFrame(function () {
+    return element.select();
+  });
+}
+
+function updateInputWidthOnFontLoad(element) {
+  if (!document.fonts) {
+    return;
+  }
+
+  var font = (0, _updateInputWidth.getFontShorthand)(element);
+
+  if (!font) {
+    return;
+  }
+
+  var isFontLoaded = document.fonts.check(font);
+
+  if (isFontLoaded) {
+    return;
+  }
+
+  function onLoadingDone() {
+    (0, _updateInputWidth["default"])(element);
+  }
+
+  document.fonts.addEventListener('loadingdone', onLoadingDone);
+}
+
+function Input(_ref) {
+  var ariaLabel = _ref.ariaLabel,
+      className = _ref.className,
+      disabled = _ref.disabled,
+      itemRef = _ref.itemRef,
+      max = _ref.max,
+      min = _ref.min,
+      name = _ref.name,
+      nameForClass = _ref.nameForClass,
+      onChange = _ref.onChange,
+      onKeyDown = _ref.onKeyDown,
+      _onKeyUp = _ref.onKeyUp,
+      placeholder = _ref.placeholder,
+      required = _ref.required,
+      showLeadingZeros = _ref.showLeadingZeros,
+      step = _ref.step,
+      value = _ref.value;
+  var hasLeadingZero = showLeadingZeros && value !== null && value < 10;
+  return [hasLeadingZero && _react["default"].createElement("span", {
+    key: "leadingZero",
+    className: "".concat(className, "__leadingZero")
+  }, "0"), _react["default"].createElement("input", {
+    key: "input",
+    "aria-label": ariaLabel,
+    autoComplete: "off",
+    className: (0, _mergeClassNames["default"])("".concat(className, "__input"), "".concat(className, "__").concat(nameForClass || name), hasLeadingZero && "".concat(className, "__input--hasLeadingZero")),
+    disabled: disabled,
+    max: max,
+    min: min,
+    name: name,
+    onChange: onChange,
+    onFocus: function onFocus(event) {
+      return select(event.target);
+    },
+    onKeyDown: onKeyDown,
+    onKeyUp: function onKeyUp(event) {
+      (0, _updateInputWidth["default"])(event.target);
+
+      if (_onKeyUp) {
+        _onKeyUp(event);
+      }
+    },
+    placeholder: placeholder,
+    ref: function ref(_ref2) {
+      if (_ref2) {
+        (0, _updateInputWidth["default"])(_ref2);
+        updateInputWidthOnFontLoad(_ref2);
+      }
+
+      if (itemRef) {
+        itemRef(_ref2, name);
+      }
+    },
+    required: required,
+    step: step,
+    type: "number",
+    value: value !== null ? value : ''
+  })];
+}
+
+Input.propTypes = {
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  max: _propTypes["default"].number,
+  min: _propTypes["default"].number,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  step: _propTypes["default"].number,
+  value: _propTypes["default"].number
+};
+Input.defaultProps = {
+  placeholder: '--'
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/DateInput/MonthInput.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/DateInput/MonthInput.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = MonthInput;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-date-picker/dist/DateInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-date-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-date-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-date-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function MonthInput(_ref) {
+  var maxDate = _ref.maxDate,
+      minDate = _ref.minDate,
+      year = _ref.year,
+      otherProps = _objectWithoutProperties(_ref, ["maxDate", "minDate", "year"]);
+
+  var maxMonth = (0, _utils.min)(12, maxDate && year === (0, _dates.getYear)(maxDate) && (0, _dates.getMonth)(maxDate));
+  var minMonth = (0, _utils.max)(1, minDate && year === (0, _dates.getYear)(minDate) && (0, _dates.getMonth)(minDate));
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxMonth,
+    min: minMonth,
+    name: "month"
+  }, otherProps));
+}
+
+MonthInput.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  maxDate: _propTypes2.isMaxDate,
+  minDate: _propTypes2.isMinDate,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].number,
+  year: _propTypes["default"].number
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/DateInput/MonthSelect.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/DateInput/MonthSelect.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = MonthSelect;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-date-picker/dist/shared/dates.js");
+
+var _dateFormatter = __webpack_require__(/*! ../shared/dateFormatter */ "./node_modules/react-date-picker/dist/shared/dateFormatter.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-date-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-date-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function MonthSelect(_ref) {
+  var ariaLabel = _ref.ariaLabel,
+      className = _ref.className,
+      itemRef = _ref.itemRef,
+      locale = _ref.locale,
+      maxDate = _ref.maxDate,
+      minDate = _ref.minDate,
+      _short = _ref["short"],
+      year = _ref.year,
+      value = _ref.value,
+      placeholder = _ref.placeholder,
+      otherProps = _objectWithoutProperties(_ref, ["ariaLabel", "className", "itemRef", "locale", "maxDate", "minDate", "short", "year", "value", "placeholder"]);
+
+  var maxMonth = (0, _utils.min)(12, maxDate && year === (0, _dates.getYear)(maxDate) && (0, _dates.getMonth)(maxDate));
+  var minMonth = (0, _utils.max)(1, minDate && year === (0, _dates.getYear)(minDate) && (0, _dates.getMonth)(minDate));
+
+  var dates = _toConsumableArray(Array(12)).map(function (el, index) {
+    return new Date(2019, index, 1);
+  });
+
+  var name = 'month';
+  var formatter = _short ? _dateFormatter.formatShortMonth : _dateFormatter.formatMonth;
+  return _react["default"].createElement("select", _extends({
+    "aria-label": ariaLabel,
+    className: (0, _mergeClassNames["default"])("".concat(className, "__input"), "".concat(className, "__").concat(name)),
+    name: name,
+    ref: function ref(_ref2) {
+      if (itemRef) {
+        itemRef(_ref2, name);
+      }
+    },
+    value: value !== null ? value : ''
+  }, otherProps), !value && _react["default"].createElement("option", {
+    value: ""
+  }, placeholder), dates.map(function (date) {
+    var month = (0, _dates.getMonth)(date);
+    var disabled = month < minMonth || month > maxMonth;
+    return _react["default"].createElement("option", {
+      key: month,
+      disabled: disabled,
+      value: month
+    }, formatter(locale, date));
+  }));
+}
+
+MonthSelect.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  locale: _propTypes["default"].string,
+  maxDate: _propTypes2.isMaxDate,
+  minDate: _propTypes2.isMinDate,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  "short": _propTypes["default"].bool,
+  value: _propTypes["default"].number,
+  year: _propTypes["default"].number
+};
+MonthSelect.defaultProps = {
+  placeholder: '--'
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/DateInput/YearInput.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/DateInput/YearInput.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = YearInput;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-date-picker/dist/DateInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-date-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-date-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-date-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function YearInput(_ref) {
+  var maxDate = _ref.maxDate,
+      minDate = _ref.minDate,
+      valueType = _ref.valueType,
+      otherProps = _objectWithoutProperties(_ref, ["maxDate", "minDate", "valueType"]);
+
+  var maxYear = (0, _utils.min)(275760, maxDate && (0, _dates.getYear)(maxDate));
+  var minYear = (0, _utils.max)(1000, minDate && (0, _dates.getYear)(minDate));
+
+  var yearStep = function () {
+    if (valueType === 'century') {
+      return 10;
+    }
+
+    return 1;
+  }();
+
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxYear,
+    min: minYear,
+    name: "year",
+    step: yearStep
+  }, otherProps));
+}
+
+YearInput.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  maxDate: _propTypes2.isMaxDate,
+  minDate: _propTypes2.isMinDate,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  value: _propTypes["default"].number,
+  valueType: _propTypes2.isValueType
+};
+YearInput.defaultProps = {
+  placeholder: '----'
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/shared/dateFormatter.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/shared/dateFormatter.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getFormatter = getFormatter;
+exports.formatShortMonth = exports.formatMonth = void 0;
+
+var _getUserLocale = _interopRequireDefault(__webpack_require__(/*! get-user-locale */ "./node_modules/get-user-locale/dist/entry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function getFormatter(options) {
+  return function (locale, date) {
+    return date.toLocaleString(locale || (0, _getUserLocale["default"])(), options);
+  };
+}
+/**
+ * Changes the hour in a Date to ensure right date formatting even if DST is messed up.
+ * Workaround for bug in WebKit and Firefox with historical dates.
+ * For more details, see:
+ * https://bugs.chromium.org/p/chromium/issues/detail?id=750465
+ * https://bugzilla.mozilla.org/show_bug.cgi?id=1385643
+ *
+ * @param {Date} date Date.
+ */
+
+
+function toSafeHour(date) {
+  var safeDate = new Date(date);
+  return new Date(safeDate.setHours(12));
+}
+
+function getSafeFormatter(options) {
+  return function (locale, date) {
+    return getFormatter(options)(locale, toSafeHour(date));
+  };
+}
+
+var formatMonthOptions = {
+  month: 'long'
+};
+var formatShortMonthOptions = {
+  month: 'short'
+};
+var formatMonth = getSafeFormatter(formatMonthOptions);
+exports.formatMonth = formatMonth;
+var formatShortMonth = getSafeFormatter(formatShortMonthOptions);
+exports.formatShortMonth = formatShortMonth;
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/shared/dates.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/shared/dates.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "getYear", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getYear;
+  }
+});
+Object.defineProperty(exports, "getMonth", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getMonth;
+  }
+});
+Object.defineProperty(exports, "getMonthIndex", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getMonthIndex;
+  }
+});
+Object.defineProperty(exports, "getDay", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getDay;
+  }
+});
+Object.defineProperty(exports, "getDaysInMonth", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getDaysInMonth;
+  }
+});
+Object.defineProperty(exports, "getBegin", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getBegin;
+  }
+});
+Object.defineProperty(exports, "getEnd", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getEnd;
+  }
+});
+Object.defineProperty(exports, "getISOLocalMonth", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getISOLocalMonth;
+  }
+});
+Object.defineProperty(exports, "getISOLocalDate", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getISOLocalDate;
+  }
+});
+
+var _dates = __webpack_require__(/*! react-calendar/dist/shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/shared/propTypes.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/shared/propTypes.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "isMaxDate", {
+  enumerable: true,
+  get: function get() {
+    return _propTypes2.isMaxDate;
+  }
+});
+Object.defineProperty(exports, "isMinDate", {
+  enumerable: true,
+  get: function get() {
+    return _propTypes2.isMinDate;
+  }
+});
+exports.isValueType = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _propTypes2 = __webpack_require__(/*! react-calendar/dist/shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+var allViews = ['century', 'decade', 'year', 'month'];
+var allValueTypes = [].concat(_toConsumableArray(allViews.slice(1)), ['day']);
+
+var isValueType = _propTypes["default"].oneOf(allValueTypes);
+
+exports.isValueType = isValueType;
+
+/***/ }),
+
+/***/ "./node_modules/react-date-picker/dist/shared/utils.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-date-picker/dist/shared/utils.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "between", {
+  enumerable: true,
+  get: function get() {
+    return _utils.between;
+  }
+});
+Object.defineProperty(exports, "callIfDefined", {
+  enumerable: true,
+  get: function get() {
+    return _utils.callIfDefined;
+  }
+});
+exports.max = exports.min = void 0;
+
+var _utils = __webpack_require__(/*! react-calendar/dist/shared/utils */ "./node_modules/react-calendar/dist/shared/utils.js");
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+var isValidNumber = function isValidNumber(a) {
+  return typeof a === 'number' && !isNaN(a);
+};
+
+var min = function min() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return Math.min.apply(Math, _toConsumableArray(args.filter(isValidNumber)));
+};
+
+exports.min = min;
+
+var max = function max() {
+  for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+    args[_key2] = arguments[_key2];
+  }
+
+  return Math.max.apply(Math, _toConsumableArray(args.filter(isValidNumber)));
+};
+
+exports.max = max;
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/DateTimeInput.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/DateTimeInput.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
+
+var _DayInput = _interopRequireDefault(__webpack_require__(/*! react-date-picker/dist/DateInput/DayInput */ "./node_modules/react-date-picker/dist/DateInput/DayInput.js"));
+
+var _MonthInput = _interopRequireDefault(__webpack_require__(/*! react-date-picker/dist/DateInput/MonthInput */ "./node_modules/react-date-picker/dist/DateInput/MonthInput.js"));
+
+var _MonthSelect = _interopRequireDefault(__webpack_require__(/*! react-date-picker/dist/DateInput/MonthSelect */ "./node_modules/react-date-picker/dist/DateInput/MonthSelect.js"));
+
+var _YearInput = _interopRequireDefault(__webpack_require__(/*! react-date-picker/dist/DateInput/YearInput */ "./node_modules/react-date-picker/dist/DateInput/YearInput.js"));
+
+var _Hour12Input = _interopRequireDefault(__webpack_require__(/*! react-time-picker/dist/TimeInput/Hour12Input */ "./node_modules/react-time-picker/dist/TimeInput/Hour12Input.js"));
+
+var _Hour24Input = _interopRequireDefault(__webpack_require__(/*! react-time-picker/dist/TimeInput/Hour24Input */ "./node_modules/react-time-picker/dist/TimeInput/Hour24Input.js"));
+
+var _MinuteInput = _interopRequireDefault(__webpack_require__(/*! react-time-picker/dist/TimeInput/MinuteInput */ "./node_modules/react-time-picker/dist/TimeInput/MinuteInput.js"));
+
+var _SecondInput = _interopRequireDefault(__webpack_require__(/*! react-time-picker/dist/TimeInput/SecondInput */ "./node_modules/react-time-picker/dist/TimeInput/SecondInput.js"));
+
+var _AmPm = _interopRequireDefault(__webpack_require__(/*! react-time-picker/dist/TimeInput/AmPm */ "./node_modules/react-time-picker/dist/TimeInput/AmPm.js"));
+
+var _Divider = _interopRequireDefault(__webpack_require__(/*! ./Divider */ "./node_modules/react-datetime-picker/dist/Divider.js"));
+
+var _NativeInput = _interopRequireDefault(__webpack_require__(/*! ./DateTimeInput/NativeInput */ "./node_modules/react-datetime-picker/dist/DateTimeInput/NativeInput.js"));
+
+var _dateFormatter = __webpack_require__(/*! ./shared/dateFormatter */ "./node_modules/react-datetime-picker/dist/shared/dateFormatter.js");
+
+var _dates = __webpack_require__(/*! ./shared/dates */ "./node_modules/react-datetime-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-datetime-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ./shared/utils */ "./node_modules/react-datetime-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+var defaultMinDate = new Date(-8.64e15);
+var defaultMaxDate = new Date(8.64e15);
+var allViews = ['hour', 'minute', 'second'];
+
+var datesAreDifferent = function datesAreDifferent(date1, date2) {
+  return date1 && !date2 || !date1 && date2 || date1 && date2 && date1.getTime() !== date2.getTime();
+};
+
+var isSameDate = function isSameDate(date, year, month, day) {
+  return (0, _dates.getYear)(date) === year && (0, _dates.getMonth)(date) === month && (0, _dates.getDay)(date) === day;
+};
+
+var getValueFromRange = function getValueFromRange(valueOrArrayOfValues, index) {
+  if (Array.isArray(valueOrArrayOfValues)) {
+    return valueOrArrayOfValues[index];
+  }
+
+  return valueOrArrayOfValues;
+};
+
+var parseAndValidateDate = function parseAndValidateDate(rawValue) {
+  if (!rawValue) {
+    return null;
+  }
+
+  var valueDate = new Date(rawValue);
+
+  if (isNaN(valueDate.getTime())) {
+    throw new Error("Invalid date: ".concat(rawValue));
+  }
+
+  return valueDate;
+};
+
+var getDetailValue = function getDetailValue(value, minDate, maxDate) {
+  if (!value) {
+    return null;
+  }
+
+  return (0, _utils.between)(value, minDate, maxDate);
+};
+
+var getValueFrom = function getValueFrom(value) {
+  var valueFrom = getValueFromRange(value, 0);
+  return parseAndValidateDate(valueFrom);
+};
+
+var getDetailValueFrom = function getDetailValueFrom(value, minDate, maxDate) {
+  var valueFrom = getValueFrom(value);
+  return getDetailValue(valueFrom, minDate, maxDate);
+};
+
+var getValueTo = function getValueTo(value) {
+  var valueTo = getValueFromRange(value, 1);
+  return parseAndValidateDate(valueTo);
+};
+
+var getDetailValueTo = function getDetailValueTo(value, minDate, maxDate) {
+  var valueTo = getValueTo(value);
+  return getDetailValue(valueTo, minDate, maxDate);
+};
+
+var isValidInput = function isValidInput(element) {
+  return element.tagName === 'INPUT' && element.type === 'number';
+};
+
+var findInput = function findInput(element, property) {
+  var nextElement = element;
+
+  do {
+    nextElement = nextElement[property];
+  } while (nextElement && !isValidInput(nextElement));
+
+  return nextElement;
+};
+
+var focus = function focus(element) {
+  return element && element.focus();
+};
+
+var _renderCustomInputs = function renderCustomInputs(placeholder, elementFunctions, allowMultipleInstances) {
+  var usedFunctions = [];
+  var pattern = new RegExp(Object.keys(elementFunctions).map(function (el) {
+    return "".concat(el, "+");
+  }).join('|'), 'g');
+  var matches = placeholder.match(pattern);
+  return placeholder.split(pattern).reduce(function (arr, element, index) {
+    var divider = element && // eslint-disable-next-line react/no-array-index-key
+    _react["default"].createElement(_Divider["default"], {
+      key: "separator_".concat(index)
+    }, element);
+
+    var res = [].concat(_toConsumableArray(arr), [divider]);
+    var currentMatch = matches && matches[index];
+
+    if (currentMatch) {
+      var renderFunction = elementFunctions[currentMatch] || elementFunctions[Object.keys(elementFunctions).find(function (elementFunction) {
+        return currentMatch.match(elementFunction);
+      })];
+
+      if (!allowMultipleInstances && usedFunctions.includes(renderFunction)) {
+        res.push(currentMatch);
+      } else {
+        res.push(renderFunction(currentMatch));
+        usedFunctions.push(renderFunction);
+      }
+    }
+
+    return res;
+  }, []);
+};
+
+var DateTimeInput =
+/*#__PURE__*/
+function (_PureComponent) {
+  _inherits(DateTimeInput, _PureComponent);
+
+  function DateTimeInput() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, DateTimeInput);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(DateTimeInput)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {
+      amPm: null,
+      year: null,
+      month: null,
+      day: null,
+      hour: null,
+      minute: null,
+      second: null
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onClick", function (event) {
+      if (event.target === event.currentTarget) {
+        // Wrapper was directly clicked
+        var firstInput = event.target.children[1];
+        focus(firstInput);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onKeyDown", function (event) {
+      switch (event.key) {
+        case 'ArrowLeft':
+        case 'ArrowRight':
+        case _this.dateDivider:
+        case _this.timeDivider:
+          {
+            event.preventDefault();
+            var input = event.target;
+            var property = event.key === 'ArrowLeft' ? 'previousElementSibling' : 'nextElementSibling';
+            var nextInput = findInput(input, property);
+            focus(nextInput);
+            break;
+          }
+
+        default:
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onKeyUp", function (event) {
+      var key = event.key,
+          input = event.target;
+      var isNumberKey = !isNaN(parseInt(key, 10));
+
+      if (!isNumberKey) {
+        return;
+      }
+
+      var value = input.value;
+      var max = parseInt(input.getAttribute('max'), 10);
+      /**
+       * Given 1, the smallest possible number the user could type by adding another digit is 10.
+       * 10 would be a valid value given max = 12, so we won't jump to the next input.
+       * However, given 2, smallers possible number would be 20, and thus keeping the focus in
+       * this field doesn't make sense.
+       */
+
+      if (value * 10 > max) {
+        var property = 'nextElementSibling';
+        var nextInput = findInput(input, property);
+        focus(nextInput);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onChange", function (event) {
+      var _event$target = event.target,
+          name = _event$target.name,
+          value = _event$target.value;
+
+      switch (name) {
+        case 'hour12':
+          {
+            _this.setState(function (prevState) {
+              return {
+                hour: value ? (0, _dates.convert12to24)(parseInt(value, 10), prevState.amPm) : null
+              };
+            }, _this.onChangeExternal);
+
+            break;
+          }
+
+        case 'hour24':
+          {
+            _this.setState({
+              hour: value ? parseInt(value, 10) : null
+            }, _this.onChangeExternal);
+
+            break;
+          }
+
+        default:
+          {
+            _this.setState(_defineProperty({}, name, value ? parseInt(value, 10) : null), _this.onChangeExternal);
+          }
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onChangeNative", function (event) {
+      var onChange = _this.props.onChange;
+      var value = event.target.value;
+
+      if (!onChange) {
+        return;
+      }
+
+      var processedValue = function () {
+        if (!value) {
+          return null;
+        }
+
+        var _value$split = value.split('T'),
+            _value$split2 = _slicedToArray(_value$split, 2),
+            valueDate = _value$split2[0],
+            valueTime = _value$split2[1];
+
+        var _valueDate$split = valueDate.split('-'),
+            _valueDate$split2 = _slicedToArray(_valueDate$split, 3),
+            yearString = _valueDate$split2[0],
+            monthString = _valueDate$split2[1],
+            dayString = _valueDate$split2[2];
+
+        var year = parseInt(yearString, 10);
+        var monthIndex = parseInt(monthString, 10) - 1 || 0;
+        var date = parseInt(dayString, 10) || 1;
+
+        var _valueTime$split = valueTime.split(':'),
+            _valueTime$split2 = _slicedToArray(_valueTime$split, 3),
+            hourString = _valueTime$split2[0],
+            minuteString = _valueTime$split2[1],
+            secondString = _valueTime$split2[2];
+
+        var hour = parseInt(hourString, 10) || 0;
+        var minute = parseInt(minuteString, 10) || 0;
+        var second = parseInt(secondString, 10) || 0;
+        return new Date(year, monthIndex, date, hour, minute, second);
+      }();
+
+      onChange(processedValue, false);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onChangeAmPm", function (event) {
+      var value = event.target.value;
+
+      _this.setState({
+        amPm: value
+      }, _this.onChangeExternal);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onChangeExternal", function () {
+      var onChange = _this.props.onChange;
+
+      if (!onChange) {
+        return;
+      }
+
+      var formElements = [_this.dayInput, _this.monthInput, _this.yearInput, _this.hour12Input, _this.hour24Input, _this.minuteInput, _this.secondInput, _this.amPmInput].filter(Boolean);
+      var formElementsWithoutSelect = formElements.slice(0, -1);
+      var values = {};
+      formElements.forEach(function (formElement) {
+        values[formElement.name] = formElement.value;
+      });
+
+      if (formElementsWithoutSelect.every(function (formElement) {
+        return !formElement.value;
+      })) {
+        onChange(null, false);
+      } else if (formElements.every(function (formElement) {
+        return formElement.value && formElement.checkValidity();
+      })) {
+        var year = parseInt(values.year, 10);
+        var month = parseInt(values.month || 1, 10);
+        var day = parseInt(values.day || 1, 10);
+        var hour = parseInt(values.hour24 || (0, _dates.convert12to24)(values.hour12, values.amPm) || 0, 10);
+        var minute = parseInt(values.minute || 0, 10);
+        var second = parseInt(values.second || 0, 10);
+        var proposedValue = new Date(year, month - 1, day, hour, minute, second);
+        var processedValue = proposedValue;
+        onChange(processedValue, false);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderDay", function (currentMatch) {
+      var _this$props = _this.props,
+          dayAriaLabel = _this$props.dayAriaLabel,
+          dayPlaceholder = _this$props.dayPlaceholder,
+          showLeadingZeros = _this$props.showLeadingZeros;
+      var _this$state = _this.state,
+          day = _this$state.day,
+          month = _this$state.month,
+          year = _this$state.year;
+
+      if (currentMatch && currentMatch.length > 2) {
+        throw new Error("Unsupported token: ".concat(currentMatch));
+      }
+
+      var showLeadingZerosFromFormat = currentMatch && currentMatch.length === 2;
+      return _react["default"].createElement(_DayInput["default"], _extends({
+        key: "day"
+      }, _this.commonInputProps, {
+        ariaLabel: dayAriaLabel,
+        month: month,
+        placeholder: dayPlaceholder,
+        showLeadingZeros: showLeadingZerosFromFormat || showLeadingZeros,
+        value: day,
+        year: year
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderMonth", function (currentMatch) {
+      var _this$props2 = _this.props,
+          locale = _this$props2.locale,
+          monthAriaLabel = _this$props2.monthAriaLabel,
+          monthPlaceholder = _this$props2.monthPlaceholder,
+          showLeadingZeros = _this$props2.showLeadingZeros;
+      var _this$state2 = _this.state,
+          month = _this$state2.month,
+          year = _this$state2.year;
+
+      if (currentMatch && currentMatch.length > 4) {
+        throw new Error("Unsupported token: ".concat(currentMatch));
+      }
+
+      if (currentMatch.length > 2) {
+        return _react["default"].createElement(_MonthSelect["default"], _extends({
+          key: "month"
+        }, _this.commonInputProps, {
+          ariaLabel: monthAriaLabel,
+          locale: locale,
+          placeholder: monthPlaceholder,
+          "short": currentMatch.length === 3,
+          value: month,
+          year: year
+        }));
+      }
+
+      var showLeadingZerosFromFormat = currentMatch && currentMatch.length === 2;
+      return _react["default"].createElement(_MonthInput["default"], _extends({
+        key: "month"
+      }, _this.commonInputProps, {
+        ariaLabel: monthAriaLabel,
+        placeholder: monthPlaceholder,
+        showLeadingZeros: showLeadingZerosFromFormat || showLeadingZeros,
+        value: month,
+        year: year
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderYear", function () {
+      var _this$props3 = _this.props,
+          yearAriaLabel = _this$props3.yearAriaLabel,
+          yearPlaceholder = _this$props3.yearPlaceholder;
+      var year = _this.state.year;
+      return _react["default"].createElement(_YearInput["default"], _extends({
+        key: "year"
+      }, _this.commonInputProps, {
+        ariaLabel: yearAriaLabel,
+        placeholder: yearPlaceholder,
+        value: year,
+        valueType: "day"
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderHour", function (currentMatch) {
+      if (/h/.test(currentMatch)) {
+        return _this.renderHour12(currentMatch);
+      }
+
+      return _this.renderHour24(currentMatch);
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderHour12", function (currentMatch) {
+      var _this$props4 = _this.props,
+          hourAriaLabel = _this$props4.hourAriaLabel,
+          hourPlaceholder = _this$props4.hourPlaceholder;
+      var _this$state3 = _this.state,
+          amPm = _this$state3.amPm,
+          hour = _this$state3.hour;
+
+      if (currentMatch && currentMatch.length > 2) {
+        throw new Error("Unsupported token: ".concat(currentMatch));
+      }
+
+      var showLeadingZeros = currentMatch && currentMatch.length === 2;
+      return _react["default"].createElement(_Hour12Input["default"], _extends({
+        key: "hour12"
+      }, _this.commonInputProps, _this.commonTimeInputProps, {
+        amPm: amPm,
+        ariaLabel: hourAriaLabel,
+        placeholder: hourPlaceholder,
+        showLeadingZeros: showLeadingZeros,
+        value: hour
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderHour24", function (currentMatch) {
+      var _this$props5 = _this.props,
+          hourAriaLabel = _this$props5.hourAriaLabel,
+          hourPlaceholder = _this$props5.hourPlaceholder;
+      var hour = _this.state.hour;
+
+      if (currentMatch && currentMatch.length > 2) {
+        throw new Error("Unsupported token: ".concat(currentMatch));
+      }
+
+      var showLeadingZeros = currentMatch && currentMatch.length === 2;
+      return _react["default"].createElement(_Hour24Input["default"], _extends({
+        key: "hour24"
+      }, _this.commonInputProps, _this.commonTimeInputProps, {
+        ariaLabel: hourAriaLabel,
+        placeholder: hourPlaceholder,
+        showLeadingZeros: showLeadingZeros,
+        value: hour
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderMinute", function (currentMatch) {
+      var _this$props6 = _this.props,
+          minuteAriaLabel = _this$props6.minuteAriaLabel,
+          minutePlaceholder = _this$props6.minutePlaceholder;
+      var _this$state4 = _this.state,
+          hour = _this$state4.hour,
+          minute = _this$state4.minute;
+
+      if (currentMatch && currentMatch.length > 2) {
+        throw new Error("Unsupported token: ".concat(currentMatch));
+      }
+
+      var showLeadingZeros = currentMatch && currentMatch.length === 2;
+      return _react["default"].createElement(_MinuteInput["default"], _extends({
+        key: "minute"
+      }, _this.commonInputProps, _this.commonTimeInputProps, {
+        ariaLabel: minuteAriaLabel,
+        hour: hour,
+        placeholder: minutePlaceholder,
+        showLeadingZeros: showLeadingZeros,
+        value: minute
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderSecond", function (currentMatch) {
+      var _this$props7 = _this.props,
+          secondAriaLabel = _this$props7.secondAriaLabel,
+          secondPlaceholder = _this$props7.secondPlaceholder;
+      var _this$state5 = _this.state,
+          hour = _this$state5.hour,
+          minute = _this$state5.minute,
+          second = _this$state5.second;
+
+      if (currentMatch && currentMatch.length > 2) {
+        throw new Error("Unsupported token: ".concat(currentMatch));
+      }
+
+      var showLeadingZeros = currentMatch ? currentMatch.length === 2 : true;
+      return _react["default"].createElement(_SecondInput["default"], _extends({
+        key: "second"
+      }, _this.commonInputProps, _this.commonTimeInputProps, {
+        ariaLabel: secondAriaLabel,
+        hour: hour,
+        minute: minute,
+        placeholder: secondPlaceholder,
+        showLeadingZeros: showLeadingZeros,
+        value: second
+      }));
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "renderAmPm", function () {
+      var _this$props8 = _this.props,
+          amPmAriaLabel = _this$props8.amPmAriaLabel,
+          locale = _this$props8.locale;
+      var amPm = _this.state.amPm;
+      return _react["default"].createElement(_AmPm["default"], _extends({
+        key: "ampm"
+      }, _this.commonInputProps, _this.commonTimeInputProps, {
+        ariaLabel: amPmAriaLabel,
+        locale: locale,
+        onChange: _this.onChangeAmPm,
+        value: amPm
+      }));
+    });
+
+    return _this;
+  }
+
+  _createClass(DateTimeInput, [{
+    key: "renderCustomInputs",
+    value: function renderCustomInputs() {
+      var placeholder = this.placeholder;
+      var format = this.props.format;
+      var elementFunctions = {
+        d: this.renderDay,
+        M: this.renderMonth,
+        y: this.renderYear,
+        h: this.renderHour,
+        H: this.renderHour,
+        m: this.renderMinute,
+        s: this.renderSecond,
+        a: this.renderAmPm
+      };
+      var allowMultipleInstances = typeof format !== 'undefined';
+      return _renderCustomInputs(placeholder, elementFunctions, allowMultipleInstances);
+    }
+  }, {
+    key: "renderNativeInput",
+    value: function renderNativeInput() {
+      var _this$props9 = this.props,
+          disabled = _this$props9.disabled,
+          maxDate = _this$props9.maxDate,
+          minDate = _this$props9.minDate,
+          name = _this$props9.name,
+          nativeInputAriaLabel = _this$props9.nativeInputAriaLabel,
+          required = _this$props9.required;
+      var value = this.state.value;
+      return _react["default"].createElement(_NativeInput["default"], {
+        key: "time",
+        ariaLabel: nativeInputAriaLabel,
+        disabled: disabled,
+        maxDate: maxDate || defaultMaxDate,
+        minDate: minDate || defaultMinDate,
+        name: name,
+        onChange: this.onChangeNative,
+        required: required,
+        value: value,
+        valueType: this.valueType
+      });
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var className = this.props.className;
+      return _react["default"].createElement("div", {
+        className: className,
+        onClick: this.onClick,
+        role: "presentation"
+      }, this.renderNativeInput(), this.renderCustomInputs());
+    }
+  }, {
+    key: "formatTime",
+    get: function get() {
+      var maxDetail = this.props.maxDetail;
+      var options = {
+        hour: 'numeric'
+      };
+      var level = allViews.indexOf(maxDetail);
+
+      if (level >= 1) {
+        options.minute = 'numeric';
+      }
+
+      if (level >= 2) {
+        options.second = 'numeric';
+      }
+
+      return (0, _dateFormatter.getFormatter)(options);
+    } // eslint-disable-next-line class-methods-use-this
+
+  }, {
+    key: "formatNumber",
+    get: function get() {
+      var options = {
+        useGrouping: false
+      };
+      return (0, _dateFormatter.getFormatter)(options);
+    }
+  }, {
+    key: "dateDivider",
+    get: function get() {
+      return this.datePlaceholder.match(/[^0-9a-z]/i)[0];
+    }
+  }, {
+    key: "timeDivider",
+    get: function get() {
+      return this.timePlaceholder.match(/[^0-9a-z]/i)[0];
+    }
+  }, {
+    key: "datePlaceholder",
+    get: function get() {
+      var locale = this.props.locale;
+      var year = 2017;
+      var monthIndex = 11;
+      var day = 11;
+      var date = new Date(year, monthIndex, day);
+      return (0, _dateFormatter.formatDate)(locale, date).replace(this.formatNumber(locale, year), 'y').replace(this.formatNumber(locale, monthIndex + 1), 'M').replace(this.formatNumber(locale, day), 'd');
+    }
+  }, {
+    key: "timePlaceholder",
+    get: function get() {
+      var locale = this.props.locale;
+      var hour24 = 21;
+      var hour12 = 9;
+      var minute = 13;
+      var second = 14;
+      var date = new Date(2017, 0, 1, hour24, minute, second);
+      return this.formatTime(locale, date).replace(this.formatNumber(locale, hour12), 'h').replace(this.formatNumber(locale, hour24), 'H').replace(this.formatNumber(locale, minute), 'mm').replace(this.formatNumber(locale, second), 'ss').replace(new RegExp((0, _utils.getAmPmLabels)(locale).join('|')), 'a');
+    }
+  }, {
+    key: "placeholder",
+    get: function get() {
+      var format = this.props.format;
+
+      if (format) {
+        return format;
+      }
+
+      return "".concat(this.datePlaceholder, "\xA0").concat(this.timePlaceholder);
+    }
+  }, {
+    key: "maxTime",
+    get: function get() {
+      var maxDate = this.props.maxDate;
+
+      if (!maxDate) {
+        return null;
+      }
+
+      var _this$state6 = this.state,
+          year = _this$state6.year,
+          month = _this$state6.month,
+          day = _this$state6.day;
+
+      if (!isSameDate(maxDate, year, month, day)) {
+        return null;
+      }
+
+      return (0, _dates.getHoursMinutesSeconds)(maxDate);
+    }
+  }, {
+    key: "minTime",
+    get: function get() {
+      var minDate = this.props.minDate;
+
+      if (!minDate) {
+        return null;
+      }
+
+      var _this$state7 = this.state,
+          year = _this$state7.year,
+          month = _this$state7.month,
+          day = _this$state7.day;
+
+      if (!isSameDate(minDate, year, month, day)) {
+        return null;
+      }
+
+      return (0, _dates.getHoursMinutesSeconds)(minDate);
+    }
+  }, {
+    key: "commonInputProps",
+    get: function get() {
+      var _this2 = this;
+
+      var _this$props10 = this.props,
+          className = _this$props10.className,
+          disabled = _this$props10.disabled,
+          isWidgetOpen = _this$props10.isWidgetOpen,
+          maxDate = _this$props10.maxDate,
+          minDate = _this$props10.minDate,
+          required = _this$props10.required;
+      return {
+        className: className,
+        disabled: disabled,
+        maxDate: maxDate || defaultMaxDate,
+        minDate: minDate || defaultMinDate,
+        onChange: this.onChange,
+        onKeyDown: this.onKeyDown,
+        onKeyUp: this.onKeyUp,
+        placeholder: '--',
+        // This is only for showing validity when editing
+        required: required || isWidgetOpen,
+        itemRef: function itemRef(ref, name) {
+          // Save a reference to each input field
+          _this2["".concat(name, "Input")] = ref;
+        }
+      };
+    }
+  }, {
+    key: "commonTimeInputProps",
+    get: function get() {
+      var maxTime = this.maxTime,
+          minTime = this.minTime;
+      return {
+        maxTime: maxTime,
+        minTime: minTime
+      };
+    }
+    /**
+     * Returns value type that can be returned with currently applied settings.
+     */
+
+  }, {
+    key: "valueType",
+    get: function get() {
+      var maxDetail = this.props.maxDetail;
+      return maxDetail;
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps, prevState) {
+      var minDate = nextProps.minDate,
+          maxDate = nextProps.maxDate;
+      var nextState = {};
+      /**
+       * If isWidgetOpen flag has changed, we have to update it.
+       * It's saved in state purely for use in getDerivedStateFromProps.
+       */
+
+      if (nextProps.isWidgetOpen !== prevState.isWidgetOpen) {
+        nextState.isWidgetOpen = nextProps.isWidgetOpen;
+      }
+      /**
+       * If the next value is different from the current one  (with an exception of situation in
+       * which values provided are limited by minDate and maxDate so that the dates are the same),
+       * get a new one.
+       */
+
+
+      var nextValue = getDetailValueFrom(nextProps.value, minDate, maxDate);
+      var values = [nextValue, prevState.value];
+
+      if ( // Toggling calendar visibility resets values
+      nextState.isCalendarOpen // Flag was toggled
+      || datesAreDifferent.apply(void 0, _toConsumableArray(values.map(function (value) {
+        return getDetailValueFrom(value, minDate, maxDate);
+      }))) || datesAreDifferent.apply(void 0, _toConsumableArray(values.map(function (value) {
+        return getDetailValueTo(value, minDate, maxDate);
+      })))) {
+        if (nextValue) {
+          var _convert24to = (0, _dates.convert24to12)((0, _dates.getHours)(nextValue));
+
+          var _convert24to2 = _slicedToArray(_convert24to, 2);
+
+          nextState.amPm = _convert24to2[1];
+          nextState.year = (0, _dates.getYear)(nextValue);
+          nextState.month = (0, _dates.getMonth)(nextValue);
+          nextState.day = (0, _dates.getDay)(nextValue);
+          nextState.hour = (0, _dates.getHours)(nextValue);
+          nextState.minute = (0, _dates.getMinutes)(nextValue);
+          nextState.second = (0, _dates.getSeconds)(nextValue);
+        } else {
+          nextState.amPm = null;
+          nextState.year = null;
+          nextState.month = null;
+          nextState.day = null;
+          nextState.hour = null;
+          nextState.minute = null;
+          nextState.second = null;
+        }
+
+        nextState.value = nextValue;
+      }
+
+      return nextState;
+    }
+  }]);
+
+  return DateTimeInput;
+}(_react.PureComponent);
+
+exports["default"] = DateTimeInput;
+DateTimeInput.defaultProps = {
+  maxDetail: 'minute',
+  name: 'datetime'
+};
+
+var isValue = _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].instanceOf(Date)]);
+
+DateTimeInput.propTypes = {
+  amPmAriaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  dayAriaLabel: _propTypes["default"].string,
+  dayPlaceholder: _propTypes["default"].string,
+  disabled: _propTypes["default"].bool,
+  format: _propTypes["default"].string,
+  hourAriaLabel: _propTypes["default"].string,
+  hourPlaceholder: _propTypes["default"].string,
+  isWidgetOpen: _propTypes["default"].bool,
+  locale: _propTypes["default"].string,
+  maxDate: _propTypes2.isMaxDate,
+  maxDetail: _propTypes["default"].oneOf(allViews),
+  minDate: _propTypes2.isMinDate,
+  minuteAriaLabel: _propTypes["default"].string,
+  minutePlaceholder: _propTypes["default"].string,
+  monthAriaLabel: _propTypes["default"].string,
+  monthPlaceholder: _propTypes["default"].string,
+  name: _propTypes["default"].string,
+  nativeInputAriaLabel: _propTypes["default"].string,
+  onChange: _propTypes["default"].func,
+  required: _propTypes["default"].bool,
+  secondAriaLabel: _propTypes["default"].string,
+  secondPlaceholder: _propTypes["default"].string,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].oneOfType([isValue, _propTypes["default"].arrayOf(isValue)]),
+  yearAriaLabel: _propTypes["default"].string,
+  yearPlaceholder: _propTypes["default"].string
+};
+(0, _reactLifecyclesCompat.polyfill)(DateTimeInput);
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/DateTimeInput/NativeInput.js":
+/*!******************************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/DateTimeInput/NativeInput.js ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = NativeInput;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-datetime-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-datetime-picker/dist/shared/propTypes.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function NativeInput(_ref) {
+  var ariaLabel = _ref.ariaLabel,
+      disabled = _ref.disabled,
+      maxDate = _ref.maxDate,
+      minDate = _ref.minDate,
+      name = _ref.name,
+      onChange = _ref.onChange,
+      required = _ref.required,
+      value = _ref.value,
+      valueType = _ref.valueType;
+
+  var nativeValueParser = function () {
+    switch (valueType) {
+      case 'hour':
+        return function (receivedValue) {
+          return "".concat((0, _dates.getISOLocalDate)(receivedValue), "T").concat((0, _dates.getHours)(receivedValue), ":00");
+        };
+
+      case 'minute':
+        return function (receivedValue) {
+          return "".concat((0, _dates.getISOLocalDate)(receivedValue), "T").concat((0, _dates.getHoursMinutes)(receivedValue));
+        };
+
+      case 'second':
+        return _dates.getISOLocalDateTime;
+
+      default:
+        throw new Error('Invalid valueType.');
+    }
+  }();
+
+  var step = function () {
+    switch (valueType) {
+      case 'hour':
+        return 3600;
+
+      case 'minute':
+        return 60;
+
+      case 'second':
+        return 1;
+
+      default:
+        throw new Error('Invalid valueType.');
+    }
+  }();
+
+  function stopPropagation(event) {
+    event.stopPropagation();
+  }
+
+  return _react["default"].createElement("input", {
+    type: "datetime-local",
+    "aria-label": ariaLabel,
+    disabled: disabled,
+    max: maxDate ? nativeValueParser(maxDate) : null,
+    min: minDate ? nativeValueParser(minDate) : null,
+    name: name,
+    onChange: onChange,
+    onFocus: stopPropagation,
+    required: required,
+    step: step,
+    style: {
+      visibility: 'hidden',
+      position: 'absolute',
+      top: '-9999px',
+      left: '-9999px'
+    },
+    value: value ? nativeValueParser(value) : ''
+  });
+}
+
+NativeInput.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  disabled: _propTypes["default"].bool,
+  maxDate: _propTypes2.isMaxDate,
+  minDate: _propTypes2.isMinDate,
+  name: _propTypes["default"].string,
+  onChange: _propTypes["default"].func,
+  required: _propTypes["default"].bool,
+  value: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].instanceOf(Date)]),
+  valueType: _propTypes2.isValueType
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/DateTimePicker.css":
+/*!********************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/DateTimePicker.css ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./DateTimePicker.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/react-datetime-picker/dist/DateTimePicker.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/DateTimePicker.js":
+/*!*******************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/DateTimePicker.js ***!
+  \*******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _reactLifecyclesCompat = __webpack_require__(/*! react-lifecycles-compat */ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js");
+
+var _makeEventProps = _interopRequireDefault(__webpack_require__(/*! make-event-props */ "./node_modules/make-event-props/dist/entry.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _reactFit = _interopRequireDefault(__webpack_require__(/*! react-fit */ "./node_modules/react-fit/dist/Fit.js"));
+
+var _entry = _interopRequireDefault(__webpack_require__(/*! react-calendar/dist/entry.nostyle */ "./node_modules/react-calendar/dist/entry.nostyle.js"));
+
+var _entry2 = _interopRequireDefault(__webpack_require__(/*! react-clock/dist/entry.nostyle */ "./node_modules/react-clock/dist/entry.nostyle.js"));
+
+var _DateTimeInput = _interopRequireDefault(__webpack_require__(/*! ./DateTimeInput */ "./node_modules/react-datetime-picker/dist/DateTimeInput.js"));
+
+var _propTypes2 = __webpack_require__(/*! ./shared/propTypes */ "./node_modules/react-datetime-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ./shared/utils */ "./node_modules/react-datetime-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var allViews = ['hour', 'minute', 'second'];
+var baseClassName = 'react-datetime-picker';
+var outsideActionEvents = ['mousedown', 'focusin', 'touchstart'];
+
+var DateTimePicker =
+/*#__PURE__*/
+function (_PureComponent) {
+  _inherits(DateTimePicker, _PureComponent);
+
+  function DateTimePicker() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, DateTimePicker);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(DateTimePicker)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {});
+
+    _defineProperty(_assertThisInitialized(_this), "onOutsideAction", function (event) {
+      if (_this.wrapper && !_this.wrapper.contains(event.target)) {
+        _this.closeWidgets();
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onDateChange", function (value) {
+      var closeWidgets = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+      var prevValue = _this.props.value;
+
+      if (prevValue) {
+        var valueWithHour = new Date(value);
+        valueWithHour.setHours(prevValue.getHours(), prevValue.getMinutes(), prevValue.getSeconds(), prevValue.getMilliseconds());
+
+        _this.onChange(valueWithHour, closeWidgets);
+      } else {
+        _this.onChange(value, closeWidgets);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onChange", function (value) {
+      var closeWidgets = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
+
+      _this.setState(function (prevState) {
+        return {
+          isCalendarOpen: prevState.isCalendarOpen && !closeWidgets,
+          isClockOpen: prevState.isClockOpen && !closeWidgets
+        };
+      });
+
+      var onChange = _this.props.onChange;
+
+      if (onChange) {
+        onChange(value);
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "onFocus", function (event) {
+      var _this$props = _this.props,
+          disabled = _this$props.disabled,
+          onFocus = _this$props.onFocus;
+
+      if (onFocus) {
+        onFocus(event);
+      } // Internet Explorer still fires onFocus on disabled elements
+
+
+      if (disabled) {
+        return;
+      }
+
+      switch (event.target.name) {
+        case 'day':
+        case 'month':
+        case 'year':
+          _this.openCalendar();
+
+          break;
+
+        case 'hour12':
+        case 'hour24':
+        case 'minute':
+        case 'second':
+          _this.openClock();
+
+          break;
+
+        default:
+      }
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "openClock", function () {
+      _this.setState({
+        isCalendarOpen: false,
+        isClockOpen: true
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "openCalendar", function () {
+      _this.setState({
+        isCalendarOpen: true,
+        isClockOpen: false
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "toggleCalendar", function () {
+      _this.setState(function (prevState) {
+        return {
+          isCalendarOpen: !prevState.isCalendarOpen,
+          isClockOpen: false
+        };
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "closeWidgets", function () {
+      _this.setState(function (prevState) {
+        if (!prevState.isCalendarOpen && !prevState.isClockOpen) {
+          return null;
+        }
+
+        return {
+          isCalendarOpen: false,
+          isClockOpen: false
+        };
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "stopPropagation", function (event) {
+      return event.stopPropagation();
+    });
+
+    _defineProperty(_assertThisInitialized(_this), "clear", function () {
+      return _this.onChange(null);
+    });
+
+    return _this;
+  }
+
+  _createClass(DateTimePicker, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.handleOutsideActionListeners();
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps, prevState) {
+      var _this$state = this.state,
+          isCalendarOpen = _this$state.isCalendarOpen,
+          isClockOpen = _this$state.isClockOpen;
+      var _this$props2 = this.props,
+          onCalendarClose = _this$props2.onCalendarClose,
+          onCalendarOpen = _this$props2.onCalendarOpen,
+          onClockClose = _this$props2.onClockClose,
+          onClockOpen = _this$props2.onClockOpen;
+      var isWidgetOpen = isCalendarOpen || isClockOpen;
+      var prevIsWidgetOpen = prevState.isCalendarOpen || prevState.isClockOpen;
+
+      if (isWidgetOpen !== prevIsWidgetOpen) {
+        this.handleOutsideActionListeners();
+      }
+
+      if (isCalendarOpen !== prevState.isCalendarOpen) {
+        (0, _utils.callIfDefined)(isCalendarOpen ? onCalendarOpen : onCalendarClose);
+      }
+
+      if (isClockOpen !== prevState.isClockOpen) {
+        (0, _utils.callIfDefined)(isClockOpen ? onClockOpen : onClockClose);
+      }
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      this.handleOutsideActionListeners(false);
+    }
+  }, {
+    key: "handleOutsideActionListeners",
+    value: function handleOutsideActionListeners(shouldListen) {
+      var _this2 = this;
+
+      var _this$state2 = this.state,
+          isCalendarOpen = _this$state2.isCalendarOpen,
+          isClockOpen = _this$state2.isClockOpen;
+      var isWidgetOpen = isCalendarOpen || isClockOpen;
+      var shouldListenWithFallback = typeof shouldListen !== 'undefined' ? shouldListen : isWidgetOpen;
+      var fnName = shouldListenWithFallback ? 'addEventListener' : 'removeEventListener';
+      outsideActionEvents.forEach(function (eventName) {
+        return document[fnName](eventName, _this2.onOutsideAction);
+      });
+    }
+  }, {
+    key: "renderInputs",
+    value: function renderInputs() {
+      var _this$props3 = this.props,
+          amPmAriaLabel = _this$props3.amPmAriaLabel,
+          calendarAriaLabel = _this$props3.calendarAriaLabel,
+          calendarIcon = _this$props3.calendarIcon,
+          clearAriaLabel = _this$props3.clearAriaLabel,
+          clearIcon = _this$props3.clearIcon,
+          dayAriaLabel = _this$props3.dayAriaLabel,
+          dayPlaceholder = _this$props3.dayPlaceholder,
+          disableCalendar = _this$props3.disableCalendar,
+          disabled = _this$props3.disabled,
+          format = _this$props3.format,
+          hourAriaLabel = _this$props3.hourAriaLabel,
+          hourPlaceholder = _this$props3.hourPlaceholder,
+          locale = _this$props3.locale,
+          maxDate = _this$props3.maxDate,
+          maxDetail = _this$props3.maxDetail,
+          minDate = _this$props3.minDate,
+          minuteAriaLabel = _this$props3.minuteAriaLabel,
+          minutePlaceholder = _this$props3.minutePlaceholder,
+          monthAriaLabel = _this$props3.monthAriaLabel,
+          monthPlaceholder = _this$props3.monthPlaceholder,
+          name = _this$props3.name,
+          nativeInputAriaLabel = _this$props3.nativeInputAriaLabel,
+          required = _this$props3.required,
+          secondAriaLabel = _this$props3.secondAriaLabel,
+          secondPlaceholder = _this$props3.secondPlaceholder,
+          showLeadingZeros = _this$props3.showLeadingZeros,
+          value = _this$props3.value,
+          yearAriaLabel = _this$props3.yearAriaLabel,
+          yearPlaceholder = _this$props3.yearPlaceholder;
+      var _this$state3 = this.state,
+          isCalendarOpen = _this$state3.isCalendarOpen,
+          isClockOpen = _this$state3.isClockOpen;
+
+      var _concat = [].concat(value),
+          _concat2 = _slicedToArray(_concat, 1),
+          valueFrom = _concat2[0];
+
+      var ariaLabelProps = {
+        amPmAriaLabel: amPmAriaLabel,
+        dayAriaLabel: dayAriaLabel,
+        hourAriaLabel: hourAriaLabel,
+        minuteAriaLabel: minuteAriaLabel,
+        monthAriaLabel: monthAriaLabel,
+        nativeInputAriaLabel: nativeInputAriaLabel,
+        secondAriaLabel: secondAriaLabel,
+        yearAriaLabel: yearAriaLabel
+      };
+      var placeholderProps = {
+        dayPlaceholder: dayPlaceholder,
+        hourPlaceholder: hourPlaceholder,
+        minutePlaceholder: minutePlaceholder,
+        monthPlaceholder: monthPlaceholder,
+        secondPlaceholder: secondPlaceholder,
+        yearPlaceholder: yearPlaceholder
+      };
+      return _react["default"].createElement("div", {
+        className: "".concat(baseClassName, "__wrapper")
+      }, _react["default"].createElement(_DateTimeInput["default"], _extends({}, ariaLabelProps, placeholderProps, {
+        className: "".concat(baseClassName, "__inputGroup"),
+        disabled: disabled,
+        format: format,
+        isWidgetOpen: isCalendarOpen || isClockOpen,
+        locale: locale,
+        maxDate: maxDate,
+        maxDetail: maxDetail,
+        minDate: minDate,
+        name: name,
+        onChange: this.onChange,
+        placeholder: this.placeholder,
+        required: required,
+        showLeadingZeros: showLeadingZeros,
+        value: valueFrom
+      })), clearIcon !== null && _react["default"].createElement("button", {
+        "aria-label": clearAriaLabel,
+        className: "".concat(baseClassName, "__clear-button ").concat(baseClassName, "__button"),
+        disabled: disabled,
+        onClick: this.clear,
+        onFocus: this.stopPropagation,
+        type: "button"
+      }, clearIcon), calendarIcon !== null && !disableCalendar && _react["default"].createElement("button", {
+        "aria-label": calendarAriaLabel,
+        className: "".concat(baseClassName, "__calendar-button ").concat(baseClassName, "__button"),
+        disabled: disabled,
+        onClick: this.toggleCalendar,
+        onFocus: this.stopPropagation,
+        onBlur: this.resetValue,
+        type: "button"
+      }, calendarIcon));
+    }
+  }, {
+    key: "renderCalendar",
+    value: function renderCalendar() {
+      var disableCalendar = this.props.disableCalendar;
+      var isCalendarOpen = this.state.isCalendarOpen;
+
+      if (isCalendarOpen === null || disableCalendar) {
+        return null;
+      }
+
+      var _this$props4 = this.props,
+          calendarClassName = _this$props4.calendarClassName,
+          dateTimePickerClassName = _this$props4.className,
+          dateTimePickerMaxDetail = _this$props4.maxDetail,
+          onChange = _this$props4.onChange,
+          value = _this$props4.value,
+          calendarProps = _objectWithoutProperties(_this$props4, ["calendarClassName", "className", "maxDetail", "onChange", "value"]);
+
+      var className = "".concat(baseClassName, "__calendar");
+      return _react["default"].createElement(_reactFit["default"], null, _react["default"].createElement("div", {
+        className: (0, _mergeClassNames["default"])(className, "".concat(className, "--").concat(isCalendarOpen ? 'open' : 'closed'))
+      }, _react["default"].createElement(_entry["default"], _extends({
+        className: calendarClassName,
+        onChange: this.onDateChange,
+        value: value || null
+      }, calendarProps))));
+    }
+  }, {
+    key: "renderClock",
+    value: function renderClock() {
+      var disableClock = this.props.disableClock;
+      var isClockOpen = this.state.isClockOpen;
+
+      if (isClockOpen === null || disableClock) {
+        return null;
+      }
+
+      var _this$props5 = this.props,
+          clockClassName = _this$props5.clockClassName,
+          dateTimePickerClassName = _this$props5.className,
+          maxDetail = _this$props5.maxDetail,
+          onChange = _this$props5.onChange,
+          value = _this$props5.value,
+          clockProps = _objectWithoutProperties(_this$props5, ["clockClassName", "className", "maxDetail", "onChange", "value"]);
+
+      var className = "".concat(baseClassName, "__clock");
+
+      var _concat3 = [].concat(value),
+          _concat4 = _slicedToArray(_concat3, 1),
+          valueFrom = _concat4[0];
+
+      var maxDetailIndex = allViews.indexOf(maxDetail);
+      return _react["default"].createElement(_reactFit["default"], null, _react["default"].createElement("div", {
+        className: (0, _mergeClassNames["default"])(className, "".concat(className, "--").concat(isClockOpen ? 'open' : 'closed'))
+      }, _react["default"].createElement(_entry2["default"], _extends({
+        className: clockClassName,
+        renderMinuteHand: maxDetailIndex > 0,
+        renderSecondHand: maxDetailIndex > 1,
+        value: valueFrom
+      }, clockProps))));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this3 = this;
+
+      var _this$props6 = this.props,
+          className = _this$props6.className,
+          disabled = _this$props6.disabled;
+      var _this$state4 = this.state,
+          isCalendarOpen = _this$state4.isCalendarOpen,
+          isClockOpen = _this$state4.isClockOpen;
+      return _react["default"].createElement("div", _extends({
+        className: (0, _mergeClassNames["default"])(baseClassName, "".concat(baseClassName, "--").concat(isCalendarOpen || isClockOpen ? 'open' : 'closed'), "".concat(baseClassName, "--").concat(disabled ? 'disabled' : 'enabled'), className)
+      }, this.eventProps, {
+        onFocus: this.onFocus,
+        ref: function ref(_ref) {
+          if (!_ref) {
+            return;
+          }
+
+          _this3.wrapper = _ref;
+        }
+      }), this.renderInputs(), this.renderCalendar(), this.renderClock());
+    }
+  }, {
+    key: "eventProps",
+    get: function get() {
+      return (0, _makeEventProps["default"])(this.props);
+    }
+  }], [{
+    key: "getDerivedStateFromProps",
+    value: function getDerivedStateFromProps(nextProps, prevState) {
+      var nextState = {};
+
+      if (nextProps.isCalendarOpen !== prevState.isCalendarOpenProps) {
+        nextState.isCalendarOpen = nextProps.isCalendarOpen;
+        nextState.isCalendarOpenProps = nextProps.isCalendarOpen;
+      }
+
+      if (nextProps.isClockOpen !== prevState.isClockOpenProps) {
+        nextState.isClockOpen = nextProps.isClockOpen;
+        nextState.isClockOpenProps = nextProps.isClockOpen;
+      }
+
+      return nextState;
+    }
+  }]);
+
+  return DateTimePicker;
+}(_react.PureComponent);
+
+exports["default"] = DateTimePicker;
+var iconProps = {
+  xmlns: 'http://www.w3.org/2000/svg',
+  width: 19,
+  height: 19,
+  viewBox: '0 0 19 19',
+  stroke: 'black',
+  strokeWidth: 2
+};
+
+var CalendarIcon = _react["default"].createElement("svg", _extends({}, iconProps, {
+  className: "".concat(baseClassName, "__calendar-button__icon ").concat(baseClassName, "__button__icon")
+}), _react["default"].createElement("rect", {
+  width: "15",
+  height: "15",
+  x: "2",
+  y: "2",
+  fill: "none"
+}), _react["default"].createElement("line", {
+  x1: "6",
+  y1: "0",
+  x2: "6",
+  y2: "4"
+}), _react["default"].createElement("line", {
+  x1: "13",
+  y1: "0",
+  x2: "13",
+  y2: "4"
+}));
+
+var ClearIcon = _react["default"].createElement("svg", _extends({}, iconProps, {
+  className: "".concat(baseClassName, "__clear-button__icon ").concat(baseClassName, "__button__icon")
+}), _react["default"].createElement("line", {
+  x1: "4",
+  y1: "4",
+  x2: "15",
+  y2: "15"
+}), _react["default"].createElement("line", {
+  x1: "15",
+  y1: "4",
+  x2: "4",
+  y2: "15"
+}));
+
+DateTimePicker.defaultProps = {
+  calendarIcon: CalendarIcon,
+  clearIcon: ClearIcon,
+  isCalendarOpen: null,
+  isClockOpen: null,
+  maxDetail: 'minute'
+};
+
+var isValue = _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].instanceOf(Date)]);
+
+DateTimePicker.propTypes = {
+  amPmAriaLabel: _propTypes["default"].string,
+  calendarAriaLabel: _propTypes["default"].string,
+  calendarClassName: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].arrayOf(_propTypes["default"].string)]),
+  calendarIcon: _propTypes["default"].node,
+  className: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].arrayOf(_propTypes["default"].string)]),
+  clearAriaLabel: _propTypes["default"].string,
+  clearIcon: _propTypes["default"].node,
+  clockClassName: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].arrayOf(_propTypes["default"].string)]),
+  dayAriaLabel: _propTypes["default"].string,
+  dayPlaceholder: _propTypes["default"].string,
+  disableCalendar: _propTypes["default"].bool,
+  disableClock: _propTypes["default"].bool,
+  disabled: _propTypes["default"].bool,
+  format: _propTypes["default"].string,
+  hourAriaLabel: _propTypes["default"].string,
+  hourPlaceholder: _propTypes["default"].string,
+  isCalendarOpen: _propTypes["default"].bool,
+  isClockOpen: _propTypes["default"].bool,
+  locale: _propTypes["default"].string,
+  maxDate: _propTypes2.isMaxDate,
+  maxDetail: _propTypes["default"].oneOf(allViews),
+  minDate: _propTypes2.isMinDate,
+  minuteAriaLabel: _propTypes["default"].string,
+  minutePlaceholder: _propTypes["default"].string,
+  monthAriaLabel: _propTypes["default"].string,
+  monthPlaceholder: _propTypes["default"].string,
+  name: _propTypes["default"].string,
+  nativeInputAriaLabel: _propTypes["default"].string,
+  onCalendarClose: _propTypes["default"].func,
+  onCalendarOpen: _propTypes["default"].func,
+  onChange: _propTypes["default"].func,
+  onClockClose: _propTypes["default"].func,
+  onClockOpen: _propTypes["default"].func,
+  onFocus: _propTypes["default"].func,
+  required: _propTypes["default"].bool,
+  secondAriaLabel: _propTypes["default"].string,
+  secondPlaceholder: _propTypes["default"].string,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].oneOfType([isValue, _propTypes["default"].arrayOf(isValue)]),
+  yearAriaLabel: _propTypes["default"].string,
+  yearPlaceholder: _propTypes["default"].string
+};
+(0, _reactLifecyclesCompat.polyfill)(DateTimePicker);
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/Divider.js":
+/*!************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/Divider.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var Divider = function Divider(_ref) {
+  var children = _ref.children;
+  return _react["default"].createElement("span", {
+    className: "react-datetime-picker__inputGroup__divider"
+  }, children);
+};
+
+Divider.propTypes = {
+  children: _propTypes["default"].node
+};
+var _default = Divider;
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/entry.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/entry.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+
+__webpack_require__(/*! react-calendar/dist/Calendar.css */ "./node_modules/react-calendar/dist/Calendar.css");
+
+__webpack_require__(/*! react-clock/dist/Clock.css */ "./node_modules/react-clock/dist/Clock.css");
+
+var _DateTimePicker = _interopRequireDefault(__webpack_require__(/*! ./DateTimePicker */ "./node_modules/react-datetime-picker/dist/DateTimePicker.js"));
+
+__webpack_require__(/*! ./DateTimePicker.css */ "./node_modules/react-datetime-picker/dist/DateTimePicker.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+// File is created during build phase and placed in dist directory
+// eslint-disable-next-line import/no-unresolved
+var _default = _DateTimePicker["default"];
+exports["default"] = _default;
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/shared/dateFormatter.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/shared/dateFormatter.js ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.formatDate = exports.getFormatter = void 0;
+
+var _getUserLocale = _interopRequireDefault(__webpack_require__(/*! get-user-locale */ "./node_modules/get-user-locale/dist/entry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+/* eslint-disable import/prefer-default-export */
+var getFormatter = function getFormatter(options) {
+  return function (locale, date) {
+    return date.toLocaleString(locale || (0, _getUserLocale["default"])(), options);
+  };
+};
+
+exports.getFormatter = getFormatter;
+var formatDateOptions = {
+  day: 'numeric',
+  month: 'numeric',
+  year: 'numeric'
+};
+var formatDate = getFormatter(formatDateOptions);
+exports.formatDate = formatDate;
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/shared/dates.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/shared/dates.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "getISOLocalDate", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getISOLocalDate;
+  }
+});
+Object.defineProperty(exports, "getYear", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getYear;
+  }
+});
+Object.defineProperty(exports, "getMonth", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getMonth;
+  }
+});
+Object.defineProperty(exports, "getDay", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getDay;
+  }
+});
+Object.defineProperty(exports, "getHoursMinutesSeconds", {
+  enumerable: true,
+  get: function get() {
+    return _dates2.getHoursMinutesSeconds;
+  }
+});
+Object.defineProperty(exports, "getHoursMinutes", {
+  enumerable: true,
+  get: function get() {
+    return _dates2.getHoursMinutes;
+  }
+});
+Object.defineProperty(exports, "convert12to24", {
+  enumerable: true,
+  get: function get() {
+    return _dates2.convert12to24;
+  }
+});
+Object.defineProperty(exports, "convert24to12", {
+  enumerable: true,
+  get: function get() {
+    return _dates2.convert24to12;
+  }
+});
+Object.defineProperty(exports, "getHours", {
+  enumerable: true,
+  get: function get() {
+    return _dates3.getHours;
+  }
+});
+Object.defineProperty(exports, "getMinutes", {
+  enumerable: true,
+  get: function get() {
+    return _dates3.getMinutes;
+  }
+});
+Object.defineProperty(exports, "getSeconds", {
+  enumerable: true,
+  get: function get() {
+    return _dates3.getSeconds;
+  }
+});
+exports.getISOLocalDateTime = void 0;
+
+var _dates = __webpack_require__(/*! react-calendar/dist/shared/dates */ "./node_modules/react-calendar/dist/shared/dates.js");
+
+var _dates2 = __webpack_require__(/*! react-time-picker/dist/shared/dates */ "./node_modules/react-time-picker/dist/shared/dates.js");
+
+var _dates3 = __webpack_require__(/*! react-clock/dist/shared/dates */ "./node_modules/react-clock/dist/shared/dates.js");
+
+// eslint-disable-next-line import/prefer-default-export
+var getISOLocalDateTime = function getISOLocalDateTime(value) {
+  if (!value) {
+    return value;
+  }
+
+  var date = new Date(value);
+
+  if (isNaN(date.getTime())) {
+    throw new Error("Invalid date: ".concat(value));
+  }
+
+  return "".concat((0, _dates.getISOLocalDate)(date), "T").concat((0, _dates2.getHoursMinutesSeconds)(date));
+};
+
+exports.getISOLocalDateTime = getISOLocalDateTime;
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/shared/propTypes.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/shared/propTypes.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "isMaxDate", {
+  enumerable: true,
+  get: function get() {
+    return _propTypes.isMaxDate;
+  }
+});
+Object.defineProperty(exports, "isMinDate", {
+  enumerable: true,
+  get: function get() {
+    return _propTypes.isMinDate;
+  }
+});
+Object.defineProperty(exports, "isValueType", {
+  enumerable: true,
+  get: function get() {
+    return _propTypes2.isValueType;
+  }
+});
+
+var _propTypes = __webpack_require__(/*! react-calendar/dist/shared/propTypes */ "./node_modules/react-calendar/dist/shared/propTypes.js");
+
+var _propTypes2 = __webpack_require__(/*! react-time-picker/dist/shared/propTypes */ "./node_modules/react-time-picker/dist/shared/propTypes.js");
+
+/***/ }),
+
+/***/ "./node_modules/react-datetime-picker/dist/shared/utils.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-datetime-picker/dist/shared/utils.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "between", {
+  enumerable: true,
+  get: function get() {
+    return _utils.between;
+  }
+});
+Object.defineProperty(exports, "callIfDefined", {
+  enumerable: true,
+  get: function get() {
+    return _utils.callIfDefined;
+  }
+});
+Object.defineProperty(exports, "min", {
+  enumerable: true,
+  get: function get() {
+    return _utils.min;
+  }
+});
+Object.defineProperty(exports, "max", {
+  enumerable: true,
+  get: function get() {
+    return _utils.max;
+  }
+});
+Object.defineProperty(exports, "updateInputWidth", {
+  enumerable: true,
+  get: function get() {
+    return _utils.updateInputWidth;
+  }
+});
+Object.defineProperty(exports, "getAmPmLabels", {
+  enumerable: true,
+  get: function get() {
+    return _utils2.getAmPmLabels;
+  }
+});
+
+var _utils = __webpack_require__(/*! react-date-picker/dist/shared/utils */ "./node_modules/react-date-picker/dist/shared/utils.js");
+
+var _utils2 = __webpack_require__(/*! react-time-picker/dist/shared/utils */ "./node_modules/react-time-picker/dist/shared/utils.js");
 
 /***/ }),
 
@@ -30269,6 +38186,1689 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/react-fit/dist/Fit.js":
+/*!********************************************!*\
+  !*** ./node_modules/react-fit/dist/Fit.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _reactDom = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _detectElementOverflow = _interopRequireDefault(__webpack_require__(/*! detect-element-overflow */ "./node_modules/detect-element-overflow/dist/entry.js"));
+
+var _utils = __webpack_require__(/*! ./shared/utils */ "./node_modules/react-fit/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var isBrowser = typeof window !== 'undefined';
+var isDisplayContentsSupported = isBrowser && 'CSS' in window && 'supports' in window.CSS && CSS.supports('display', 'contents');
+var isMutationObserverSupported = isBrowser && 'MutationObserver' in window;
+
+var capitalize = function capitalize(a) {
+  return a[0].toUpperCase() + a.slice(1);
+};
+
+var findScrollContainer = function findScrollContainer(element) {
+  if (!element) {
+    return undefined;
+  }
+
+  var parent = element.parentElement;
+
+  while (parent) {
+    var _window$getComputedSt = window.getComputedStyle(parent),
+        overflow = _window$getComputedSt.overflow;
+
+    if (overflow.split(' ').every(function (o) {
+      return o === 'auto' || o === 'scroll';
+    })) {
+      return parent;
+    }
+
+    parent = parent.parentElement;
+  }
+
+  return document.documentElement;
+};
+
+var alignAxis = function alignAxis(_ref) {
+  var axis = _ref.axis,
+      container = _ref.container,
+      element = _ref.element,
+      invertAxis = _ref.invertAxis,
+      secondary = _ref.secondary,
+      spacing = _ref.spacing;
+  var style = window.getComputedStyle(element);
+  var scrollContainer = findScrollContainer(element);
+  var parent = container.parentElement;
+  var parentCollisions = (0, _detectElementOverflow.default)(parent, scrollContainer);
+  var isX = axis === 'x';
+  var startProperty = isX ? 'left' : 'top';
+  var endProperty = isX ? 'right' : 'bottom';
+  var sizeProperty = isX ? 'width' : 'height';
+  var overflowStartProperty = "overflow".concat(capitalize(startProperty));
+  var overflowEndProperty = "overflow".concat(capitalize(endProperty));
+  var uppercasedSizeProperty = capitalize(sizeProperty);
+  var offsetSizeProperty = "offset".concat(uppercasedSizeProperty);
+  var clientSizeProperty = "client".concat(uppercasedSizeProperty);
+  var minSizeProperty = "min-".concat(sizeProperty);
+  var scrollbarWidth = scrollContainer[offsetSizeProperty] - scrollContainer[clientSizeProperty];
+  var availableStartSpace = -parentCollisions[overflowStartProperty] - spacing;
+  var availableEndSpace = -parentCollisions[overflowEndProperty] - spacing - scrollbarWidth;
+
+  if (secondary) {
+    availableStartSpace += parent[clientSizeProperty];
+    availableEndSpace += parent[clientSizeProperty];
+  }
+
+  var offsetSize = element[offsetSizeProperty];
+
+  var displayStart = function displayStart() {
+    element.style[startProperty] = 'unset';
+    element.style[endProperty] = secondary ? '0' : '100%';
+  };
+
+  var displayEnd = function displayEnd() {
+    element.style[startProperty] = secondary ? '0' : '100%';
+    element.style[endProperty] = 'unset';
+  };
+
+  var displayIfFits = function displayIfFits(availableSpace, display) {
+    var fits = offsetSize <= availableSpace;
+
+    if (fits) {
+      display();
+    }
+
+    return fits;
+  };
+
+  var displayStartIfFits = function displayStartIfFits() {
+    return displayIfFits(availableStartSpace, displayStart);
+  };
+
+  var displayEndIfFits = function displayEndIfFits() {
+    return displayIfFits(availableEndSpace, displayEnd);
+  };
+
+  var displayWhereverShrinkedFits = function displayWhereverShrinkedFits() {
+    var moreSpaceStart = availableStartSpace > availableEndSpace;
+    var minSize = style[minSizeProperty] && parseInt(style[minSizeProperty], 10);
+
+    var shrinkToSize = function shrinkToSize(size) {
+      if (minSize && size < minSize) {
+        (0, _utils.warnOnDev)("<Fit />'s child will not fit anywhere with its current ".concat(minSizeProperty, " of ").concat(minSize, "px."));
+      }
+
+      var newSize = Math.max(size, minSize || 0);
+      (0, _utils.warnOnDev)("<Fit />'s child needed to have its ".concat(sizeProperty, " decreased to ").concat(newSize, "px."));
+      element.style[sizeProperty] = "".concat(newSize, "px");
+    };
+
+    if (moreSpaceStart) {
+      shrinkToSize(availableStartSpace);
+      displayStart();
+    } else {
+      shrinkToSize(availableEndSpace);
+      displayEnd();
+    }
+  };
+
+  var fits;
+
+  if (invertAxis) {
+    fits = displayStartIfFits() || displayEndIfFits();
+  } else {
+    fits = displayEndIfFits() || displayStartIfFits();
+  }
+
+  if (!fits) {
+    displayWhereverShrinkedFits();
+  }
+};
+
+var alignMainAxis = function alignMainAxis(args) {
+  return alignAxis(args);
+};
+
+var alignSecondaryAxis = function alignSecondaryAxis(args) {
+  return alignAxis(_objectSpread({}, args, {
+    axis: args.axis === 'x' ? 'y' : 'x',
+    secondary: true
+  }));
+};
+
+var alignBothAxis = function alignBothAxis(args) {
+  var invertAxis = args.invertAxis,
+      invertSecondaryAxis = args.invertSecondaryAxis,
+      commonArgs = _objectWithoutProperties(args, ["invertAxis", "invertSecondaryAxis"]);
+
+  alignMainAxis(_objectSpread({}, commonArgs, {
+    invertAxis: invertAxis
+  }));
+  alignSecondaryAxis(_objectSpread({}, commonArgs, {
+    invertAxis: invertSecondaryAxis
+  }));
+};
+
+var Fit =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Fit, _Component);
+
+  function Fit() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, Fit);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Fit)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "onMutation", function () {
+      _this.fit();
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "mutationObserver", isMutationObserverSupported && new MutationObserver(_this.onMutation));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "fit", function () {
+      var _assertThisInitialize = _assertThisInitialized(_assertThisInitialized(_this)),
+          container = _assertThisInitialize.container,
+          element = _assertThisInitialize.element;
+
+      if (!element) {
+        return;
+      }
+
+      var elementWidth = element.clientWidth;
+      var elementHeight = element.clientHeight; // No need to recalculate - already did that for current dimensions
+
+      if (_this.elementWidth === elementWidth && _this.elementHeight === elementHeight) {
+        return;
+      } // Save the dimensions so that we know we don't need to repeat the function if unchanged
+
+
+      _this.elementWidth = elementWidth;
+      _this.elementHeight = elementHeight;
+      var parent = container.parentElement;
+      /**
+       * We need to ensure that <Fit />'s child has a absolute position. Otherwise,
+       * we wouldn't be able to place the child in the correct position.
+       */
+
+      var style = window.getComputedStyle(element);
+      var position = style.position;
+
+      if (position !== 'absolute') {
+        (0, _utils.warnOnDev)('<Fit />\'s child does not have absolute position. You should apply `position: absolute` to it.');
+        element.style.position = 'absolute';
+      }
+      /**
+       * We need to ensure that <Fit />'s parent has a relative position. Otherwise,
+       * we wouldn't be able to place the child in the correct position.
+       */
+
+
+      var parentStyle = window.getComputedStyle(parent);
+      var parentPosition = parentStyle.position;
+
+      if (parentPosition !== 'relative' && parentPosition !== 'absolute') {
+        (0, _utils.warnOnDev)('<Fit />\'s parent does not have relative position. You should apply `position: relative` to it.');
+        parent.style.position = 'relative';
+      }
+
+      var _this$props = _this.props,
+          invertAxis = _this$props.invertAxis,
+          invertSecondaryAxis = _this$props.invertSecondaryAxis,
+          mainAxis = _this$props.mainAxis,
+          spacing = _this$props.spacing;
+      alignBothAxis({
+        container: container,
+        element: element,
+        invertAxis: invertAxis,
+        invertSecondaryAxis: invertSecondaryAxis,
+        axis: mainAxis,
+        spacing: spacing
+      });
+    });
+
+    return _this;
+  }
+
+  _createClass(Fit, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      if (!isDisplayContentsSupported) {
+        // eslint-disable-next-line react/no-find-dom-node
+        var element = (0, _reactDom.findDOMNode)(this);
+        this.container = element;
+        this.element = element;
+      }
+
+      this.fit();
+
+      if (isMutationObserverSupported) {
+        this.mutationObserver.observe(this.element, {
+          attributes: true,
+          attributeFilter: ['class', 'style']
+        });
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var children = this.props.children;
+
+      var child = _react.default.Children.only(children);
+
+      if (isDisplayContentsSupported) {
+        return _react.default.createElement("div", {
+          style: {
+            display: 'contents'
+          },
+          ref: function ref(_ref2) {
+            _this2.container = _ref2;
+            _this2.element = _ref2 && _ref2.firstChild;
+          }
+        }, child);
+      }
+
+      return child;
+    }
+  }]);
+
+  return Fit;
+}(_react.Component);
+
+exports.default = Fit;
+Fit.propTypes = {
+  children: _propTypes.default.node,
+  invertAxis: _propTypes.default.bool,
+  invertSecondaryAxis: _propTypes.default.bool,
+  mainAxis: _propTypes.default.oneOf(['x', 'y']),
+  spacing: _propTypes.default.number
+};
+Fit.defaultProps = {
+  mainAxis: 'y',
+  spacing: 8
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-fit/dist/shared/utils.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/react-fit/dist/shared/utils.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.warnOnDev = exports.isProduction = void 0;
+
+/**
+ * Checks whether we're running on a production build or not.
+ */
+var isProduction = "development" === 'production';
+exports.isProduction = isProduction;
+
+var consoleOnDev = function consoleOnDev(method) {
+  if (!isProduction) {
+    var _console;
+
+    for (var _len = arguments.length, message = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      message[_key - 1] = arguments[_key];
+    }
+
+    // eslint-disable-next-line no-console
+    (_console = console)[method].apply(_console, message);
+  }
+};
+
+var warnOnDev = function warnOnDev() {
+  for (var _len2 = arguments.length, message = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+    message[_key2] = arguments[_key2];
+  }
+
+  return consoleOnDev.apply(void 0, ['warn'].concat(message));
+};
+
+exports.warnOnDev = warnOnDev;
+
+/***/ }),
+
+/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/** @license React v16.10.2
+ * react-is.development.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+
+
+if (true) {
+  (function() {
+'use strict';
+
+Object.defineProperty(exports, '__esModule', { value: true });
+
+// The Symbol used to tag the ReactElement-like types. If there is no native Symbol
+// nor polyfill, then a plain number is used for performance.
+var hasSymbol = typeof Symbol === 'function' && Symbol.for;
+var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
+var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
+var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
+var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
+var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
+var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+// (unstable) APIs that have been removed. Can we remove the symbols?
+
+var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
+var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
+var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
+var REACT_SUSPENSE_TYPE = hasSymbol ? Symbol.for('react.suspense') : 0xead1;
+var REACT_SUSPENSE_LIST_TYPE = hasSymbol ? Symbol.for('react.suspense_list') : 0xead8;
+var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
+var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
+var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
+var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
+
+function isValidElementType(type) {
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE);
+}
+
+/**
+ * Forked from fbjs/warning:
+ * https://github.com/facebook/fbjs/blob/e66ba20ad5be433eb54423f2b097d829324d9de6/packages/fbjs/src/__forks__/warning.js
+ *
+ * Only change is we use console.warn instead of console.error,
+ * and do nothing when 'console' is not supported.
+ * This really simplifies the code.
+ * ---
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+var lowPriorityWarningWithoutStack = function () {};
+
+{
+  var printWarning = function (format) {
+    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+      args[_key - 1] = arguments[_key];
+    }
+
+    var argIndex = 0;
+    var message = 'Warning: ' + format.replace(/%s/g, function () {
+      return args[argIndex++];
+    });
+
+    if (typeof console !== 'undefined') {
+      console.warn(message);
+    }
+
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  };
+
+  lowPriorityWarningWithoutStack = function (condition, format) {
+    if (format === undefined) {
+      throw new Error('`lowPriorityWarningWithoutStack(condition, format, ...args)` requires a warning ' + 'message argument');
+    }
+
+    if (!condition) {
+      for (var _len2 = arguments.length, args = new Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+        args[_key2 - 2] = arguments[_key2];
+      }
+
+      printWarning.apply(void 0, [format].concat(args));
+    }
+  };
+}
+
+var lowPriorityWarningWithoutStack$1 = lowPriorityWarningWithoutStack;
+
+function typeOf(object) {
+  if (typeof object === 'object' && object !== null) {
+    var $$typeof = object.$$typeof;
+
+    switch ($$typeof) {
+      case REACT_ELEMENT_TYPE:
+        var type = object.type;
+
+        switch (type) {
+          case REACT_ASYNC_MODE_TYPE:
+          case REACT_CONCURRENT_MODE_TYPE:
+          case REACT_FRAGMENT_TYPE:
+          case REACT_PROFILER_TYPE:
+          case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
+            return type;
+
+          default:
+            var $$typeofType = type && type.$$typeof;
+
+            switch ($$typeofType) {
+              case REACT_CONTEXT_TYPE:
+              case REACT_FORWARD_REF_TYPE:
+              case REACT_PROVIDER_TYPE:
+                return $$typeofType;
+
+              default:
+                return $$typeof;
+            }
+
+        }
+
+      case REACT_LAZY_TYPE:
+      case REACT_MEMO_TYPE:
+      case REACT_PORTAL_TYPE:
+        return $$typeof;
+    }
+  }
+
+  return undefined;
+} // AsyncMode is deprecated along with isAsyncMode
+
+var AsyncMode = REACT_ASYNC_MODE_TYPE;
+var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
+var ContextConsumer = REACT_CONTEXT_TYPE;
+var ContextProvider = REACT_PROVIDER_TYPE;
+var Element = REACT_ELEMENT_TYPE;
+var ForwardRef = REACT_FORWARD_REF_TYPE;
+var Fragment = REACT_FRAGMENT_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
+var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
+var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
+
+function isAsyncMode(object) {
+  {
+    if (!hasWarnedAboutDeprecatedIsAsyncMode) {
+      hasWarnedAboutDeprecatedIsAsyncMode = true;
+      lowPriorityWarningWithoutStack$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+    }
+  }
+
+  return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
+}
+function isConcurrentMode(object) {
+  return typeOf(object) === REACT_CONCURRENT_MODE_TYPE;
+}
+function isContextConsumer(object) {
+  return typeOf(object) === REACT_CONTEXT_TYPE;
+}
+function isContextProvider(object) {
+  return typeOf(object) === REACT_PROVIDER_TYPE;
+}
+function isElement(object) {
+  return typeof object === 'object' && object !== null && object.$$typeof === REACT_ELEMENT_TYPE;
+}
+function isForwardRef(object) {
+  return typeOf(object) === REACT_FORWARD_REF_TYPE;
+}
+function isFragment(object) {
+  return typeOf(object) === REACT_FRAGMENT_TYPE;
+}
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
+}
+function isPortal(object) {
+  return typeOf(object) === REACT_PORTAL_TYPE;
+}
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
+function isStrictMode(object) {
+  return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
+}
+
+exports.typeOf = typeOf;
+exports.AsyncMode = AsyncMode;
+exports.ConcurrentMode = ConcurrentMode;
+exports.ContextConsumer = ContextConsumer;
+exports.ContextProvider = ContextProvider;
+exports.Element = Element;
+exports.ForwardRef = ForwardRef;
+exports.Fragment = Fragment;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
+exports.Portal = Portal;
+exports.Profiler = Profiler;
+exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
+exports.isValidElementType = isValidElementType;
+exports.isAsyncMode = isAsyncMode;
+exports.isConcurrentMode = isConcurrentMode;
+exports.isContextConsumer = isContextConsumer;
+exports.isContextProvider = isContextProvider;
+exports.isElement = isElement;
+exports.isForwardRef = isForwardRef;
+exports.isFragment = isFragment;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
+exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
+exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
+  })();
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+if (false) {} else {
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/react-lifecycles-compat/react-lifecycles-compat.es.js ***!
+  \****************************************************************************/
+/*! exports provided: polyfill */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "polyfill", function() { return polyfill; });
+/**
+ * Copyright (c) 2013-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+function componentWillMount() {
+  // Call this.constructor.gDSFP to support sub-classes.
+  var state = this.constructor.getDerivedStateFromProps(this.props, this.state);
+  if (state !== null && state !== undefined) {
+    this.setState(state);
+  }
+}
+
+function componentWillReceiveProps(nextProps) {
+  // Call this.constructor.gDSFP to support sub-classes.
+  // Use the setState() updater to ensure state isn't stale in certain edge cases.
+  function updater(prevState) {
+    var state = this.constructor.getDerivedStateFromProps(nextProps, prevState);
+    return state !== null && state !== undefined ? state : null;
+  }
+  // Binding "this" is important for shallow renderer support.
+  this.setState(updater.bind(this));
+}
+
+function componentWillUpdate(nextProps, nextState) {
+  try {
+    var prevProps = this.props;
+    var prevState = this.state;
+    this.props = nextProps;
+    this.state = nextState;
+    this.__reactInternalSnapshotFlag = true;
+    this.__reactInternalSnapshot = this.getSnapshotBeforeUpdate(
+      prevProps,
+      prevState
+    );
+  } finally {
+    this.props = prevProps;
+    this.state = prevState;
+  }
+}
+
+// React may warn about cWM/cWRP/cWU methods being deprecated.
+// Add a flag to suppress these warnings for this special case.
+componentWillMount.__suppressDeprecationWarning = true;
+componentWillReceiveProps.__suppressDeprecationWarning = true;
+componentWillUpdate.__suppressDeprecationWarning = true;
+
+function polyfill(Component) {
+  var prototype = Component.prototype;
+
+  if (!prototype || !prototype.isReactComponent) {
+    throw new Error('Can only polyfill class components');
+  }
+
+  if (
+    typeof Component.getDerivedStateFromProps !== 'function' &&
+    typeof prototype.getSnapshotBeforeUpdate !== 'function'
+  ) {
+    return Component;
+  }
+
+  // If new component APIs are defined, "unsafe" lifecycles won't be called.
+  // Error if any of these lifecycles are present,
+  // Because they would work differently between older and newer (16.3+) versions of React.
+  var foundWillMountName = null;
+  var foundWillReceivePropsName = null;
+  var foundWillUpdateName = null;
+  if (typeof prototype.componentWillMount === 'function') {
+    foundWillMountName = 'componentWillMount';
+  } else if (typeof prototype.UNSAFE_componentWillMount === 'function') {
+    foundWillMountName = 'UNSAFE_componentWillMount';
+  }
+  if (typeof prototype.componentWillReceiveProps === 'function') {
+    foundWillReceivePropsName = 'componentWillReceiveProps';
+  } else if (typeof prototype.UNSAFE_componentWillReceiveProps === 'function') {
+    foundWillReceivePropsName = 'UNSAFE_componentWillReceiveProps';
+  }
+  if (typeof prototype.componentWillUpdate === 'function') {
+    foundWillUpdateName = 'componentWillUpdate';
+  } else if (typeof prototype.UNSAFE_componentWillUpdate === 'function') {
+    foundWillUpdateName = 'UNSAFE_componentWillUpdate';
+  }
+  if (
+    foundWillMountName !== null ||
+    foundWillReceivePropsName !== null ||
+    foundWillUpdateName !== null
+  ) {
+    var componentName = Component.displayName || Component.name;
+    var newApiName =
+      typeof Component.getDerivedStateFromProps === 'function'
+        ? 'getDerivedStateFromProps()'
+        : 'getSnapshotBeforeUpdate()';
+
+    throw Error(
+      'Unsafe legacy lifecycles will not be called for components using new component APIs.\n\n' +
+        componentName +
+        ' uses ' +
+        newApiName +
+        ' but also contains the following legacy lifecycles:' +
+        (foundWillMountName !== null ? '\n  ' + foundWillMountName : '') +
+        (foundWillReceivePropsName !== null
+          ? '\n  ' + foundWillReceivePropsName
+          : '') +
+        (foundWillUpdateName !== null ? '\n  ' + foundWillUpdateName : '') +
+        '\n\nThe above lifecycles should be removed. Learn more about this warning here:\n' +
+        'https://fb.me/react-async-component-lifecycle-hooks'
+    );
+  }
+
+  // React <= 16.2 does not support static getDerivedStateFromProps.
+  // As a workaround, use cWM and cWRP to invoke the new static lifecycle.
+  // Newer versions of React will ignore these lifecycles if gDSFP exists.
+  if (typeof Component.getDerivedStateFromProps === 'function') {
+    prototype.componentWillMount = componentWillMount;
+    prototype.componentWillReceiveProps = componentWillReceiveProps;
+  }
+
+  // React <= 16.2 does not support getSnapshotBeforeUpdate.
+  // As a workaround, use cWU to invoke the new lifecycle.
+  // Newer versions of React will ignore that lifecycle if gSBU exists.
+  if (typeof prototype.getSnapshotBeforeUpdate === 'function') {
+    if (typeof prototype.componentDidUpdate !== 'function') {
+      throw new Error(
+        'Cannot polyfill getSnapshotBeforeUpdate() for components that do not define componentDidUpdate() on the prototype'
+      );
+    }
+
+    prototype.componentWillUpdate = componentWillUpdate;
+
+    var componentDidUpdate = prototype.componentDidUpdate;
+
+    prototype.componentDidUpdate = function componentDidUpdatePolyfill(
+      prevProps,
+      prevState,
+      maybeSnapshot
+    ) {
+      // 16.3+ will not execute our will-update method;
+      // It will pass a snapshot value to did-update though.
+      // Older versions will require our polyfilled will-update value.
+      // We need to handle both cases, but can't just check for the presence of "maybeSnapshot",
+      // Because for <= 15.x versions this might be a "prevContext" object.
+      // We also can't just check "__reactInternalSnapshot",
+      // Because get-snapshot might return a falsy value.
+      // So check for the explicit __reactInternalSnapshotFlag flag to determine behavior.
+      var snapshot = this.__reactInternalSnapshotFlag
+        ? this.__reactInternalSnapshot
+        : maybeSnapshot;
+
+      componentDidUpdate.call(this, prevProps, prevState, snapshot);
+    };
+  }
+
+  return Component;
+}
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/TimeInput/AmPm.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/TimeInput/AmPm.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = AmPm;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-time-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-time-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-time-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function AmPm(_ref) {
+  var ariaLabel = _ref.ariaLabel,
+      className = _ref.className,
+      disabled = _ref.disabled,
+      itemRef = _ref.itemRef,
+      locale = _ref.locale,
+      maxTime = _ref.maxTime,
+      minTime = _ref.minTime,
+      onChange = _ref.onChange,
+      required = _ref.required,
+      value = _ref.value;
+  var amDisabled = minTime && (0, _dates.convert24to12)((0, _dates.getHours)(minTime))[1] === 'pm';
+  var pmDisabled = maxTime && (0, _dates.convert24to12)((0, _dates.getHours)(maxTime))[1] === 'am';
+  var name = 'amPm';
+
+  var _getAmPmLabels = (0, _utils.getAmPmLabels)(locale),
+      _getAmPmLabels2 = _slicedToArray(_getAmPmLabels, 2),
+      amLabel = _getAmPmLabels2[0],
+      pmLabel = _getAmPmLabels2[1];
+
+  return _react["default"].createElement("select", {
+    "aria-label": ariaLabel,
+    className: (0, _mergeClassNames["default"])("".concat(className, "__input"), "".concat(className, "__").concat(name)),
+    disabled: disabled,
+    name: name,
+    onChange: onChange,
+    ref: function ref(_ref2) {
+      if (itemRef) {
+        itemRef(_ref2, name);
+      }
+    },
+    required: required,
+    value: value !== null ? value : ''
+  }, !value && _react["default"].createElement("option", {
+    value: ""
+  }, "--"), _react["default"].createElement("option", {
+    disabled: amDisabled,
+    value: "am"
+  }, amLabel), _react["default"].createElement("option", {
+    disabled: pmDisabled,
+    value: "pm"
+  }, pmLabel));
+}
+
+AmPm.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  locale: _propTypes["default"].string,
+  maxTime: _propTypes2.isTime,
+  minTime: _propTypes2.isTime,
+  onChange: _propTypes["default"].func,
+  required: _propTypes["default"].bool,
+  value: _propTypes["default"].oneOf(['am', 'pm'])
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/TimeInput/Hour12Input.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/TimeInput/Hour12Input.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Hour12Input;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-time-picker/dist/TimeInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-time-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-time-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-time-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Hour12Input(_ref) {
+  var amPm = _ref.amPm,
+      hour = _ref.hour,
+      maxTime = _ref.maxTime,
+      minTime = _ref.minTime,
+      value = _ref.value,
+      otherProps = _objectWithoutProperties(_ref, ["amPm", "hour", "maxTime", "minTime", "value"]);
+
+  var maxHour = function () {
+    if (!maxTime) {
+      return 12;
+    }
+
+    var _convert24to = (0, _dates.convert24to12)((0, _dates.getHours)(maxTime)),
+        _convert24to2 = _slicedToArray(_convert24to, 2),
+        maxHourResult = _convert24to2[0],
+        maxAmPm = _convert24to2[1];
+
+    if (maxAmPm !== amPm) {
+      // pm is always after am, so we should ignore validation
+      return 12;
+    }
+
+    return (0, _utils.min)(12, maxHourResult);
+  }();
+
+  var minHour = function () {
+    if (!minTime) {
+      return 1;
+    }
+
+    var _convert24to3 = (0, _dates.convert24to12)((0, _dates.getHours)(minTime)),
+        _convert24to4 = _slicedToArray(_convert24to3, 2),
+        minHourResult = _convert24to4[0],
+        minAmPm = _convert24to4[1];
+
+    if (minAmPm !== amPm) {
+      // pm is always after am, so we should ignore validation
+      return 1;
+    }
+
+    if (minHourResult === 12) {
+      // If minHour is 12 am/pm, user should be able to enter 12, 1, ..., 11.
+      return 1;
+    }
+
+    return (0, _utils.max)(1, minHourResult);
+  }();
+
+  var value12 = value !== null ? (0, _dates.convert24to12)(value)[0] : null;
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxHour,
+    min: minHour,
+    name: "hour12",
+    nameForClass: "hour",
+    value: value12
+  }, otherProps));
+}
+
+Hour12Input.propTypes = {
+  amPm: _propTypes["default"].string,
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  hour: _propTypes["default"].number,
+  itemRef: _propTypes["default"].func,
+  maxTime: _propTypes2.isTime,
+  minTime: _propTypes2.isTime,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].number
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/TimeInput/Hour24Input.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/TimeInput/Hour24Input.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Hour24Input;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-time-picker/dist/TimeInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-time-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-time-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-time-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function Hour24Input(_ref) {
+  var hour = _ref.hour,
+      maxTime = _ref.maxTime,
+      minTime = _ref.minTime,
+      otherProps = _objectWithoutProperties(_ref, ["hour", "maxTime", "minTime"]);
+
+  var maxHour = (0, _utils.min)(23, maxTime && (0, _dates.getHours)(maxTime));
+  var minHour = (0, _utils.max)(0, minTime && (0, _dates.getHours)(minTime));
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxHour,
+    min: minHour,
+    name: "hour24",
+    nameForClass: "hour"
+  }, otherProps));
+}
+
+Hour24Input.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  hour: _propTypes["default"].number,
+  itemRef: _propTypes["default"].func,
+  maxTime: _propTypes2.isTime,
+  minTime: _propTypes2.isTime,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].number
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/TimeInput/Input.js":
+/*!****************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/TimeInput/Input.js ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = Input;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _mergeClassNames = _interopRequireDefault(__webpack_require__(/*! merge-class-names */ "./node_modules/merge-class-names/dist/entry.js"));
+
+var _updateInputWidth = _interopRequireWildcard(__webpack_require__(/*! update-input-width */ "./node_modules/update-input-width/dist/index.js"));
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj["default"] = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function select(element) {
+  if (!element) {
+    return;
+  }
+
+  requestAnimationFrame(function () {
+    return element.select();
+  });
+}
+
+function updateInputWidthOnFontLoad(element) {
+  if (!document.fonts) {
+    return;
+  }
+
+  var font = (0, _updateInputWidth.getFontShorthand)(element);
+
+  if (!font) {
+    return;
+  }
+
+  var isFontLoaded = document.fonts.check(font);
+
+  if (isFontLoaded) {
+    return;
+  }
+
+  function onLoadingDone() {
+    (0, _updateInputWidth["default"])(element);
+  }
+
+  document.fonts.addEventListener('loadingdone', onLoadingDone);
+}
+
+function Input(_ref) {
+  var ariaLabel = _ref.ariaLabel,
+      className = _ref.className,
+      disabled = _ref.disabled,
+      itemRef = _ref.itemRef,
+      max = _ref.max,
+      min = _ref.min,
+      name = _ref.name,
+      nameForClass = _ref.nameForClass,
+      onChange = _ref.onChange,
+      onKeyDown = _ref.onKeyDown,
+      _onKeyUp = _ref.onKeyUp,
+      placeholder = _ref.placeholder,
+      required = _ref.required,
+      showLeadingZeros = _ref.showLeadingZeros,
+      step = _ref.step,
+      value = _ref.value;
+  var hasLeadingZero = showLeadingZeros && value !== null && value < 10;
+  return [hasLeadingZero && _react["default"].createElement("span", {
+    key: "leadingZero",
+    className: "".concat(className, "__leadingZero")
+  }, "0"), _react["default"].createElement("input", {
+    key: "input",
+    "aria-label": ariaLabel,
+    autoComplete: "off",
+    className: (0, _mergeClassNames["default"])("".concat(className, "__input"), "".concat(className, "__").concat(nameForClass || name), hasLeadingZero && "".concat(className, "__input--hasLeadingZero")),
+    disabled: disabled,
+    max: max,
+    min: min,
+    name: name,
+    onChange: onChange,
+    onFocus: function onFocus(event) {
+      return select(event.target);
+    },
+    onKeyDown: onKeyDown,
+    onKeyUp: function onKeyUp(event) {
+      (0, _updateInputWidth["default"])(event.target);
+
+      if (_onKeyUp) {
+        _onKeyUp(event);
+      }
+    },
+    placeholder: placeholder,
+    ref: function ref(_ref2) {
+      if (_ref2) {
+        (0, _updateInputWidth["default"])(_ref2);
+        updateInputWidthOnFontLoad(_ref2);
+      }
+
+      if (itemRef) {
+        itemRef(_ref2, name);
+      }
+    },
+    required: required,
+    step: step,
+    type: "number",
+    value: value !== null ? value : ''
+  })];
+}
+
+Input.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  itemRef: _propTypes["default"].func,
+  max: _propTypes["default"].number,
+  min: _propTypes["default"].number,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  step: _propTypes["default"].number,
+  value: _propTypes["default"].number
+};
+Input.defaultProps = {
+  placeholder: '--'
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/TimeInput/MinuteInput.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/TimeInput/MinuteInput.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = MinuteInput;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-time-picker/dist/TimeInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-time-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-time-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-time-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function MinuteInput(_ref) {
+  var hour = _ref.hour,
+      maxTime = _ref.maxTime,
+      minTime = _ref.minTime,
+      otherProps = _objectWithoutProperties(_ref, ["hour", "maxTime", "minTime"]);
+
+  var maxMinute = (0, _utils.min)(59, maxTime && hour === (0, _dates.getHours)(maxTime) && (0, _dates.getMinutes)(maxTime));
+  var minMinute = (0, _utils.max)(0, minTime && hour === (0, _dates.getHours)(minTime) && (0, _dates.getMinutes)(minTime));
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxMinute,
+    min: minMinute,
+    name: "minute"
+  }, otherProps));
+}
+
+MinuteInput.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  hour: _propTypes["default"].number,
+  itemRef: _propTypes["default"].func,
+  maxTime: _propTypes2.isTime,
+  minTime: _propTypes2.isTime,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].number
+};
+MinuteInput.defaultProps = {
+  showLeadingZeros: true
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/TimeInput/SecondInput.js":
+/*!**********************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/TimeInput/SecondInput.js ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = SecondInput;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _Input = _interopRequireDefault(__webpack_require__(/*! ./Input */ "./node_modules/react-time-picker/dist/TimeInput/Input.js"));
+
+var _dates = __webpack_require__(/*! ../shared/dates */ "./node_modules/react-time-picker/dist/shared/dates.js");
+
+var _propTypes2 = __webpack_require__(/*! ../shared/propTypes */ "./node_modules/react-time-picker/dist/shared/propTypes.js");
+
+var _utils = __webpack_require__(/*! ../shared/utils */ "./node_modules/react-time-picker/dist/shared/utils.js");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
+function SecondInput(_ref) {
+  var hour = _ref.hour,
+      maxTime = _ref.maxTime,
+      minTime = _ref.minTime,
+      minute = _ref.minute,
+      otherProps = _objectWithoutProperties(_ref, ["hour", "maxTime", "minTime", "minute"]);
+
+  var maxSecond = (0, _utils.min)(59, maxTime && hour === (0, _dates.getHours)(maxTime) && minute === (0, _dates.getMinutes)(maxTime) && (0, _dates.getSeconds)(maxTime));
+  var minSecond = (0, _utils.max)(0, minTime && hour === (0, _dates.getHours)(minTime) && minute === (0, _dates.getMinutes)(minTime) && (0, _dates.getSeconds)(minTime));
+  return _react["default"].createElement(_Input["default"], _extends({
+    max: maxSecond,
+    min: minSecond,
+    name: "second"
+  }, otherProps));
+}
+
+SecondInput.propTypes = {
+  ariaLabel: _propTypes["default"].string,
+  className: _propTypes["default"].string.isRequired,
+  disabled: _propTypes["default"].bool,
+  hour: _propTypes["default"].number,
+  itemRef: _propTypes["default"].func,
+  maxTime: _propTypes2.isTime,
+  minTime: _propTypes2.isTime,
+  minute: _propTypes["default"].number,
+  onChange: _propTypes["default"].func,
+  onKeyDown: _propTypes["default"].func,
+  onKeyUp: _propTypes["default"].func,
+  placeholder: _propTypes["default"].string,
+  required: _propTypes["default"].bool,
+  showLeadingZeros: _propTypes["default"].bool,
+  value: _propTypes["default"].number
+};
+SecondInput.defaultProps = {
+  showLeadingZeros: true
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/shared/dateFormatter.js":
+/*!*********************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/shared/dateFormatter.js ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getFormatter = getFormatter;
+
+var _getUserLocale = _interopRequireDefault(__webpack_require__(/*! get-user-locale */ "./node_modules/get-user-locale/dist/entry.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+/* eslint-disable import/prefer-default-export */
+function getFormatter(options) {
+  return function (locale, date) {
+    return date.toLocaleString(locale || (0, _getUserLocale["default"])(), options);
+  };
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/shared/dates.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/shared/dates.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getHoursMinutes = getHoursMinutes;
+exports.getHoursMinutesSeconds = getHoursMinutesSeconds;
+exports.convert12to24 = convert12to24;
+exports.convert24to12 = convert24to12;
+Object.defineProperty(exports, "getHours", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getHours;
+  }
+});
+Object.defineProperty(exports, "getMinutes", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getMinutes;
+  }
+});
+Object.defineProperty(exports, "getSeconds", {
+  enumerable: true,
+  get: function get() {
+    return _dates.getSeconds;
+  }
+});
+
+var _dates = __webpack_require__(/*! react-clock/dist/shared/dates */ "./node_modules/react-clock/dist/shared/dates.js");
+
+function getHoursMinutes(date) {
+  if (!date) {
+    return date;
+  }
+
+  var hours = "0".concat((0, _dates.getHours)(date)).slice(-2);
+  var minutes = "0".concat((0, _dates.getMinutes)(date)).slice(-2);
+  return "".concat(hours, ":").concat(minutes);
+}
+
+function getHoursMinutesSeconds(date) {
+  if (!date) {
+    return date;
+  }
+
+  var hours = "0".concat((0, _dates.getHours)(date)).slice(-2);
+  var minutes = "0".concat((0, _dates.getMinutes)(date)).slice(-2);
+  var seconds = "0".concat((0, _dates.getSeconds)(date)).slice(-2);
+  return "".concat(hours, ":").concat(minutes, ":").concat(seconds);
+}
+
+function convert12to24(hour12, amPm) {
+  var hour24 = parseInt(hour12, 10);
+
+  if (amPm === 'am' && hour24 === 12) {
+    hour24 = 0;
+  } else if (amPm === 'pm' && hour24 < 12) {
+    hour24 += 12;
+  }
+
+  return hour24;
+}
+
+function convert24to12(hour24) {
+  var hour12 = hour24 % 12 || 12;
+  return [hour12, hour24 < 12 ? 'am' : 'pm'];
+}
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/shared/propTypes.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/shared/propTypes.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isValueType = exports.isTime = void 0;
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+var allViews = ['hour', 'minute', 'second'];
+var allValueTypes = [].concat(allViews);
+var hourOptionalSecondsRegExp = /^(([0-1])?[0-9]|2[0-3]):[0-5][0-9](:([0-5][0-9]))?$/;
+
+var isTime = function isTime(props, propName, componentName) {
+  var time = props[propName];
+
+  if (time) {
+    if (!hourOptionalSecondsRegExp.test(time)) {
+      return new Error("Invalid prop `".concat(propName, "` of type `").concat(typeof minDate === "undefined" ? "undefined" : _typeof(minDate), "` supplied to `").concat(componentName, "`, expected time in HH:mm(:ss) format."));
+    }
+  } // Everything is fine
+
+
+  return null;
+};
+
+exports.isTime = isTime;
+
+var isValueType = _propTypes["default"].oneOf(allValueTypes);
+
+exports.isValueType = isValueType;
+
+/***/ }),
+
+/***/ "./node_modules/react-time-picker/dist/shared/utils.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-time-picker/dist/shared/utils.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.callIfDefined = exports.getAmPmLabels = exports.max = exports.min = void 0;
+
+var _dateFormatter = __webpack_require__(/*! ./dateFormatter */ "./node_modules/react-time-picker/dist/shared/dateFormatter.js");
+
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread(); }
+
+function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance"); }
+
+function _iterableToArray(iter) { if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter); }
+
+function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } }
+
+var isValidNumber = function isValidNumber(a) {
+  return typeof a === 'number' && !isNaN(a);
+};
+
+var min = function min() {
+  for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+    args[_key] = arguments[_key];
+  }
+
+  return Math.min.apply(Math, _toConsumableArray(args.filter(isValidNumber)));
+};
+
+exports.min = min;
+
+var max = function max() {
+  for (var _len2 = arguments.length, args = new Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+    args[_key2] = arguments[_key2];
+  }
+
+  return Math.max.apply(Math, _toConsumableArray(args.filter(isValidNumber)));
+};
+
+exports.max = max;
+var nines = ['9', '٩'];
+var ninesRegExp = new RegExp("[".concat(nines.join(''), "]"));
+var amPmFormatter = (0, _dateFormatter.getFormatter)({
+  hour: 'numeric'
+});
+
+var getAmPmLabels = function getAmPmLabels(locale) {
+  var amString = amPmFormatter(locale, new Date(2017, 0, 1, 9));
+  var pmString = amPmFormatter(locale, new Date(2017, 0, 1, 21));
+
+  var _amString$split = amString.split(ninesRegExp),
+      _amString$split2 = _slicedToArray(_amString$split, 2),
+      am1 = _amString$split2[0],
+      am2 = _amString$split2[1];
+
+  var _pmString$split = pmString.split(ninesRegExp),
+      _pmString$split2 = _slicedToArray(_pmString$split, 2),
+      pm1 = _pmString$split2[0],
+      pm2 = _pmString$split2[1];
+
+  if (pm2 !== undefined) {
+    // If pm2 is undefined, nine was not found in pmString - this locale is not using 12-hour time
+    if (am1 !== pm1) {
+      return [am1, pm1].map(function (el) {
+        return el.trim();
+      });
+    }
+
+    if (am2 !== pm2) {
+      return [am2, pm2].map(function (el) {
+        return el.trim();
+      });
+    }
+  } // Fallback
+
+
+  return ['AM', 'PM'];
+};
+/**
+ * Calls a function, if it's defined, with specified arguments
+ * @param {Function} fn
+ * @param {Object} args
+ */
+
+
+exports.getAmPmLabels = getAmPmLabels;
+
+var callIfDefined = function callIfDefined(fn) {
+  if (fn && typeof fn === 'function') {
+    for (var _len3 = arguments.length, args = new Array(_len3 > 1 ? _len3 - 1 : 0), _key3 = 1; _key3 < _len3; _key3++) {
+      args[_key3 - 1] = arguments[_key3];
+    }
+
+    fn.apply(void 0, args);
+  }
+};
+
+exports.callIfDefined = callIfDefined;
+
+/***/ }),
+
 /***/ "./node_modules/react/cjs/react.development.js":
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
@@ -34139,6 +43739,594 @@ if (false) {} else {
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/lib/addStyles.js":
+/*!****************************************************!*\
+  !*** ./node_modules/style-loader/lib/addStyles.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*
+	MIT License http://www.opensource.org/licenses/mit-license.php
+	Author Tobias Koppers @sokra
+*/
+
+var stylesInDom = {};
+
+var	memoize = function (fn) {
+	var memo;
+
+	return function () {
+		if (typeof memo === "undefined") memo = fn.apply(this, arguments);
+		return memo;
+	};
+};
+
+var isOldIE = memoize(function () {
+	// Test for IE <= 9 as proposed by Browserhacks
+	// @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+	// Tests for existence of standard globals is to allow style-loader
+	// to operate correctly into non-standard environments
+	// @see https://github.com/webpack-contrib/style-loader/issues/177
+	return window && document && document.all && !window.atob;
+});
+
+var getTarget = function (target, parent) {
+  if (parent){
+    return parent.querySelector(target);
+  }
+  return document.querySelector(target);
+};
+
+var getElement = (function (fn) {
+	var memo = {};
+
+	return function(target, parent) {
+                // If passing function in options, then use it for resolve "head" element.
+                // Useful for Shadow Root style i.e
+                // {
+                //   insertInto: function () { return document.querySelector("#foo").shadowRoot }
+                // }
+                if (typeof target === 'function') {
+                        return target();
+                }
+                if (typeof memo[target] === "undefined") {
+			var styleTarget = getTarget.call(this, target, parent);
+			// Special case to return head of iframe instead of iframe itself
+			if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+				try {
+					// This will throw an exception if access to iframe is blocked
+					// due to cross-origin restrictions
+					styleTarget = styleTarget.contentDocument.head;
+				} catch(e) {
+					styleTarget = null;
+				}
+			}
+			memo[target] = styleTarget;
+		}
+		return memo[target]
+	};
+})();
+
+var singleton = null;
+var	singletonCounter = 0;
+var	stylesInsertedAtTop = [];
+
+var	fixUrls = __webpack_require__(/*! ./urls */ "./node_modules/style-loader/lib/urls.js");
+
+module.exports = function(list, options) {
+	if (typeof DEBUG !== "undefined" && DEBUG) {
+		if (typeof document !== "object") throw new Error("The style-loader cannot be used in a non-browser environment");
+	}
+
+	options = options || {};
+
+	options.attrs = typeof options.attrs === "object" ? options.attrs : {};
+
+	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+	// tags it will allow on a page
+	if (!options.singleton && typeof options.singleton !== "boolean") options.singleton = isOldIE();
+
+	// By default, add <style> tags to the <head> element
+        if (!options.insertInto) options.insertInto = "head";
+
+	// By default, add <style> tags to the bottom of the target
+	if (!options.insertAt) options.insertAt = "bottom";
+
+	var styles = listToStyles(list, options);
+
+	addStylesToDom(styles, options);
+
+	return function update (newList) {
+		var mayRemove = [];
+
+		for (var i = 0; i < styles.length; i++) {
+			var item = styles[i];
+			var domStyle = stylesInDom[item.id];
+
+			domStyle.refs--;
+			mayRemove.push(domStyle);
+		}
+
+		if(newList) {
+			var newStyles = listToStyles(newList, options);
+			addStylesToDom(newStyles, options);
+		}
+
+		for (var i = 0; i < mayRemove.length; i++) {
+			var domStyle = mayRemove[i];
+
+			if(domStyle.refs === 0) {
+				for (var j = 0; j < domStyle.parts.length; j++) domStyle.parts[j]();
+
+				delete stylesInDom[domStyle.id];
+			}
+		}
+	};
+};
+
+function addStylesToDom (styles, options) {
+	for (var i = 0; i < styles.length; i++) {
+		var item = styles[i];
+		var domStyle = stylesInDom[item.id];
+
+		if(domStyle) {
+			domStyle.refs++;
+
+			for(var j = 0; j < domStyle.parts.length; j++) {
+				domStyle.parts[j](item.parts[j]);
+			}
+
+			for(; j < item.parts.length; j++) {
+				domStyle.parts.push(addStyle(item.parts[j], options));
+			}
+		} else {
+			var parts = [];
+
+			for(var j = 0; j < item.parts.length; j++) {
+				parts.push(addStyle(item.parts[j], options));
+			}
+
+			stylesInDom[item.id] = {id: item.id, refs: 1, parts: parts};
+		}
+	}
+}
+
+function listToStyles (list, options) {
+	var styles = [];
+	var newStyles = {};
+
+	for (var i = 0; i < list.length; i++) {
+		var item = list[i];
+		var id = options.base ? item[0] + options.base : item[0];
+		var css = item[1];
+		var media = item[2];
+		var sourceMap = item[3];
+		var part = {css: css, media: media, sourceMap: sourceMap};
+
+		if(!newStyles[id]) styles.push(newStyles[id] = {id: id, parts: [part]});
+		else newStyles[id].parts.push(part);
+	}
+
+	return styles;
+}
+
+function insertStyleElement (options, style) {
+	var target = getElement(options.insertInto)
+
+	if (!target) {
+		throw new Error("Couldn't find a style target. This probably means that the value for the 'insertInto' parameter is invalid.");
+	}
+
+	var lastStyleElementInsertedAtTop = stylesInsertedAtTop[stylesInsertedAtTop.length - 1];
+
+	if (options.insertAt === "top") {
+		if (!lastStyleElementInsertedAtTop) {
+			target.insertBefore(style, target.firstChild);
+		} else if (lastStyleElementInsertedAtTop.nextSibling) {
+			target.insertBefore(style, lastStyleElementInsertedAtTop.nextSibling);
+		} else {
+			target.appendChild(style);
+		}
+		stylesInsertedAtTop.push(style);
+	} else if (options.insertAt === "bottom") {
+		target.appendChild(style);
+	} else if (typeof options.insertAt === "object" && options.insertAt.before) {
+		var nextSibling = getElement(options.insertAt.before, target);
+		target.insertBefore(style, nextSibling);
+	} else {
+		throw new Error("[Style Loader]\n\n Invalid value for parameter 'insertAt' ('options.insertAt') found.\n Must be 'top', 'bottom', or Object.\n (https://github.com/webpack-contrib/style-loader#insertat)\n");
+	}
+}
+
+function removeStyleElement (style) {
+	if (style.parentNode === null) return false;
+	style.parentNode.removeChild(style);
+
+	var idx = stylesInsertedAtTop.indexOf(style);
+	if(idx >= 0) {
+		stylesInsertedAtTop.splice(idx, 1);
+	}
+}
+
+function createStyleElement (options) {
+	var style = document.createElement("style");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+
+	if(options.attrs.nonce === undefined) {
+		var nonce = getNonce();
+		if (nonce) {
+			options.attrs.nonce = nonce;
+		}
+	}
+
+	addAttrs(style, options.attrs);
+	insertStyleElement(options, style);
+
+	return style;
+}
+
+function createLinkElement (options) {
+	var link = document.createElement("link");
+
+	if(options.attrs.type === undefined) {
+		options.attrs.type = "text/css";
+	}
+	options.attrs.rel = "stylesheet";
+
+	addAttrs(link, options.attrs);
+	insertStyleElement(options, link);
+
+	return link;
+}
+
+function addAttrs (el, attrs) {
+	Object.keys(attrs).forEach(function (key) {
+		el.setAttribute(key, attrs[key]);
+	});
+}
+
+function getNonce() {
+	if (false) {}
+
+	return __webpack_require__.nc;
+}
+
+function addStyle (obj, options) {
+	var style, update, remove, result;
+
+	// If a transform function was defined, run it on the css
+	if (options.transform && obj.css) {
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
+
+	    if (result) {
+	    	// If transform returns a value, use that instead of the original css.
+	    	// This allows running runtime transformations on the css.
+	    	obj.css = result;
+	    } else {
+	    	// If the transform function returns a falsy value, don't add this css.
+	    	// This allows conditional loading of css
+	    	return function() {
+	    		// noop
+	    	};
+	    }
+	}
+
+	if (options.singleton) {
+		var styleIndex = singletonCounter++;
+
+		style = singleton || (singleton = createStyleElement(options));
+
+		update = applyToSingletonTag.bind(null, style, styleIndex, false);
+		remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+
+	} else if (
+		obj.sourceMap &&
+		typeof URL === "function" &&
+		typeof URL.createObjectURL === "function" &&
+		typeof URL.revokeObjectURL === "function" &&
+		typeof Blob === "function" &&
+		typeof btoa === "function"
+	) {
+		style = createLinkElement(options);
+		update = updateLink.bind(null, style, options);
+		remove = function () {
+			removeStyleElement(style);
+
+			if(style.href) URL.revokeObjectURL(style.href);
+		};
+	} else {
+		style = createStyleElement(options);
+		update = applyToTag.bind(null, style);
+		remove = function () {
+			removeStyleElement(style);
+		};
+	}
+
+	update(obj);
+
+	return function updateStyle (newObj) {
+		if (newObj) {
+			if (
+				newObj.css === obj.css &&
+				newObj.media === obj.media &&
+				newObj.sourceMap === obj.sourceMap
+			) {
+				return;
+			}
+
+			update(obj = newObj);
+		} else {
+			remove();
+		}
+	};
+}
+
+var replaceText = (function () {
+	var textStore = [];
+
+	return function (index, replacement) {
+		textStore[index] = replacement;
+
+		return textStore.filter(Boolean).join('\n');
+	};
+})();
+
+function applyToSingletonTag (style, index, remove, obj) {
+	var css = remove ? "" : obj.css;
+
+	if (style.styleSheet) {
+		style.styleSheet.cssText = replaceText(index, css);
+	} else {
+		var cssNode = document.createTextNode(css);
+		var childNodes = style.childNodes;
+
+		if (childNodes[index]) style.removeChild(childNodes[index]);
+
+		if (childNodes.length) {
+			style.insertBefore(cssNode, childNodes[index]);
+		} else {
+			style.appendChild(cssNode);
+		}
+	}
+}
+
+function applyToTag (style, obj) {
+	var css = obj.css;
+	var media = obj.media;
+
+	if(media) {
+		style.setAttribute("media", media)
+	}
+
+	if(style.styleSheet) {
+		style.styleSheet.cssText = css;
+	} else {
+		while(style.firstChild) {
+			style.removeChild(style.firstChild);
+		}
+
+		style.appendChild(document.createTextNode(css));
+	}
+}
+
+function updateLink (link, options, obj) {
+	var css = obj.css;
+	var sourceMap = obj.sourceMap;
+
+	/*
+		If convertToAbsoluteUrls isn't defined, but sourcemaps are enabled
+		and there is no publicPath defined then lets turn convertToAbsoluteUrls
+		on by default.  Otherwise default to the convertToAbsoluteUrls option
+		directly
+	*/
+	var autoFixUrls = options.convertToAbsoluteUrls === undefined && sourceMap;
+
+	if (options.convertToAbsoluteUrls || autoFixUrls) {
+		css = fixUrls(css);
+	}
+
+	if (sourceMap) {
+		// http://stackoverflow.com/a/26603875
+		css += "\n/*# sourceMappingURL=data:application/json;base64," + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + " */";
+	}
+
+	var blob = new Blob([css], { type: "text/css" });
+
+	var oldSrc = link.href;
+
+	link.href = URL.createObjectURL(blob);
+
+	if(oldSrc) URL.revokeObjectURL(oldSrc);
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/lib/urls.js":
+/*!***********************************************!*\
+  !*** ./node_modules/style-loader/lib/urls.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+/**
+ * When source maps are enabled, `style-loader` uses a link element with a data-uri to
+ * embed the css on the page. This breaks all relative urls because now they are relative to a
+ * bundle instead of the current page.
+ *
+ * One solution is to only use full urls, but that may be impossible.
+ *
+ * Instead, this function "fixes" the relative urls to be absolute according to the current page location.
+ *
+ * A rudimentary test suite is located at `test/fixUrls.js` and can be run via the `npm test` command.
+ *
+ */
+
+module.exports = function (css) {
+  // get current location
+  var location = typeof window !== "undefined" && window.location;
+
+  if (!location) {
+    throw new Error("fixUrls requires window.location");
+  }
+
+	// blank or null?
+	if (!css || typeof css !== "string") {
+	  return css;
+  }
+
+  var baseUrl = location.protocol + "//" + location.host;
+  var currentDir = baseUrl + location.pathname.replace(/\/[^\/]*$/, "/");
+
+	// convert each url(...)
+	/*
+	This regular expression is just a way to recursively match brackets within
+	a string.
+
+	 /url\s*\(  = Match on the word "url" with any whitespace after it and then a parens
+	   (  = Start a capturing group
+	     (?:  = Start a non-capturing group
+	         [^)(]  = Match anything that isn't a parentheses
+	         |  = OR
+	         \(  = Match a start parentheses
+	             (?:  = Start another non-capturing groups
+	                 [^)(]+  = Match anything that isn't a parentheses
+	                 |  = OR
+	                 \(  = Match a start parentheses
+	                     [^)(]*  = Match anything that isn't a parentheses
+	                 \)  = Match a end parentheses
+	             )  = End Group
+              *\) = Match anything and then a close parens
+          )  = Close non-capturing group
+          *  = Match anything
+       )  = Close capturing group
+	 \)  = Match a close parens
+
+	 /gi  = Get all matches, not the first.  Be case insensitive.
+	 */
+	var fixedCss = css.replace(/url\s*\(((?:[^)(]|\((?:[^)(]+|\([^)(]*\))*\))*)\)/gi, function(fullMatch, origUrl) {
+		// strip quotes (if they exist)
+		var unquotedOrigUrl = origUrl
+			.trim()
+			.replace(/^"(.*)"$/, function(o, $1){ return $1; })
+			.replace(/^'(.*)'$/, function(o, $1){ return $1; });
+
+		// already a full url? no change
+		if (/^(#|data:|http:\/\/|https:\/\/|file:\/\/\/|\s*$)/i.test(unquotedOrigUrl)) {
+		  return fullMatch;
+		}
+
+		// convert the url to a full url
+		var newUrl;
+
+		if (unquotedOrigUrl.indexOf("//") === 0) {
+		  	//TODO: should we add protocol?
+			newUrl = unquotedOrigUrl;
+		} else if (unquotedOrigUrl.indexOf("/") === 0) {
+			// path should be relative to the base url
+			newUrl = baseUrl + unquotedOrigUrl; // already starts with '/'
+		} else {
+			// path should be relative to current directory
+			newUrl = currentDir + unquotedOrigUrl.replace(/^\.\//, ""); // Strip leading './'
+		}
+
+		// send back the fixed url(...)
+		return "url(" + JSON.stringify(newUrl) + ")";
+	});
+
+	// send back the fixed css
+	return fixedCss;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/update-input-width/dist/index.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/update-input-width/dist/index.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.getFontShorthand = getFontShorthand;
+exports.measureText = measureText;
+exports.updateInputWidth = updateInputWidth;
+exports["default"] = void 0;
+
+/**
+ * Gets font CSS shorthand property given element.
+ *
+ * @param {HTMLElement} element Element to get font CSS shorthand property from
+ */
+function getFontShorthand(element) {
+  var style = window.getComputedStyle(element);
+
+  if (style.font) {
+    return style.font;
+  }
+
+  var isFontDefined = style['font-family'] !== '';
+
+  if (!isFontDefined) {
+    return '';
+  }
+
+  return "".concat(style['font-style'], " ").concat(style['font-variant'], " ").concat(style['font-weight'], " ").concat(style['font-size'], " / ").concat(style['line-height'], " ").concat(style['font-family']);
+}
+/**
+ * Measures text width given text and font CSS shorthand.
+ *
+ * @param {String} text Text to measure
+ * @param {String} font Font to use when measuring the text
+ */
+
+
+function measureText(text, font) {
+  var canvas = measureText.canvas || (measureText.canvas = document.createElement('canvas'));
+  var context = canvas.getContext('2d');
+  context.font = font;
+
+  var _context$measureText = context.measureText(text),
+      width = _context$measureText.width;
+
+  return Math.ceil(width);
+}
+/**
+ * Updates input element width to fit its content given input element
+ * @param {HTMLInputElement} element
+ */
+
+
+function updateInputWidth(element) {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  var font = getFontShorthand(element);
+  var text = element.value || element.placeholder;
+  var width = measureText(text, font);
+  element.style.width = "".concat(width, "px");
+  return width;
+}
+
+var _default = updateInputWidth;
+exports["default"] = _default;
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -34154,18 +44342,94 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/admin/home/leftnav */ "./resources/js/components/admin/home/leftnav.js");
 /* harmony import */ var _components_admin_home_center__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/admin/home/center */ "./resources/js/components/admin/home/center.js");
+/* harmony import */ var _components_admin_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/admin/contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+/* harmony import */ var _components_admin_home_topnav__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/admin/home/topnav */ "./resources/js/components/admin/home/topnav.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
 
 
 
 
 
 function Main() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns is-fullheight is-gapless"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_center__WEBPACK_IMPORTED_MODULE_3__["default"], null)));
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      activeCenterItem = _React$useState2[0],
+      setActiveCenterItem = _React$useState2[1];
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(0),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      uniqueCount = _React$useState4[0],
+      setUniqueCount = _React$useState4[1];
+
+  function changeCenterContent(centerItem) {
+    setUniqueCount(function (curr) {
+      return curr + 1;
+    });
+    setActiveCenterItem(centerItem);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["ActiveTenantContextProvider"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_topnav__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns is-fullheight is-gapless is-multiline is-mobile"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    changeCenterContent: changeCenterContent,
+    activeCenterItem: activeCenterItem
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_center__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    key: uniqueCount,
+    activeCenterItem: activeCenterItem
+  }))));
 }
 
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Main, null), document.getElementById('app'));
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/contexts/activeTenantContext.js":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/admin/contexts/activeTenantContext.js ***!
+  \***********************************************************************/
+/*! exports provided: ActiveTenantContextProvider, ActiveTenantContextConsumer, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActiveTenantContextProvider", function() { return ActiveTenantContextProvider; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ActiveTenantContextConsumer", function() { return ActiveTenantContextConsumer; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+var ActiveTenantContext = Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])();
+var ActiveTenantContextProvider = function ActiveTenantContextProvider(props) {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      activeTenant = _React$useState2[0],
+      setActiveTenant = _React$useState2[1];
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ActiveTenantContext.Provider, {
+    value: {
+      activeTenant: activeTenant,
+      setActiveTenant: setActiveTenant
+    }
+  }, props.children);
+};
+var ActiveTenantContextConsumer = ActiveTenantContext.Consumer;
+/* harmony default export */ __webpack_exports__["default"] = (ActiveTenantContext);
 
 /***/ }),
 
@@ -34183,18 +44447,450 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../helpers/services/linkServices */ "./resources/js/components/helpers/services/linkServices.js");
 /* harmony import */ var _topnav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./topnav */ "./resources/js/components/admin/home/topnav.js");
+/* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./resources/js/components/admin/home/contact.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+/* harmony import */ var _centercomponents_links_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./centercomponents/links/index */ "./resources/js/components/admin/home/centercomponents/links/index.js");
 
 
 
-function center() {
+
+
+
+function center(props) {
+  var tenantActive = _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"].activeTenant ? _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"].activeTenant : false;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-main-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_topnav__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns is-fullheight"
+    className: "column is-7 has-text-centered"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-6"
+    className: "container is-fluid",
+    style: {
+      "paddingLeft": "15%",
+      "paddingRight": "15%",
+      "paddingTop": "30px",
+      "paddingBottom": "100px"
+    }
+  }, props.activeCenterItem === 'links' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centercomponents_links_index__WEBPACK_IMPORTED_MODULE_5__["default"], null) : ''));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/centerHeader.js":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/centerHeader.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerHeader; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+
+
+function centerHeader(props) {
+  var activeTenant = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_1__["default"]).activeTenant;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-upload-title",
+    style: {
+      "float": "center"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-preview-title"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "backgroundImage": "url('" + activeTenant.thumb_image_url + "')"
+    }
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "center"
+  }, activeTenant.tenant_text));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/links/centerCreateLinkForm.js":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/links/centerCreateLinkForm.js ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerCreateLinkFrom; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../helpers/services/linkServices */ "./resources/js/components/helpers/services/linkServices.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+function centerCreateLinkFrom(props) {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      loading = _React$useState2[0],
+      setLoading = _React$useState2[1];
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      validationErrors = _React$useState4[0],
+      setValidationErrors = _React$useState4[1];
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      title = _React$useState6[0],
+      setTitle = _React$useState6[1];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      url = _React$useState8[0],
+      setURL = _React$useState8[1];
+
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+      _React$useState10 = _slicedToArray(_React$useState9, 2),
+      linkServices = _React$useState10[0],
+      setLinkServices = _React$useState10[1];
+
+  var tenantActive = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_2__["default"]).activeTenant;
+
+  var saveHandler = function saveHandler() {
+    setValidationErrors({});
+    setLoading(true);
+    linkServices.createLink({
+      title: title,
+      url: url,
+      tenant_id: tenantActive.id
+    }).then(function (response) {
+      setLoading(false);
+      setValidationErrors({});
+
+      if (response.data.success) {
+        //console.log(response.data.success)
+        setTitle('');
+        setURL('');
+        props.updateAllLinks();
+      }
+
+      return response;
+    })["catch"](function (error) {
+      console.log(error);
+      setLoading(false);
+
+      if (error.response.status == 401 && error.response.data.error) {
+        setValidationErrors(error.response.data.error);
+      }
+    });
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "paddingBottom": "10px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "Title",
+    value: title,
+    onChange: function onChange(e) {
+      return setTitle(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "URL",
+    value: url,
+    onChange: function onChange(e) {
+      return setURL(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.url))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: function onClick(e) {
+      saveHandler();
+    },
+    className: loading ? "button is-fullwidth is-primary is-loading" : "button is-fullwidth is-primary"
+  }, "Add New Link"));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/links/centerLinks.js":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/links/centerLinks.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerLinks; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function centerLinks(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "border": "2px black solid",
+      "marginTop": "20px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-1"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-sort-up"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-ellipsis-v"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-sort-down"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-8"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "edit-link-input",
+    value: props.link.title
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      "margin": "0.5rem 0rem .5rem 0rem",
+      "background": "darkgray"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "edit-link-input",
+    value: props.link.url
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    style: {
+      "margin": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-images"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-stopwatch"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-stopwatch"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      "margin": "0.5rem 0rem .5rem 0rem",
+      "background": "darkgray"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    style: {
+      "margin": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-trash-alt"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-toggle-on"
+  }))))))))));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/links/index.js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/links/index.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Links; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _centerLinks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./centerLinks */ "./resources/js/components/admin/home/centercomponents/links/centerLinks.js");
+/* harmony import */ var _centerCreateLinkForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./centerCreateLinkForm */ "./resources/js/components/admin/home/centercomponents/links/centerCreateLinkForm.js");
+/* harmony import */ var _centercomponents_centerHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../centercomponents/centerHeader */ "./resources/js/components/admin/home/centercomponents/centerHeader.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+/* harmony import */ var _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../helpers/services/tenantServices */ "./resources/js/components/helpers/services/tenantServices.js");
+/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+function Links() {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(0),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      updateCount = _React$useState2[0],
+      setUpdateCount = _React$useState2[1];
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      loading = _React$useState4[0],
+      setLoading = _React$useState4[1];
+
+  var tenantActive = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"]).activeTenant;
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_5__["default"]()),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      tenantServices = _React$useState6[0],
+      setTenantServices = _React$useState6[1];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      allLinks = _React$useState8[0],
+      setAllLinks = _React$useState8[1];
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    updateAllLinks();
+  }, []); //to rerender on new link added
+
+  function updateAllLinks() {
+    setLoading(true);
+    tenantServices.getAllLinks({}, tenantActive.id).then(function (response) {
+      setLoading(false);
+
+      if (response.data.success) {
+        setAllLinks(response.data.success);
+      }
+
+      return response;
+    })["catch"](function (error) {
+      setLoading(false);
+
+      if (error.response.status == 401 && error.response.data.error) {}
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_helpers_loadingicon__WEBPACK_IMPORTED_MODULE_6__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centercomponents_centerHeader__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centerCreateLinkForm__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    updateAllLinks: updateAllLinks
+  }), allLinks.map(function (link, index) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centerLinks__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      link: link,
+      key: index
+    });
   })));
 }
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/contact.js":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/admin/home/contact.js ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+var Contact =
+/*#__PURE__*/
+function (_React$Component) {
+  _inherits(Contact, _React$Component);
+
+  function Contact() {
+    _classCallCheck(this, Contact);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Contact).apply(this, arguments));
+  }
+
+  _createClass(Contact, [{
+    key: "render",
+    value: function render() {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact");
+    }
+  }]);
+
+  return Contact;
+}(react__WEBPACK_IMPORTED_MODULE_0___default.a.Component);
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
@@ -34211,16 +44907,87 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _selectTenant__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./selectTenant */ "./resources/js/components/admin/home/selectTenant.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
 
 
-function leftNav() {
+
+function leftNav(props) {
+  var activeTenantContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_2__["default"]);
+  var tenantActive = activeTenantContext.activeTenant ? activeTenantContext.activeTenant : false;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-2 is-sidebar-menu"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("aside", {
     className: "menu"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "menu-list"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_selectTenant__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Dashboard")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Customers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Payments")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Transfers")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Balance")))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_selectTenant__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    changeCenterContent: props.changeCenterContent
+  }), //prevent loading link till tenant is selected
+  typeof tenantActive.tenant_name === "undefined" ? '' : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return props.changeCenterContent('links');
+    },
+    className: props.activeCenterItem == "links" ? "nav-is-active navbar-item" : "navbar-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "position": "relative",
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-link"
+  })), "Links")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return props.changeCenterContent('analytics');
+    },
+    className: props.activeCenterItem == "analytics" ? "nav-is-active navbar-item" : "navbar-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "position": "relative",
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-chart-line"
+  })), "Analytics")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return props.changeCenterContent('forms');
+    },
+    className: props.activeCenterItem == "forms" ? "nav-is-active navbar-item" : "navbar-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "position": "relative",
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-wpforms"
+  })), "Forms")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return props.changeCenterContent('settings');
+    },
+    className: props.activeCenterItem == "settings" ? "nav-is-active navbar-item" : "navbar-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "position": "relative",
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: {
+      "padding": "15px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-cog"
+  })), "Settings"))))))));
 } //from https://codepen.io/wikiki/pen/OjdNKM
 
 /*<div className="column is-2 is-sidebar-menu is-hidden-mobile">
@@ -34263,6 +45030,543 @@ function leftNav() {
 
 /***/ }),
 
+/***/ "./resources/js/components/admin/home/newTenantModel.js":
+/*!**************************************************************!*\
+  !*** ./resources/js/components/admin/home/newTenantModel.js ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return selectTenant; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../helpers/services/tenantServices */ "./resources/js/components/helpers/services/tenantServices.js");
+/* harmony import */ var _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../helpers/services/userServices */ "./resources/js/components/helpers/services/userServices.js");
+/* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-datetime-picker */ "./node_modules/react-datetime-picker/dist/entry.js");
+/* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+ //https://www.npmjs.com/package/react-datetime-picker
+
+
+
+function selectTenant(props) {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      loading = _React$useState2[0],
+      setLoading = _React$useState2[1];
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState("{}"),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      validationErrors = _React$useState4[0],
+      setValidationErrors = _React$useState4[1];
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      tenantServices = _React$useState6[0],
+      setTenantServices = _React$useState6[1];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__["default"]()),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      userServices = _React$useState8[0],
+      setUserServices = _React$useState8[1];
+
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState10 = _slicedToArray(_React$useState9, 2),
+      tenant_name = _React$useState10[0],
+      setTenantName = _React$useState10[1];
+
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState12 = _slicedToArray(_React$useState11, 2),
+      tenant_text = _React$useState12[0],
+      setTenantText = _React$useState12[1];
+
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState14 = _slicedToArray(_React$useState13, 2),
+      is_leap_link_active = _React$useState14[0],
+      setIs_leap_link_active = _React$useState14[1];
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(new Date()),
+      _useState2 = _slicedToArray(_useState, 2),
+      leap_link_time_from = _useState2[0],
+      setLeap_link_time_from = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(new Date()),
+      _useState4 = _slicedToArray(_useState3, 2),
+      leap_link_time_to = _useState4[0],
+      setLeap_link_time_to = _useState4[1];
+
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      _useState6 = _slicedToArray(_useState5, 2),
+      leap_link_url = _useState6[0],
+      setLeap_link_url = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('Europe/London'),
+      _useState8 = _slicedToArray(_useState7, 2),
+      leap_link_timezone = _useState8[0],
+      setLeap_link_timezone = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('https://cdn1.iconfinder.com/data/icons/technology-devices-2/100/Profile-512.png'),
+      _useState10 = _slicedToArray(_useState9, 2),
+      thumb_image_url = _useState10[0],
+      setThumb_image_url = _useState10[1]; //Determine error in image upload
+
+
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])({}),
+      _useState12 = _slicedToArray(_useState11, 2),
+      thumb_upload_error = _useState12[0],
+      setThumbUploadError = _useState12[1]; //Determine state of model
+
+
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('is-clipped'),
+      _React$useState16 = _slicedToArray(_React$useState15, 2),
+      showState = _React$useState16[0],
+      setShowState = _React$useState16[1]; //pass true to refresh on new tenant creation
+
+
+  var _React$useState17 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState18 = _slicedToArray(_React$useState17, 2),
+      newTenantCreated = _React$useState18[0],
+      setNewTenantCreated = _React$useState18[1];
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    if (props.showState) {
+      //console.log('in');
+      setShowState('is-active');
+    }
+  }, [props]);
+
+  var saveHandler = function saveHandler() {
+    setLoading(true);
+    setValidationErrors({});
+    tenantServices.createTenant({
+      tenant_name: tenant_name,
+      tenant_text: tenant_text,
+      is_leap_link_active: is_leap_link_active,
+      leap_link_time_from: leap_link_time_from.toISOString().replace('T', ' ').slice(0, 20),
+      leap_link_time_to: leap_link_time_to.toISOString().replace('T', ' ').slice(0, 20),
+      leap_link_url: leap_link_url,
+      leap_link_timezone: leap_link_timezone,
+      thumb_image_url: thumb_image_url
+    }).then(function (response) {
+      setLoading(false);
+      setValidationErrors({});
+
+      if (response.data.success) {
+        //console.log("created tenants");
+        //console.log(response.data.success)
+        setNewTenantCreated(true);
+        setShowState('is-clipped');
+        props.parentCallback(true);
+      }
+
+      return response;
+    })["catch"](function (error) {
+      setLoading(false);
+
+      if (error.response.status == 401 && error.response.data.error) {
+        setValidationErrors(error.response.data.error);
+      }
+    });
+  };
+
+  function handleAvatarSelectionChange(event) {
+    var formData = new FormData();
+    formData.append('image', event.target.files[0]);
+    setThumb_image_url('/images/flatloader.svg');
+    userServices.uploadAvatar(formData).then(function (response) {
+      if (response.data.success) {
+        // console.log(response.data);
+        setThumbUploadError({});
+        setThumb_image_url('http://127.0.0.1:8000/' + response.data.success);
+      }
+
+      return response;
+    })["catch"](function (error) {
+      setThumb_image_url('https://cdn1.iconfinder.com/data/icons/technology-devices-2/100/Profile-512.png'); //console.log(error);
+
+      if (error.response.status == 401 && error.response.data.error) {
+        setThumbUploadError(error.response.data.error);
+      }
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "modal " + showState
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "modal-background"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "modal-card"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+    className: "modal-card-head"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "modal-card-title"
+  }, "Create New Tenant"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "delete",
+    "aria-label": "close",
+    onClick: function onClick() {
+      setShowState('is-clipped');
+      props.parentCallback(newTenantCreated);
+    }
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
+    className: "modal-card-body"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("form", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Slug - appears in your URL:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "Slug",
+    value: tenant_name,
+    onChange: function onChange(e) {
+      return setTenantName(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.tenant_name), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "help"
+  }, "Only Alphanumeric, - and _ are allowed."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Name - Appears on title:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "Slug",
+    value: tenant_text,
+    onChange: function onChange(e) {
+      return setTenantText(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.tenant_text), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "help"
+  }, "If Blank will be same as Slug"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Change Avatar:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-upload"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-edit"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    type: "file",
+    id: "imageUpload",
+    accept: ".png, .jpg, .jpeg",
+    onChange: function onChange(e) {
+      return handleAvatarSelectionChange(e);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    htmlFor: "imageUpload"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-pencil-alt avatar-edit-icon"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-preview"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "imagePreview",
+    style: {
+      "backgroundImage": "url(" + thumb_image_url + ")"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, thumb_upload_error.image)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "checkbox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    type: "checkbox",
+    checked: is_leap_link_active,
+    onChange: function onChange() {
+      return setIs_leap_link_active(!is_leap_link_active);
+    }
+  }), "Activate Leap Link  (Redirects Directly to the URL)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: is_leap_link_active ? {
+      "paddingTop": "15 px"
+    } : {
+      "display": "none"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Leap Link URL:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "Leap Link URL",
+    value: leap_link_url,
+    onChange: function onChange(e) {
+      return setLeap_link_url(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.leap_link_url))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Leap Link Active From(YYYY-MM-DD HH:MM:SS)(24 hrs):"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    onChange: function onChange(date) {
+      return setLeap_link_time_from(date);
+    },
+    value: leap_link_time_from,
+    format: "yyyy-MM-dd HH:mm:ss",
+    name: "leap_link_time_from",
+    renderSecondHand: true,
+    required: true,
+    disabled: loading
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Leap Link Active Till(YYYY-MM-DD HH:MM:SS)(24 hrs):"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    onChange: function onChange(date) {
+      return setLeap_link_time_to(date);
+    },
+    value: leap_link_time_to,
+    format: "yyyy-MM-dd HH:mm:ss",
+    name: "leap_link_time_to",
+    renderSecondHand: true,
+    required: true,
+    disabled: loading
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.leap_link_time_to)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("label", {
+    className: "label"
+  }, "Select Timezone:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "select"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    defaultValue: leap_link_timezone,
+    onChange: function onChange(e) {
+      return setLeap_link_timezone(e.target.value);
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Midway"
+  }, "(GMT-11:00) Midway Island, Samoa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Adak"
+  }, "(GMT-10:00) Hawaii-Aleutian"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT+10"
+  }, "(GMT-10:00) Hawaii"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Marquesas"
+  }, "(GMT-09:30) Marquesas Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Gambier"
+  }, "(GMT-09:00) Gambier Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Anchorage"
+  }, "(GMT-09:00) Alaska"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Ensenada"
+  }, "(GMT-08:00) Tijuana, Baja California"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT+8"
+  }, "(GMT-08:00) Pitcairn Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Los_Angeles"
+  }, "(GMT-08:00) Pacific Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Denver"
+  }, "(GMT-07:00) Mountain Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Chihuahua"
+  }, "(GMT-07:00) Chihuahua, La Paz, Mazatlan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Dawson_Creek"
+  }, "(GMT-07:00) Arizona"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Belize"
+  }, "(GMT-06:00) Saskatchewan, Central America"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Cancun"
+  }, "(GMT-06:00) Guadalajara, Mexico City, Monterrey"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Chile/EasterIsland"
+  }, "(GMT-06:00) Easter Island"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Chicago"
+  }, "(GMT-06:00) Central Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/New_York"
+  }, "(GMT-05:00) Eastern Time (US & Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Havana"
+  }, "(GMT-05:00) Cuba"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Bogota"
+  }, "(GMT-05:00) Bogota, Lima, Quito, Rio Branco"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Caracas"
+  }, "(GMT-04:30) Caracas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Santiago"
+  }, "(GMT-04:00) Santiago"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/La_Paz"
+  }, "(GMT-04:00) La Paz"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Atlantic/Stanley"
+  }, "(GMT-04:00) Faukland Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Campo_Grande"
+  }, "(GMT-04:00) Brazil"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Goose_Bay"
+  }, "(GMT-04:00) Atlantic Time (Goose Bay)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Glace_Bay"
+  }, "(GMT-04:00) Atlantic Time (Canada)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/St_Johns"
+  }, "(GMT-03:30) Newfoundland"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Araguaina"
+  }, "(GMT-03:00) UTC-3"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Montevideo"
+  }, "(GMT-03:00) Montevideo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Miquelon"
+  }, "(GMT-03:00) Miquelon, St. Pierre"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Godthab"
+  }, "(GMT-03:00) Greenland"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Argentina/Buenos_Aires"
+  }, "(GMT-03:00) Buenos Aires"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Sao_Paulo"
+  }, "(GMT-03:00) Brasilia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "America/Noronha"
+  }, "(GMT-02:00) Mid-Atlantic"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Atlantic/Cape_Verde"
+  }, "(GMT-01:00) Cape Verde Is."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Atlantic/Azores"
+  }, "(GMT-01:00) Azores"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Belfast"
+  }, "(GMT) Greenwich Mean Time : Belfast"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Dublin"
+  }, "(GMT) Greenwich Mean Time : Dublin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Lisbon"
+  }, "(GMT) Greenwich Mean Time : Lisbon"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/London"
+  }, "(GMT) Greenwich Mean Time : London"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Abidjan"
+  }, "(GMT) Monrovia, Reykjavik"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Amsterdam"
+  }, "(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Belgrade"
+  }, "(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Brussels"
+  }, "(GMT+01:00) Brussels, Copenhagen, Madrid, Paris"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Algiers"
+  }, "(GMT+01:00) West Central Africa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Windhoek"
+  }, "(GMT+01:00) Windhoek"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Beirut"
+  }, "(GMT+02:00) Beirut"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Cairo"
+  }, "(GMT+02:00) Cairo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Gaza"
+  }, "(GMT+02:00) Gaza"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Blantyre"
+  }, "(GMT+02:00) Harare, Pretoria"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Jerusalem"
+  }, "(GMT+02:00) Jerusalem"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Minsk"
+  }, "(GMT+02:00) Minsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Damascus"
+  }, "(GMT+02:00) Syria"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Europe/Moscow"
+  }, "(GMT+03:00) Moscow, St. Petersburg, Volgograd"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Africa/Addis_Ababa"
+  }, "(GMT+03:00) Nairobi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Tehran"
+  }, "(GMT+03:30) Tehran"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Dubai"
+  }, "(GMT+04:00) Abu Dhabi, Muscat"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Yerevan"
+  }, "(GMT+04:00) Yerevan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Kabul"
+  }, "(GMT+04:30) Kabul"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Yekaterinburg"
+  }, "(GMT+05:00) Ekaterinburg"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Tashkent"
+  }, "(GMT+05:00) Tashkent"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Kolkata"
+  }, "(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Katmandu"
+  }, "(GMT+05:45) Kathmandu"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Dhaka"
+  }, "(GMT+06:00) Astana, Dhaka"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Novosibirsk"
+  }, "(GMT+06:00) Novosibirsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Rangoon"
+  }, "(GMT+06:30) Yangon (Rangoon)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Bangkok"
+  }, "(GMT+07:00) Bangkok, Hanoi, Jakarta"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Krasnoyarsk"
+  }, "(GMT+07:00) Krasnoyarsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Hong_Kong"
+  }, "(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Irkutsk"
+  }, "(GMT+08:00) Irkutsk, Ulaan Bataar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Perth"
+  }, "(GMT+08:00) Perth"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Eucla"
+  }, "(GMT+08:45) Eucla"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Tokyo"
+  }, "(GMT+09:00) Osaka, Sapporo, Tokyo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Seoul"
+  }, "(GMT+09:00) Seoul"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Yakutsk"
+  }, "(GMT+09:00) Yakutsk"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Adelaide"
+  }, "(GMT+09:30) Adelaide"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Darwin"
+  }, "(GMT+09:30) Darwin"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Brisbane"
+  }, "(GMT+10:00) Brisbane"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Hobart"
+  }, "(GMT+10:00) Hobart"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Vladivostok"
+  }, "(GMT+10:00) Vladivostok"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Australia/Lord_Howe"
+  }, "(GMT+10:30) Lord Howe Island"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT-11"
+  }, "(GMT+11:00) Solomon Is., New Caledonia"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Magadan"
+  }, "(GMT+11:00) Magadan"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Norfolk"
+  }, "(GMT+11:30) Norfolk Island"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Asia/Anadyr"
+  }, "(GMT+12:00) Anadyr, Kamchatka"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Auckland"
+  }, "(GMT+12:00) Auckland, Wellington"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Etc/GMT-12"
+  }, "(GMT+12:00) Fiji, Kamchatka, Marshall Is."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Chatham"
+  }, "(GMT+12:45) Chatham Islands"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Tongatapu"
+  }, "(GMT+13:00) Nuku'alofa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    value: "Pacific/Kiritimati"
+  }, "(GMT+14:00) Kiritimati")))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", {
+    className: "modal-card-foot"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    disabled: loading,
+    className: "button is-success",
+    onClick: function onClick(e) {
+      saveHandler();
+    }
+  }, "Save changes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    disabled: loading,
+    className: "button",
+    onClick: function onClick() {
+      setShowState('is-clipped');
+      props.parentCallback(newTenantCreated);
+    }
+  }, "Cancel"))));
+}
+
+/***/ }),
+
 /***/ "./resources/js/components/admin/home/selectTenant.js":
 /*!************************************************************!*\
   !*** ./resources/js/components/admin/home/selectTenant.js ***!
@@ -34276,6 +45580,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../helpers/services/userServices */ "./resources/js/components/helpers/services/userServices.js");
+/* harmony import */ var _newTenantModel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./newTenantModel */ "./resources/js/components/admin/home/newTenantModel.js");
+/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -34286,7 +45593,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-function selectTenant() {
+
+
+
+function selectTenant(props) {
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]),
       _React$useState2 = _slicedToArray(_React$useState, 2),
       tenants = _React$useState2[0],
@@ -34306,12 +45616,33 @@ function selectTenant() {
       isSelectedOrSelectText = _React$useState8[0],
       setIsSelectedOrSelectText = _React$useState8[1];
 
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState10 = _slicedToArray(_React$useState9, 2),
+      showCreateTenantModel = _React$useState10[0],
+      setShowCreateTenantModel = _React$useState10[1];
+
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(0),
+      _React$useState12 = _slicedToArray(_React$useState11, 2),
+      modelChildKey = _React$useState12[0],
+      setModelChildKey = _React$useState12[1];
+
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState14 = _slicedToArray(_React$useState13, 2),
+      loadingTenants = _React$useState14[0],
+      setLoadingTenants = _React$useState14[1];
+
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState16 = _slicedToArray(_React$useState15, 2),
+      newTenantCreated = _React$useState16[0],
+      setNewTenantCreated = _React$useState16[1];
+
+  var activeTenantContext = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"]);
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    setLoadingTenants(true);
     userServices.getTenants().then(function (response) {
-      // If request is good...
-      //console.log(response.data);
       if (response.data.success) {
-        console.log("fetched tenants");
+        //console.log("fetched tenants");
+        setLoadingTenants(false);
 
         if (response.data.success[0] == null) {
           console.log("No Tenants");
@@ -34320,9 +45651,9 @@ function selectTenant() {
         }
       }
     })["catch"](function (error) {
-      console.log('error ' + error);
+      setLoadingTenants(false);
     });
-  }, []);
+  }, [newTenantCreated]);
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
     if (selectedTenant.id) {
       setIsSelectedOrSelectText(selectedTenant.tenant_text);
@@ -34338,16 +45669,34 @@ function selectTenant() {
     className: "fas fa-chevron-circle-down"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "dropdown-content"
-  }, tenants.map(function (tenant, index) {
+  }, loadingTenants ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__["default"], null)) : null, tenants.map(function (tenant, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       key: tenant.id,
       onClick: function onClick() {
-        return setSelectedTenant(tenant);
+        setSelectedTenant(tenant);
+        activeTenantContext.setActiveTenant(tenant);
+        props.changeCenterContent('links');
       }
     }, tenant.tenant_text);
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      setShowCreateTenantModel(true);
+      setNewTenantCreated(false);
+    }
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-plus"
-  }), " \xA0\xA0     New Tenant "))));
+  }), " \xA0\xA0     New Tenant "))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_newTenantModel__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    parentCallback: function parentCallback(callbackNewTenantCreated) {
+      console.log('back ' + callbackNewTenantCreated);
+      setShowCreateTenantModel(false);
+      setNewTenantCreated(callbackNewTenantCreated);
+      setModelChildKey(function (modelChildKey) {
+        return modelChildKey + 1;
+      });
+    },
+    showState: showCreateTenantModel,
+    key: modelChildKey
+  }));
 }
 
 /***/ }),
@@ -34368,7 +45717,87 @@ __webpack_require__.r(__webpack_exports__);
 function topNav() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar is-primary"
-  });
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-brand"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#",
+    className: "navbar-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://bulma.io/images/bulma-logo-white.png",
+    width: "112",
+    height: "28"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    role: "button",
+    className: "navbar-burger burger",
+    "aria-label": "menu",
+    "aria-expanded": "false",
+    "data-target": "navbar-example"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    id: "navbarBasicExample",
+    className: "navbar-menu"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-brand"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "navbar-item",
+    href: "/"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "https://bulma.io/images/bulma-logo.png",
+    alt: "Bulma: Free, open source, and modern CSS framework based on Flexbox",
+    width: "112",
+    height: "28"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    role: "button",
+    className: "navbar-burger",
+    "aria-label": "menu",
+    "aria-expanded": "false"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    "aria-hidden": "true"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-end"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "navbar-item"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "buttons"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "button is-light"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", null, "Log out")))))));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/helpers/loadingicon.js":
+/*!********************************************************!*\
+  !*** ./resources/js/components/helpers/loadingicon.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return loadingIcon; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function loadingIcon() {
+  var style = {
+    "height": "40px"
+  };
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    style: style,
+    src: "http://127.0.0.1:8000/images/flatloader.svg"
+  }));
 }
 
 /***/ }),
@@ -34415,7 +45844,7 @@ function () {
 
     this._config;
     this._settings = new _settings__WEBPACK_IMPORTED_MODULE_2__["default"]();
-    this._authStore = new _stores_authStore__WEBPACK_IMPORTED_MODULE_1__["default"]();
+    this._authStore = _stores_authStore__WEBPACK_IMPORTED_MODULE_1__["default"];
     this._token = this._authStore.getToken();
     this.generateConfig();
   }
@@ -34465,6 +45894,90 @@ function () {
 }(); // WEBPACK FOOTER //
 // ./src/services/BioService.js
 
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/helpers/services/tenantServices.js":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/helpers/services/tenantServices.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return TenantServices; });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _stores_authStore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../stores/authStore */ "./resources/js/components/helpers/stores/authStore.js");
+/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../settings */ "./resources/js/components/helpers/settings.js");
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+
+
+var TenantServices =
+/*#__PURE__*/
+function () {
+  function TenantServices() {
+    _classCallCheck(this, TenantServices);
+
+    _defineProperty(this, "_authStore", void 0);
+
+    _defineProperty(this, "_settings", void 0);
+
+    _defineProperty(this, "_config", void 0);
+
+    _defineProperty(this, "_token", void 0);
+
+    this._config;
+    this._settings = new _settings__WEBPACK_IMPORTED_MODULE_2__["default"]();
+    this._authStore = _stores_authStore__WEBPACK_IMPORTED_MODULE_1__["default"];
+    this._token = this._authStore.getToken();
+    this.generateConfig();
+  }
+
+  _createClass(TenantServices, [{
+    key: "generateConfig",
+    value: function generateConfig() {
+      var config = {
+        headers: {
+          'Content-Type': 'application/json',
+          'X-Requested-With': 'XMLHttpRequest',
+          'Authorization': this._token
+        }
+      };
+      this._config = config;
+    }
+  }, {
+    key: "setToken",
+    value: function setToken(token) {
+      this._token = token;
+      this.generateConfig();
+    }
+  }, {
+    key: "createTenant",
+    value: function createTenant(payload) {
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'tenant/create/', payload, this._config);
+    }
+  }, {
+    key: "getAllLinks",
+    value: function getAllLinks(payload, tenant_id) {
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(this._settings.baseUrl + 'link/all/' + tenant_id, this._config);
+    }
+  }]);
+
+  return TenantServices;
+}();
 
 
 
@@ -34539,6 +46052,12 @@ function () {
     key: "getTenants",
     value: function getTenants() {
       return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(this._settings.baseUrl + 'tenant/all/', this._config);
+    }
+  }, {
+    key: "uploadAvatar",
+    value: function uploadAvatar(payload) {
+      console.log(payload);
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'auth/user/uploadAvatar', payload, this._config);
     }
   }]);
 

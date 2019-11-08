@@ -18,8 +18,9 @@ class CreateLinksTable extends Migration
             $table->integer('tenant_id');
             $table->string('title');
             $table->string('url');
-            $table->string('link_type');//simple,thumb,
-            $table->boolean('is_scheduled');
+            $table->string('status')->default('created');
+            $table->string('link_type')->nullable();//simple,thumb,
+            $table->boolean('is_scheduled')->default(false);
             $table->datetime('scheduled_from')->nullable();
             $table->datetime('scheduled_to')->nullable();
             $table->datetime('scheduled_timezone')->nullable();

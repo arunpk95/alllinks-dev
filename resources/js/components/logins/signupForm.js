@@ -99,7 +99,7 @@ export default function signupForm() {
                                                 }>Sign In!</button>
                                         </div>
                                         <div className="control is-expanded">
-                                            <button className="button is-primary is-fullwidth" data-config-id="primary-action" disabled={loading}
+                                            <button className={loading?"button is-primary is-fullwidth is-loading":"button is-primary is-fullwidth"} data-config-id="primary-action" disabled={loading}
                                             onClick={e => {
                                                 e.preventDefault();
                                                 authHandler();
@@ -107,9 +107,6 @@ export default function signupForm() {
                                             >Sign Up!</button>
                                         </div>
                                     </div>
-                                    {loading ? (
-                                        <LoadingIcon />
-                                    ) : null}
                                     <p data-config-id="terms">By signing in you agree with the <a href="">Terms and Conditions</a> and <a href="">Privacy Policy</a>.</p>
                                 </form>
                             </div>

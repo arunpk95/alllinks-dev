@@ -35060,6 +35060,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 function loginForm() {
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState2 = _slicedToArray(_React$useState, 2),
@@ -35207,14 +35208,14 @@ function loginForm() {
   }, "Sign UP!")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "control is-expanded"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "button is-primary is-fullwidth",
+    className: loading ? "button is-primary is-fullwidth is-loading" : "button is-primary is-fullwidth",
     "data-config-id": "primary-action",
     disabled: loading,
     onClick: function onClick(e) {
       e.preventDefault();
       authHandler();
     }
-  }, "Sign In!"))), loading ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__["default"], null) : null)))))));
+  }, "Sign In!"))))))))));
 }
 
 /***/ }),

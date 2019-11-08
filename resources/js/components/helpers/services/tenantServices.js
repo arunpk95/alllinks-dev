@@ -2,7 +2,7 @@ import axios from 'axios';
 import AuthStore from '../stores/authStore'
 import Settings from '../settings'
 
-export default class UserServices {
+export default class TenantServices {
     _authStore;
     _settings;
     _config;
@@ -30,17 +30,11 @@ export default class UserServices {
         this.generateConfig();
     }
 
-    getTenants(){
-        return axios.get(this._settings.baseUrl + 'tenant/all/', this._config);
+    createTenant(payload){
+        return axios.post(this._settings.baseUrl + 'tenant/create/', payload, this._config);
     }
-    
-    uploadAvatar(payload)
+    getAllLinks(payload,tenant_id)
     {
-        console.log(payload);
-        return axios.post(this._settings.baseUrl + 'auth/user/uploadAvatar', payload, this._config);
+        return axios.get(this._settings.baseUrl+'link/all/'+tenant_id,this._config);
     }
 }
-
-
-// WEBPACK FOOTER //
-// ./src/services/BioService.js
