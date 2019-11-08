@@ -172,10 +172,102 @@
     </style>
 
     <style>
-        .nav-is-active
-        {
+        .nav-is-active {
             color: white;
             background: lightcoral;
+        }
+    </style>
+    <style>
+        /* The device with borders */
+        .smartphone {
+            position: relative;
+            width: 300px;
+            height: 560px;
+            margin: auto;
+            border: 16px black solid;
+            border-top-width: 60px;
+            border-bottom-width: 60px;
+            border-radius: 36px;
+        }
+
+        /* The horizontal line on the top of the device */
+        .smartphone:before {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 5px;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 10px;
+        }
+
+        /* The circle on the bottom of the device */
+        .smartphone:after {
+            content: '';
+            display: block;
+            width: 35px;
+            height: 35px;
+            position: absolute;
+            left: 50%;
+            bottom: -65px;
+            transform: translate(-50%, -50%);
+            background: #333;
+            border-radius: 50%;
+        }
+
+        /* The screen (or content) of the device https://www.w3schools.com/howto/howto_css_devices.asp*/
+        .smartphone .content {
+            height: 100%;
+            width: 100%;
+            background: white;
+        }
+    </style>
+
+    <style>
+        .fav-form-link-form {
+            color: grey
+        }
+
+        .avatar-upload-title .avatar-preview-title {
+            width: 72px;
+            height: 72px;
+            position: relative;
+            border-radius: 100%;
+            border: 2px solid #F8F8F8;
+            box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .avatar-upload-title .avatar-preview-title>div {
+            width: 100%;
+            height: 100%;
+            border-radius: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .center {
+            padding: 25px 0;
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        }
+    </style>
+
+    <style>
+        .edit-link-input {
+            border: none;
+            border-color: transparent;
+            outline: 0;
+            width: 100%;
+        }
+
+        .edit-link-input:focus {
+            border: none;
+            border-color: transparent;
+            outline: 0;
+            width: 100%;
         }
     </style>
 

@@ -8,7 +8,7 @@ import loadingIcon from "../../helpers/loadingicon";
 export default function selectTenant(props) {
 
     const [loading, setLoading] = React.useState(false);
-    const [validationErrors, setValidationErros] = React.useState("{}");
+    const [validationErrors, setValidationErrors] = React.useState("{}");
 
     const [tenantServices, setTenantServices] = React.useState(new TenantServices());
     const [userServices, setUserServices] = React.useState(new UserServices());
@@ -44,6 +44,7 @@ export default function selectTenant(props) {
 
     const saveHandler = () => {
         setLoading(true);
+        setValidationErrors({});
         tenantServices.createTenant({
             tenant_name: tenant_name,
             tenant_text: tenant_text,
@@ -56,7 +57,7 @@ export default function selectTenant(props) {
         })
             .then(response => {
                 setLoading(false);
-                setValidationErros({});
+                setValidationErrors({});
                 if (response.data.success) {
                     //console.log("created tenants");
                     //console.log(response.data.success)
@@ -69,7 +70,7 @@ export default function selectTenant(props) {
             .catch((error) => {
                 setLoading(false);
                 if (error.response.status == 401 && error.response.data.error) {
-                    setValidationErros(error.response.data.error);
+                    setValidationErrors(error.response.data.error);
                 }
             });
     }

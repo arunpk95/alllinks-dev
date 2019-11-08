@@ -10,7 +10,7 @@ export default class BioService {
     constructor(){
         this._config;
         this._settings = new Settings;
-        this._authStore = new AuthStore;
+        this._authStore =  AuthStore;
         this._token = this._authStore.getToken();
 
         this.generateConfig();

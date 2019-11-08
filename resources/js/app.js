@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import ReactDOM from 'react-dom';
 import LeftNav from './components/admin/home/leftnav'
@@ -10,13 +8,14 @@ import TopNav from './components/admin/home/topnav'
 function Main() {
 
     const [activeCenterItem,setActiveCenterItem] = React.useState('');
+    const [uniqueCount,setUniqueCount] = React.useState(0);
     
+
     function changeCenterContent(centerItem)
     {
+        setUniqueCount((curr)=>{return curr+1})
         setActiveCenterItem(centerItem);
     }
-
-
 
     return (
 
@@ -29,6 +28,7 @@ function Main() {
                         changeCenterContent={changeCenterContent}
                         activeCenterItem = {activeCenterItem} />
                         <Center
+                        key={uniqueCount}
                         activeCenterItem = {activeCenterItem}  />
                     </div>
                 </div>

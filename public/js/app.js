@@ -44365,7 +44365,15 @@ function Main() {
       activeCenterItem = _React$useState2[0],
       setActiveCenterItem = _React$useState2[1];
 
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(0),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      uniqueCount = _React$useState4[0],
+      setUniqueCount = _React$useState4[1];
+
   function changeCenterContent(centerItem) {
+    setUniqueCount(function (curr) {
+      return curr + 1;
+    });
     setActiveCenterItem(centerItem);
   }
 
@@ -44375,6 +44383,7 @@ function Main() {
     changeCenterContent: changeCenterContent,
     activeCenterItem: activeCenterItem
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_center__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    key: uniqueCount,
     activeCenterItem: activeCenterItem
   }))));
 }
@@ -44440,6 +44449,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _topnav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./topnav */ "./resources/js/components/admin/home/topnav.js");
 /* harmony import */ var _contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contact */ "./resources/js/components/admin/home/contact.js");
 /* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+/* harmony import */ var _centercomponents_links_index__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./centercomponents/links/index */ "./resources/js/components/admin/home/centercomponents/links/index.js");
+
 
 
 
@@ -44448,8 +44459,381 @@ __webpack_require__.r(__webpack_exports__);
 function center(props) {
   var tenantActive = _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"].activeTenant ? _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"].activeTenant : false;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-7 is-main-content"
-  }, props.activeCenterItem, "dsajkfnsad fjaksdnfakjsdnfkjasndfkjsankfd asfdnakjsfdkjnsadksankdSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READINGSECTION A SIMPLE CONTAINER TO DIVIDE YOUR PAGE INTO SECTIONS, LIKE THE ONE YOU'RE CURRENTLY READING");
+    className: "column is-7 has-text-centered"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container is-fluid",
+    style: {
+      "paddingLeft": "15%",
+      "paddingRight": "15%",
+      "paddingTop": "30px",
+      "paddingBottom": "100px"
+    }
+  }, props.activeCenterItem === 'links' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centercomponents_links_index__WEBPACK_IMPORTED_MODULE_5__["default"], null) : ''));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/centerHeader.js":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/centerHeader.js ***!
+  \*****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerHeader; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+
+
+function centerHeader(props) {
+  var activeTenant = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_1__["default"]).activeTenant;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("center", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-upload-title",
+    style: {
+      "float": "center"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "avatar-preview-title"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "backgroundImage": "url('" + activeTenant.thumb_image_url + "')"
+    }
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "center"
+  }, activeTenant.tenant_text));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/links/centerCreateLinkForm.js":
+/*!*******************************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/links/centerCreateLinkForm.js ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerCreateLinkFrom; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../helpers/services/linkServices */ "./resources/js/components/helpers/services/linkServices.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+function centerCreateLinkFrom(props) {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      loading = _React$useState2[0],
+      setLoading = _React$useState2[1];
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      validationErrors = _React$useState4[0],
+      setValidationErrors = _React$useState4[1];
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      title = _React$useState6[0],
+      setTitle = _React$useState6[1];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      url = _React$useState8[0],
+      setURL = _React$useState8[1];
+
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+      _React$useState10 = _slicedToArray(_React$useState9, 2),
+      linkServices = _React$useState10[0],
+      setLinkServices = _React$useState10[1];
+
+  var tenantActive = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_2__["default"]).activeTenant;
+
+  var saveHandler = function saveHandler() {
+    setValidationErrors({});
+    setLoading(true);
+    linkServices.createLink({
+      title: title,
+      url: url,
+      tenant_id: tenantActive.id
+    }).then(function (response) {
+      setLoading(false);
+      setValidationErrors({});
+
+      if (response.data.success) {
+        //console.log(response.data.success)
+        setTitle('');
+        setURL('');
+        props.updateAllLinks();
+      }
+
+      return response;
+    })["catch"](function (error) {
+      console.log(error);
+      setLoading(false);
+
+      if (error.response.status == 401 && error.response.data.error) {
+        setValidationErrors(error.response.data.error);
+      }
+    });
+  };
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "paddingBottom": "10px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "Title",
+    value: title,
+    onChange: function onChange(e) {
+      return setTitle(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.title))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    disabled: loading,
+    className: "input",
+    type: "text",
+    placeholder: "URL",
+    value: url,
+    onChange: function onChange(e) {
+      return setURL(e.target.value);
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "help is-danger"
+  }, validationErrors.url))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: function onClick(e) {
+      saveHandler();
+    },
+    className: loading ? "button is-fullwidth is-primary is-loading" : "button is-fullwidth is-primary"
+  }, "Add New Link"));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/links/centerLinks.js":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/links/centerLinks.js ***!
+  \**********************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerLinks; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function centerLinks(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "border": "2px black solid",
+      "marginTop": "20px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-1"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-sort-up"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-ellipsis-v"
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-sort-down"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-8"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "edit-link-input",
+    value: props.link.title
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      "margin": "0.5rem 0rem .5rem 0rem",
+      "background": "darkgray"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
+    className: "edit-link-input",
+    value: props.link.url
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-3"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    style: {
+      "margin": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "far fa-images"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-stopwatch"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-stopwatch"
+  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      "margin": "0.5rem 0rem .5rem 0rem",
+      "background": "darkgray"
+    }
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns",
+    style: {
+      "margin": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-trash-alt"
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      "padding": "0px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "fav-form-link-form"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fas fa-toggle-on"
+  }))))))))));
+}
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/home/centercomponents/links/index.js":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/admin/home/centercomponents/links/index.js ***!
+  \****************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Links; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _centerLinks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./centerLinks */ "./resources/js/components/admin/home/centercomponents/links/centerLinks.js");
+/* harmony import */ var _centerCreateLinkForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./centerCreateLinkForm */ "./resources/js/components/admin/home/centercomponents/links/centerCreateLinkForm.js");
+/* harmony import */ var _centercomponents_centerHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../centercomponents/centerHeader */ "./resources/js/components/admin/home/centercomponents/centerHeader.js");
+/* harmony import */ var _contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../contexts/activeTenantContext */ "./resources/js/components/admin/contexts/activeTenantContext.js");
+/* harmony import */ var _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../helpers/services/tenantServices */ "./resources/js/components/helpers/services/tenantServices.js");
+/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+
+
+function Links() {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(0),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      updateCount = _React$useState2[0],
+      setUpdateCount = _React$useState2[1];
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      loading = _React$useState4[0],
+      setLoading = _React$useState4[1];
+
+  var tenantActive = react__WEBPACK_IMPORTED_MODULE_0___default.a.useContext(_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["default"]).activeTenant;
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_5__["default"]()),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      tenantServices = _React$useState6[0],
+      setTenantServices = _React$useState6[1];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      allLinks = _React$useState8[0],
+      setAllLinks = _React$useState8[1];
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    updateAllLinks();
+  }, []); //to rerender on new link added
+
+  function updateAllLinks() {
+    setLoading(true);
+    tenantServices.getAllLinks({}, tenantActive.id).then(function (response) {
+      setLoading(false);
+
+      if (response.data.success) {
+        setAllLinks(response.data.success);
+      }
+
+      return response;
+    })["catch"](function (error) {
+      setLoading(false);
+
+      if (error.response.status == 401 && error.response.data.error) {}
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_helpers_loadingicon__WEBPACK_IMPORTED_MODULE_6__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centercomponents_centerHeader__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centerCreateLinkForm__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    updateAllLinks: updateAllLinks
+  }), allLinks.map(function (link, index) {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centerLinks__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      link: link,
+      key: index
+    });
+  })));
 }
 
 /***/ }),
@@ -44686,7 +45070,7 @@ function selectTenant(props) {
   var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState("{}"),
       _React$useState4 = _slicedToArray(_React$useState3, 2),
       validationErrors = _React$useState4[0],
-      setValidationErros = _React$useState4[1];
+      setValidationErrors = _React$useState4[1];
 
   var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
       _React$useState6 = _slicedToArray(_React$useState5, 2),
@@ -44765,6 +45149,7 @@ function selectTenant(props) {
 
   var saveHandler = function saveHandler() {
     setLoading(true);
+    setValidationErrors({});
     tenantServices.createTenant({
       tenant_name: tenant_name,
       tenant_text: tenant_text,
@@ -44776,7 +45161,7 @@ function selectTenant(props) {
       thumb_image_url: thumb_image_url
     }).then(function (response) {
       setLoading(false);
-      setValidationErros({});
+      setValidationErrors({});
 
       if (response.data.success) {
         //console.log("created tenants");
@@ -44791,7 +45176,7 @@ function selectTenant(props) {
       setLoading(false);
 
       if (error.response.status == 401 && error.response.data.error) {
-        setValidationErros(error.response.data.error);
+        setValidationErrors(error.response.data.error);
       }
     });
   };
@@ -45276,7 +45661,6 @@ function selectTenant(props) {
       setIsSelectedOrSelectText('Select the Tenant');
     }
   }, [selectedTenant]);
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {}, []);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "dropdown"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -45291,7 +45675,7 @@ function selectTenant(props) {
       onClick: function onClick() {
         setSelectedTenant(tenant);
         activeTenantContext.setActiveTenant(tenant);
-        props.changeCenterContent('');
+        props.changeCenterContent('links');
       }
     }, tenant.tenant_text);
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -45460,7 +45844,7 @@ function () {
 
     this._config;
     this._settings = new _settings__WEBPACK_IMPORTED_MODULE_2__["default"]();
-    this._authStore = new _stores_authStore__WEBPACK_IMPORTED_MODULE_1__["default"]();
+    this._authStore = _stores_authStore__WEBPACK_IMPORTED_MODULE_1__["default"];
     this._token = this._authStore.getToken();
     this.generateConfig();
   }
@@ -45584,6 +45968,11 @@ function () {
     key: "createTenant",
     value: function createTenant(payload) {
       return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'tenant/create/', payload, this._config);
+    }
+  }, {
+    key: "getAllLinks",
+    value: function getAllLinks(payload, tenant_id) {
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(this._settings.baseUrl + 'link/all/' + tenant_id, this._config);
     }
   }]);
 

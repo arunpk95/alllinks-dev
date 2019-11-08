@@ -35160,14 +35160,14 @@ function signupForm() {
   }, "Sign In!")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "control is-expanded"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "button is-primary is-fullwidth",
+    className: loading ? "button is-primary is-fullwidth is-loading" : "button is-primary is-fullwidth",
     "data-config-id": "primary-action",
     disabled: loading,
     onClick: function onClick(e) {
       e.preventDefault();
       authHandler();
     }
-  }, "Sign Up!"))), loading ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__["default"], null) : null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+  }, "Sign Up!"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
     "data-config-id": "terms"
   }, "By signing in you agree with the ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: ""

@@ -45,8 +45,7 @@ export default function selectTenant(props) {
             setIsSelectedOrSelectText('Select the Tenant');
         }
     }, [selectedTenant]);
-    React.useEffect(() => {
-    }, []);
+ 
 
 
     return (
@@ -60,7 +59,7 @@ export default function selectTenant(props) {
                         return <a key={tenant.id} onClick={() => {
                             setSelectedTenant(tenant);
                             activeTenantContext.setActiveTenant(tenant);
-                            props.changeCenterContent('')
+                            props.changeCenterContent('links')
                         }
                         }>{tenant.tenant_text}</a>
                     })}
