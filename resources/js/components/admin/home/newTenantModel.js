@@ -85,7 +85,7 @@ export default function selectTenant(props) {
                 if (response.data.success) {
                     // console.log(response.data);
                     setThumbUploadError({});
-                    setThumb_image_url('/' + response.data.success);
+                    setThumb_image_url('http://127.0.0.1:8000/' + response.data.success);
                 }
                 return response;
             })
