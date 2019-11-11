@@ -31,7 +31,7 @@ export default class TenantServices {
     }
 
     createTenant(payload){
-        return axios.post(this._settings.baseUrl + 'tenant/create/', payload, this._config);
+        return axios.post(this._settings.baseUrl + 'tenant/create', payload, this._config);
     }
     getAllLinks(payload,tenant_id)
     {
