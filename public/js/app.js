@@ -44646,10 +44646,146 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return centerLinks; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../helpers/services/linkServices */ "./resources/js/components/helpers/services/linkServices.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 function centerLinks(props) {
+  //for state change
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      stateChanged = _React$useState2[0],
+      setStateChanged = _React$useState2[1]; //to prevent statechanged from changin on initial render
+
+
+  var isInitialMount = react__WEBPACK_IMPORTED_MODULE_0___default.a.useRef(true); //to handle reset on cancel
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      reset = _React$useState4[0],
+      setReset = _React$useState4[1];
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+      _React$useState6 = _slicedToArray(_React$useState5, 1),
+      linkServices = _React$useState6[0];
+
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.title),
+      _React$useState8 = _slicedToArray(_React$useState7, 2),
+      title = _React$useState8[0],
+      setTitle = _React$useState8[1];
+
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.url),
+      _React$useState10 = _slicedToArray(_React$useState9, 2),
+      url = _React$useState10[0],
+      setUrl = _React$useState10[1];
+
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.status),
+      _React$useState12 = _slicedToArray(_React$useState11, 2),
+      status = _React$useState12[0],
+      setStatus = _React$useState12[1];
+
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.is_scheduled),
+      _React$useState14 = _slicedToArray(_React$useState13, 2),
+      is_scheduled = _React$useState14[0],
+      setIsScheduled = _React$useState14[1];
+
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_from),
+      _React$useState16 = _slicedToArray(_React$useState15, 2),
+      scheduled_from = _React$useState16[0],
+      setScheduledFrom = _React$useState16[1];
+
+  var _React$useState17 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_to),
+      _React$useState18 = _slicedToArray(_React$useState17, 2),
+      scheduled_to = _React$useState18[0],
+      setScheduledTo = _React$useState18[1];
+
+  var _React$useState19 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_timezone),
+      _React$useState20 = _slicedToArray(_React$useState19, 2),
+      scheduled_timezone = _React$useState20[0],
+      setScheduledTimezone = _React$useState20[1];
+
+  var _React$useState21 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.thumb_url),
+      _React$useState22 = _slicedToArray(_React$useState21, 2),
+      thumb_url = _React$useState22[0],
+      setThumbURL = _React$useState22[1];
+
+  var _React$useState23 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+      _React$useState24 = _slicedToArray(_React$useState23, 2),
+      validation_error = _React$useState24[0],
+      setValidationErrors = _React$useState24[1];
+
+  var _React$useState25 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState26 = _slicedToArray(_React$useState25, 2),
+      loading = _React$useState26[0],
+      setLoading = _React$useState26[1];
+
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    if (isInitialMount.current) {
+      isInitialMount.current = false;
+    } else {
+      // Your useEffect code here to be run on update
+      setStateChanged(true);
+      setReset(false);
+    }
+  }, [title, url, is_scheduled, scheduled_from, scheduled_to, scheduled_timezone, thumb_url]);
+  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
+    setStateChanged(false);
+  }, [reset]);
+
+  function cancelStateUpdate() {
+    setTitle(props.link.title);
+    setUrl(props.link.url);
+    setStatus(props.link.status);
+    setIsScheduled(props.link.is_scheduled);
+    setScheduledFrom(props.link.scheduled_from);
+    setScheduledTo(props.link.scheduled_to);
+    setScheduledTimezone(props.link.scheduled_timezone);
+    setThumbURL(props.link.thumb_url);
+    setReset(true);
+  }
+
+  var saveHandler = function saveHandler() {
+    setValidationErrors({});
+    setLoading(true);
+    linkServices.updateLink({
+      title: title,
+      url: url,
+      tenant_id: props.link.tenant_id,
+      is_scheduled: is_scheduled,
+      scheduled_from: scheduled_from,
+      scheduled_to: scheduled_to,
+      scheduled_timezone: scheduled_timezone,
+      thumb_url: thumb_url
+    }, props.link.id).then(function (response) {
+      setValidationErrors({});
+      setLoading(false);
+
+      if (response.data.success) {
+        //console.log(response.data.success);
+        setStateChanged(false);
+      }
+
+      return response;
+    })["catch"](function (error) {
+      //console.log(error)
+      setLoading(false);
+
+      if (error.response.status == 401 && error.response.data.error) {
+        setValidationErrors(error.response.data.error);
+      }
+    });
+  };
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
+      "display": "flow-root",
       "border": "2px black solid",
       "marginTop": "20px"
     }
@@ -44673,7 +44809,13 @@ function centerLinks(props) {
     className: "column is-8"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "edit-link-input",
-    value: props.link.title
+    style: {
+      "margin-top": "0.3rem"
+    },
+    value: title,
+    onChange: function onChange(e) {
+      return setTitle(e.target.value);
+    }
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     style: {
       "margin": "0.5rem 0rem .5rem 0rem",
@@ -44681,7 +44823,10 @@ function centerLinks(props) {
     }
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "edit-link-input",
-    value: props.link.url
+    value: url,
+    onChange: function onChange(e) {
+      return setUrl(e.target.value);
+    }
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-3"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -44740,11 +44885,37 @@ function centerLinks(props) {
     style: {
       "padding": "0px"
     }
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "fav-form-link-form"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-toggle-on"
-  }))))))))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: status == "created" ? "link-off" : "link-on",
+    onClick: function onClick() {
+      linkServices.updateLinkStatus({
+        status: status,
+        tenant_id: props.link.tenant_id
+      }, props.link.id).then(function (response) {
+        if (response.data.success) {
+          response.data.success.status == "created" ? setStatus("active") : setStatus("created");
+        }
+      });
+    }
+  }, status == "created" ? "off" : "on"))))))), stateChanged ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "field is-grouped",
+    style: {
+      "float": "right",
+      "paddingBottom": "7px",
+      "paddingRight": "7px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: cancelStateUpdate,
+    className: "button is-small",
+    disabled: loading
+  }, "Cancel")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "control"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    onClick: saveHandler,
+    className: loading ? "button is-link is-small is-loading" : "button is-link is-small"
+  }, "Save changes"))) : "");
 }
 
 /***/ }),
@@ -44931,11 +45102,11 @@ function leftNav(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       "position": "relative",
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     style: {
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-link"
@@ -44947,11 +45118,11 @@ function leftNav(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       "position": "relative",
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     style: {
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-chart-line"
@@ -44963,11 +45134,11 @@ function leftNav(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       "position": "relative",
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     style: {
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fab fa-wpforms"
@@ -44979,11 +45150,11 @@ function leftNav(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       "position": "relative",
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     style: {
-      "padding": "15px"
+      "padding": "10px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fa fa-cog"
@@ -45046,7 +45217,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../helpers/services/userServices */ "./resources/js/components/helpers/services/userServices.js");
 /* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-datetime-picker */ "./node_modules/react-datetime-picker/dist/entry.js");
 /* harmony import */ var react_datetime_picker__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_datetime_picker__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
+/* harmony import */ var _helpers_settings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../helpers/settings */ "./resources/js/components/helpers/settings.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -45057,45 +45228,48 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
- //https://www.npmjs.com/package/react-datetime-picker
 
 
 
 function selectTenant(props) {
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
-      _React$useState2 = _slicedToArray(_React$useState, 2),
-      loading = _React$useState2[0],
-      setLoading = _React$useState2[1];
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_settings__WEBPACK_IMPORTED_MODULE_4__["default"]()),
+      _React$useState2 = _slicedToArray(_React$useState, 1),
+      settings = _React$useState2[0];
 
-  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState("{}"),
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
       _React$useState4 = _slicedToArray(_React$useState3, 2),
-      validationErrors = _React$useState4[0],
-      setValidationErrors = _React$useState4[1];
+      loading = _React$useState4[0],
+      setLoading = _React$useState4[1];
 
-  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState("{}"),
       _React$useState6 = _slicedToArray(_React$useState5, 2),
-      tenantServices = _React$useState6[0],
-      setTenantServices = _React$useState6[1];
+      validationErrors = _React$useState6[0],
+      setValidationErrors = _React$useState6[1];
 
-  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__["default"]()),
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_tenantServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
       _React$useState8 = _slicedToArray(_React$useState7, 2),
-      userServices = _React$useState8[0],
-      setUserServices = _React$useState8[1];
+      tenantServices = _React$useState8[0],
+      setTenantServices = _React$useState8[1];
 
-  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_userServices__WEBPACK_IMPORTED_MODULE_2__["default"]()),
       _React$useState10 = _slicedToArray(_React$useState9, 2),
-      tenant_name = _React$useState10[0],
-      setTenantName = _React$useState10[1];
+      userServices = _React$useState10[0],
+      setUserServices = _React$useState10[1];
 
   var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
       _React$useState12 = _slicedToArray(_React$useState11, 2),
-      tenant_text = _React$useState12[0],
-      setTenantText = _React$useState12[1];
+      tenant_name = _React$useState12[0],
+      setTenantName = _React$useState12[1];
 
-  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
       _React$useState14 = _slicedToArray(_React$useState13, 2),
-      is_leap_link_active = _React$useState14[0],
-      setIs_leap_link_active = _React$useState14[1];
+      tenant_text = _React$useState14[0],
+      setTenantText = _React$useState14[1];
+
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState16 = _slicedToArray(_React$useState15, 2),
+      is_leap_link_active = _React$useState16[0],
+      setIs_leap_link_active = _React$useState16[1];
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(new Date()),
       _useState2 = _slicedToArray(_useState, 2),
@@ -45129,16 +45303,16 @@ function selectTenant(props) {
       setThumbUploadError = _useState12[1]; //Determine state of model
 
 
-  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('is-clipped'),
-      _React$useState16 = _slicedToArray(_React$useState15, 2),
-      showState = _React$useState16[0],
-      setShowState = _React$useState16[1]; //pass true to refresh on new tenant creation
-
-
-  var _React$useState17 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+  var _React$useState17 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState('is-clipped'),
       _React$useState18 = _slicedToArray(_React$useState17, 2),
-      newTenantCreated = _React$useState18[0],
-      setNewTenantCreated = _React$useState18[1];
+      showState = _React$useState18[0],
+      setShowState = _React$useState18[1]; //pass true to refresh on new tenant creation
+
+
+  var _React$useState19 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState20 = _slicedToArray(_React$useState19, 2),
+      newTenantCreated = _React$useState20[0],
+      setNewTenantCreated = _React$useState20[1];
 
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
     if (props.showState) {
@@ -45184,12 +45358,12 @@ function selectTenant(props) {
   function handleAvatarSelectionChange(event) {
     var formData = new FormData();
     formData.append('image', event.target.files[0]);
-    setThumb_image_url('/images/flatloader.svg');
+    setThumb_image_url(settings.homeURL + 'images/flatloader.svg');
     userServices.uploadAvatar(formData).then(function (response) {
       if (response.data.success) {
         // console.log(response.data);
         setThumbUploadError({});
-        setThumb_image_url('http://127.0.0.1:8000/' + response.data.success);
+        setThumb_image_url(settings.homeURL + response.data.success);
       }
 
       return response;
@@ -45787,16 +45961,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return loadingIcon; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./settings */ "./resources/js/components/helpers/settings.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 function loadingIcon() {
   var style = {
     "height": "40px"
   };
+
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _settings__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+      _React$useState2 = _slicedToArray(_React$useState, 1),
+      settings = _React$useState2[0];
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "field"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     style: style,
-    src: "http://127.0.0.1:8000/images/flatloader.svg"
+    src: settings.homeURL + "images/flatloader.svg"
   }));
 }
 
@@ -45888,6 +46077,11 @@ function () {
     value: function deleteLink(payload, id) {
       return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'link/delete/' + id, payload, this._config);
     }
+  }, {
+    key: "updateLinkStatus",
+    value: function updateLinkStatus(payload, id) {
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'link/updatestatus/' + id, payload, this._config);
+    }
   }]);
 
   return BioService;
@@ -45967,7 +46161,7 @@ function () {
   }, {
     key: "createTenant",
     value: function createTenant(payload) {
-      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'tenant/create/', payload, this._config);
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(this._settings.baseUrl + 'tenant/create', payload, this._config);
     }
   }, {
     key: "getAllLinks",
@@ -46051,7 +46245,7 @@ function () {
   }, {
     key: "getTenants",
     value: function getTenants() {
-      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(this._settings.baseUrl + 'tenant/all/', this._config);
+      return axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(this._settings.baseUrl + 'tenant/all', this._config);
     }
   }, {
     key: "uploadAvatar",
@@ -46094,8 +46288,13 @@ var Settings = function Settings() {
   _defineProperty(this, "logoutRedirectUrl", 'http://127.0.0.1:8000/api/');
 
   _defineProperty(this, "avatarSizeLimit", 5242880);
-} // 5mb
-;
+
+  _defineProperty(this, "homeURL", 'http://127.0.0.1:8000/');
+
+  _defineProperty(this, "loginRedirect", 'http://127.0.0.1:8000/login/');
+
+  _defineProperty(this, "signupRedirect", 'http://127.0.0.1:8000/signup/');
+};
 
 
 
@@ -46206,8 +46405,8 @@ _defineProperty(AuthStore, "TOKEN_FLAG", 'tokenFlag');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Lenovo\Documents\GitHub\alllinks-dev\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Lenovo\Documents\GitHub\alllinks-dev\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\arun.karthigaivel\Documents\GitHub\alllinks-dev\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\arun.karthigaivel\Documents\GitHub\alllinks-dev\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

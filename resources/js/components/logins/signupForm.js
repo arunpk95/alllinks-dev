@@ -1,10 +1,14 @@
 
 import React, { useState, useEffect } from "react"
 import axios from 'axios';
-import LoadingIcon from '../helpers/loadingicon';
 import {endpoints} from '../helpers/services/apiHelper'
+import Settings from '../helpers/settings'
 
 export default function signupForm() {
+    
+    const [settings] = React.useState(new Settings)
+
+
     const [userEmail, setUserEmail] = React.useState("");
     const [userName, setUserName] = React.useState("");
     const [userPassword, setUserPassword] = React.useState("");
@@ -44,8 +48,7 @@ export default function signupForm() {
     };
 
     const redirectLogin = (event) => {
-        console.log("Sign in");
-        window.location.href = "http://127.0.0.1:8000/login"
+        window.location.href = settings.loginRedirect;
     };
 
 
@@ -57,7 +60,7 @@ export default function signupForm() {
                 <section data-section-id="1" data-component-id="15a7_12_02_awz" data-category="sign-in" className="section">
                     <div className="container has-text-centered">
                         <div>
-                            <img src="http://127.0.0.1:8000/images/icon.png"></img>
+                        <img src={settings.homeURL+"images/icon.png"}/>
                         </div>
                         <div className="columns is-centered">
                             <div className="column is-5 is-4-desktop">

@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react"
 import TenantServices from '../../helpers/services/tenantServices'
 import UserServices from '../../helpers/services/userServices'
-//https://www.npmjs.com/package/react-datetime-picker
 import DateTimePicker from 'react-datetime-picker'
-import loadingIcon from "../../helpers/loadingicon";
+import Settings from '../../helpers/settings'
+
 
 export default function selectTenant(props) {
+    
+    const [settings] = React.useState(new Settings)
 
     const [loading, setLoading] = React.useState(false);
     const [validationErrors, setValidationErrors] = React.useState("{}");
@@ -79,13 +81,13 @@ export default function selectTenant(props) {
     function handleAvatarSelectionChange(event) {
         const formData = new FormData();
         formData.append('image', event.target.files[0])
-        setThumb_image_url('/images/flatloader.svg');
+        setThumb_image_url(settings.homeURL+'images/flatloader.svg');
         userServices.uploadAvatar(formData)
             .then(response => {
                 if (response.data.success) {
                     // console.log(response.data);
                     setThumbUploadError({});
-                    setThumb_image_url('http://127.0.0.1:8000/' + response.data.success);
+                    setThumb_image_url(settings.homeURL+response.data.success);
                 }
                 return response;
             })

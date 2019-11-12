@@ -33,6 +33,8 @@ Route::group([
 
     Route::post('create', 'API\LinkController@store');
     Route::post('update/{id}', 'API\LinkController@update');
+    Route::post('updatestatus/{id}', 'API\LinkController@updatestatus');
+
     Route::post('delete/{id}', 'API\LinkController@delete');
     Route::get('all/{id}', 'API\LinkController@all');
     Route::post('changeorder', 'API\LinkController@changeorder');

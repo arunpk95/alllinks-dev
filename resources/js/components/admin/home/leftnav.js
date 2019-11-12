@@ -17,26 +17,26 @@ export default function leftNav(props) {
                         typeof tenantActive.tenant_name === "undefined" ?
                             '' : (<div>
                                 <li><a onClick={()=>props.changeCenterContent('links')} className={props.activeCenterItem=="links"?"nav-is-active navbar-item":"navbar-item"} >
-                                    <div style={{ "position": "relative", "padding": "15px" }}>
-                                        <span><span style={{ "padding": "15px" }}><i className="fa fa-link"></i></span>Links</span>
+                                    <div style={{ "position": "relative", "padding": "10px" }}>
+                                        <span><span style={{ "padding": "10px" }}><i className="fa fa-link"></i></span>Links</span>
                                     </div>
                                 </a></li>
 
                                 <li><a onClick={()=>props.changeCenterContent('analytics')} className={props.activeCenterItem=="analytics"?"nav-is-active navbar-item":"navbar-item"}   >
-                                    <div style={{ "position": "relative", "padding": "15px" }}>
-                                        <span><span style={{ "padding": "15px" }}><i className="fas fa-chart-line"></i></span>Analytics</span>
+                                    <div style={{ "position": "relative", "padding": "10px" }}>
+                                        <span><span style={{ "padding": "10px" }}><i className="fas fa-chart-line"></i></span>Analytics</span>
                                     </div>
                                 </a></li>
 
                                 <li><a onClick={()=>props.changeCenterContent('forms')}className={props.activeCenterItem=="forms"?"nav-is-active navbar-item":"navbar-item"}  >
-                                    <div style={{ "position": "relative", "padding": "15px" }}>
-                                        <span><span style={{ "padding": "15px" }}><i className="fab fa-wpforms"></i></span>Forms</span>
+                                    <div style={{ "position": "relative", "padding": "10px" }}>
+                                        <span><span style={{ "padding": "10px" }}><i className="fab fa-wpforms"></i></span>Forms</span>
                                     </div>
                                 </a></li>
 
                                 <li><a onClick={()=>props.changeCenterContent('settings')} className={props.activeCenterItem=="settings"?"nav-is-active navbar-item":"navbar-item"}   >
-                                    <div style={{ "position": "relative", "padding": "15px" }}>
-                                        <span><span style={{ "padding": "15px" }}><i className="fa fa-cog"></i></span>Settings</span>
+                                    <div style={{ "position": "relative", "padding": "10px" }}>
+                                        <span><span style={{ "padding": "10px" }}><i className="fa fa-cog"></i></span>Settings</span>
                                     </div>
                                 </a></li>
 

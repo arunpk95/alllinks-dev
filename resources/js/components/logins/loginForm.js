@@ -1,10 +1,9 @@
 
 import React, {useState, useEffect} from "react"
 import axios from 'axios';
-import LoadingIcon from '../helpers/loadingicon';
 import {endpoints} from '../helpers/services/apiHelper'
 import AuthStore from '../helpers/stores/authStore'
-import loadingIcon from "../helpers/loadingicon";
+import Settings from '../helpers/settings'
 
 export default function loginForm() {
     const [userEmail, setUserEmail] = React.useState("");
@@ -12,6 +11,9 @@ export default function loginForm() {
     const [loading, setLoading] = React.useState(false);
     const [validationErrors, setValidationErros] = React.useState("{}");
     const [loggedin, setLoggedin] = React.useState(false);
+
+    
+    const [settings] = React.useState(new Settings)
 
     const authHandler = async () => {
         try {
@@ -47,7 +49,7 @@ export default function loginForm() {
     };
 
     const redirectSignup = (event) => {
-        window.location.href = "http://127.0.0.1:8000/signup"
+        window.location.href = settings.signupRedirect;
     };
     
     return (
@@ -57,7 +59,7 @@ export default function loginForm() {
             <section data-section-id="1" data-component-id="15a7_12_02_awz" data-category="sign-in" className="section">
                 <div className="container has-text-centered">
                     <div>
-                        <img src="http://127.0.0.1:8000/images/icon.png"/>
+                        <img src={settings.homeURL+"images/icon.png"}/>
                     </div>
 
                     <div className="columns is-centered">
