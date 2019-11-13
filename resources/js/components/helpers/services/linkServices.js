@@ -43,7 +43,10 @@ export default class BioService {
     deleteLink(payload,id){
         return axios.post(this._settings.baseUrl + 'link/delete/'+id, payload, this._config);
     }
-    
+    updateLinkStatus(payload,id)
+    {
+        return axios.post(this._settings.baseUrl + 'link/updatestatus/'+id, payload, this._config);
+    }
 }
 
 

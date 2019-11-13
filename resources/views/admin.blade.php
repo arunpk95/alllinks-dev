@@ -261,15 +261,32 @@
             border-color: transparent;
             outline: 0;
             width: 100%;
+            float: left;
+            color: darkgray;
         }
 
         .edit-link-input:focus {
-            border: none;
-            border-color: transparent;
-            outline: 0;
-            width: 100%;
+            color: black;
+        }
+
+        .edit-link-input:disabled {
+            background-color: white;
+        }
+
+        
+    </style>
+    <style>
+        .link-on{
+            background: #fb3758;
+            color: white;
+        }
+        
+        .link-off{
+            background: gray;
+            color: white;
         }
     </style>
+
 
 </head>
 

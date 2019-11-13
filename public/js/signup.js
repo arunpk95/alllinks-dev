@@ -34888,33 +34888,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./resources/js/components/helpers/loadingicon.js":
-/*!********************************************************!*\
-  !*** ./resources/js/components/helpers/loadingicon.js ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return loadingIcon; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function loadingIcon() {
-  var style = {
-    "height": "40px"
-  };
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    style: style,
-    src: "http://127.0.0.1:8000/images/flatloader.svg"
-  }));
-}
-
-/***/ }),
-
 /***/ "./resources/js/components/helpers/services/apiHelper.js":
 /*!***************************************************************!*\
   !*** ./resources/js/components/helpers/services/apiHelper.js ***!
@@ -34927,11 +34900,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "endpoints", function() { return endpoints; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../settings */ "./resources/js/components/helpers/settings.js");
 
+
+var settings = new _settings__WEBPACK_IMPORTED_MODULE_1__["default"]();
 var endpoints = {
-  "signup": "http://127.0.0.1:8000/api/auth/user/register",
-  "login": "http://127.0.0.1:8000/api/auth/user/login"
+  "signup": settings.homeURL + "api/auth/user/register",
+  "login": settings.homeURL + "api/auth/user/login"
 };
+
+/***/ }),
+
+/***/ "./resources/js/components/helpers/settings.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/helpers/settings.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Settings; });
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var Settings = function Settings() {
+  _classCallCheck(this, Settings);
+
+  _defineProperty(this, "baseUrl", 'http://127.0.0.1:8000/api/');
+
+  _defineProperty(this, "callbackUrl", 'http://127.0.0.1:8000/api/callback');
+
+  _defineProperty(this, "logoutRedirectUrl", 'http://127.0.0.1:8000/api/');
+
+  _defineProperty(this, "avatarSizeLimit", 5242880);
+
+  _defineProperty(this, "homeURL", 'http://127.0.0.1:8000/');
+
+  _defineProperty(this, "loginRedirect", 'http://127.0.0.1:8000/login/');
+
+  _defineProperty(this, "signupRedirect", 'http://127.0.0.1:8000/signup/');
+};
+
+
 
 /***/ }),
 
@@ -34951,8 +34963,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
-/* harmony import */ var _helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/services/apiHelper */ "./resources/js/components/helpers/services/apiHelper.js");
+/* harmony import */ var _helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/services/apiHelper */ "./resources/js/components/helpers/services/apiHelper.js");
+/* harmony import */ var _helpers_settings__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/settings */ "./resources/js/components/helpers/settings.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -34972,40 +34984,44 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 function signupForm() {
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
-      _React$useState2 = _slicedToArray(_React$useState, 2),
-      userEmail = _React$useState2[0],
-      setUserEmail = _React$useState2[1];
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(new _helpers_settings__WEBPACK_IMPORTED_MODULE_4__["default"]()),
+      _React$useState2 = _slicedToArray(_React$useState, 1),
+      settings = _React$useState2[0];
 
   var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState4 = _slicedToArray(_React$useState3, 2),
-      userName = _React$useState4[0],
-      setUserName = _React$useState4[1];
+      userEmail = _React$useState4[0],
+      setUserEmail = _React$useState4[1];
 
   var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState6 = _slicedToArray(_React$useState5, 2),
-      userPassword = _React$useState6[0],
-      setUserPassword = _React$useState6[1];
+      userName = _React$useState6[0],
+      setUserName = _React$useState6[1];
 
   var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState8 = _slicedToArray(_React$useState7, 2),
-      userConfirmPassword = _React$useState8[0],
-      setUserConfirmPassword = _React$useState8[1];
+      userPassword = _React$useState8[0],
+      setUserPassword = _React$useState8[1];
 
-  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState10 = _slicedToArray(_React$useState9, 2),
-      loading = _React$useState10[0],
-      setLoading = _React$useState10[1];
+      userConfirmPassword = _React$useState10[0],
+      setUserConfirmPassword = _React$useState10[1];
 
-  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState("{}"),
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
       _React$useState12 = _slicedToArray(_React$useState11, 2),
-      validationErrors = _React$useState12[0],
-      setValidationErros = _React$useState12[1];
+      loading = _React$useState12[0],
+      setLoading = _React$useState12[1];
 
-  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState("{}"),
       _React$useState14 = _slicedToArray(_React$useState13, 2),
-      registered = _React$useState14[0],
-      setRegistered = _React$useState14[1];
+      validationErrors = _React$useState14[0],
+      setValidationErros = _React$useState14[1];
+
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(false),
+      _React$useState16 = _slicedToArray(_React$useState15, 2),
+      registered = _React$useState16[0],
+      setRegistered = _React$useState16[1];
 
   var authHandler =
   /*#__PURE__*/
@@ -35019,7 +35035,7 @@ function signupForm() {
             case 0:
               try {
                 setLoading(true);
-                axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(_helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_4__["endpoints"].signup, {
+                axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(_helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_3__["endpoints"].signup, {
                   email: userEmail,
                   name: userName,
                   password: userPassword,
@@ -35062,8 +35078,7 @@ function signupForm() {
   }();
 
   var redirectLogin = function redirectLogin(event) {
-    console.log("Sign in");
-    window.location.href = "http://127.0.0.1:8000/login";
+    window.location.href = settings.loginRedirect;
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -35077,7 +35092,7 @@ function signupForm() {
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container has-text-centered"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "http://127.0.0.1:8000/images/icon.png"
+    src: settings.homeURL + "images/icon.png"
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "columns is-centered"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -35206,7 +35221,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Lenovo\Documents\GitHub\alllinks-dev\resources\js\signup.js */"./resources/js/signup.js");
+module.exports = __webpack_require__(/*! C:\Users\arun.karthigaivel\Documents\GitHub\alllinks-dev\resources\js\signup.js */"./resources/js/signup.js");
 
 
 /***/ })

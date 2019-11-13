@@ -34888,33 +34888,6 @@ if (false) {} else {
 
 /***/ }),
 
-/***/ "./resources/js/components/helpers/loadingicon.js":
-/*!********************************************************!*\
-  !*** ./resources/js/components/helpers/loadingicon.js ***!
-  \********************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return loadingIcon; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-function loadingIcon() {
-  var style = {
-    "height": "40px"
-  };
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "field"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    style: style,
-    src: "http://127.0.0.1:8000/images/flatloader.svg"
-  }));
-}
-
-/***/ }),
-
 /***/ "./resources/js/components/helpers/services/apiHelper.js":
 /*!***************************************************************!*\
   !*** ./resources/js/components/helpers/services/apiHelper.js ***!
@@ -34927,11 +34900,50 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "endpoints", function() { return endpoints; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _settings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../settings */ "./resources/js/components/helpers/settings.js");
 
+
+var settings = new _settings__WEBPACK_IMPORTED_MODULE_1__["default"]();
 var endpoints = {
-  "signup": "http://127.0.0.1:8000/api/auth/user/register",
-  "login": "http://127.0.0.1:8000/api/auth/user/login"
+  "signup": settings.homeURL + "api/auth/user/register",
+  "login": settings.homeURL + "api/auth/user/login"
 };
+
+/***/ }),
+
+/***/ "./resources/js/components/helpers/settings.js":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/helpers/settings.js ***!
+  \*****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Settings; });
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+var Settings = function Settings() {
+  _classCallCheck(this, Settings);
+
+  _defineProperty(this, "baseUrl", 'http://127.0.0.1:8000/api/');
+
+  _defineProperty(this, "callbackUrl", 'http://127.0.0.1:8000/api/callback');
+
+  _defineProperty(this, "logoutRedirectUrl", 'http://127.0.0.1:8000/api/');
+
+  _defineProperty(this, "avatarSizeLimit", 5242880);
+
+  _defineProperty(this, "homeURL", 'http://127.0.0.1:8000/');
+
+  _defineProperty(this, "loginRedirect", 'http://127.0.0.1:8000/login/');
+
+  _defineProperty(this, "signupRedirect", 'http://127.0.0.1:8000/signup/');
+};
+
+
 
 /***/ }),
 
@@ -35038,9 +35050,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _helpers_loadingicon__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/loadingicon */ "./resources/js/components/helpers/loadingicon.js");
-/* harmony import */ var _helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/services/apiHelper */ "./resources/js/components/helpers/services/apiHelper.js");
-/* harmony import */ var _helpers_stores_authStore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../helpers/stores/authStore */ "./resources/js/components/helpers/stores/authStore.js");
+/* harmony import */ var _helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/services/apiHelper */ "./resources/js/components/helpers/services/apiHelper.js");
+/* harmony import */ var _helpers_stores_authStore__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/stores/authStore */ "./resources/js/components/helpers/stores/authStore.js");
+/* harmony import */ var _helpers_settings__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../helpers/settings */ "./resources/js/components/helpers/settings.js");
 
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -35054,7 +35066,6 @@ function _nonIterableRest() { throw new TypeError("Invalid attempt to destructur
 function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 
 
 
@@ -35087,6 +35098,10 @@ function loginForm() {
       loggedin = _React$useState10[0],
       setLoggedin = _React$useState10[1];
 
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(new _helpers_settings__WEBPACK_IMPORTED_MODULE_5__["default"]()),
+      _React$useState12 = _slicedToArray(_React$useState11, 1),
+      settings = _React$useState12[0];
+
   var authHandler =
   /*#__PURE__*/
   function () {
@@ -35099,7 +35114,7 @@ function loginForm() {
             case 0:
               try {
                 setLoading(true);
-                axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(_helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_4__["endpoints"].login, {
+                axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(_helpers_services_apiHelper__WEBPACK_IMPORTED_MODULE_3__["endpoints"].login, {
                   email: userEmail,
                   password: userPassword
                 }).then(function (res) {
@@ -35108,8 +35123,8 @@ function loginForm() {
 
                   if (res.data.success.user.email == userEmail) {
                     setLoggedin(true);
-                    _helpers_stores_authStore__WEBPACK_IMPORTED_MODULE_5__["default"].setAuth('Bearer ' + res.data.success.token, new Date().getDate() + 1);
-                    _helpers_stores_authStore__WEBPACK_IMPORTED_MODULE_5__["default"].setProfile(res.data.success.user);
+                    _helpers_stores_authStore__WEBPACK_IMPORTED_MODULE_4__["default"].setAuth('Bearer ' + res.data.success.token, new Date().getDate() + 1);
+                    _helpers_stores_authStore__WEBPACK_IMPORTED_MODULE_4__["default"].setProfile(res.data.success.user);
                     window.location.href = "/admin";
                   }
 
@@ -35143,7 +35158,7 @@ function loginForm() {
   }();
 
   var redirectSignup = function redirectSignup(event) {
-    window.location.href = "http://127.0.0.1:8000/signup";
+    window.location.href = settings.signupRedirect;
   };
 
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -35157,7 +35172,7 @@ function loginForm() {
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "container has-text-centered"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "http://127.0.0.1:8000/images/icon.png"
+    src: settings.homeURL + "images/icon.png"
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "columns is-centered"
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
@@ -35248,7 +35263,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Lenovo\Documents\GitHub\alllinks-dev\resources\js\login.js */"./resources/js/login.js");
+module.exports = __webpack_require__(/*! C:\Users\arun.karthigaivel\Documents\GitHub\alllinks-dev\resources\js\login.js */"./resources/js/login.js");
 
 
 /***/ })

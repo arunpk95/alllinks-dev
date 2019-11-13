@@ -6,5 +6,11 @@ export default class Settings {
      logoutRedirectUrl = 'http://127.0.0.1:8000/api/';
 
     avatarSizeLimit = 5242880; // 5mb
+
+    homeURL='http://127.0.0.1:8000/';
+
+    loginRedirect='http://127.0.0.1:8000/login/';
+
+    signupRedirect='http://127.0.0.1:8000/signup/';
 }
 

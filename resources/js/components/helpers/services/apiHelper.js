@@ -1,7 +1,11 @@
 import React from 'react'
+import Settings from '../settings'
+
+const settings = new Settings;
+
 
 export const endpoints = {
-        "signup":"http://127.0.0.1:8000/api/auth/user/register",
-        "login":"http://127.0.0.1:8000/api/auth/user/login"
+        "signup": settings.homeURL+"api/auth/user/register",
+        "login": settings.homeURL+"api/auth/user/login"
     }
 

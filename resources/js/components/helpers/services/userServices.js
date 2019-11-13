@@ -31,7 +31,7 @@ export default class UserServices {
     }
 
     getTenants(){
-        return axios.get(this._settings.baseUrl + 'tenant/all/', this._config);
+        return axios.get(this._settings.baseUrl + 'tenant/all', this._config);
     }
     
     uploadAvatar(payload)
