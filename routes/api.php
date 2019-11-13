@@ -36,7 +36,7 @@ Route::group([
     Route::post('updatestatus/{id}', 'API\LinkController@updatestatus');
 
     Route::post('delete/{id}', 'API\LinkController@delete');
-    Route::get('all/{id}', 'API\LinkController@all');
+    Route::get('all/{id}', 'API\LinkController@allbutdeleted');
     Route::post('changeorder', 'API\LinkController@changeorder');
 
 });

@@ -44658,73 +44658,85 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 function centerLinks(props) {
-  //for state change
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+  //backup prop links
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props),
       _React$useState2 = _slicedToArray(_React$useState, 2),
-      stateChanged = _React$useState2[0],
-      setStateChanged = _React$useState2[1]; //to prevent statechanged from changin on initial render
+      backup = _React$useState2[0],
+      setBackup = _React$useState2[1]; //for state change
+
+
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState4 = _slicedToArray(_React$useState3, 2),
+      stateChanged = _React$useState4[0],
+      setStateChanged = _React$useState4[1]; //to prevent statechanged from changin on initial render
 
 
   var isInitialMount = react__WEBPACK_IMPORTED_MODULE_0___default.a.useRef(true); //to handle reset on cancel
 
-  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
-      _React$useState4 = _slicedToArray(_React$useState3, 2),
-      reset = _React$useState4[0],
-      setReset = _React$useState4[1];
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState6 = _slicedToArray(_React$useState5, 2),
+      reset = _React$useState6[0],
+      setReset = _React$useState6[1]; //show react bottom form count
 
-  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
-      _React$useState6 = _slicedToArray(_React$useState5, 1),
-      linkServices = _React$useState6[0];
 
-  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.title),
+  var _React$useState7 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(''),
       _React$useState8 = _slicedToArray(_React$useState7, 2),
-      title = _React$useState8[0],
-      setTitle = _React$useState8[1];
+      bottomFormContent = _React$useState8[0],
+      setBottomFormContent = _React$useState8[1];
 
-  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.url),
-      _React$useState10 = _slicedToArray(_React$useState9, 2),
-      url = _React$useState10[0],
-      setUrl = _React$useState10[1];
+  var _React$useState9 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(new _helpers_services_linkServices__WEBPACK_IMPORTED_MODULE_1__["default"]()),
+      _React$useState10 = _slicedToArray(_React$useState9, 1),
+      linkServices = _React$useState10[0];
 
-  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.status),
+  var _React$useState11 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.title),
       _React$useState12 = _slicedToArray(_React$useState11, 2),
-      status = _React$useState12[0],
-      setStatus = _React$useState12[1];
+      title = _React$useState12[0],
+      setTitle = _React$useState12[1];
 
-  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.is_scheduled),
+  var _React$useState13 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.url),
       _React$useState14 = _slicedToArray(_React$useState13, 2),
-      is_scheduled = _React$useState14[0],
-      setIsScheduled = _React$useState14[1];
+      url = _React$useState14[0],
+      setUrl = _React$useState14[1];
 
-  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_from),
+  var _React$useState15 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.status),
       _React$useState16 = _slicedToArray(_React$useState15, 2),
-      scheduled_from = _React$useState16[0],
-      setScheduledFrom = _React$useState16[1];
+      status = _React$useState16[0],
+      setStatus = _React$useState16[1];
 
-  var _React$useState17 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_to),
+  var _React$useState17 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.is_scheduled),
       _React$useState18 = _slicedToArray(_React$useState17, 2),
-      scheduled_to = _React$useState18[0],
-      setScheduledTo = _React$useState18[1];
+      is_scheduled = _React$useState18[0],
+      setIsScheduled = _React$useState18[1];
 
-  var _React$useState19 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_timezone),
+  var _React$useState19 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_from),
       _React$useState20 = _slicedToArray(_React$useState19, 2),
-      scheduled_timezone = _React$useState20[0],
-      setScheduledTimezone = _React$useState20[1];
+      scheduled_from = _React$useState20[0],
+      setScheduledFrom = _React$useState20[1];
 
-  var _React$useState21 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.thumb_url),
+  var _React$useState21 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_to),
       _React$useState22 = _slicedToArray(_React$useState21, 2),
-      thumb_url = _React$useState22[0],
-      setThumbURL = _React$useState22[1];
+      scheduled_to = _React$useState22[0],
+      setScheduledTo = _React$useState22[1];
 
-  var _React$useState23 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+  var _React$useState23 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.scheduled_timezone),
       _React$useState24 = _slicedToArray(_React$useState23, 2),
-      validation_error = _React$useState24[0],
-      setValidationErrors = _React$useState24[1];
+      scheduled_timezone = _React$useState24[0],
+      setScheduledTimezone = _React$useState24[1];
 
-  var _React$useState25 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+  var _React$useState25 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(props.link.thumb_url),
       _React$useState26 = _slicedToArray(_React$useState25, 2),
-      loading = _React$useState26[0],
-      setLoading = _React$useState26[1];
+      thumb_url = _React$useState26[0],
+      setThumbURL = _React$useState26[1];
+
+  var _React$useState27 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState({}),
+      _React$useState28 = _slicedToArray(_React$useState27, 2),
+      validation_error = _React$useState28[0],
+      setValidationErrors = _React$useState28[1];
+
+  var _React$useState29 = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState30 = _slicedToArray(_React$useState29, 2),
+      loading = _React$useState30[0],
+      setLoading = _React$useState30[1];
 
   react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(function () {
     if (isInitialMount.current) {
@@ -44740,14 +44752,14 @@ function centerLinks(props) {
   }, [reset]);
 
   function cancelStateUpdate() {
-    setTitle(props.link.title);
-    setUrl(props.link.url);
-    setStatus(props.link.status);
-    setIsScheduled(props.link.is_scheduled);
-    setScheduledFrom(props.link.scheduled_from);
-    setScheduledTo(props.link.scheduled_to);
-    setScheduledTimezone(props.link.scheduled_timezone);
-    setThumbURL(props.link.thumb_url);
+    setTitle(backup.link.title);
+    setUrl(backup.link.url);
+    setStatus(backup.link.status);
+    setIsScheduled(backup.link.is_scheduled);
+    setScheduledFrom(backup.link.scheduled_from);
+    setScheduledTo(backup.link.scheduled_to);
+    setScheduledTimezone(backup.link.scheduled_timezone);
+    setThumbURL(backup.link.thumb_url);
     setReset(true);
   }
 
@@ -44770,6 +44782,9 @@ function centerLinks(props) {
       if (response.data.success) {
         //console.log(response.data.success);
         setStateChanged(false);
+        setBackup({
+          link: response.data.success
+        });
       }
 
       return response;
@@ -44779,6 +44794,17 @@ function centerLinks(props) {
 
       if (error.response.status == 401 && error.response.data.error) {
         setValidationErrors(error.response.data.error);
+      }
+    });
+  };
+
+  var deleteHandler = function deleteHandler() {
+    linkServices.updateLinkStatus({
+      status: "deleted",
+      tenant_id: props.link.tenant_id
+    }, props.link.id).then(function (response) {
+      if (response.data.success) {
+        props.unmountDeleted(props.index);
       }
     });
   };
@@ -44810,7 +44836,7 @@ function centerLinks(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("input", {
     className: "edit-link-input",
     style: {
-      "margin-top": "0.3rem"
+      "marginTop": "0.3rem"
     },
     value: title,
     onChange: function onChange(e) {
@@ -44840,6 +44866,9 @@ function centerLinks(props) {
       "padding": "0px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return setBottomFormContent('thumb');
+    },
     className: "fav-form-link-form"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "far fa-images"
@@ -44849,6 +44878,9 @@ function centerLinks(props) {
       "padding": "0px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return setBottomFormContent('schedule');
+    },
     className: "fav-form-link-form"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-stopwatch"
@@ -44858,9 +44890,12 @@ function centerLinks(props) {
       "padding": "0px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return setBottomFormContent('stat');
+    },
     className: "fav-form-link-form"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    className: "fas fa-stopwatch"
+    className: "fas fa-chart-line"
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     style: {
       "margin": "0.5rem 0rem .5rem 0rem",
@@ -44877,7 +44912,8 @@ function centerLinks(props) {
       "padding": "0px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "fav-form-link-form"
+    className: "fav-form-link-form",
+    onClick: deleteHandler
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
     className: "fas fa-trash-alt"
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -44888,16 +44924,46 @@ function centerLinks(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
     className: status == "created" ? "link-off" : "link-on",
     onClick: function onClick() {
+      var newstatus = status == "created" ? "active" : "created";
       linkServices.updateLinkStatus({
-        status: status,
+        status: newstatus,
         tenant_id: props.link.tenant_id
       }, props.link.id).then(function (response) {
         if (response.data.success) {
-          response.data.success.status == "created" ? setStatus("active") : setStatus("created");
+          response.data.success.status == "active" ? setStatus("active") : setStatus("created");
+          setBackup({
+            link: response.data.success
+          });
         }
       });
     }
-  }, status == "created" ? "off" : "on"))))))), stateChanged ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, status == "created" ? "off" : "on"))))))), bottomFormContent == 'thumb' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "paddingBottom": "7px"
+    }
+  }, thumb_url == null ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    className: "button is-link is-small"
+  }, "Add Image") : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      "height": "100px"
+    }
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    width: "72px",
+    height: "72px",
+    src: thumb_url
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    style: {
+      "marginLeft": "7px",
+      "marginTop": "20px"
+    },
+    className: "button is-primary is-small  "
+  }, "change"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    style: {
+      "marginLeft": "7px",
+      "marginTop": "20px"
+    },
+    className: "button is-small  "
+  }, "remove"))) : '', bottomFormContent == 'schedule' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Will Be Added in Future") : '', bottomFormContent == 'stat' ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Will Be Added in Future") : '', stateChanged ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "field is-grouped",
     style: {
       "float": "right",
@@ -44995,6 +45061,13 @@ function Links() {
 
       if (error.response.status == 401 && error.response.data.error) {}
     });
+  } //filter on delete
+
+
+  function handleLinkDeletedUnmount(index) {
+    setAllLinks(allLinks.filter(function (_, i) {
+      return i !== index;
+    })); //console.log(allLinks)
   }
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, loading ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_helpers_loadingicon__WEBPACK_IMPORTED_MODULE_6__["default"], null) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centercomponents_centerHeader__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centerCreateLinkForm__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -45002,7 +45075,9 @@ function Links() {
   }), allLinks.map(function (link, index) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_centerLinks__WEBPACK_IMPORTED_MODULE_1__["default"], {
       link: link,
-      key: index
+      key: index,
+      unmountDeleted: handleLinkDeletedUnmount,
+      index: index
     });
   })));
 }

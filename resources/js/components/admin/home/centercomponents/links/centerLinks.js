@@ -3,7 +3,8 @@ import LinkService from '../../../../helpers/services/linkServices'
 
 export default function centerLinks(props) {
 
-
+    //backup prop links
+    const [backup, setBackup] = React.useState(props)
     //for state change
     const [stateChanged, setStateChanged] = React.useState(false);
 
@@ -12,6 +13,9 @@ export default function centerLinks(props) {
 
     //to handle reset on cancel
     const [reset, setReset] = React.useState(false);
+
+    //show react bottom form count
+    const [bottomFormContent, setBottomFormContent] = React.useState('');
 
     const [linkServices] = React.useState(new LinkService);
 
@@ -43,14 +47,14 @@ export default function centerLinks(props) {
     }, [reset])
 
     function cancelStateUpdate() {
-        setTitle(props.link.title);
-        setUrl(props.link.url);
-        setStatus(props.link.status);
-        setIsScheduled(props.link.is_scheduled);
-        setScheduledFrom(props.link.scheduled_from);
-        setScheduledTo(props.link.scheduled_to);
-        setScheduledTimezone(props.link.scheduled_timezone);
-        setThumbURL(props.link.thumb_url);
+        setTitle(backup.link.title);
+        setUrl(backup.link.url);
+        setStatus(backup.link.status);
+        setIsScheduled(backup.link.is_scheduled);
+        setScheduledFrom(backup.link.scheduled_from);
+        setScheduledTo(backup.link.scheduled_to);
+        setScheduledTimezone(backup.link.scheduled_timezone);
+        setThumbURL(backup.link.thumb_url);
 
         setReset(true);
     }
@@ -76,6 +80,7 @@ export default function centerLinks(props) {
                 if (response.data.success) {
                     //console.log(response.data.success);
                     setStateChanged(false);
+                    setBackup({ link: response.data.success })
                 }
                 return response;
             })
@@ -88,6 +93,15 @@ export default function centerLinks(props) {
             });
     }
 
+    const deleteHandler = () => {
+        linkServices.updateLinkStatus({ status: "deleted", tenant_id: props.link.tenant_id }, props.link.id)
+            .then(response => {
+                if (response.data.success) {
+                    props.unmountDeleted(props.index);
+                }
+            }
+            )
+    }
 
     return (
         <div style={{ "display": "flow-root", "border": "2px black solid", "marginTop": "20px" }}>
@@ -108,7 +122,7 @@ export default function centerLinks(props) {
                 <div className="column is-8">
 
                     <span>
-                        <input className="edit-link-input" style={{"margin-top": "0.3rem"}} value={title}  onChange={e => setTitle(e.target.value)} ></input>
+                        <input className="edit-link-input" style={{ "marginTop": "0.3rem" }} value={title} onChange={e => setTitle(e.target.value)} ></input>
 
                     </span>
                     <br />
@@ -123,28 +137,30 @@ export default function centerLinks(props) {
                     <div>
                         <div className="columns" style={{ "margin": "0px" }}>
                             <div className="column" style={{ "padding": "0px" }}>
-                                <a className="fav-form-link-form"><span><i className="far fa-images"></i></span></a>
+                                <a onClick={() => setBottomFormContent('thumb')} className="fav-form-link-form"><span><i className="far fa-images"></i></span></a>
                             </div>
                             <div className="column" style={{ "padding": "0px" }}>
-                                <a className="fav-form-link-form"><span><i className="fas fa-stopwatch"></i></span></a>
+                                <a onClick={() => setBottomFormContent('schedule')} className="fav-form-link-form"><span><i className="fas fa-stopwatch"></i></span></a>
                             </div>
                             <div className="column" style={{ "padding": "0px" }}>
-                                <a className="fav-form-link-form"><span><i className="fas fa-stopwatch"></i></span></a>
+                                <a onClick={() => setBottomFormContent('stat')} className="fav-form-link-form"><span><i className="fas fa-chart-line"></i></span></a>
                             </div>
                         </div>
                         <hr style={{ "margin": "0.5rem 0rem .5rem 0rem", "background": "darkgray" }} />
                         <div>
                             <div className="columns" style={{ "margin": "0px" }}>
                                 <div className="column" style={{ "padding": "0px" }}>
-                                    <a className="fav-form-link-form"><span><i className="fas fa-trash-alt"></i></span></a>
+                                    <a className="fav-form-link-form" onClick={deleteHandler}><span><i className="fas fa-trash-alt"></i></span></a>
                                 </div>
                                 <div className="column" style={{ "padding": "0px" }}>
                                     <button className={status == "created" ? "link-off" : "link-on"}
                                         onClick={() => {
-                                            linkServices.updateLinkStatus({ status: status, tenant_id: props.link.tenant_id }, props.link.id)
+                                            const newstatus = status == "created" ? "active" : "created"
+                                            linkServices.updateLinkStatus({ status: newstatus, tenant_id: props.link.tenant_id }, props.link.id)
                                                 .then(response => {
                                                     if (response.data.success) {
-                                                        response.data.success.status == "created" ? setStatus("active") : setStatus("created")
+                                                        response.data.success.status == "active" ? setStatus("active") : setStatus("created")
+                                                        setBackup({ link: response.data.success })
                                                     }
                                                 }
                                                 )
@@ -156,6 +172,47 @@ export default function centerLinks(props) {
                     </div>
                 </div>
             </div>
+
+            {
+                bottomFormContent == 'thumb' ?
+                    (<div style={{"paddingBottom": "7px"}}>
+                        {thumb_url == null ?
+                            <button className="button is-link is-small">Add Image</button>
+                            :
+                            (
+                                <div style={{"height":"100px"}}>
+                                    <img width="72px" height="72px" src={thumb_url}/>
+                                    <button style={{"marginLeft": "7px","marginTop":"20px"}} className="button is-primary is-small  ">change</button>
+                                    <button style={{"marginLeft": "7px","marginTop":"20px"}} className="button is-small  ">remove</button>
+                                </div>
+                            )
+                        }
+                    </div>
+                    )
+                    :
+                    ''
+            }
+            {
+                bottomFormContent == 'schedule' ?
+                    (<div>
+                        Will Be Added in Future
+                    </div>
+                    )
+                    :
+                    ''
+            }
+            {
+                bottomFormContent == 'stat' ?
+                    (<div>
+                        Will Be Added in Future
+                    </div>
+                    )
+                    :
+                    ''
+            }
+
+
+
             {
                 stateChanged ?
                     (<div className="field is-grouped" style={{ "float": "right", "paddingBottom": "7px", "paddingRight": "7px" }}>

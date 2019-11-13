@@ -42,6 +42,13 @@ export default function Links() {
             });
     }
 
+    //filter on delete
+   function handleLinkDeletedUnmount(index){
+        setAllLinks(allLinks.filter((_, i) => i !== index));
+        //console.log(allLinks)
+    }
+
+
     return (
         <div>
             {loading ?
@@ -57,6 +64,8 @@ export default function Links() {
                             return (<CenterLinks
                                 link={link}
                                 key={index}
+                                unmountDeleted={handleLinkDeletedUnmount}
+                                index={index}
                             />
                             )
                         })

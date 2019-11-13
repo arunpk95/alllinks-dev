@@ -166,7 +166,7 @@ class LinkController extends Controller
     }
 
 
-    public function all(Request $request,$tenant_id)
+    public function allbutdeleted(Request $request,$tenant_id)
     {
         $user = Auth::user();
         $tenant = Tenant::where('id', $tenant_id)->first();
@@ -175,7 +175,7 @@ class LinkController extends Controller
         } else {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
-        $links = Link::where('tenant_id', $tenant_id)->get();
+        $links = Link::where('tenant_id', $tenant_id)->where('status','!=','deleted')->get();
 
         return response()->json(['success' => $links]);
     }

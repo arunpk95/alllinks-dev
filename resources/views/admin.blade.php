@@ -272,16 +272,14 @@
         .edit-link-input:disabled {
             background-color: white;
         }
-
-        
     </style>
     <style>
-        .link-on{
+        .link-on {
             background: #fb3758;
             color: white;
         }
-        
-        .link-off{
+
+        .link-off {
             background: gray;
             color: white;
         }
