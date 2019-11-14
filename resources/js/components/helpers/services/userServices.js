@@ -36,7 +36,6 @@ export default class UserServices {
     
     uploadAvatar(payload)
     {
-        console.log(payload);
         return axios.post(this._settings.baseUrl + 'auth/user/uploadAvatar', payload, this._config);
     }
 }

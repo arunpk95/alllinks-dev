@@ -1,16 +1,16 @@
 export default class Settings {
-     baseUrl = 'http://127.0.0.1:8000/api/';
+     baseUrl = 'http://alllinks.online/api/';
 
-     callbackUrl = 'http://127.0.0.1:8000/api/callback';
+     callbackUrl = 'http://alllinks.online/api/callback';
 
-     logoutRedirectUrl = 'http://127.0.0.1:8000/api/';
+     logoutRedirectUrl = 'http://alllinks.online/api/';
 
     avatarSizeLimit = 5242880; // 5mb
 
-    homeURL='http://127.0.0.1:8000/';
+    homeURL='http://alllinks.online/';
 
-    loginRedirect='http://127.0.0.1:8000/login/';
+    loginRedirect='http://alllinks.online/login/';
 
-    signupRedirect='http://127.0.0.1:8000/signup/';
+    signupRedirect='http://alllinks.online/signup/';
 }
 

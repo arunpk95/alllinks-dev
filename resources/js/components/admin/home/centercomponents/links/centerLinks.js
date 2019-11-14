@@ -1,5 +1,7 @@
 import React from 'react'
 import LinkService from '../../../../helpers/services/linkServices'
+import UserServices from '../../../../helpers/services/userServices'
+import Settings from '../../../../helpers/settings'
 
 export default function centerLinks(props) {
 
@@ -17,7 +19,13 @@ export default function centerLinks(props) {
     //show react bottom form count
     const [bottomFormContent, setBottomFormContent] = React.useState('');
 
+    //to handle upload
+    const linkImageUpload = React.createRef();
+
     const [linkServices] = React.useState(new LinkService);
+    const [userServices] = React.useState(new UserServices);
+    
+    const [settings] = React.useState(new Settings)
 
     const [title, setTitle] = React.useState(props.link.title);
     const [url, setUrl] = React.useState(props.link.url);
@@ -30,6 +38,8 @@ export default function centerLinks(props) {
 
     const [validation_error, setValidationErrors] = React.useState({});
     const [loading, setLoading] = React.useState(false);
+    const [thumb_upload_error, setThumbUploadError] = React.useState({});
+    const [thumb_uploading, setthumbUploading] = React.useState(false);
 
 
     React.useEffect(() => {
@@ -40,7 +50,7 @@ export default function centerLinks(props) {
             setStateChanged(true);
             setReset(false);
         }
-    }, [title, url, is_scheduled, scheduled_from, scheduled_to, scheduled_timezone, thumb_url])
+    }, [title, url, is_scheduled, scheduled_from, scheduled_to, scheduled_timezone])
 
     React.useEffect(() => {
         setStateChanged(false);
@@ -55,6 +65,9 @@ export default function centerLinks(props) {
         setScheduledTo(backup.link.scheduled_to);
         setScheduledTimezone(backup.link.scheduled_timezone);
         setThumbURL(backup.link.thumb_url);
+        setValidationErrors({});
+        setThumbUploadError({});
+        setLoading(false);
 
         setReset(true);
     }
@@ -103,6 +116,65 @@ export default function centerLinks(props) {
             )
     }
 
+
+    function updateThumbUrl(url){
+        setthumbUploading(true);
+        linkServices.updateThumb({thumb_url:url,tenant_id:props.link.tenant_id},props.link.id)
+        .then(response => {
+            if (response.data.success) {
+                setThumbUploadError({});
+                setThumbURL(response.data.success.thumb_url);
+                setBackup({ link: response.data.success })
+                setthumbUploading(false)
+            }
+            return response;
+        })
+        .catch((error) => {
+            setThumbURL(backup.link.thumb_url);
+            //console.log(error);
+            setthumbUploading(false)
+            if (error.response.status == 401 && error.response.data.error) {
+                setThumbUploadError(error.response.data.error);
+            }
+        });
+    }
+
+    function handleAvatarSelectionChange(event) {
+        const formData = new FormData();
+        
+        if(event.target.files[0]==null)
+        {
+            return;
+        }
+        
+        formData.append('image', event.target.files[0])
+        setthumbUploading(true);
+        userServices.uploadAvatar(formData)
+            .then(response => {
+                if (response.data.success) {
+                    setThumbUploadError({});
+                    updateThumbUrl(settings.homeURL+response.data.success)
+                    }
+                return response;
+            })
+            .catch((error) => {
+                setThumbURL(backup.link.thumb_url);
+                //console.log(error);
+                setthumbUploading(false)
+                if (error.response.status == 401 && error.response.data.error) {
+                    setThumbUploadError(error.response.data.error);
+                }
+            });
+    }
+
+
+
+
+
+    function selectImage() {
+        const object = linkImageUpload.current;
+        object.click();
+    }
     return (
         <div style={{ "display": "flow-root", "border": "2px black solid", "marginTop": "20px" }}>
             <div className="columns">
@@ -123,14 +195,12 @@ export default function centerLinks(props) {
 
                     <span>
                         <input className="edit-link-input" style={{ "marginTop": "0.3rem" }} value={title} onChange={e => setTitle(e.target.value)} ></input>
-
                     </span>
                     <br />
                     <hr style={{ "margin": "0.5rem 0rem .5rem 0rem", "background": "darkgray" }} />
 
                     <span>
                         <input className="edit-link-input" value={url} onChange={e => setUrl(e.target.value)}></input>
-
                     </span>
                 </div>
                 <div className="column is-3">
@@ -172,18 +242,27 @@ export default function centerLinks(props) {
                     </div>
                 </div>
             </div>
-
+            <div>
+                <span className="help is-danger" >{validation_error.title}</span>
+                <span className="help is-danger" >{validation_error.url}</span>
+                <span className="help is-danger" >{thumb_upload_error.image}</span>
+            </div>
+            <input style={{ "display": "none" }} type='file' ref={linkImageUpload} accept=".png, .jpg, .jpeg" onChange={e => handleAvatarSelectionChange(e)} />
+                                
             {
                 bottomFormContent == 'thumb' ?
-                    (<div style={{"paddingBottom": "7px"}}>
+                    (<div style={{ "paddingBottom": "7px" }}>
                         {thumb_url == null ?
-                            <button className="button is-link is-small">Add Image</button>
+                            <div>
+                                <button onClick={() => selectImage()}
+                                    className={thumb_uploading ? "button is-link is-small is-loading" : "button is-link is-small"}>Add Image</button>
+                            </div>
                             :
                             (
-                                <div style={{"height":"100px"}}>
-                                    <img width="72px" height="72px" src={thumb_url}/>
-                                    <button style={{"marginLeft": "7px","marginTop":"20px"}} className="button is-primary is-small  ">change</button>
-                                    <button style={{"marginLeft": "7px","marginTop":"20px"}} className="button is-small  ">remove</button>
+                                <div style={{ "height": "100px" }}>
+                                    <img width="72px" height="72px" src={thumb_url} />
+                                    <button style={{ "marginLeft": "7px", "marginTop": "20px" }} onClick={() => selectImage()} className={thumb_uploading ? "button is-link is-small is-loading" : "button is-link is-small"}>change</button>
+                                    <button style={{ "marginLeft": "7px", "marginTop": "20px" }} onClick={() => updateThumbUrl("")} className={thumb_uploading ? "button is-small is-loading" : "button is-small"}>remove</button>
                                 </div>
                             )
                         }

@@ -2,8 +2,6 @@
 
 use Illuminate\Http\Request;
 
-
-
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -34,6 +32,7 @@ Route::group([
     Route::post('create', 'API\LinkController@store');
     Route::post('update/{id}', 'API\LinkController@update');
     Route::post('updatestatus/{id}', 'API\LinkController@updatestatus');
+    Route::post('updatethumb/{id}', 'API\LinkController@updatethumb');
 
     Route::post('delete/{id}', 'API\LinkController@delete');
     Route::get('all/{id}', 'API\LinkController@allbutdeleted');

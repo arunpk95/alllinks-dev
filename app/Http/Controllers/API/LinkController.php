@@ -135,6 +135,26 @@ class LinkController extends Controller
         return response()->json(['success' => DB::table('links')->where('id', $id)->first()]); 
     }
 
+    public function updatethumb(Request $request, $id)
+    {
+        $input = $request->all();
+        $tenant_id = $input['tenant_id'];
+        $tenant = Tenant::where('id', $tenant_id)->first();
+        $user_id = $tenant['user_id'];
+        $userAuth = Auth::user();
+        if($userAuth['id']!=$user_id)
+        {
+            return response()->json(['error' => 'Unauthorized'], 401);
+        }
+
+        
+        DB::table('links')
+            ->where('id', $id)
+            ->update(array('thumb_url' => $request->thumb_url));
+        
+        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]); 
+    }
+
 
     public function delete(Request $request, $id)
     {

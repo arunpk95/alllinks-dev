@@ -47,6 +47,10 @@ export default class BioService {
     {
         return axios.post(this._settings.baseUrl + 'link/updatestatus/'+id, payload, this._config);
     }
+    updateThumb(payload,id)
+    {
+        return axios.post(this._settings.baseUrl + 'link/updatethumb/'+id, payload, this._config);
+    }
 }
 
 
