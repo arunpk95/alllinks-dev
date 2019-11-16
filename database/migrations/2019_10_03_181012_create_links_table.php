@@ -21,10 +21,10 @@ class CreateLinksTable extends Migration
             $table->string('status')->default('created');
             $table->string('link_type')->nullable();//simple,thumb,
             $table->boolean('is_scheduled')->default(false);
-            $table->datetime('scheduled_from')->nullable();
-            $table->datetime('scheduled_to')->nullable();
-            $table->datetime('scheduled_timezone')->nullable();
-            $table->datetime('style_id')->nullable();
+            $table->string('scheduled_from')->nullable();
+            $table->string('scheduled_to')->nullable();
+            $table->string('scheduled_timezone')->nullable();
+            $table->string('style_id')->nullable();
             $table->string('thumb_url')->nullable();
             $table->timestamps();
         });

@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Link;
 use App\Tenant;
 use Illuminate\Support\Facades\Auth;
-use App\Http\Controllers\Controller; 
+use App\Http\Controllers\Controller;
 use Validator;
 use Illuminate\Support\Facades\DB;
 
@@ -30,9 +30,7 @@ class LinkController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function create()
-    {
-        
-    }
+    { }
 
     /**
      * Store a newly created resource in storage.
@@ -47,19 +45,18 @@ class LinkController extends Controller
         $tenant = Tenant::where('id', $tenant_id)->first();
         $user_id = $tenant['user_id'];
         $userAuth = Auth::user();
-        if($userAuth['id']!=$user_id)
-        {
+        if ($userAuth['id'] != $user_id) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
 
         $validator = $this->getValidatorforLink($request);
-        
+
         if ($validator->fails()) {
             return response()->json(['error' => $validator->errors()], 401);
         }
-        
-        $link = Link::create($input); 
-        return response()->json(['success' => $link]); 
+
+        $link = Link::create($input);
+        return response()->json(['success' => $link]);
     }
 
     /**
@@ -80,9 +77,7 @@ class LinkController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
-    {
-        
-    }
+    { }
 
     /**
      * Update the specified resource in storage.
@@ -98,8 +93,7 @@ class LinkController extends Controller
         $tenant = Tenant::where('id', $tenant_id)->first();
         $user_id = $tenant['user_id'];
         $userAuth = Auth::user();
-        if($userAuth['id']!=$user_id)
-        {
+        if ($userAuth['id'] != $user_id) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
 
@@ -107,12 +101,12 @@ class LinkController extends Controller
         if ($validator->fails()) {
             return response()->json(['error' => $validator->errors()], 401);
         }
-        
+
         DB::table('links')
             ->where('id', $id)
             ->update($request->all());
-        
-        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]); 
+
+        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]);
     }
 
     public function updatestatus(Request $request, $id)
@@ -122,17 +116,16 @@ class LinkController extends Controller
         $tenant = Tenant::where('id', $tenant_id)->first();
         $user_id = $tenant['user_id'];
         $userAuth = Auth::user();
-        if($userAuth['id']!=$user_id)
-        {
+        if ($userAuth['id'] != $user_id) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
 
-        
+
         DB::table('links')
             ->where('id', $id)
             ->update(array('status' => $request->status));
-        
-        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]); 
+
+        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]);
     }
 
     public function updatethumb(Request $request, $id)
@@ -142,17 +135,16 @@ class LinkController extends Controller
         $tenant = Tenant::where('id', $tenant_id)->first();
         $user_id = $tenant['user_id'];
         $userAuth = Auth::user();
-        if($userAuth['id']!=$user_id)
-        {
+        if ($userAuth['id'] != $user_id) {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
 
-        
+
         DB::table('links')
             ->where('id', $id)
             ->update(array('thumb_url' => $request->thumb_url));
-        
-        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]); 
+
+        return response()->json(['success' => DB::table('links')->where('id', $id)->first()]);
     }
 
 
@@ -161,9 +153,7 @@ class LinkController extends Controller
         $user = Auth::user();
         $link = Link::where('id', $id)->first();
         $tenant = Tenant::where('id', $link['tenant_id'])->first();
-        if ($user['id'] == $tenant['user_id']) { 
-
-        } else {
+        if ($user['id'] == $tenant['user_id']) { } else {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
         DB::table('links')
@@ -177,25 +167,21 @@ class LinkController extends Controller
         $user = Auth::user();
         $link = Link::where('id', $id)->first();
         $tenant = Tenant::where('id', $link['tenant_id'])->first();
-        if ($user['id'] == $tenant['user_id']) { 
-
-        } else {
+        if ($user['id'] == $tenant['user_id']) { } else {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
         return response()->json(['success' => $link]);
     }
 
 
-    public function allbutdeleted(Request $request,$tenant_id)
+    public function allbutdeleted(Request $request, $tenant_id)
     {
         $user = Auth::user();
         $tenant = Tenant::where('id', $tenant_id)->first();
-        if ($user['id'] == $tenant['user_id']) { 
-
-        } else {
+        if ($user['id'] == $tenant['user_id']) { } else {
             return response()->json(['error' => 'Unauthorized'], 401);
         }
-        $links = Link::where('tenant_id', $tenant_id)->where('status','!=','deleted')->get();
+        $links = Link::where('tenant_id', $tenant_id)->where('status', '!=', 'deleted')->get();
 
         return response()->json(['success' => $links]);
     }
@@ -214,19 +200,29 @@ class LinkController extends Controller
     public function getValidatorforLink(Request $request)
     {
         //TODO: validate for other types of links currenly for simple links, Validate linktype
-        if (!$request['is_scheduled'] != 0) {
+        if ($request['is_scheduled'] != 0) {
             $validator = Validator::make(
                 $request->all(),
                 [
                     'title' => 'required',
                     'url' => 'required|url'
-                ],
-                ['tenant_name.unique' => "Tenant already taken."]
+                ]
             );
+
+            $validator->after(function ($validator) use ($request) {
+                if ($request->input('scheduled_from') >= $request->input('scheduled_to')) {
+                    $validator->errors()->add('scheduled_to', 'Scheduled Till must be in future compared to Scheduled From');
+                }
+            });
         } else {
-            //TODO: validate scheduled time
+            $validator = Validator::make(
+                $request->all(),
+                [
+                    'title' => 'required',
+                    'url' => 'required|url'
+                ]
+            );
         }
         return $validator;
     }
-    
 }

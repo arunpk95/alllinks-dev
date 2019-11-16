@@ -19,8 +19,8 @@ class CreateTenantsTable extends Migration
             $table->string('tenant_name')->unique();
             $table->string('tenant_text');
             $table->boolean('is_leap_link_active');
-            $table->datetime('leap_link_time_from')->nullable();
-            $table->datetime('leap_link_time_to')->nullable();
+            $table->string('leap_link_time_from')->nullable();
+            $table->string('leap_link_time_to')->nullable();
             $table->string('leap_link_url')->nullable();
             $table->string('leap_link_timezone')->nullable();
             $table->string('thumb_image_url')->nullable();

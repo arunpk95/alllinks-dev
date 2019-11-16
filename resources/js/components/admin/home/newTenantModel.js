@@ -47,12 +47,13 @@ export default function selectTenant(props) {
     const saveHandler = () => {
         setLoading(true);
         setValidationErrors({});
+        //.toISOString().replace('T', ' ').slice(0, 20)
         tenantServices.createTenant({
             tenant_name: tenant_name,
             tenant_text: tenant_text,
             is_leap_link_active: is_leap_link_active,
-            leap_link_time_from: leap_link_time_from.toISOString().replace('T', ' ').slice(0, 20),
-            leap_link_time_to: leap_link_time_to.toISOString().replace('T', ' ').slice(0, 20),
+            leap_link_time_from: leap_link_time_from,
+            leap_link_time_to: leap_link_time_to,
             leap_link_url: leap_link_url,
             leap_link_timezone: leap_link_timezone,
             thumb_image_url: thumb_image_url

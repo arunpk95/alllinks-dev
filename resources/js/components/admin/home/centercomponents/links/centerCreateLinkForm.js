@@ -9,6 +9,7 @@ export default function centerCreateLinkFrom(props) {
     const [title,setTitle] = React.useState('');
     const [url,setURL] = React.useState('');
     const [linkServices, setLinkServices] = React.useState(new LinkServices())
+    const [is_scheduled] = React.useState(false);
 
     const tenantActive = React.useContext(activeTenantContext).activeTenant;
     const saveHandler = () => {
@@ -17,8 +18,8 @@ export default function centerCreateLinkFrom(props) {
         linkServices.createLink({
             title: title,
             url: url,
-            tenant_id:tenantActive.id
-            
+            tenant_id:tenantActive.id,
+            is_scheduled:is_scheduled
         })
             .then(response => {
                 setLoading(false);
