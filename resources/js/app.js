@@ -23,7 +23,7 @@ function Main() {
                 <div>
                     
             <TopNav />
-                    <div className="columns is-fullheight is-gapless is-multiline is-mobile">
+                    <div className="columns is-gapless is-multiline">
                         <LeftNav 
                         changeCenterContent={changeCenterContent}
                         activeCenterItem = {activeCenterItem} />

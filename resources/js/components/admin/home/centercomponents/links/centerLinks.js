@@ -178,7 +178,7 @@ export default function centerLinks(props) {
     }
     return (
         <div style={{ "display": "flow-root", "border": "2px black solid", "marginTop": "20px" }}>
-            <div className="columns" style={{"margin-bottom":"0px"}}>
+            <div className="columns" style={{"marginBottom":"0px"}}>
                 <div className="column is-1">
                     <div>
                         <a className="fav-form-link-form">

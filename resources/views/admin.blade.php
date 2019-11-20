@@ -4,7 +4,7 @@
 <head>
     <title>AllLinks Online</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=7">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="{{asset('/public/css/app.css')}}">
     <style>
         .is-sidebar-menu {
-            padding: 2.5rem;
             background: #fb3758;
         }
 
@@ -159,7 +158,7 @@
             background-position: center;
         }
     </style>
-
+    <!--
     <style>
         .navbar-brand {
             position: absolute;
@@ -170,7 +169,7 @@
             align-items: center;
         }
     </style>
-
+    -->
     <style>
         .nav-is-active {
             color: white;
@@ -284,6 +283,12 @@
             color: white;
         }
     </style>
+    <style>
+        /*To Make the change order button padding less*/
+        .column{
+            flex-basis:auto
+        }
+        </style>
 
 
 </head>

@@ -44378,7 +44378,7 @@ function Main() {
   }
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_contexts_activeTenantContext__WEBPACK_IMPORTED_MODULE_4__["ActiveTenantContextProvider"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_topnav__WEBPACK_IMPORTED_MODULE_5__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns is-fullheight is-gapless is-multiline is-mobile"
+    className: "columns is-gapless is-multiline"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_admin_home_leftnav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     changeCenterContent: changeCenterContent,
     activeCenterItem: activeCenterItem
@@ -44914,7 +44914,7 @@ function centerLinks(props) {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns",
     style: {
-      "margin-bottom": "0px"
+      "marginBottom": "0px"
     }
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-1"
@@ -46316,8 +46316,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return topNav; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
+
+function _iterableToArrayLimit(arr, i) { if (!(Symbol.iterator in Object(arr) || Object.prototype.toString.call(arr) === "[object Arguments]")) { return; } var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 function topNav() {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false),
+      _React$useState2 = _slicedToArray(_React$useState, 2),
+      burgerClassActive = _React$useState2[0],
+      setBurgerClassActive = _React$useState2[1];
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
     className: "navbar is-primary"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -46330,11 +46343,14 @@ function topNav() {
     width: "112",
     height: "28"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    onClick: function onClick() {
+      return setBurgerClassActive(!burgerClassActive);
+    },
     role: "button",
-    className: "navbar-burger burger",
+    className: burgerClassActive ? "navbar-burger burger is-active" : "navbar-burger burger",
     "aria-label": "menu",
     "aria-expanded": "false",
-    "data-target": "navbar-example"
+    "data-target": "navbarBasicExample"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     "aria-hidden": "true"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -46343,29 +46359,8 @@ function topNav() {
     "aria-hidden": "true"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     id: "navbarBasicExample",
-    className: "navbar-menu"
+    className: burgerClassActive ? "navbar-menu is-active" : "navbar-menu"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "navbar-brand"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    className: "navbar-item",
-    href: "/"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "https://bulma.io/images/bulma-logo.png",
-    alt: "Bulma: Free, open source, and modern CSS framework based on Flexbox",
-    width: "112",
-    height: "28"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    role: "button",
-    className: "navbar-burger",
-    "aria-label": "menu",
-    "aria-expanded": "false"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    "aria-hidden": "true"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    "aria-hidden": "true"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    "aria-hidden": "true"
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navbar-end"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "navbar-item"
